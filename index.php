@@ -90,14 +90,10 @@ Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir.
 <div class="row" id="team">
 <div class="col-lg-12 team">
 <h2 class="team-head"> Wer sind wir? </h2>
-<img src="img/team.png" alt="team" class="img-responsive">
-<p class="team">
-Hier kann man dann was über das Team erzählen.<br>
-<strong>Robert</strong>: ist unser Coder<br>
-<strong>Ninjagulbi</strong>: macht Webdesign und so...<br>
-<strong>Romana</strong>: zeichnet schöne Bilder!<br>
-<strong>Hannes</strong>: Redet gerne und trägt vermutlich auch einiges bei ;-)<br>
-</p>
+<img src="img/teamfoto.jpg" alt="Team" class="img img-responsive team">
+<br>
+<br>
+<a href="team.php" title="Team" class="btn btn-default btn-block btn-team"> Erfahre mehr über uns </a>
 </div>
 </div>
 

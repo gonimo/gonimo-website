@@ -124,3 +124,25 @@ div.share-content{
 	display:flex;
 	justify-content:space-around;
 }
+img.team{
+	display:inline;
+}
+div.team-portrait{
+	padding:15px;
+	padding-bottom:25px;
+	text-align:center;
+}
+span.team-name{
+	font-weight:bold;
+	font-size:large;
+}
+span.team-job{
+	
+}
+span.team-slogan{
+	font-style:italic;
+}
+.btn-team{
+	max-width:1024px;
+	display:inline-block;
+}
