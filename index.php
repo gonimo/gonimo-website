@@ -42,7 +42,7 @@ if (isset($_GET['msg']) and $_GET['msg'] == "success"){
 	<div class="col-sm-9 usp-text">
     <h3 class="usp-head">WIE FUNKTIONIERE ICH?</h3>
     <p class="usp-text">
-     Gehe einfach auf gonimo.com, lade ein zweites Gerät ein und mache deinen Web-Browser zu einem Babyfon!
+     Gehe einfach auf gonimo.com, sende eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyfon!
     </p>
     </div>
     <div class="col-sm-3 usp-img">
