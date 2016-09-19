@@ -7,7 +7,7 @@ require_once 'header.php';
 <div class="row">
 
 <div class="team-portrait col-lg-4">
-<img src="img/Robert.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Robert.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Robert</span><br>
 <br>
@@ -18,7 +18,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Hannes.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Hannes.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Hannes</span><br>
 <br>
@@ -29,7 +29,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Martin.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Martin.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Martin</span><br>
 <br>
@@ -40,7 +40,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Romana.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Romana.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Romana</span><br>
 <br>
@@ -51,7 +51,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Christian.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Christian.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Christian</span><br>
 <br>
@@ -62,7 +62,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Aris.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Aris.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Aristoteles</span><br>
 <br>
@@ -73,7 +73,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Michi.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Michi.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Michael</span><br>
 <br>
@@ -84,7 +84,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/Esther.jpg" class="img-responsive img-usp img-circle">
+<img src="img/Esther.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Esther</span><br>
 <br>
@@ -95,7 +95,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/no-foto.jpg" class="img-responsive img-usp img-circle">
+<img src="img/no-foto.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Christian</span><br>
 <br>
@@ -106,7 +106,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/joy.jpg" class="img-responsive img-usp img-circle">
+<img src="img/joy.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Joy</span><br>
 <br>
@@ -117,7 +117,7 @@ require_once 'header.php';
 </div>
 
 <div class="team-portrait col-lg-4">
-<img src="img/no-foto.jpg" class="img-responsive img-usp img-circle">
+<img src="img/no-foto.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
 <span class="team-name">Gregor</span><br>
 <br>
