@@ -119,11 +119,11 @@ require_once 'header.php';
 <div class="team-portrait col-lg-4">
 <img src="img/no-foto.jpg" class="img-responsive img-portrait img-circle">
 <p class="team-text">
-<span class="team-name">Gregor</span><br>
+<span class="team-name">Georg</span><br>
 <br>
 <span class="team-job">Security</span><br>
 <br>
-<span class="team-slogan">Du kannst nicht vorbei!</span>
+<span class="team-slogan">Du kummst da net rein!</span>
 </p>
 </div>
 
