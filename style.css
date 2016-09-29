@@ -11,8 +11,9 @@ html {
     src: url("/gonimo/bootstrap/fonts/Raleway-Medium.ttf") format("truetype");
 }
 body {
-  margin-bottom: 90px;
-   font-family: Raleway-Medium, Arial, sans-serif;
+	margin-bottom: 90px;
+	font-family: Raleway-Medium, Arial, sans-serif;
+	overflow-wrap: break-word;
 }
 div.row-head-logo{
 	background:#E6CAD4;
@@ -62,6 +63,9 @@ div.room{
 	padding:0;
 	margin:0;
 }
+img.room1, img.room2{
+	display: inline;
+}
 div.usp-odd{
 	text-align:right;
 }
@@ -72,7 +76,7 @@ div.usp-odd{
 	border-style:solid;
 	border-radius:0px;
 	border-color:#efefef;
-	border-width:1px;
+	border-width:0px 0px 1px 0px;
 }
 }
 @media(min-width: 901px){
@@ -93,16 +97,25 @@ div.usp-even > div.usp-img{
 div.usp-even > div.usp-text{
 	order:2;
 }
+div.usp-even > div.usp-space{
+	order:3;
+}
 div.usp-odd > div.usp-img{
-	order:2;
+	order:3;
 }
 div.usp-odd > div.usp-text{
-	order:1;
+	order:2;
+}
+div.usp-odd > div.usp-space{
+	order:1
 }
 h3.usp-head{
 	font-weight:bolder;
 	font-style:italic;
 	font-size:xx-large;
+}
+img.team{
+	min-width:100%;
 }
 div.panel-faq:nth-of-type(odd){
 	text-align:left;
@@ -132,17 +145,29 @@ div.team-portrait{
 	padding-bottom:25px;
 	text-align:center;
 }
-span.team-name{
-	font-weight:bold;
-	font-size:large;
-}
 span.team-job{
-	
+	font-size:larger;
+	font-weight:bold;
 }
 span.team-slogan{
 	font-style:italic;
 }
 .btn-team{
-	max-width:1024px;
 	display:inline-block;
+}
+div.test-portrait{
+	position:relative;
+}
+div.team-name-test{
+	position:absolute;
+	top:80%;
+	width:100%;
+	padding-bottom:100%;
+	background:rgba(231, 203, 212, 0.75);
+	font-size:x-large;
+	font-weight:bold;
+}
+div.test-portrait{
+	border-radius:50%;
+	overflow:hidden;
 }

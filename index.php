@@ -21,70 +21,80 @@ if (isset($_GET['msg']) and $_GET['msg'] == "success"){
 <div class="container container-main">
 <div class="row row-room">
   <div class="col-md-12 room room1">
-  <img src="img/room1.png" alt="room1" class="room1">
-  <img src="img/room2.png" alt="room2" class="room2">
+  <img src="img/room1.png" alt="room1" class="room1 img-responsive">
+  <img src="img/room2.png" alt="room2" class="room2 img-responsive">
   </div>
 </div>
 
 <div class="row usp-even">
-	<div class="col-sm-9 usp-text">
+	<div class="col-sm-9 col-lg-7 usp-text">
     <h3 class="usp-head">ALREADY IN YOUR POCKET:</h3>
     <p class="usp-text">
      Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst! Egal ob zu Hause, bei den Großeltern oder unterwegs. Ohne Installation. Ich bin stets sofort verfügbar!
     </p>
     </div>
-    <div class="col-sm-3 usp-img">
+    <div class="col-sm-3 col-lg-3 usp-img">
     <img src="img/gonimo-rucksack-dot.svg" class="img-responsive img-usp img-circle">
     </div>
+	<div class="col-lg-2 col-sm-0 usp-space">
+	</div>
 </div>
 
 <div class="row usp-odd">
-	<div class="col-sm-9 usp-text">
+	<div class="col-sm-9 col-lg-7 usp-text">
     <h3 class="usp-head">WIE FUNKTIONIERE ICH?</h3>
     <p class="usp-text">
      Gehe einfach auf gonimo.com, sende eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyfon!
     </p>
     </div>
-    <div class="col-sm-3 usp-img">
+    <div class="col-sm-3 col-lg-3 usp-img">
     <img src="img/USP.png" class="img-responsive img-usp img-circle">
     </div>
+	<div class="col-lg-2 col-sm-0 usp-space">
+	</div>
 </div>
 
 <div class="row usp-even">
-	<div class="col-sm-9 usp-text">
+	<div class="col-sm-9 col-lg-7 usp-text">
     <h3 class="usp-head">ZUVERLÄSSIG UND SICHER:</h3>
     <p class="usp-text">
    Egal, was geschieht, ich melde es dir. Sei es, dass dein Schützling schreit, die Verbindung schlecht ist, abbricht oder die Batterie leer wird, ich gebe dir - und NUR dir - Bescheid! Alles was ich dir sage, erreicht dich über <a href="https://de.wikipedia.org/wiki/Transport_Layer_Security" title="Wikipedia: Transport Layer Security" target="_blank">TLS-gesicherte</a> Verbindungen. Mein Panzer ist hart. Audio und Video verlässt in der Regel nicht einmal dein Zuhause!
 Mehr Info? <a href="index.php#faq" title="F.A.Q."> &gt;&gt;Klicke hier&lt;&lt; </a>
     </p>
     </div>
-    <div class="col-sm-3 usp-img">
+    <div class="col-sm-3 col-lg-3 usp-img">
     <img src="img/gonimo-ritter-dot.svg" class="img-responsive img-usp img-circle">
     </div>
+	<div class="col-lg-2 col-sm-0 usp-space">
+	</div>
 </div>
 
 <div class="row usp-odd">
-	<div class="col-sm-9 usp-text">
+	<div class="col-sm-9 col-lg-7 usp-text">
     <h3 class="usp-head">BENUTZERFREUNDLICH - spielend einfach:</h3>
     <p class="usp-text">
 Spielerische und intuitive Bedieung. Verbinde deine Eltern- und Babystationen auf schnellstmögliche Weise. Verliere keine Zeit - ich unterstütze dich dabei!
     </p>
     </div>
-    <div class="col-sm-3 usp-img">
+    <div class="col-sm-3 col-lg-3 usp-img">
     <img src="img/USP.png" class="img-responsive img-usp img-circle">
     </div>
+	<div class="col-lg-2 col-sm-0 usp-space">
+	</div>
 </div>
 
 <div class="row usp-even">
-	<div class="col-sm-9 usp-text">
+	<div class="col-sm-9 col-lg-7 usp-text">
     <h3 class="usp-head">NACHHALTIG:</h3>
     <p class="usp-text">
 Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir.    
  	</p>
     </div>
-    <div class="col-sm-3 usp-img">
+    <div class="col-sm-3 col-lg-3 usp-img">
     <img src="img/USP.png" class="img-responsive img-usp img-circle">
     </div>
+	<div class="col-lg-2 col-sm-0 usp-space">
+	</div>
 </div>
 
 <div class="row" id="team">
@@ -159,6 +169,7 @@ $(document).ready(function(){
 </div>
 
 <div class="row" id="faq">
+<div class="col-sm-12 faq">
   <h2>Frequently Asked Questions</h2>
   <div class="panel-group">
     <div class="panel panel-default panel-faq">
@@ -190,6 +201,7 @@ $(document).ready(function(){
     </div>
     
   </div>
+</div>
 </div>
 </div>
 <?php include 'footer.php'; ?>
