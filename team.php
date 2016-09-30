@@ -6,6 +6,11 @@ require_once 'header.php';
 <div class="container">
 <div class="row">
 
+<div class="col-lg-12 team-team">
+<img src="img/teamfoto.jpg" alt="Team" class="img img-responsive team">
+</div>
+<br>
+<br>
 <div class="team-portrait col-lg-4 col-md-6">
 	<div class="test-portrait">
 		<img src="img/Robert.jpg" class="img-responsive img-portrait">

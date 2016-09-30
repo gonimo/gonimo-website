@@ -164,11 +164,17 @@ div.team-name-test{
 	top:85%;
 	width:100%;
 	padding-bottom:100%;
-	background:rgba(231, 203, 212, 0.75);
+	background:rgba(231, 203, 212, 0.85);
 	font-size:x-large;
 	font-weight:bold;
 }
 div.test-portrait{
 	border-radius:50%;
 	overflow:hidden;
+}
+img.img-portrait{
+	min-width:100%;
+}
+div.team-team{
+	padding-bottom:50px;
 }

@@ -32,7 +32,7 @@
       <ul class="nav nav-justified">
       <li><a href="index.php#">Home</a></li>
       <li><a href="blog.php">Blog</a></li>
-      <li><a href="index.php#team">Team</a></li>
+      <li><a href="team.php">Team</a></li>
       <li><a href="index.php#join">Help Us</a></li>
       <li><a href="index.php#faq">F.A.Q</a></li>
     </ul>
