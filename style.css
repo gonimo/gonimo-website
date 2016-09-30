@@ -55,7 +55,7 @@ div.row-head-menu{
 div.head-logo{
 	text-align:center;
 }
-div.row-room, div.team, div.faq, div.join{
+div.row-room, div.team, div.faq, div.join, div.row-usp{
 	text-align:center;
 }
 div.room{
@@ -66,8 +66,15 @@ div.room{
 img.room1, img.room2{
 	display: inline;
 }
+div.row-usp{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+div.usp-even{
+	background-color:#f7eef1;
+}
 div.usp-odd{
-	text-align:right;
+	background-color:#f8f8f8;
 }
 @media(max-width: 900px){
 	div.usp-even, div.usp-odd{
@@ -78,38 +85,46 @@ div.usp-odd{
 	border-color:#efefef;
 	border-width:0px 0px 1px 0px;
 }
+div.usp-odd > div.usp-img{
+	text-align:center;
+}
+div.usp-even > div.usp-img{
+	text-align:center;
+}
 }
 @media(min-width: 901px){
-	div.usp-even, div.usp-odd{
+div.usp-even, div.usp-odd{
 	display:flex;
 }
+div.usp-odd > div.usp-img{
+	text-align:right;
 }
-div.usp-image{
-	padding:5px;
+div.usp-even > div.usp-img{
+	text-align:left;
+}
 }
 img.img-usp{
 	display:inline;
 	box-shadow: 2px 2px 3px #888888;
+	min-height:250px;
 }
+
 div.usp-even > div.usp-img{
 	order:1;
 }
 div.usp-even > div.usp-text{
 	order:2;
-}
-div.usp-even > div.usp-space{
-	order:3;
+	text-align:left;
 }
 div.usp-odd > div.usp-img{
-	order:3;
-}
-div.usp-odd > div.usp-text{
 	order:2;
 }
-div.usp-odd > div.usp-space{
-	order:1
+div.usp-odd > div.usp-text{
+	order:1;
+	text-align:left;
 }
 h3.usp-head{
+	margin-top:7.5%;
 	font-weight:bolder;
 	font-style:italic;
 	font-size:xx-large;
@@ -160,7 +175,7 @@ div.test-portrait{
 }
 div.team-name-test{
 	position:absolute;
-	top:80%;
+	top:85%;
 	width:100%;
 	padding-bottom:100%;
 	background:rgba(231, 203, 212, 0.75);
