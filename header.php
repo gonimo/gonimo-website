@@ -14,7 +14,7 @@
 <div class="row-head-logo">
 <div class="container head-logo">
     <div class="head-logo" id="headlogo">
-    <a href="index.php#"><img src="img/logo.svg" alt="Gonimo-Logo" class="img-head-logo" width="200px"></a>
+    <a href="index.php#"><img src="img/logo.svg" alt="Gonimo-Logo" class="img-head-logo" width="300px"></a>
     </div>
 </div>
 </div>
