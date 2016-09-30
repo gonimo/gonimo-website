@@ -75,7 +75,7 @@ require_once 'header.php';
 		<img src="img/Christian.jpg" class="img-responsive img-portrait">
 		<div class="team-name-test">
 		<p class="team-name">
-		Christian
+		Chris
 		</p>
 		</div>
 	</div>
