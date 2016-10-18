@@ -1,207 +1,328 @@
 <?php
-require_once 'header.php';
-
-if (isset($_GET['msg']) and $_GET['msg'] == "success"){
-	echo ("<SCRIPT>
-        window.alert('Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich bei dir melden')
-		window.location.href='index.php'
-        </SCRIPT>");
-}elseif (isset($_GET['msg']) and $_GET['msg'] == "question"){
-	echo ("<SCRIPT>
-        window.alert('Danke für deine Frage! wir werden sie bald in den F.A.Qs beantworten')
-		window.location.href='index.php'
-        </SCRIPT>");
-}
-
+include 'header.php'
 ?>
-
 <title>GoNiMo</title>
+<div class="container-fluid lvl-0">
 
+<div class="container-fluid impact lvl-1">
+	<img class="img-responsive" src="img/impact2.png" />
 
-<div class="container container-main">
-<div class="row row-room">
-  <div class="col-md-12 room room1">
-  <img src="img/room1.png" alt="room1" class="room1 img-responsive">
-  <img src="img/room2.png" alt="room2" class="room2 img-responsive">
-  </div>
-</div>
-
-<div class="row usp-even">
-	<div class="col-sm-9 col-lg-7 usp-text">
-    <h3 class="usp-head">ALREADY IN YOUR POCKET:</h3>
-    <p class="usp-text">
-     Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst! Egal ob zu Hause, bei den Großeltern oder unterwegs. Ohne Installation. Ich bin stets sofort verfügbar!
-    </p>
-    </div>
-    <div class="col-sm-3 col-lg-3 usp-img">
-    <img src="img/gonimo-rucksack-dot.svg" class="img-responsive img-usp img-circle">
-    </div>
-	<div class="col-lg-2 col-sm-0 usp-space">
+	<div class="container impact lvl-2">
+		<h2 class="impact-txt">
+		Schütze das Wertvolle im Leben.
+		</h2>
+		<div class="impact lvl-3">
+			<p class="impact-btn"><a href="soon.php">
+				JETZT STARTEN
+			</p></a>
+		</div>
 	</div>
 </div>
 
-<div class="row usp-odd">
-	<div class="col-sm-9 col-lg-7 usp-text">
-    <h3 class="usp-head">WIE FUNKTIONIERE ICH?</h3>
-    <p class="usp-text">
-     Gehe einfach auf gonimo.com, sende eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyfon!
-    </p>
-    </div>
-    <div class="col-sm-3 col-lg-3 usp-img">
-    <img src="img/USP.png" class="img-responsive img-usp img-circle">
-    </div>
-	<div class="col-lg-2 col-sm-0 usp-space">
-	</div>
-</div>
-
-<div class="row usp-even">
-	<div class="col-sm-9 col-lg-7 usp-text">
-    <h3 class="usp-head">ZUVERLÄSSIG UND SICHER:</h3>
-    <p class="usp-text">
-   Egal, was geschieht, ich melde es dir. Sei es, dass dein Schützling schreit, die Verbindung schlecht ist, abbricht oder die Batterie leer wird, ich gebe dir - und NUR dir - Bescheid! Alles was ich dir sage, erreicht dich über <a href="https://de.wikipedia.org/wiki/Transport_Layer_Security" title="Wikipedia: Transport Layer Security" target="_blank">TLS-gesicherte</a> Verbindungen. Mein Panzer ist hart. Audio und Video verlässt in der Regel nicht einmal dein Zuhause!
-Mehr Info? <a href="index.php#faq" title="F.A.Q."> &gt;&gt;Klicke hier&lt;&lt; </a>
-    </p>
-    </div>
-    <div class="col-sm-3 col-lg-3 usp-img">
-    <img src="img/gonimo-ritter-dot.svg" class="img-responsive img-usp img-circle">
-    </div>
-	<div class="col-lg-2 col-sm-0 usp-space">
-	</div>
-</div>
-
-<div class="row usp-odd">
-	<div class="col-sm-9 col-lg-7 usp-text">
-    <h3 class="usp-head">BENUTZERFREUNDLICH - spielend einfach:</h3>
-    <p class="usp-text">
-Spielerische und intuitive Bedieung. Verbinde deine Eltern- und Babystationen auf schnellstmögliche Weise. Verliere keine Zeit - ich unterstütze dich dabei!
-    </p>
-    </div>
-    <div class="col-sm-3 col-lg-3 usp-img">
-    <img src="img/USP.png" class="img-responsive img-usp img-circle">
-    </div>
-	<div class="col-lg-2 col-sm-0 usp-space">
-	</div>
-</div>
-
-<div class="row usp-even">
-	<div class="col-sm-9 col-lg-7 usp-text">
-    <h3 class="usp-head">NACHHALTIG:</h3>
-    <p class="usp-text">
-Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir.    
- 	</p>
-    </div>
-    <div class="col-sm-3 col-lg-3 usp-img">
-    <img src="img/USP.png" class="img-responsive img-usp img-circle">
-    </div>
-	<div class="col-lg-2 col-sm-0 usp-space">
-	</div>
-</div>
-
-<div class="row" id="team">
-<div class="col-lg-12 team">
-<h2 class="team-head"> Wer sind wir? </h2>
-<img src="img/teamfoto.jpg" alt="Team" class="img img-responsive team">
-<br>
-<br>
-<a href="team.php" title="Team" class="btn btn-default btn-block btn-team"> Erfahre mehr über uns </a>
-</div>
-</div>
-
-<div class="row row-join" id="join">
-<div class="col-lg-12 join">
-<h2 class="join-head"> Wie kannst du uns helfen? </h2>
-</div>
-  <div class="col-md-4 join-donate">
-	<div class="panel panel-danger">
-		<div class="panel-heading">
-    		<h3 class="panel-title">Spende was</h3>
-  		</div>
-  		<div class="panel-body">
-   			<p>Mit einer Spende kannst du uns helfen das Projekt weiterzuführen. Wir haben leider viele Ausgaben. Server muss man bezahlen und Strom und Hasenfutter für das Maskottchen und sogar so Super-Nerds wie wir müssen hin und wieder etwas essen. Also hilf uns mit einer kleinen Spende.</p>
-            <form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="4XFJNH9YTRP4W">
-<input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
-<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-</form>
-  		</div>
-  	</div>
-  </div>
-  
-  <div class="col-md-4 join-social">
-	<div class="panel panel-warning">
-		<div class="panel-heading">
-    		<h3 class="panel-title">Teile das</h3>
-  		</div>
-  		<div class="panel-body">
-   			<p>Du kannst uns helfen indem du dieses Projekt teilst und deinen Freunden davon erzählst.<br>
+<div class="container-fluid intro lvl-1">
+	<div class="container intro lvl-2">
+	<h2> Gonimo das Babyphon – Immer mit dabei. </h2>
+		<div class="intro-txt">
+			<p>
+			Gonimo ist ein kostenloses Babyphon, für dessen Benutzung du nur einen Browser benötigst. Zum Beispiel Firefox, Chrome, Opera oder Safari. Du kannst sofort loslegen ohne Download und ohne Installation. <br>
+			Stelle dazu einfach ein Gerät bei deinem Kind auf und bleibe mit so vielen Geräten wie du willst und von überall mit deinem Schatz in Kontakt. 
 			</p>
-            <button id="btn-share" title="Social-Buttons laden" class="btn btn-warning btn-block" >Teilen</button>
-<br>
-<div id="share">
-<script>
-$(document).ready(function(){
-    $("#btn-share").click(function(){
-        $.ajax({url: "share.html", success: function(result){
-            $("#share").html(result);
-			$("#btn-share").css('display','none');
-        }});
+		</div>
+	<img class="img-responsive intro-img" src="img/ico/immer_dabei.png" /><br>
+	<p class="intro-btn"><a href="soon.php">
+		JETZT STARTEN
+	</p></a>
+	</div>
+</div>
+
+<div class="container-fluid devices lvl-1">
+	<div class="container devices lvl-2">
+	<p>
+	Alle Geräte und Browser Icons <br>
+	Coming soon!
+	</p>
+	</div>
+</div>
+
+<div class="container-fluid benefits lvl-1" id="vorteile">
+	<div class="container benefits lvl-2">
+		<div class="row benefits lvl-3">
+			<div class="col-xs-12 benefits lvl-4">
+			<h2> Vorteile von Gonimo </h2>
+			</div>
+			
+			<div class="col-xs-6 col-sm-3 benefits lvl-4">
+			<img class="img-responsive img-round" src="img/ico/usp/immer-dabei.svg" />
+			<h3> IMMER MIT DABEI </h3>
+			<p>
+			Gonimo ist das erste Babyphone dass Plattform unabhängig ist und rein Browser basierend funktioniert.
+			</p>
+			</div>
+			
+			<div class="col-xs-6 col-sm-3 benefits lvl-4">
+			<img class="img-responsive img-round" src="img/ico/usp/zuverlaessig-sicher.svg" />
+			<h3> ZUVERLÄSSIG UND SICHER </h3>
+			<p>
+			Egal ob unterwegs oder zu Hause ist stehts um grösstmögliche Sicherheit deiner Daten gesorgt.
+			</p>
+			</div>
+			
+			<div class="col-xs-6 col-sm-3 benefits lvl-4">
+			<img class="img-responsive img-round" src="img/ico/usp/einfach-schnell.svg" />
+			<h3> EINFACH UND SCHNELL </h3>
+			<p>
+			Gehe einfach auf gonimo.com, und schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!
+			</p>
+			</div>
+			
+			<div class="col-xs-6 col-sm-3 benefits lvl-4">
+			<img class="img-responsive img-round" src="img/ico/usp/nachhaltig.svg" />
+			<h3> NACHHALTIG </h3>
+			<p>
+			Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir.
+			</p>
+			</div>
+			<div class="col-xs-12 benefits lvl-4"><a href="soon.php">
+			<p class="benefits-btn">
+			MEHR ERFAHREN
+			</p></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid robert lvl-1">
+	<img src="img/gonimo-robert.png">
+	<div class="container robert lvl-2">
+		<h3 class="robert-quote">
+		&gt;&gt;Aus den <br> richtigen Gründen <br> das richtige tun&lt;&lt;
+		</h3>
+		<br>
+		<h4 class="robert-txt">
+		-Robert-
+		</h4>
+	</div>
+</div>
+
+<div class="container-fluid functions lvl-1" id="funktionen">
+	<div class="container functions lvl-2">
+		<div class="row functions lvl-3">
+			<div class="col-xs-12 functions lvl-4">
+			<h2>Funktionen</h2>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/live-stream.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>LIVE STREAM</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/aktivitaetenprotokoll.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>AKTIVITÄTENPROTOKOLL</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/schlaflieder.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>SCHLAFLIEDER</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/regler.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>REGULIERBARER TON</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/reden.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>REDE MIT DEINEM KIND</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/nachtlicht.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>NACHTLICHT</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/anpassung.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>ANPASSUNG</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/allegeraeusche.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>ALLE GERÄUSCHE</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/vibrationsalarm.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>VIBRATIONSALARM</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/wifi-lte.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>WIFI & MOBILE</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/multi-elterngeraete.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>MULTI ELTERNGERÄTE</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/stromsparen.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>ENERGIESPAREND</h3>
+			<p>
+			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			</p>
+			</div>
+			</div>
+			
+			<div class="col-xs-12 functions lvl-4"><a href="soon.php">
+			<p class="functions-btn">
+			MEHR ERFAHREN
+			</p></a>
+			</div>
+		</div>
+	</div>
+	<script>
+	$(window).resize(function(){
+    $('.img-wrapper').each(function() {
+        $(this).height($(this).width());
     });
-});
-</script>
-</div>
-  		</div>
-  	</div>
-  </div>
-  
-  <div class="col-md-4 join-feedback">
-	<div class="panel panel-success">
-		<div class="panel-heading">
-    		<h3 class="panel-title">Gib uns Feedback</h3>
-  		</div>
-  		<div class="panel-body">
-   			<p>Du würdest uns sehr helfen wenn du an einer kleinen Umfrage teilnimmst und uns hilfst unser Projekt noch weiter zu verbessern.</p>
-            <a href="feedback.php" title="Feedback" class="btn btn-success btn-block" target="_blank"> Feedback </a>
-  		</div>
-  	</div>
- </div>
-
+	}).resize();
+	$(".functions.lvl-4").click(function(){
+		if( $(window).width() > 800 ){
+			return;
+		}else{
+		$(this).find('.content-wrapper').slideToggle();
+		$(this).toggleClass("detailed");
+		}
+	});
+	</script>
 </div>
 
-<div class="row" id="faq">
-<div class="col-sm-12 faq">
-  <h2>Frequently Asked Questions</h2>
-  <div class="panel-group">
-    <div class="panel panel-default panel-faq">
-          <a data-toggle="collapse" href="#faq-1" class="panel-heading click-faq">Frage 1 </a>
-      <div id="faq-1" class="panel-collapse collapse">
-        <div class="panel-body">Antwort 1</div>
-      </div>
-    </div>
-    
-      <div class="panel panel-default panel-faq">
-          <a data-toggle="collapse" href="#faq-2" class="panel-heading click-faq">Frage 2 </a>
-      <div id="faq-2" class="panel-collapse collapse">
-        <div class="panel-body">Antwort 2</div>
-      </div>
-    </div>
-    
-    <div class="panel panel-default panel-faq">
-          <a data-toggle="collapse" href="#faq-3" class="panel-heading click-faq">Frage 3 </a>
-      <div id="faq-3" class="panel-collapse collapse">
-        <div class="panel-body">Antwort 3</div>
-      </div>
-    </div>
-    
-    <div class="panel panel-default panel-faq">
-          <a data-toggle="collapse" href="#faq-4" class="panel-heading click-faq">Frage 4 </a>
-      <div id="faq-4" class="panel-collapse collapse">
-        <div class="panel-body">Antwort 4</div>
-      </div>
-    </div>
-    
-  </div>
+<div class="container-fluid team lvl-1">
+	<img class="img-responsive" src="img/team.jpg" />
+
+	<div class="container team lvl-2">
+		<div class="team lvl-3">
+			<p class="team-btn"><a href="soon.php">
+				ÜBER UNS
+			</p></a>
+		</div>
+	</div>
 </div>
+
+<div class="container-fluid help lvl-1">
+	<div class="container help lvl-2">
+		<div class="row help lvl-3">
+			<div class="col-xs-12 help lvl-4">
+			<h2> Wie kannst du uns helfen ? </h2>
+			</div>
+			<div class="col-xs-12 col-sm-6 help lvl-4">
+			<a href="spenden.php" >
+			<div class="help lvl-5">
+			<img class="img-responsive" src="img/ico/helfen/spenden.svg" />
+			<h3> Spenden </h3>
+			<p>
+			Mit deiner Spende unterstützt du unser Open Source Projekt, um dieses weiter entwickeln und verbessern zu könen.<br>
+			<br>
+			Vielen Dank für deine Unterstützung!
+			</p>
+			</div>
+			</div>
+			</a>
+			<a href="feedback.php">
+			<div class="col-xs-12 col-sm-6 help lvl-4">
+			<div class="help lvl-5">
+			<img class="img-responsive" src="img/ico/helfen/feedback.svg" />
+			<h3> Feedback </h3>
+			<p>
+			Du würdest uns sehr helfen wenn du an einer kleinen Umfrage teilnimmst und uns hilfst unser Projekt noch weiter zu verbessern.<br>
+			</p>
+			</div>
+			</div>
+			</a>
+		</div>
+	</div>
+	<script>
+	$(window).resize(function(){
+    $('.help.lvl-5').each(function() {
+        $(this).height($(this).width());
+    });
+	}).resize();
+	</script>
 </div>
+
 </div>
-<?php include 'footer.php'; ?>
+<?php 
+include 'footer.php';
+?>
+</body>
+</html>

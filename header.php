@@ -11,41 +11,26 @@
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="row-head-logo">
-<div class="container head-logo">
-    <div class="head-logo" id="headlogo">
-    <a href="index.php#"><img src="img/logo.svg" alt="Gonimo-Logo" class="img-head-logo" width="300px"></a>
+<nav class="navbar navbar-default navbar-fixed-top" id="Navbar">
+  <div class="container-fluid nav-bg">
+    <div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php">GONIMO</a>
     </div>
-</div>
-</div>
-
-<div class="row-head-menu">
-<div class="container" id="navbar">
-<nav class="navbar navbar-default nav-justified">
+  <div class="nav-menu collapse navbar-collapse" id="Navbar">
   <div class="container">
-   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-   </button>
-     <div class="collapse navbar-collapse" id="Navbar">
-      <ul class="nav nav-justified">
-      <li><a href="index.php#">Home</a></li>
-      <li><a href="blog.php">Blog</a></li>
-      <li><a href="index.php#team">Team</a></li>
-      <li><a href="index.php#join">Help Us</a></li>
-      <li><a href="index.php#faq">F.A.Q</a></li>
+    <ul class="nav nav-justified">
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="index.php#vorteile">VORTEILE</a></li>
+      <li><a href="index.php#funktionen">FUNKTIONEN</a></li>
+      <li><a href="team.php">TEAM</a></li>
+	  <li><a href="blog.php">BLOG</a></li>
     </ul>
-    </div>
+	</div>
+  </div>
   </div>
 </nav>
-</div>
-</div>
-
-<script>
-$('#navbar').affix({
-    offset: {
-        top: $('#headlogo').height()
-    }   
-});
-</script>
