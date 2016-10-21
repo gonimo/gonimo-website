@@ -11,7 +11,7 @@
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" id="Navbar">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid nav-bg">
     <div class="navbar-header">
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">

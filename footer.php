@@ -9,10 +9,10 @@
 			<a href="faq.php">FAQ</a>
 			</div>
 			<div class="col-xs-12 col-sm-6 footer sm-icon lvl-3">
-			<a href="facebook.com"><img class="img-responsive" src="img/ico/social-media/facebook.svg"/></a>
-			<a href="twitter.com"><img class="img-responsive" src="img/ico/social-media/twitter.svg"/></a>
-			<a href="google.com"><img class="img-responsive" src="img/ico/social-media/google.svg"/></a>
-			<a href="instagram.com"><img class="img-responsive" src="img/ico/social-media/instagram.svg"/></a>
+			<a href="facebook.com" target="_blank"><img class="img-responsive" src="img/ico/social-media/facebook.svg"/></a>
+			<a href="twitter.com" target="_blank"><img class="img-responsive" src="img/ico/social-media/twitter.svg"/></a>
+			<a href="google.com" target="_blank"><img class="img-responsive" src="img/ico/social-media/google.svg"/></a>
+			<a href="instagram.com" target="_blank"><img class="img-responsive" src="img/ico/social-media/instagram.svg"/></a>
 			</div>
 			<div class="col-xs-12 footer logo lvl-3">
 			<img class="img-responsive" src="img/logo-footer.svg" />

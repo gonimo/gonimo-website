@@ -66,7 +66,6 @@ include 'header.php'
 			Egal ob unterwegs oder zu Hause ist stehts um grösstmögliche Sicherheit deiner Daten gesorgt.
 			</p>
 			</div>
-			
 			<div class="col-xs-6 col-sm-3 benefits lvl-4">
 			<img class="img-responsive img-round" src="img/ico/usp/einfach-schnell.svg" />
 			<h3> EINFACH UND SCHNELL </h3>
@@ -95,7 +94,7 @@ include 'header.php'
 	<img src="img/gonimo-robert.png">
 	<div class="container robert lvl-2">
 		<h3 class="robert-quote">
-		&gt;&gt;Aus den <br> richtigen Gründen <br> das richtige tun&lt;&lt;
+		&gt;&gt;The best things <br> in live <br> are free&lt;&lt;
 		</h3>
 		<br>
 		<h4 class="robert-txt">
@@ -309,6 +308,12 @@ include 'header.php'
 			</div>
 			</div>
 			</a>
+			<div class="col-xs-12 help lvl-4">
+			<h3> Mit freundlicher Unterstützung durch netidee.at</h3>
+			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
+			<img class="img-responsive" src="img/netidee.gif" />
+			</a>
+			</div>
 		</div>
 	</div>
 	<script>

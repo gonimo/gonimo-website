@@ -56,6 +56,9 @@ html, body{
 html, body{
 	font-size:80%;
 }
+p{
+	font-size:110% !important;
+}
 }
 @media(min-width:1001px){
 html, body{
@@ -237,10 +240,14 @@ img.intro-img{
 .robert h3{
 	font-size: 270%;
 	font-family:"Raleway-light";
+	color: black;
+	text-shadow: 1px 1px rgb(120,120,120);
 }
 .robert h4{
 	font-size:220%;
 	font-family:"Raleway-medium";
+	color: black;
+	text-shadow: 1px 1px rgb(120,120,120);
 }
 @media(max-width:1200px){
 	.robert img{
