@@ -98,7 +98,7 @@ include 'header.php'
 	<img src="img/gonimo-robert.png">
 	<div class="container robert lvl-2">
 		<h3 class="robert-quote">
-		&gt;&gt;The best things <br> in life <br> are free&lt;&lt;
+		&#x201C;The best things <br> in life <br> are free&#x201D;
 		</h3>
 		<br>
 		<h4 class="robert-txt">
