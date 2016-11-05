@@ -32,6 +32,8 @@ include 'header.php'
 		</div>
 	<img class="img-responsive intro-img" src="img/ico/immer_dabei.png" /><br>
 	<p class="intro-btn"><a href="soon.php">
+        ENTWICKLUNGSVERSION
+        <br>
 		JETZT STARTEN
 	</p></a>
 	</div>
