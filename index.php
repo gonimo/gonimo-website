@@ -1,7 +1,7 @@
 <?php
 include 'header.php'
 ?>
-<title>GoNiMo</title>
+<title>Gonimo</title>
 <div class="container-fluid lvl-0">
 
 <div class="container-fluid impact lvl-1">
@@ -12,7 +12,9 @@ include 'header.php'
 		Schütze das Wertvolle im Leben.
 		</h2>
 		<div class="impact lvl-3">
-			<p class="impact-btn"><a href="soon.php">
+			<p class="impact-btn"><a href="https://dev.gonimo.com">
+                ENTWICKLUNGSVERSION
+                <br>
 				JETZT STARTEN
 			</p></a>
 		</div>
@@ -25,7 +27,7 @@ include 'header.php'
 		<div class="intro-txt">
 			<p>
 			Gonimo ist ein kostenloses Babyphon, für dessen Benutzung du nur einen Browser benötigst. Zum Beispiel Firefox, Chrome, Opera oder Safari. Du kannst sofort loslegen ohne Download und ohne Installation. <br>
-			Stelle dazu einfach ein Gerät bei deinem Kind auf und bleibe mit so vielen Geräten wie du willst und von überall mit deinem Schatz in Kontakt. 
+			Stelle dazu einfach ein Gerät bei deinem Kind auf und bleibe mit so vielen Geräten wie du willst und von überall mit deinem Schatz in Kontakt.
 			</p>
 		</div>
 	<img class="img-responsive intro-img" src="img/ico/immer_dabei.png" /><br>
@@ -241,7 +243,6 @@ include 'header.php'
 			</p>
 			</div>
 			</div>
-			
 			<div class="col-xs-12 functions lvl-4"><a href="soon.php">
 			<p class="functions-btn">
 			MEHR ERFAHREN
@@ -290,7 +291,7 @@ include 'header.php'
 			<img class="img-responsive" src="img/ico/helfen/spenden.svg" />
 			<h3> Spenden </h3>
 			<p>
-			Mit deiner Spende unterstützt du unser Open Source Projekt, um dieses weiter entwickeln und verbessern zu könen.<br>
+			Mit deiner Spende unterstützt du unser Open Source Projekt, um dieses weiter entwickeln und verbessern zu können.<br>
 			<br>
 			Vielen Dank für deine Unterstützung!
 			</p>
@@ -303,7 +304,9 @@ include 'header.php'
 			<img class="img-responsive" src="img/ico/helfen/feedback.svg" />
 			<h3> Feedback </h3>
 			<p>
-			Du würdest uns sehr helfen wenn du an einer kleinen Umfrage teilnimmst und uns hilfst unser Projekt noch weiter zu verbessern.<br>
+            Wir freuen uns über jedes Feedback, dass uns bei der Verbesserung von Gonimo hilft.
+            <br>
+			<!-- Du würdest uns sehr helfen wenn du an einer kleinen Umfrage teilnimmst und uns hilfst unser Projekt noch weiter zu verbessern.<br> -->
 			</p>
 			</div>
 			</div>
