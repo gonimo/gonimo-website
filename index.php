@@ -1,5 +1,5 @@
 <?php
-include 'header.php'
+include 'header.php';
 ?>
 <title>Gonimo</title>
 <div class="container-fluid lvl-0">
@@ -12,11 +12,12 @@ include 'header.php'
 		Schütze das Wertvolle im Leben.
 		</h2>
 		<div class="impact lvl-3">
-			<p class="impact-btn"><a href="https://dev.gonimo.com">
-                ENTWICKLUNGSVERSION
-                <br>
-				JETZT STARTEN
-			</p></a>
+			<a href="https://dev.gonimo.com"><div class="impact-btn">
+				<p>
+				JETZT STARTEN <br>
+				<span class="version"> ENTWICKLUNGSVERSION ALPHA 0.7 </span>
+				</p>
+			</div></a>
 		</div>
 	</div>
 </div>
@@ -31,14 +32,16 @@ include 'header.php'
 			</p>
 		</div>
 	<img class="img-responsive intro-img" src="img/ico/immer_dabei.png" /><br>
-	<p class="intro-btn"><a href="soon.php">
-        ENTWICKLUNGSVERSION
-        <br>
-		JETZT STARTEN
-	</p></a>
+	<a href="https://dev.gonimo.com"><div class="intro-btn">
+		<p>
+		JETZT STARTEN <br>
+		<span class="version"> ENTWICKLUNGSVERSION ALPHA 0.7 </span>
+		</p>
+	</div></a>
+	
 	</div>
 </div>
-
+<!--
 <div class="container-fluid devices lvl-1">
 	<div class="container devices lvl-2">
 	<p>
@@ -47,7 +50,7 @@ include 'header.php'
 	</p>
 	</div>
 </div>
-
+-->
 <div class="container-fluid benefits lvl-1" id="vorteile">
 	<div class="container benefits lvl-2">
 		<div class="row benefits lvl-3">
@@ -85,11 +88,13 @@ include 'header.php'
 			Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir.
 			</p>
 			</div>
+			<!--
 			<div class="col-xs-12 benefits lvl-4"><a href="soon.php">
 			<p class="benefits-btn">
 			MEHR ERFAHREN
 			</p></a>
 			</div>
+			-->
 		</div>
 	</div>
 </div>
@@ -245,11 +250,13 @@ include 'header.php'
 			</p>
 			</div>
 			</div>
+			<!--
 			<div class="col-xs-12 functions lvl-4"><a href="soon.php">
 			<p class="functions-btn">
 			MEHR ERFAHREN
 			</p></a>
 			</div>
+			-->
 		</div>
 	</div>
 	<script>
@@ -274,7 +281,7 @@ include 'header.php'
 
 	<div class="container team lvl-2">
 		<div class="team lvl-3">
-			<p class="team-btn"><a href="soon.php">
+			<p class="team-btn"><a href="team.php">
 				ÜBER UNS
 			</p></a>
 		</div>
@@ -288,7 +295,6 @@ include 'header.php'
 			<h2> Wie kannst du uns helfen ? </h2>
 			</div>
 			<div class="col-xs-12 col-sm-6 help lvl-4">
-			<a href="spenden.php" >
 			<div class="help lvl-5">
 			<img class="img-responsive" src="img/ico/helfen/spenden.svg" />
 			<h3> Spenden </h3>
@@ -297,10 +303,14 @@ include 'header.php'
 			<br>
 			Vielen Dank für deine Unterstützung!
 			</p>
+			<form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="4XFJNH9YTRP4W">
+			<input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+			</form>
 			</div>
 			</div>
-			</a>
-			<a href="feedback.php">
+			<a href="kontakt.php">
 			<div class="col-xs-12 col-sm-6 help lvl-4">
 			<div class="help lvl-5">
 			<img class="img-responsive" src="img/ico/helfen/feedback.svg" />

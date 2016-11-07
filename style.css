@@ -23,6 +23,7 @@ html {
     src: url("bootstrap/fonts/Raleway-light.ttf") format("truetype");
 }
 body{
+	min-height:100%;
 	position: relative;
 	font-family: Raleway-Regular, Arial, sans-serif;
 }
@@ -36,6 +37,12 @@ a:hover{
 .container-fluid{
 	margin:0;
 	padding:0;
+}
+.lvl-0{
+	padding-top:49px;
+}
+.lvl-0.footer{
+	padding-top:unset !important;
 }
 .lvl-1{
 	position:relative;
@@ -131,8 +138,9 @@ html, body{
 	color:white;
 }
 .impact-btn{
-	display:inline;
+	display:inline-block;
 	padding:0.5%;
+	line-height:1;
 	border:2px solid #E6CAD4;
 	color:#E6CAD4;
 	transition: background 1s;
@@ -141,6 +149,19 @@ html, body{
 	border:2px solid white;
 	color:white;
 	background:rgba(230, 202, 212, 0.7);
+}
+.impact-btn:hover .version{
+	color:red;
+}
+.impact-btn p{
+	display: inline;
+	font-size:300%;
+	font-family: "Raleway-light";
+}
+span.version{
+	font-size:50%;
+	color:yellow;
+	font-weight:bold;
 }
 /* INTRO */
 .lvl-0 .intro{
@@ -179,14 +200,18 @@ img.intro-img{
 }
 .intro-btn{
 	font-size:280%;
-	display:inline;
+	display:inline-block;
 	padding:0.5%;
+	line-height:1;
 	border:2px solid rgb(92,94,95);
 	color:rgb(92,94,95);
 }
 .intro-btn:hover{
 	color:white;
 	border:2px solid white;
+}
+.intro-btn:hover .version{
+	color:red;
 }
 /* DEVICES */
 .lvl-0 .devices {
@@ -422,4 +447,68 @@ img.intro-img{
 	text-align:center;
 	font-size:80%;
 	color:white;
+}
+
+/* SUBPAGES */
+
+/*TEAM (T) */
+.s-t.lvl-0{
+	background: rgb(220,220,220);
+	text-align:center;
+}
+.s-t.lvl-1 img{
+	display:inline;
+}
+.s-t h2{
+	font-family: "Raleway-light";
+	font-size:280%;
+}
+.s-t h3{
+	font-family: "Raleway-light";
+	font-size:200%;
+}
+.s-t .lvl-3{
+	padding:2.5% 1%;
+}
+.s-t .img-portrait{
+	border-radius:50%;
+	overflow:hidden;
+	min-width:100%;
+}
+.s-t h4.name{
+	font-family: "Raleway-Medium";
+	font-weight:bold;
+	text-transform: uppercase;
+}
+.s-t h4.job{
+	font-family: "Raleway-Medium";
+	font-style:italic;
+}
+
+/* F.A.Q (F) */
+.s-f.lvl-0{
+	background: rgb(150,150,150);
+	text-align:center;
+}
+.s-f img{
+	display:inline;
+}
+.s-f .lvl-2{
+	text-align:left;
+	margin:2.5% 0%;
+}
+/* IMPRESSUM (I) */
+.s-i.lvl-0{
+	background: rgb(180,180,180);
+	text-align:center;
+}
+.s-i p{
+	text-align: left;
+}
+/* KONTAKT (K) */
+.s-k input.url{
+	display:none;
+}
+.s-k form{
+	padding:2.5% 0%;
 }

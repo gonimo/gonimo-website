@@ -28,7 +28,7 @@
       <li><a href="index.php#vorteile">VORTEILE</a></li>
       <li><a href="index.php#funktionen">FUNKTIONEN</a></li>
       <li><a href="team.php">TEAM</a></li>
-	  <li><a href="blog.php">BLOG</a></li>
+	  <li><a href="http://blog.gonimo.com" target="_blank">BLOG</a></li>
     </ul>
 	</div>
   </div>
