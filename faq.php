@@ -12,9 +12,12 @@ include 'header.php';
 	<div class="container s-f lvl-1">
 	
 		<div class="s-f lvl-2">
-		<h3> Frage 1 ? </h3>
+		<h3> Kann ich gonimo auf meinem 5 Jahre alten Smartphone verwenden? </h3>
 		<p>
-		Antwort kommt hier her!
+            Jep! Ich selbst bin Third-Hand Smartphone user und habe in der Regel eher
+            ältere Geräte. Allerdings funktioniert auf so einem alten Gerät nur Ton
+            einigermaßen, für einen Videostream sind so alte Geräte normalerweise zu
+            schwach.
 		</p>
 		</div>
 
