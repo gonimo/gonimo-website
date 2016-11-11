@@ -3,10 +3,10 @@
 	<div class="container footer lvl-1">
 		<div class="row footer lvl-2">
 			<div class="col-xs-12 col-sm-6 footer map-link lvl-3">
-			<a href="kontakt.php">KONTAKT</a>
-			<a href="impressum.php">IMPRESSUM</a>
-			<a href="kontakt.php?press=true">PRESSE</a>
-			<a href="faq.php">FAQ</a>
+			<a href="/kontakt.php">KONTAKT</a>
+			<a href="/impressum.php">IMPRESSUM</a>
+			<a href="/kontakt.php?press=true">PRESSE</a>
+			<a href="/faq.php">FAQ</a>
 			</div>
 			<div class="col-xs-12 col-sm-6 footer sm-icon lvl-3">
 			<a href="https://www.facebook.com/mygonimo/" target="_blank"><img class="img-responsive" src="img/ico/social-media/facebook.svg"/></a>
