@@ -9,6 +9,9 @@ include 'header.php';
 	<div class="container s-t lvl-1">
 	<h2> Team </h2>
 	<h3> unser aufgewecktes, frisch froehliches Team </h3>
+	<p>
+	Jung, dynamisch, begeistert, fasziniert und so vielseitig wie es nur vorstellbar ist. Hier werden Code, Design und Ideen entwickelt, die bis ins kleinste Detail mit Fantasie, Liebe, Know-How und Durchaltevermögen umgesetzt werden. An den Ergebnissen, die das Team schon vollbracht hat, sieht man den Zusammenhalt und die einzigartige Verbindung. Das sind wir. Das ist Gonimo. 
+	</p>
 	
 		<div class="row s-t lvl-2">
 	

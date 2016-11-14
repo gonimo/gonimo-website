@@ -24,23 +24,68 @@ include 'header.php';
 
 <div class="container-fluid intro lvl-1">
 	<div class="container intro lvl-2">
+	<div class="row intro lvl-3">
+	<div class="col-xs-12 intro lvl-4">
 	<h2> Gonimo das Babyphon – Immer mit dabei. </h2>
 		<div class="intro-txt">
 			<p>
-			Gonimo ist ein kostenloses Babyphon, für dessen Benutzung du nur einen Browser benötigst. Zum Beispiel Firefox, Chrome, Opera oder Safari. Du kannst sofort loslegen ohne Download und ohne Installation. <br>
-			Stelle dazu einfach ein Gerät bei deinem Kind auf und bleibe mit so vielen Geräten wie du willst und von überall mit deinem Schatz in Kontakt.
+			Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>
+			Zum Beispiel Chrome, Firefox, Microsoft Edge, Opera oder Safari.<br>
+			Über "Jetzt Starten" kannst du sofort loslegen, ohne Download und ohne Installation.<br>
 			</p>
 		</div>
-	<img class="img-responsive intro-img" src="img/ico/immer_dabei.png" /><br>
+	</div>
+	</div>
+	<div class="row intro lvl-3">
+	<div class="col-sm-4 intro lvl-4">
+	<div class="img-wrapper">
+	<img class="img-responsive" src="img/ico/steps/step1.svg">
+	</div>
+	<h3> 1. ADD DEVICE </h3>
+	<p> Füge mindestens ein zweites Gerät zu deiner "Familie" hinzu, indem du eine Einladung per Mail, Whatsapp oder Telegram verschickst. </p>
+	</div>
+	<div class="col-sm-4 intro lvl-4">
+	<div class="img-wrapper">
+	<img class="img-responsive" src="img/ico/steps/step2.svg">
+	</div>
+	<h3> 2. START BABYSTATION </h3>
+	<p> Wenn auf dem eingeladenen Gerät die Anfrage akzeptiert wurde, machst du eines der Geräte zur Babystation. Dazu wählst du im Menü den Punkt "Baby Station" aus. </p>
+	</div>
+	<div class="col-sm-4 intro lvl-4">
+	<div class="img-wrapper">
+	<img class="img-responsive" src="img/ico/steps/step3.svg">
+	</div>
+	<h3> 3. CONNECT TO BABY </h3>
+	<p> Super! Jetzt brauchst du nur noch auf dem Elterngerät auf "verbinden (connect)" klicken und du hast erfolgreich eine sichere Verbindung zu deinem Kind aufgebaut. </p>
+	</div>
+	</div>
+	<div class="row intro lvl-3">
+	<div class="col-xs-12 intro lvl-4">
 	<a href="https://dev.gonimo.com"><div class="intro-btn">
 		<p>
 		JETZT STARTEN <br>
 		<span class="version"> ENTWICKLUNGSVERSION ALPHA 0.7 </span>
 		</p>
 	</div></a>
+	</div>
 	
 	</div>
+	</div>
 </div>
+
+<div class="container-fluid family lvl-1">
+	<div class="container family lvl-2">
+	<img class="img-responsive" src="img/ico/family/gonimo-family-08.svg">
+		<div class="family lvl-3">
+		<h2> Erweitere deine Gonimo Family </h2>
+		<p>
+		Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt.du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Eltergerät oder Babystation zu konfigurieren.
+		</p>
+		</div>
+	</div>
+</div>
+
+
 <!--
 <div class="container-fluid devices lvl-1">
 	<div class="container devices lvl-2">
@@ -58,31 +103,39 @@ include 'header.php';
 			<h2> Vorteile von Gonimo </h2>
 			</div>
 			
-			<div class="col-xs-6 col-sm-3 benefits lvl-4">
-			<img class="img-responsive img-round" src="img/ico/usp/immer-dabei.svg" />
+			<div class="col-xs-6 col-md-2 benefits lvl-4 col-lg-offset-1">
+			<img class="img-responsive" src="img/ico/usp/gonimo-02.svg" />
+			<h3> OPEN SOURCE &amp KOSTENLOS </h3>
+			<p>
+			Gonimo ist ein Open Source Projekt und für jeden kostenlos und werbefrei ohne Einschränkungen zugänglich.
+			</p>
+			</div>
+			
+			<div class="col-xs-6 col-md-2 benefits lvl-4">
+			<img class="img-responsive" src="img/ico/usp/gonimo-03.svg" />
 			<h3> IMMER MIT DABEI </h3>
 			<p>
-			Gonimo ist das erste Babyphone dass Plattform unabhängig ist und rein Browser basierend funktioniert.
+			Gonimo ist das erste Babyphone, das Plattform unabhängig ist, rein Browser-basierend und auf so gut wie allen Geräten funktioniert.
+			</p>
+			</div>
+			<div class="col-xs-6 col-md-2 benefits lvl-4">
+			<img class="img-responsive" src="img/ico/usp/gonimo-04.svg" />
+			<h3> ZUVERLÄSSIG &amp SICHER </h3>
+			<p>
+			Egal ob unterwegs oder zu Hause ist stehts für größt mögliche Sicherheit deiner Daten gesorgt.
 			</p>
 			</div>
 			
-			<div class="col-xs-6 col-sm-3 benefits lvl-4">
-			<img class="img-responsive img-round" src="img/ico/usp/zuverlaessig-sicher.svg" />
-			<h3> ZUVERLÄSSIG UND SICHER </h3>
+			<div class="col-xs-6 col-md-2 benefits lvl-4">
+			<img class="img-responsive" src="img/ico/usp/gonimo-05.svg" />
+			<h3> EINFACH &amp SCHNELL </h3>
 			<p>
-			Egal ob unterwegs oder zu Hause ist stehts um grösstmögliche Sicherheit deiner Daten gesorgt.
-			</p>
-			</div>
-			<div class="col-xs-6 col-sm-3 benefits lvl-4">
-			<img class="img-responsive img-round" src="img/ico/usp/einfach-schnell.svg" />
-			<h3> EINFACH UND SCHNELL </h3>
-			<p>
-			Gehe einfach auf gonimo.com, und schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!
+			Gehe einfach auf gonimo.com und schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphone!
 			</p>
 			</div>
 			
-			<div class="col-xs-6 col-sm-3 benefits lvl-4">
-			<img class="img-responsive img-round" src="img/ico/usp/nachhaltig.svg" />
+			<div class="col-xs-12 col-md-2 benefits lvl-4">
+			<img class="img-responsive" src="img/ico/usp/gonimo-06.svg" />
 			<h3> NACHHALTIG </h3>
 			<p>
 			Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir.
@@ -125,10 +178,44 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>LIVE STREAM</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Sei jede Sekunde live dabei, wenn dein Schatz dich braucht, oder dir etwas mitteilen will.
 			</p>
 			</div>
 			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/allegeraeusche.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>ALLE GERÄUSCHE</h3>
+			<p>
+			Egal wie laut dein Schatz deine Aufmerksamkeit einfordert, mit Gonimo bekommst du auch das leiseste Geräusch im Kinderzimmer mit.
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/wifi-lte.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>WIFI & MOBILE</h3>
+			<p>
+			Deine Grenzen der Reichweite kannst du dir selbst setzen: Gonimo funktioniert nicht nur im gemeinsamen WLAN, sondern auch unterwegs über mobile Datenverbindungen.
+			</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
+			<div class="img-wrapper">
+			<img class="img" src="img/ico/funktionen/multi-elterngeraete.svg">
+			</div>
+			<div class="content-wrapper">
+			<h3>MULTIBABY/MULTIELTERN</h3>
+			<p>
+			Mit Gonimo ist es möglich so viele Elterngeräte wie du willst und so viele Babystationen wie du brauchst gleichzeitig zu konfigurieren.
+			</p>
+			</div>
+			</div>
+			<!--
 			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
 			<div class="img-wrapper">
 			<img class="img" src="img/ico/funktionen/aktivitaetenprotokoll.svg">
@@ -197,17 +284,6 @@ include 'header.php';
 			</div>
 			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
 			<div class="img-wrapper">
-			<img class="img" src="img/ico/funktionen/allegeraeusche.svg">
-			</div>
-			<div class="content-wrapper">
-			<h3>ALLE GERÄUSCHE</h3>
-			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
-			</p>
-			</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
-			<div class="img-wrapper">
 			<img class="img" src="img/ico/funktionen/vibrationsalarm.svg">
 			</div>
 			<div class="content-wrapper">
@@ -224,18 +300,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>WIFI & MOBILE</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
-			</p>
-			</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-lg-3 functions lvl-4">
-			<div class="img-wrapper">
-			<img class="img" src="img/ico/funktionen/multi-elterngeraete.svg">
-			</div>
-			<div class="content-wrapper">
-			<h3>MULTI ELTERNGERÄTE</h3>
-			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Deine Grenzen der Reichweite kannst du dir selbst setzen: Gonimo funktioniert nicht nur im gemeinsamen WLAN, sondern auch unterwegs über mobile Datenverbindungen.
 			</p>
 			</div>
 			</div>
@@ -250,6 +315,7 @@ include 'header.php';
 			</p>
 			</div>
 			</div>
+			-->
 			<!--
 			<div class="col-xs-12 functions lvl-4"><a href="soon.php">
 			<p class="functions-btn">
