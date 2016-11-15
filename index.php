@@ -15,7 +15,7 @@ include 'header.php';
 			<a href="https://dev.gonimo.com"><div class="impact-btn">
 				<p>
 				JETZT STARTEN <br>
-				<span class="version"> ENTWICKLUNGSVERSION ALPHA 0.7 </span>
+				<span class="version"> ALPHA-VERSION 0.7 </span>
 				</p>
 			</div></a>
 		</div>
@@ -37,21 +37,21 @@ include 'header.php';
 	</div>
 	</div>
 	<div class="row intro lvl-3">
-	<div class="col-sm-4 intro lvl-4">
+	<div class="col-sm-4 intro steps lvl-4">
 	<div class="img-wrapper">
 	<img class="img-responsive" src="img/ico/steps/step1.svg">
 	</div>
 	<h3> 1. ADD DEVICE </h3>
 	<p> Füge mindestens ein zweites Gerät zu deiner "Familie" hinzu, indem du eine Einladung per Mail, Whatsapp oder Telegram verschickst. </p>
 	</div>
-	<div class="col-sm-4 intro lvl-4">
+	<div class="col-sm-4 intro steps lvl-4">
 	<div class="img-wrapper">
 	<img class="img-responsive" src="img/ico/steps/step2.svg">
 	</div>
 	<h3> 2. START BABYSTATION </h3>
 	<p> Wenn auf dem eingeladenen Gerät die Anfrage akzeptiert wurde, machst du eines der Geräte zur Babystation. Dazu wählst du im Menü den Punkt "Baby Station" aus. </p>
 	</div>
-	<div class="col-sm-4 intro lvl-4">
+	<div class="col-sm-4 intro steps lvl-4">
 	<div class="img-wrapper">
 	<img class="img-responsive" src="img/ico/steps/step3.svg">
 	</div>
@@ -64,7 +64,7 @@ include 'header.php';
 	<a href="https://dev.gonimo.com"><div class="intro-btn">
 		<p>
 		JETZT STARTEN <br>
-		<span class="version"> ENTWICKLUNGSVERSION ALPHA 0.7 </span>
+		<span class="version"> ALPHA-VERSION 0.7 </span>
 		</p>
 	</div></a>
 	</div>
@@ -102,23 +102,25 @@ include 'header.php';
 			<div class="col-xs-12 benefits lvl-4">
 			<h2> Vorteile von Gonimo </h2>
 			</div>
-			
-			<div class="col-xs-6 col-md-2 benefits lvl-4 col-lg-offset-1">
+		</div>
+		<div class="row benefits lvl-3">
+			<div class="col-xs-12 col-md-6 col-md-offset-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-02.svg" />
 			<h3> OPEN SOURCE &amp KOSTENLOS </h3>
 			<p>
 			Gonimo ist ein Open Source Projekt und für jeden kostenlos und werbefrei ohne Einschränkungen zugänglich.
 			</p>
 			</div>
-			
-			<div class="col-xs-6 col-md-2 benefits lvl-4">
+		</div>
+		<div class="row benefits lvl-3">		
+			<div class="col-xs-6 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-03.svg" />
 			<h3> IMMER MIT DABEI </h3>
 			<p>
 			Gonimo ist das erste Babyphone, das Plattform unabhängig ist, rein Browser-basierend und auf so gut wie allen Geräten funktioniert.
 			</p>
 			</div>
-			<div class="col-xs-6 col-md-2 benefits lvl-4">
+			<div class="col-xs-6 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-04.svg" />
 			<h3> ZUVERLÄSSIG &amp SICHER </h3>
 			<p>
@@ -126,7 +128,7 @@ include 'header.php';
 			</p>
 			</div>
 			
-			<div class="col-xs-6 col-md-2 benefits lvl-4">
+			<div class="col-xs-6 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-05.svg" />
 			<h3> EINFACH &amp SCHNELL </h3>
 			<p>
@@ -134,7 +136,7 @@ include 'header.php';
 			</p>
 			</div>
 			
-			<div class="col-xs-12 col-md-2 benefits lvl-4">
+			<div class="col-xs-12 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-06.svg" />
 			<h3> NACHHALTIG </h3>
 			<p>
@@ -159,9 +161,6 @@ include 'header.php';
 		&#x201C;The best things <br> in life <br> are free&#x201D;
 		</h3>
 		<br>
-		<h4 class="robert-txt">
-		-Robert-
-		</h4>
 	</div>
 </div>
 
@@ -389,12 +388,6 @@ include 'header.php';
 			</div>
 			</div>
 			</a>
-			<div class="col-xs-12 help lvl-4">
-			<h3> Mit freundlicher Unterstützung durch netidee.at</h3>
-			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
-			<img class="img-responsive" src="img/netidee.gif" />
-			</a>
-			</div>
 		</div>
 	</div>
 	<script>
@@ -405,7 +398,18 @@ include 'header.php';
 	}).resize();
 	</script>
 </div>
-
+<div class="container-fluid partner lvl-1">
+	<div class="container partner lvl-2">
+		<div class="row partner lvl-3">
+			<div class="col-xs-12 help lvl-4">
+			<h3> Mit freundlicher Unterstützung durch netidee.at</h3>
+			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
+			<img class="img-responsive" src="img/netidee.gif" />
+			</a>
+			</div>
+		</div>
+	</div>
+</div>
 </div>
 <?php 
 include 'footer.php';

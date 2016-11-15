@@ -90,9 +90,8 @@ function contactmail($name, $mail, $subject, $press, $message){
 			<br>
 			aber bitte benutze dazu dieses Formular:<br>");
 		} ?>
-	</div>
 	
-	<div class="container s-k lvl-1 s-k-form">
+	<div class="container s-k s-k-form">
 		<form action="" method="POST" name="contact-form" id="contact-form" role="form">
 		<div class="form-group">
 		<label for="name">Name *</label>
@@ -122,6 +121,7 @@ function contactmail($name, $mail, $subject, $press, $message){
 		<input class="url" type="text" name="url" placeholder="url" maxlength="30" size="30">
 		<button name="btn-submit" type="submit" class="btn btn-success btn-block"> Senden </button>
 		</form>
+	</div>
 	</div>
 
 </div>

@@ -3,12 +3,9 @@ include 'header.php';
 ?>
 <title>Gonimo FAQ</title>
 <div class="container-fluid s-f lvl-0">
-	<div class="container-fluid s-f lvl-1">
+	<div class="container s-f lvl-1">
 	<h1> F.A.Q </h1>
 	<h2> Frequently Asked Questions </h2>
-	</div>
-	
-	<div class="container s-f lvl-1">
 	
 		<div class="s-f lvl-2">
 		<h3>Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen.</h3>
