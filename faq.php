@@ -47,8 +47,8 @@ include 'header.php';
 		<div class="s-f lvl-2">
 		<h3> Kostet die Benutzung etwas? </h3>
 		<p>
-		Nein!!! Weil es sich bei mir um ein OpenSource Projekt handelt, ist es meinen Schöpfern ein großes Anliegen, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen.
-		Mehr Informationen dazu, was genau OpenSource bedeutet, findest du <a href="https://de.wikipedia.org/wiki/Open_Source" title="Wikipedia: Open Source" target="_blank"> &gt hier &lt </a>
+        Nein!!! Gonimo ist ein ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen.
+		Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href="https://de.wikipedia.org/wiki/Open_Source" title="Wikipedia: Open Source" target="_blank"> &gt hier &lt </a>
 		</p>
 		</div>		
 
@@ -56,7 +56,7 @@ include 'header.php';
 		<h3> Wieso gibt es zusätzlich eine kostenpflichtige App? </h3>
 		<p>
 		Die kostenpflichtige App bietet über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen, die nur über eine installierte App umsetzbar sind,
-		weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann. 
+		weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann.
 		</p>
 		</div>		
 
@@ -103,7 +103,7 @@ include 'header.php';
 		<div class="s-f lvl-2">
 		<h3> Werden meine Daten gespeichert oder an Dritte weitergegeben? </h3>
 		<p>
-		Es werden bei mir nur die Daten gespeichert, die dazu notwendig sind, um dich zu registrieren. Diese Daten werden strikt nicht an Dritte weitergegeben und können auf deinen konkreten Wunsch hin auch jederzeit von den Servern gelöscht werden (Formular).
+		Es werden bei mir nur die Daten gespeichert, die notwendig sind, um eine die Funktion zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben und können auf deinen konkreten Wunsch hin auch jederzeit von den Servern gelöscht werden (Formular).
 Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden.
 		</p>
 		</div>		
@@ -125,8 +125,8 @@ Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer V
 		<div class="s-f lvl-2">
 		<h3> Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden? </h3>
 		<p>
-		Da das Gonimo-Projekt ein OpenSource Projekt ist unterliegt es den Richtlinien der (<a href="https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License" title="GNU LICENSE" target="_blank">AGPL GNU Affero General Public License</a> 
-		und somit darf der Quellcode unter deren Richtlinien verwendet werden.
+		Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der (<a href="https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License" title="GNU LICENSE" target="_blank">AGPL GNU Affero General Public License</a>
+		und somit darf der <a href="https://github.com/gonimo" title="Source Code" target="_blank">Quellcode</a> unter deren Richtlinien verwendet werden.
 		</p>
 		</div>		
 
