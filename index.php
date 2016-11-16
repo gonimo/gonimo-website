@@ -5,8 +5,7 @@ include 'header.php';
 <div class="container-fluid lvl-0">
 
 <div class="container-fluid impact lvl-1">
-	<img class="img-responsive" src="img/impact2.png" />
-
+	<img class="img-responsive" src="img/impact.png" id="img-impact"/>
 	<div class="container impact lvl-2">
 		<h2 class="impact-txt">
 		Schütze das Wertvolle im Leben.
@@ -14,12 +13,29 @@ include 'header.php';
 		<div class="impact lvl-3">
 			<a href="https://dev.gonimo.com"><div class="impact-btn">
 				<p>
-				JETZT STARTEN <br>
-				<span class="version"> ALPHA-VERSION 0.7 </span>
+				JETZT STARTEN<br>
+				<span class="version">ALPHA-VERSION 0.7</span>
 				</p>
 			</div></a>
 		</div>
 	</div>
+	<script>
+	$(window).resize(function(){
+		var width = $(window).width();
+		var source = "img/impact.png";		
+		
+		if (width <= 360 ){
+			source = "img/impact-xs.png";
+		}else if(width > 360 && width <= 750 ){
+			source = "img/impact-sm.png";
+		}else if(width > 750 && width <= 1280){
+			source = "img/impact-lg.png";
+		}else{
+			source = "img/impact.png";
+		}
+		$("#img-impact").attr("src",source);
+	});
+	</script> 
 </div>
 
 <div class="container-fluid intro lvl-1">
@@ -38,7 +54,7 @@ include 'header.php';
 	</div>
 	<div class="row intro lvl-3">
 	<div class="col-sm-4 intro steps lvl-4">
-	<div class="img-wrapper">
+	<div class="img-wrapper step1">
 	<img class="img-responsive" src="img/ico/steps/step1.svg">
 	</div>
 	<h3> 1. ADD DEVICE </h3>
@@ -63,8 +79,8 @@ include 'header.php';
 	<div class="col-xs-12 intro lvl-4">
 	<a href="https://dev.gonimo.com"><div class="intro-btn">
 		<p>
-		JETZT STARTEN <br>
-		<span class="version"> ALPHA-VERSION 0.7 </span>
+		JETZT STARTEN<br>
+		<span class="version">ALPHA-VERSION 0.7</span>
 		</p>
 	</div></a>
 	</div>
@@ -74,10 +90,10 @@ include 'header.php';
 </div>
 
 <div class="container-fluid family lvl-1">
+	<h2> Erweitere deine Gonimo Family </h2>
 	<div class="container family lvl-2">
 	<img class="img-responsive" src="img/ico/family/gonimo-family-08.svg">
 		<div class="family lvl-3">
-		<h2> Erweitere deine Gonimo Family </h2>
 		<p>
 		Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt.du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Eltergerät oder Babystation zu konfigurieren.
 		</p>
@@ -117,7 +133,7 @@ include 'header.php';
 			<img class="img-responsive" src="img/ico/usp/gonimo-03.svg" />
 			<h3> IMMER MIT DABEI </h3>
 			<p>
-			Gonimo ist das erste Babyphone, das Plattform unabhängig ist, rein Browser-basierend und auf so gut wie allen Geräten funktioniert.
+			Gonimo ist das erste Babyphon, das Plattform unabhängig ist, rein Browser-basierend und auf so gut wie allen Geräten funktioniert.
 			</p>
 			</div>
 			<div class="col-xs-6 col-md-3 benefits lvl-4">
@@ -127,16 +143,16 @@ include 'header.php';
 			Egal ob unterwegs oder zu Hause ist stehts für größt mögliche Sicherheit deiner Daten gesorgt.
 			</p>
 			</div>
-			
+			<div class="clearfix visible-xs-block visible-sm-block"></div>
 			<div class="col-xs-6 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-05.svg" />
 			<h3> EINFACH &amp SCHNELL </h3>
 			<p>
-			Gehe einfach auf gonimo.com und schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphone!
+			Gehe einfach auf gonimo.com und schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!
 			</p>
 			</div>
 			
-			<div class="col-xs-12 col-md-3 benefits lvl-4">
+			<div class="col-xs-6 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-06.svg" />
 			<h3> NACHHALTIG </h3>
 			<p>
@@ -222,7 +238,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>AKTIVITÄTENPROTOKOLL</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -233,7 +249,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>SCHLAFLIEDER</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -244,7 +260,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>REGULIERBARER TON</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -255,7 +271,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>REDE MIT DEINEM KIND</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -266,7 +282,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>NACHTLICHT</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -277,7 +293,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>ANPASSUNG</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -288,7 +304,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>VIBRATIONSALARM</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -310,7 +326,7 @@ include 'header.php';
 			<div class="content-wrapper">
 			<h3>ENERGIESPAREND</h3>
 			<p>
-			Babyfon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
+			Babyphon vergessen? Ab sofort ein Problem der Vergangenheit - denn ich, Gonimo, bin immer da, wenn du mich brauchst!
 			</p>
 			</div>
 			</div>
@@ -329,7 +345,10 @@ include 'header.php';
     $('.img-wrapper').each(function() {
         $(this).height($(this).width());
     });
-	}).resize();
+	});
+	</script>
+<!-- for function toogle
+	<script>
 	$(".functions.lvl-4").click(function(){
 		if( $(window).width() > 800 ){
 			return;
@@ -339,6 +358,7 @@ include 'header.php';
 		}
 	});
 	</script>
+-->
 </div>
 
 <div class="container-fluid team lvl-1">
@@ -404,7 +424,7 @@ include 'header.php';
 			<div class="col-xs-12 help lvl-4">
 			<h3> Mit freundlicher Unterstützung durch netidee.at</h3>
 			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
-			<img class="img-responsive" src="img/netidee.gif" />
+			<img class="img-responsive" src="img/netidee.png" />
 			</a>
 			</div>
 		</div>

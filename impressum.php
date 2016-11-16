@@ -27,8 +27,8 @@ include 'header.php';
 	Christian Klotzner<br>
 	<br>
 	<h4>Webdesign</h4>
-	Aristoteles Riedmann<br>
 	Romana Roithner<br>
+	Aristoteles Riedmann<br>
 	<br>
 	<h4>Webentwicklung</h4>
 	Aristoteles Riedmann<br>

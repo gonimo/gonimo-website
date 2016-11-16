@@ -25,9 +25,10 @@
   <div class="container">
     <ul class="nav nav-justified">
       <li><a href="index.php">HOME</a></li>
-      <li><a href="index.php#vorteile">VORTEILE</a></li>
-      <li><a href="index.php#funktionen">FUNKTIONEN</a></li>
+      <li><a href="index.php#vorteile" data-toggle="collapse" data-target="#Navbar">VORTEILE</a></li>
+      <li><a href="index.php#funktionen" data-toggle="collapse" data-target="#Navbar">FUNKTIONEN</a></li>
       <li><a href="team.php">TEAM</a></li>
+	  <li><a href="faq.php">FAQ</a></li>
 	  <li><a href="https://blog.gonimo.com" target="_blank">BLOG</a></li>
     </ul>
 	</div>

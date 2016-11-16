@@ -16,7 +16,7 @@ include 'header.php';
 		<div class="s-f lvl-2">
 		<h3> Was bin ich? </h3>
 		<p>
-		Ich bin ein kostenloser Babymonitor, der auf jedem Gerät verwendet werden kann, das ein Mikrofon und/oder eine Kamera besitzt und folgende Browser installiert hat: Chrome, Firefox, Microsoft Edge, Opera oder Safari.
+		Ich bin ein kostenloser Babymonitor, der auf jedem Gerät verwendet werden kann, das ein Mikrofon und/oder eine Kamera besitzt und einen der folgenden Browser installiert hat: Chrome, Firefox, Microsoft Edge, Opera oder Safari.
 		</p>
 		</div>		
 		
@@ -39,7 +39,7 @@ include 'header.php';
 		<div class="s-f lvl-2">
 		<h3> Was brauchst du, um mich verwenden zu können? </h3>
 		<p>
-		Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und folgende Browser installiert hat: Chrome, Firefox, Microsoft Edge, Opera oder Safari.
+		Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen der folgenden Browser installiert hat: Chrome, Firefox, Microsoft Edge, Opera oder Safari.
 		Je nach Dauer und Art der Benutzung wird es irgendwann notwendig sein, eine Stromquelle zu Rate zu ziehen. Wenn du ausschließlich Audio verwendest, kommst du leicht ohne Laden des Akkus durch die Nacht.
 		</p>
 		</div>		
@@ -72,7 +72,7 @@ include 'header.php';
 		<div class="s-f lvl-2">
 		<h3> Wie sicher ist die Verbindung zwischen den Geräten? </h3>
 		<p>
-		Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei mir folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, wo die Einladung bestätigt werden muss und eine Peer-to-Peer Verschlüsselung, um das "Mithören" Dritter zu verhindern.
+		Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei mir folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, in welchem die Einladung bestätigt werden muss und eine Peer-to-Peer Verschlüsselung, um das "Mithören" Dritter zu verhindern.
 		</p>
 		</div>		
 
