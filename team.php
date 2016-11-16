@@ -19,8 +19,8 @@ include 'header.php';
 			<img src="img/team/robert.jpg" class="img-responsive img-portrait" alt="Robert" />
 			<h4 class="name">Robert</h4>
 			<h4 class="job">The Boss</h4>
-			<p class="comment"> Codet bis es passt </p>
-			</div>
+            <p class="comment"> Codet, bis es passt </p>
+            </div>
 			
 			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
 			<img src="img/team/hannes.jpg" class="img-responsive img-portrait" alt="Hannes" />
@@ -33,14 +33,14 @@ include 'header.php';
 			<img src="img/team/martin.jpg" class="img-responsive img-portrait" alt="Martin" />
 			<h4 class="name">Martin</h4>
 			<h4 class="job">Programmierung</h4>
-			<p class="comment"> Weils vom Boss doch nicht immer passt </p>
+			<p class="comment"> Weil's vom Boss doch nicht immer passt </p>
 			</div>
 			
 			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
 			<img src="img/team/romana.jpg" class="img-responsive img-portrait" alt="Romana" />
 			<h4 class="name">Romana</h4>
 			<h4 class="job">Grafikdesign</h4>
-			<p class="comment"> Wenn ich fotos retuschier schaut jeder spitze aus </p>
+			<p class="comment"> Design oder nicht sein - das ist hier die Frage </p>
 			</div>
 			
 			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
