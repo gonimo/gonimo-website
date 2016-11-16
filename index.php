@@ -133,7 +133,7 @@ include 'header.php';
 			<img class="img-responsive" src="img/ico/usp/gonimo-03.svg" />
 			<h3> IMMER MIT DABEI </h3>
 			<p>
-			Gonimo ist das erste Babyphon, das Plattform unabhängig ist, rein Browser-basierend und auf so gut wie allen Geräten funktioniert.
+			Gonimo ist das erste Babyphon, das Plattform unabhängig und rein Browser-basierend ist und auf so gut wie allen Geräten funktioniert.
 			</p>
 			</div>
 			<div class="col-xs-6 col-md-3 benefits lvl-4">
