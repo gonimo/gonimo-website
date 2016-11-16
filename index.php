@@ -95,7 +95,7 @@ include 'header.php';
 	<img class="img-responsive" src="img/ico/family/gonimo-family-08.svg">
 		<div class="family lvl-3">
 		<p>
-		Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt.du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Eltergerät oder Babystation zu konfigurieren.
+		Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt. Du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Eltergerät oder Babystation zu verwenden.
 		</p>
 		</div>
 	</div>
@@ -133,14 +133,14 @@ include 'header.php';
 			<img class="img-responsive" src="img/ico/usp/gonimo-03.svg" />
 			<h3> IMMER MIT DABEI </h3>
 			<p>
-			Gonimo ist das erste Babyphon, das Plattform unabhängig und rein Browser-basierend ist und auf so gut wie allen Geräten funktioniert.
+    Gonimo ist das erste Babyphon, das Plattform unabhängig, rein Browser-basierend ist und auf so gut wie allen Geräten funktioniert.
 			</p>
 			</div>
 			<div class="col-xs-6 col-md-3 benefits lvl-4">
 			<img class="img-responsive" src="img/ico/usp/gonimo-04.svg" />
 			<h3> ZUVERLÄSSIG &amp SICHER </h3>
 			<p>
-			Egal ob unterwegs oder zu Hause ist stehts für größt mögliche Sicherheit deiner Daten gesorgt.
+    Egal ob unterwegs oder zu Hause, es ist stehts für größt mögliche Sicherheit deiner Daten gesorgt.
 			</p>
 			</div>
 			<div class="clearfix visible-xs-block visible-sm-block"></div>
@@ -148,8 +148,8 @@ include 'header.php';
 			<img class="img-responsive" src="img/ico/usp/gonimo-05.svg" />
 			<h3> EINFACH &amp SCHNELL </h3>
 			<p>
-			Gehe einfach auf gonimo.com und schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!
-			</p>
+    Gehe einfach auf gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!
+            </p>
 			</div>
 			
 			<div class="col-xs-6 col-md-3 benefits lvl-4">
