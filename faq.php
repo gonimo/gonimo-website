@@ -53,9 +53,9 @@ include 'header.php';
 		</div>		
 
 		<div class="s-f lvl-2">
-		<h3> Wieso gibt es zusätzlich eine kostenpflichtige App? </h3>
+		<h3> Wieso wird es eine zusätzliche kostenpflichtige App geben? </h3>
 		<p>
-		Die kostenpflichtige App bietet über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen, die nur über eine installierte App umsetzbar sind,
+		Die geplante kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind,
 		weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann.
 		</p>
 		</div>		
