@@ -22,7 +22,7 @@ $press = true;
 if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)){
 	$name = htmlspecialchars($_POST['name']);
 	$mail = htmlspecialchars($_POST['mail']);
-	$Subject = htmlspecialchars($_POST['subject']);
+	$subject = htmlspecialchars($_POST['subject']);
 	$message = htmlspecialchars($_POST['message']);
 	$media = htmlspecialchars($_POST['media']);
 	
