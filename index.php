@@ -140,7 +140,7 @@ include 'header.php';
 			<img class="img-responsive" src="img/ico/usp/gonimo-04.svg" />
 			<h3> ZUVERLÄSSIG &amp SICHER </h3>
 			<p>
-    Egal ob unterwegs oder zu Hause, es ist stehts für größt mögliche Sicherheit deiner Daten gesorgt.
+    Egal ob unterwegs oder zu Hause, es ist stets für größt mögliche Sicherheit deiner Daten gesorgt.
 			</p>
 			</div>
 			<div class="clearfix visible-xs-block visible-sm-block"></div>
