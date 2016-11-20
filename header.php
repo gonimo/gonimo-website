@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="application-name" content="Gonimo">
+	<meta name="author" content="Gonimo/ninjagulbi">
+	<meta name="description" content="Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.">
+	<meta name="keywords" content="Gonimo, Babyphon, Open Source, gratis, zuverlässig, sicher">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet"> 

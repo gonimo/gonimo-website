@@ -76,6 +76,7 @@ function contactmail($name, $mail, $subject, $press, $message){
 <title>Gonimo Kontakt</title>
 <div class="container-fluid s-k lvl-0">
 	<div class="container s-k lvl-1">
+	<header class="contact">
 	<h1><?php if ($press==true){echo("PRESSE-ANFRAGE:");}else{echo("Kontakt");} ?></h1>
 	<p>
 	<?php 
@@ -90,7 +91,8 @@ function contactmail($name, $mail, $subject, $press, $message){
 			<br>
 			aber bitte benutze dazu dieses Formular:<br>");
 		} ?>
-	
+	</header>
+	<section class="contact">
 	<div class="container s-k s-k-form">
 		<form action="" method="POST" name="contact-form" id="contact-form" role="form">
 		<div class="form-group">
@@ -119,9 +121,10 @@ function contactmail($name, $mail, $subject, $press, $message){
 		}
 		?>
 		<input class="url" type="text" name="url" placeholder="url" maxlength="30" size="30">
-		<button name="btn-submit" type="submit" class="btn btn-success btn-block"> Senden </button>
+		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> Senden </button>
 		</form>
 	</div>
+	</section>
 	</div>
 
 </div>

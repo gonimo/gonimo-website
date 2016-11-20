@@ -4,9 +4,11 @@ include 'header.php';
 <title>Gonimo FAQ</title>
 <div class="container-fluid s-f lvl-0">
 	<div class="container s-f lvl-1">
+	<header>
 	<h1> F.A.Q </h1>
 	<h2> Frequently Asked Questions </h2>
-	
+	</header>
+	<article>
 		<div class="s-f lvl-2">
 		<h3>Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen.</h3>
 		<p>
@@ -135,7 +137,7 @@ Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer V
 		<p>
 		</p>
 		</div>		
-		
+	</article>
 	</div>
 
 </div>

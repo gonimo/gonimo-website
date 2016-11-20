@@ -3,11 +3,14 @@ include 'header.php';
 ?>
 <title>Gonimo Team</title>
 <div class="container-fluid s-t lvl-0">
+<main>
 	<div class="container-fluid s-t lvl-1">
 	<img class="img-responsive" src="img/team.jpg" />
 	</div>
 	<div class="container s-t lvl-1">
+	<header>
 	<h2> Team </h2>
+	</header>
 	<h3> unser aufgewecktes, frisch fröhliches Team </h3>
 	<p>
 	Jung, dynamisch, begeistert, fasziniert und so vielseitig wie es nur vorstellbar ist. Hier werden Code, Design und Ideen entwickelt, die bis ins kleinste Detail mit Fantasie, Liebe, Know-How und Durchaltevermögen umgesetzt werden. An den Ergebnissen, die das Team schon vollbracht hat, sieht man den Zusammenhalt und die einzigartige Verbindung. Das sind wir. Das ist Gonimo. 
@@ -95,6 +98,7 @@ include 'header.php';
 		</div>
 	
 	</div>
+</main>
 </div>
 <?php 
 include 'footer.php';
