@@ -49,7 +49,7 @@ include 'header.php';
 		<div class="s-f lvl-2">
 		<h3> Kostet die Benutzung etwas? </h3>
 		<p>
-        Nein!!! Gonimo ist ein ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen.
+        Nein!!! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen.
 		Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href="https://de.wikipedia.org/wiki/Open_Source" title="Wikipedia: Open Source" target="_blank"> &gt hier &lt </a>
 		</p>
 		</div>		
