@@ -399,8 +399,8 @@ include 'header.php';
 			</p>
 			<form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="4XFJNH9YTRP4W">
-			<input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                <input type="hidden" name="hosted_button_id" value="L9NH9QRDE4ZXG">
+			<input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online spenden – mit PayPal.">
 			</form>
 			</div>
 			</div>
