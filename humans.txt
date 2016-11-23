@@ -1,0 +1,13 @@
+Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.
+Zum Beispiel Chrome, Firefox, Microsoft Edge, Opera oder Safari.
+Gonimo wird von einem jungem dynamischen Team entwickelt:
+Robert, Hannes, Martin, Romana, Christian, Aris, Michael, Esther, Christian, Georg und Joy.
+
+Diese Homepage ist von ninjagulbi entwickelt worden und verwendet:
+Bootstrap,
+Glyphicons,
+JQuery
+
+:-)
+
+

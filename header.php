@@ -8,6 +8,7 @@
 	<meta name="author" content="Gonimo/ninjagulbi">
 	<meta name="description" content="Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.">
 	<meta name="keywords" content="Gonimo, Babyphon, Open Source, gratis, zuverlässig, sicher">
+	<meta name="ROBOTS" content="INDEX,FOLLOW">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet"> 

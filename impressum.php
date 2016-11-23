@@ -40,6 +40,11 @@ include 'header.php';
 	Aristoteles Riedmann<br>
 	Michael Klotzner<br>
 	<br>
+	<h4>Diese Homepage nutzt mit grossem Dank</h4>
+	<a href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a><br>
+	<a href="http://glyphicons.com/" target="_blank" title="Glyphicons">Glyphicons</a><br>
+	<a href="https://jquery.com/" target="_blank" title="JQuery">JQuery</a><br>
+	<br>
 	</section>
 	<section class="disclaimer">
 	<header class="disclaimer">
