@@ -4,12 +4,12 @@ include 'header.php';
 if (isset($_GET['msg']) and $_GET['msg'] == "success"){
 	echo ("<SCRIPT>
         window.alert('Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich darum kümmern')
-		window.location.href='index.php'
+		window.location.href='/index.php'
         </SCRIPT>");
 }elseif (isset($_GET['msg']) and $_GET['msg'] == "press"){
 	echo ("<SCRIPT>
         window.alert('Danke für Ihre Anfrage. Wir werden uns so bald wie möglich bei Ihnen melden.')
-		window.location.href='kontakt.php?press=true'
+		window.location.href='/kontakt.php?press=true'
         </SCRIPT>");
 }
 

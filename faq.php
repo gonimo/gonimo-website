@@ -120,7 +120,7 @@ Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer V
 		<div class="s-f lvl-2">
 		<h3> Wer sind meine Schöpfer? </h3>
 		<p>
-		Ein Team junger, motivierter Leute, deren Profile du <a href="team.php" title="Gonimo Team"> &gt hier &lt </a> findest.
+		Ein Team junger, motivierter Leute, deren Profile du <a href="/team.php" title="Gonimo Team"> &gt hier &lt </a> findest.
 		</p>
 		</div>		
 
@@ -133,7 +133,7 @@ Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer V
 		</div>		
 
 		<div class="s-f lvl-2">
-		<h3> Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href="kontakt.php" title="Gonimo Kontakt"> &gt dieses Kontaktformular &lt </a>. Ich freue mich, wenn ich weiter helfen kann.</h3>
+		<h3> Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href="/kontakt.php" title="Gonimo Kontakt"> &gt dieses Kontaktformular &lt </a>. Ich freue mich, wenn ich weiter helfen kann.</h3>
 		<p>
 		</p>
 		</div>		

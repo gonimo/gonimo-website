@@ -4,9 +4,9 @@
 		<div class="row footer lvl-2">
 			<div class="col-xs-12 col-sm-6 footer map-link lvl-3">
 			<nav>
-			<a href="kontakt.php">KONTAKT</a>
-			<a href="impressum.php">IMPRESSUM</a>
-			<a href="kontakt.php?press=true">PRESSE</a>
+			<a href="/kontakt.php">KONTAKT</a>
+			<a href="/impressum.php">IMPRESSUM</a>
+			<a href="/kontakt.php?press=true">PRESSE</a>
 			</nav>
 			</div>
 			<div class="col-xs-12 col-sm-6 footer sm-icon lvl-3">
