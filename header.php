@@ -24,7 +24,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">GONIMO</a>
+      <a class="navbar-brand" href="/index.php">GONIMO</a>
     </div>
   <div class="nav-menu collapse navbar-collapse" id="Navbar">
   <div class="container">
