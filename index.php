@@ -14,7 +14,7 @@ include 'header.php';
 			<a href="https://dev.gonimo.com" role="button"><div class="impact-btn">
 				<p>
 				JETZT STARTEN<br>
-				<span class="version">ALPHA-VERSION 0.7</span>
+				<span class="version">ALPHA-VERSION 0.8</span>
 				</p>
 			</div></a>
 		</div>
@@ -81,7 +81,7 @@ include 'header.php';
 	<a href="https://dev.gonimo.com" role="button"><div class="intro-btn">
 		<p>
 		JETZT STARTEN<br>
-		<span class="version">ALPHA-VERSION 0.7</span>
+		<span class="version">ALPHA-VERSION 0.8</span>
 		</p>
 	</div></a>
 	</div>
