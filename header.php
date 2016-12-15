@@ -9,6 +9,12 @@
 	<meta name="description" content="Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.">
 	<meta name="keywords" content="Gonimo, Babyphon, Open Source, gratis, zuverlässig, sicher">
 	<meta name="ROBOTS" content="INDEX,FOLLOW">
+	<meta property="og:title" content="gonimo" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://gonimo.com/" />
+	<meta property="og:image" content="https://gonimo.com/img/impact.png" />
+	<meta property="og:site_name" content="gonimo" />
+	<meta property="og:description" content="Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst." />
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="/style.css" rel="stylesheet"> 

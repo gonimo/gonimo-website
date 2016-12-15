@@ -22,16 +22,18 @@ include 'header.php';
 	<script>
 	$(window).resize(function(){
 		var width = $(window).width();
-		var source = "img/impact.png";		
+		var source = "img/w-impact-";		
 		
 		if (width <= 360 ){
-			source = "/img/impact-xs.png";
-		}else if(width > 360 && width <= 750 ){
-			source = "/img/impact-sm.png";
-		}else if(width > 750 && width <= 1280){
-			source = "/img/impact-lg.png";
+			source += "xs.png";
+		}else if(width > 360 && width <= 486 ){
+			source += "sm.png";
+		}else if(width > 486 && width <= 768 ){
+			source += "md.png";
+		}else if(width > 768 && width <= 1024 ){
+			source += "lg.png";
 		}else{
-			source = "/img/impact.png";
+			source += "xl.png";
 		}
 		$("#img-impact").attr("src",source);
 	});

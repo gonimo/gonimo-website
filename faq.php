@@ -31,24 +31,14 @@ include 'header.php';
 		</div>		
 		<div class="s-f lvl-2">
 		<h3> Kann ich nicht auch einfach Skype verwenden? </h3>
-		<p>
-    Natürlich kannst du auch Skype als Babyphon verwenden ...
-    <p> Aber Skype ist nun mal ein Telefonieprogramm:
-    <ul>
-      <li> Dein Baby kann nicht abheben, das macht es ein bisschen unpraktisch.
-      Insbesondere wenn die Verbindung abreißt und du dich neu verbinden musst.
-      </li>
-      <li> Wenn du in einem Telefonat ein Standbild bekommst (schlechte
-      Verbindung), wirst du das merken - wenn du ein schlafendes Kind anschaust
-      eher nicht. Deswegen warnt dich Gonimo wenn du ein Standbild siehst.</li>
-      <li> Wenn die Verbindung in einem Telefonat abreißt, wirst du es merken.
-      Wenn du einem schlafenden Kind zuhörst eher nicht, deswegen alarmiert dich
-      Gonimo wenn die Verbindung abreisst.</li>
-      <li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert,
-      während Skype auf die Nutzung als Telefon optimiert ist. Skype ist
-      einfach ein schlechtes Babyphon, genau wie Gonimo ein schlechtes Telefon
-      ist.</li>
-    </ul>
+		<p>Natürlich kannst du auch Skype als Babyphon verwenden ...</p>
+		<p>Aber Skype ist nun mal ein Telefonieprogramm: </p>
+		<ul>
+			<li> Dein Baby kann nicht abheben, das macht es ein bisschen unpraktisch. Insbesondere wenn die Verbindung abreißt und du dich neu verbinden musst.</li>
+			<li> Wenn du in einem Telefonat ein Standbild bekommst (schlechte Verbindung), wirst du das merken - wenn du ein schlafendes Kind anschaust, eher nicht. Deswegen warnt dich Gonimo wenn du ein Standbild siehst.</li>
+			<li> Wenn die Verbindung in einem Telefonat abreißt, wirst du es merken. Wenn du einem schlafenden Kind zuhörst, eher nicht. Deswegen alarmiert dich Gonimo wenn die Verbindung abreisst.</li>
+			<li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert, während Skype auf die Nutzung als Telefon optimiert ist. Skype ist	einfach ein schlechtes Babyphon, genau wie Gonimo ein schlechtes Telefon ist.</li>
+		</ul>
 		</p>
 		</div>
 
