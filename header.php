@@ -6,15 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="application-name" content="Gonimo">
 	<meta name="author" content="Gonimo/ninjagulbi">
-	<meta name="description" content="Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.">
-	<meta name="keywords" content="Gonimo, Babyphon, Open Source, gratis, zuverlässig, sicher">
+	<meta name="description" content="Good Night Monitor - das erste kostenlose, web-basierte Babyphon. KEINE App-Installation! Web-Browser öffnen und loslegen. Das Familien-System ermöglicht Multi-Baby und Multi-Parent von Beginn an. Already in your pocket!">
+	<meta name="keywords" content="babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling">
 	<meta name="ROBOTS" content="INDEX,FOLLOW">
 	<meta property="og:title" content="gonimo" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://gonimo.com/" />
 	<meta property="og:image" content="https://gonimo.com/img/impact.png" />
 	<meta property="og:site_name" content="gonimo" />
-	<meta property="og:description" content="Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst." />
+	<meta property="og:description" content="Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyphon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)" />
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="/style.css" rel="stylesheet"> 
