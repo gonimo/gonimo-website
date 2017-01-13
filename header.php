@@ -41,17 +41,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/index.php">GONIMO</a>
+      <a class="navbar-brand" href="/index.php" title="Home">GONIMO</a>
     </div>
   <div class="nav-menu collapse navbar-collapse" id="Navbar">
   <div class="container">
     <ul class="nav nav-justified">
-      <li><a href="/index.php">HOME</a></li>
-      <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar">VORTEILE</a></li>
-      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar">FUNKTIONEN</a></li>
-      <li><a href="/team.php">TEAM</a></li>
-	  <li><a href="/faq.php">FAQ</a></li>
-	  <li><a href="https://blog.gonimo.com" target="_blank">BLOG</a></li>
+      <li><a href="/index.php" title="Home">HOME</a></li>
+      <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="Vorteile">VORTEILE</a></li>
+      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="Funktionen">FUNKTIONEN</a></li>
+      <li><a href="/team.php" title="Team">TEAM</a></li>
+	  <li><a href="/faq.php" title="F.A.Q">FAQ</a></li>
+	  <li><a href="https://blog.gonimo.com" target="_blank" title="Blog">BLOG</a></li>
     </ul>
 	</div>
   </div>

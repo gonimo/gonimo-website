@@ -11,7 +11,7 @@ include 'header.php';
 		Schütze das Wertvolle im Leben.
 		</h2>
 		<div class="impact lvl-3">
-			<a href="https://dev.gonimo.com" role="button"><div class="impact-btn">
+			<a href="https://dev.gonimo.com" role="button" title="App starten" ><div class="impact-btn">
 				<p>
 				JETZT STARTEN<br>
 				<span class="version">ALPHA-VERSION 0.9</span>
@@ -80,7 +80,7 @@ include 'header.php';
 	</div>
 	<div class="row intro lvl-3">
 	<div class="col-xs-12 intro lvl-4">
-	<a href="https://dev.gonimo.com" role="button"><div class="intro-btn">
+	<a href="https://dev.gonimo.com" role="button" title="App starten"><div class="intro-btn">
 		<p>
 		JETZT STARTEN<br>
 		<span class="version">ALPHA-VERSION 0.9</span>
@@ -376,7 +376,7 @@ include 'header.php';
 
 	<div class="container team lvl-2">
 		<div class="team lvl-3">
-			<p class="team-btn"><a href="/team.php">
+			<p class="team-btn"><a href="/team.php"  title="Team">
 				ÜBER UNS
 			</p></a>
 		</div>
@@ -399,14 +399,14 @@ include 'header.php';
 			<br>
 			Vielen Dank für deine Unterstützung!
 			</p>
-			<form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+			<form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" role="link">
 			<input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="L9NH9QRDE4ZXG">
 			<input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online spenden – mit PayPal.">
 			</form>
 			</div>
 			</div>
-			<a href="/kontakt.php">
+			<a href="/kontakt.php" title="Kontakt">
 			<div class="col-xs-12 col-sm-6 help lvl-4">
 			<div class="help lvl-5">
 			<img class="img-responsive" src="/img/ico/helfen/feedback.svg" alt="Zwei Sprechblasen"/>
