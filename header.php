@@ -1,4 +1,7 @@
 <!doctype html>
+<?php 
+require_once 'lang/locals.php';
+?>
 <html>
 <head>
 <meta charset="utf-8">
@@ -20,7 +23,7 @@
     <link href="/style.css" rel="stylesheet"> 
 	<script src="/bootstrap/jquery.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/bootstrap/js/snowstorm-min.js"></script>
+<!--	<script src="/bootstrap/js/snowstorm-min.js"></script>
 	<script>
 	snowStorm.flakesMax = 100;
 	snowStorm.flakesMaxActive = 75;
@@ -30,7 +33,7 @@
 	snowStorm.vMaxY = 5;
 	snowStorm.snowStick = false;
 	snowStorm.useMeltEffect = false;
-	</script>
+	</script> -->
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -39,20 +42,27 @@
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <spans class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/index.php" title="Home">GONIMO</a>
     </div>
   <div class="nav-menu collapse navbar-collapse" id="Navbar">
   <div class="container">
     <ul class="nav nav-justified">
-      <li><a href="/index.php" title="Home">HOME</a></li>
-      <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="Vorteile">VORTEILE</a></li>
-      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="Funktionen">FUNKTIONEN</a></li>
-      <li><a href="/team.php" title="Team">TEAM</a></li>
-	  <li><a href="/faq.php" title="F.A.Q">FAQ</a></li>
-	  <li><a href="https://blog.gonimo.com" target="_blank" title="Blog">BLOG</a></li>
-    </ul>
+      <li><a href="/index.php" title="<?php echo $m[0]; ?>"><?php echo $m[0]; ?> </a></li>
+      <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[1]; ?>"><?php echo $m[1]; ?></a></li>
+      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?></a></li>
+      <li><a href="/team.php" title="<?php echo $m[3]; ?>"><?php echo $m[3]; ?></a></li>
+	  <li><a href="/faq.php" title="<?php echo $m[4]; ?>"><?php echo $m[4]; ?></a></li>
+	  <li><a href="https://blog.gonimo.com" target="_blank" title="<?php echo $m[5]; ?>"><?php echo $m[5]; ?></a></li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-flag"></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu lang">
+            <li><a href="?lang=de"><img class="lang" src="/lang/de.svg">Deutsch</a></li>
+            <li><a href="?lang=en"><img class="lang" src="/lang/en.svg">English</a></li>
+          </ul>
+        </li>
+	</ul>
 	</div>
   </div>
   </div>

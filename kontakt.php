@@ -3,12 +3,12 @@ include 'header.php';
 
 if (isset($_GET['msg']) and $_GET['msg'] == "success"){
 	echo ("<SCRIPT>
-        window.alert('Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich darum kümmern')
+        window.alert('".$k[0]."')
 		window.location.href='/index.php'
         </SCRIPT>");
 }elseif (isset($_GET['msg']) and $_GET['msg'] == "press"){
 	echo ("<SCRIPT>
-        window.alert('Danke für Ihre Anfrage. Wir werden uns so bald wie möglich bei Ihnen melden.')
+        window.alert('".$k[1]."')
 		window.location.href='/kontakt.php?press=true'
         </SCRIPT>");
 }
@@ -73,55 +73,49 @@ function contactmail($name, $mail, $subject, $press, $message){
 }
 
 ?>
-<title>Gonimo Kontakt</title>
+<title>Gonimo <?php echo $k[2]; ?></title>
 <div class="container-fluid s-k lvl-0">
 	<div class="container s-k lvl-1">
 	<header class="contact">
-	<h1><?php if ($press==true){echo("PRESSE-ANFRAGE:");}else{echo("Kontakt");} ?></h1>
+	<h1><?php if ($press==true){echo $k[3];}else{echo $k[2];} ?></h1>
 	<p>
 	<?php 
 	if ($press==true){
-		echo("Bitte stellen sie uns Ihre Presse-Anfrage über das untenstehende Formular");
+		echo $k[4];
 		}else{
-		echo("Stell uns eine Frage, <br>
-			Teile uns deine Gedanken mit, <br>
-			Gib uns Feedback, <br>
-			<br>
-			Schreib uns eine Nachricht ! <br>
-			<br>
-			aber bitte benutze dazu dieses Formular:<br>");
+		echo $k[5];
 		} ?>
 	</header>
 	<section class="contact">
 	<div class="container s-k s-k-form">
 		<form action="" method="POST" name="contact-form" id="contact-form" role="form">
 		<div class="form-group">
-		<label for="name">Name *</label>
-		<input id="name" name="name" type="text" required class="form-control" placeholder="Name">
+		<label for="name"><?php echo $k[6]; ?> *</label>
+		<input id="name" name="name" type="text" required class="form-control" placeholder="<?php echo $k[6]; ?>">
 		</div>
 		<div class="form-group">
-		<label for="mail">Mail *</label>
-		<input id="mail" name="mail" type="text" required class="form-control" placeholder="Ihre Mail-Adresse">
+		<label for="mail"><?php echo $k[7]; ?> *</label>
+		<input id="mail" name="mail" type="text" required class="form-control" placeholder="<?php echo $k[8]; ?>">
 		</div>
 		<div class="form-group">
-		<label for="subject">Betreff *</label>
-		<input id="subject" name="subject" type="text" required class="form-control" placeholder="Betreff" value=<?php if ($press==true){echo("PRESSE-ANFRAGE: ");} ?>>
+		<label for="subject"><?php echo $k[9]; ?> *</label>
+		<input id="subject" name="subject" type="text" required class="form-control" placeholder="<?php echo $k[9]; ?>" value=<?php if ($press==true){echo($k[3]);} ?>>
 		</div>
 		<div class="form-group">
-		<label for="message">Nachricht *</label>
-		<textarea id="message" name="message" required class="form-control" maxlength="2000" rows="4" cols="40" placeholder="Ihre Nachricht"></textarea>
+		<label for="message"><?php echo $k[10]; ?> *</label>
+		<textarea id="message" name="message" required class="form-control" maxlength="2000" rows="4" cols="40" placeholder="<?php echo $k[11]; ?>"></textarea>
 		</div>
 		<?php
 		if ($press==true){
 			echo("
 		<div class='form-group'>
-		<label for='media'>Bitte geben Sie Ihr Medium an, damit Ihre Anfrage richtig zugeordnet werden kann *</label>
+		<label for='media'>".$k[12]." *</label>
 		<input id='media' name='media' type='text' required class='form-control' placeholder='Medium'>
 		</div>");
 		}
 		?>
 		<input class="url" type="text" name="url" placeholder="url" maxlength="30" size="30">
-		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> Senden </button>
+		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $k[13]; ?> </button>
 		</form>
 	</div>
 	</section>

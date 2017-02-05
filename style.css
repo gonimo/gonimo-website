@@ -114,6 +114,18 @@ html, body{
 	min-height:0;
 	border:0;
 }
+img.lang{
+	display:inline;
+	max-width:25px;
+}
+ul.lang{
+	border:none;
+	border-radius:0px;
+	box-shadow:none;
+	background-color:rgba(230,202,212,0.7);
+	min-width:100%;
+	text-align:center;
+}
 /* IMPACT */
 .impact h2{
 	font-size:300%;
