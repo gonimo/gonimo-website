@@ -126,6 +126,12 @@ ul.lang{
 	min-width:100%;
 	text-align:center;
 }
+.navbar-collapse{
+	max-height: none !important;
+}
+.navbar-collapse.in{
+	overflow-y: unset !important;
+}
 /* IMPACT */
 .impact h2{
 	font-size:300%;
