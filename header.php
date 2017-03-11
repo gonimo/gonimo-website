@@ -23,8 +23,8 @@ require_once 'lang/locals.php';
     <link href="/style.css" rel="stylesheet"> 
 	<script src="/bootstrap/jquery.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/bootstrap/js/snowstorm-min.js"></script>
-	<!-- <script>
+	<!--<script src="/bootstrap/js/snowstorm-min.js"></script>
+	 <script>
 	snowStorm.flakesMax = 100;
 	snowStorm.flakesMaxActive = 75;
 	snowStorm.followMouse = false;

@@ -32,9 +32,10 @@ require_once 'header.php';
 			source += "md.png";
 		}else if(width > 768 && width <= 1024 ){
 			source += "lg.png";
-		}else{
-			source += "xl.png";
-		}
+        }
+		// }else{ // We don't have an xl version.
+		// 	source += "xl.png";
+		// }
 		$("#img-impact").attr("src",source);
 	});
 	</script> 

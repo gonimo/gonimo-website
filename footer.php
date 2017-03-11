@@ -18,7 +18,7 @@
 			</nav>
 			</div>
 			<div class="col-xs-12 footer logo lvl-3">
-			<img class="img-responsive" src="/img/w-logo-footer.svg" alt="Gonimo Logo"/>
+			<img class="img-responsive" src="/img/logo-footer.svg" alt="Gonimo Logo"/>
 			</div>
 			<div class="col-xs-12 footer copyright lvl-3">
 			<p>
