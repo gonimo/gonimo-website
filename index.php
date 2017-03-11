@@ -22,7 +22,7 @@ require_once 'header.php';
 	<script>
 	$(window).resize(function(){
 		var width = $(window).width();
-		var source = "img/w-impact-";		
+		var source = "img/impact-";		
 		
 		if (width <= 360 ){
 			source += "xs.png";
