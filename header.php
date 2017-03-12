@@ -12,6 +12,12 @@ require_once 'lang/locals.php';
 	<meta name="description" content="Good Night Monitor - das erste kostenlose, web-basierte Babyphon. KEINE App-Installation! Web-Browser öffnen und loslegen. Das Familien-System ermöglicht Multi-Baby und Multi-Parent von Beginn an. Already in your pocket!">
 	<meta name="keywords" content="babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling">
 	<meta name="ROBOTS" content="INDEX,FOLLOW">
+	<meta name="theme-color" content="#E6CAD4">
+	<meta name="msapplication-navbutton-color" content="#E6CAD4">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#E6CAD4">
+	<meta name="msapplication-navbutton-color" content="#E6CAD4">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta property="og:title" content="gonimo" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://gonimo.com/" />
