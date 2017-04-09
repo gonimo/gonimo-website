@@ -11,7 +11,7 @@ require_once 'header.php';
 		<?php echo $i_i[0]; ?>
 		</h2>
 		<div class="impact lvl-3">
-			<a href="https://dev.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" ><div class="impact-btn">
+			<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" ><div class="impact-btn">
 				<p>
 				<?php echo $i_i[2]; ?><br>
 				<span class="version"><?php echo $i_i[3]; ?></span>
@@ -78,7 +78,7 @@ require_once 'header.php';
 	</div>
 	<div class="row intro lvl-3">
 	<div class="col-xs-12 intro lvl-4">
-	<a href="https://dev.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>"><div class="intro-btn">
+	<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>"><div class="intro-btn">
 		<p>
 		<?php echo $i_i[2]; ?><br>
 		<span class="version"><?php echo $i_i[3]; ?></span>
