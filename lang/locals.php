@@ -19,7 +19,7 @@ switch (substr($_SESSION["lang"],0,2)){
 		include_once 'lang/en.php';
 		break;
 	default:
-		include_once 'lang/de.php';
+		include_once 'lang/en.php';
 	}
 
 ?>
