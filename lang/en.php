@@ -14,7 +14,7 @@ $i_f = ["Features","LIVE PLAY-icon","LIVE STREAM","Follow each second live in ca
 
 $i_t = ["Gonimo team photo","the team","ABOUT US"];
 
-$i_h = ["How can you help us?","a piggy bank","Donate","With your donation, you support our open source project so we can develop it further and make it even better.<br><br>Thank you so much for your support!","Donate online now - it's easy, safe and quick with PayPal.","Get in touch","two speech bubbles","Feedback","We are happy to receive any feedback that will help us improve Gonimo."];
+$i_h = ["How can you help us?","a piggy bank","Donate","With your donation, you support our open source project so we can develop it further and make it even better.<br><br>Thank you so much for your support!","Donate online now - it's easy, secure and quick with PayPal.","Get in touch","two speech bubbles","Feedback","We are happy to receive any feedback that will help us improve Gonimo."];
 
 $i_p = ["With the friendly assistance of netidee.at"];
 
