@@ -16,7 +16,7 @@ $i_i = [ "Schütze das Wertvolle im Leben."
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"
        , "Gonimo das Babyphon – Immer mit dabei."
-       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. An der Kompatibilität mit Firefox, Microsoft Edge, Opera und Safari wird fleißig gearbeitet.<br>Über 
+       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Microsoft Edge, Opera und Safari wird fleißig gearbeitet.<br>Über 
    Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
 
@@ -119,17 +119,17 @@ $f = [ "F.A.Q"
      , "Frequently Asked Questions"
      , "Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen."
      , "Was bin ich? "
-     , "Ich bin ein kostenloser Babymonitor, der auf jedem Gerät verwendet werden kann, das ein Mikrofon und/oder eine Kamera besitzt und einen der folgenden Browser installiert hat: Chrome, Firefox, Microsoft Edge, Opera oder Safari."
+     , "Ich bin ein kostenloser Babymonitor, der auf jedem Gerät verwendet werden kann, welches einen aktuellen Chrome Browser installiert hat."
      , "Was unterscheidet mich von anderen Babymonitoren?"
      , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt."
+     , "Was brauchst du, um mich verwenden zu können?" 'siehe Punkt 129 u. 130 unten entfällt
+     , "Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen aktuellen Chrome Browser installiert hat. Bei längerer Verwendung ist sicher zu stellen, dass alle Geräte mit ausreichend Strom versorgt sind."
+     , "Kostet die Benutzung etwas?" ``siehe Punkt 131 u. 132 unten entfällt. 
+     , "Nein!!! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen. Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt hier &lt </a>"                                                                                                           
      , "Kann ich nicht auch einfach Skype verwenden?"
      , "Natürlich kannst du auch Skype als Babyphon verwenden ...</p><p>Aber Skype ist nun mal ein Telefonieprogramm: </p><ul><li> Dein Baby kann nicht abheben, das macht es ein bisschen unpraktisch. Insbesondere wenn die Verbindung abreißt und du dich neu verbinden musst.</li><li> Wenn du in einem Telefonat ein Standbild bekommst (schlechte Verbindung), wirst du das merken - wenn du ein schlafendes Kind anschaust, eher nicht. Deswegen warnt dich Gonimo wenn du ein Standbild siehst.</li><li> Wenn die Verbindung in einem Telefonat abreißt, wirst du es merken. Wenn du einem schlafenden Kind zuhörst, eher nicht. Deswegen alarmiert dich Gonimo wenn die Verbindung abreisst.</li><li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert, während Skype auf die Nutzung als Telefon optimiert ist. Skype ist"
      , "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
      , "Wenn die Babystation einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Somit auch nicht höher, als die Belastung, wenn Facebook und Co. pausenlos Informationen aus dem Internet abfragen, oder du über deine Bluetooth-Köpfhörer Musik hörst."
-     , "Was brauchst du, um mich verwenden zu können?"
-     , "Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen der folgenden Browser installiert hat: Chrome, Firefox, Microsoft Edge, Opera oder Safari. Je nach Dauer und Art der Benutzung wird es irgendwann notwendig sein, eine Stromquelle zu Rate zu ziehen. Wenn du ausschließlich Audio verwendest, kommst du leicht ohne Laden des Akkus durch die Nacht."
-     , "Kostet die Benutzung etwas?"
-     , "Nein!!! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen. Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt hier &lt </a>"
      , "Wieso wird es eine zusätzliche kostenpflichtige App geben?"
      , "Die geplante kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind, weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann."
      , "Wie hoch ist der mobile Datenverbrauch von mir?"
