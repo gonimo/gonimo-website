@@ -16,7 +16,7 @@ $i_i = [ "Schütze das Wertvolle im Leben."
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"
        , "Gonimo das Babyphon – Immer mit dabei."
-       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am Besten mit Chrome. An der Kompatibilität mit Firefox, Microsoft Edge, Opera oder Safari wird fleißig gearbeitet.<br>Über 
+       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. An der Kompatibilität mit Firefox, Microsoft Edge, Opera und Safari wird fleißig gearbeitet.<br>Über 
    Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
 
