@@ -16,15 +16,15 @@ $i_i = [ "Schütze das Wertvolle im Leben."
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"
        , "Gonimo das Babyphon – Immer mit dabei."
-       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Microsoft Edge, Opera und Safari wird fleißig gearbeitet.<br>Über 
+       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Microsoft Edge, Opera und Safari wird fleißig gearbeitet.<br>Über
    Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
        , " 1. ADD DEVICE "
        , "Füge mindestens ein zweites Gerät zu deiner 'Familie' hinzu, indem du eine Einladung per Mail, Whatsapp oder Telegram verschickst. "
-       , "Drücke auf einem der Geräte START BABYSTATION."
-       , " 2. START BABYSTATION "
+       , "Drücke auf einem der Geräte START BABYPHON."
+       , " 2. START BABYPHON "
        , " Wenn auf dem eingeladenen Gerät die Anfrage akzeptiert wurde, machst du eines der Geräte zur Babystation. Dazu wählst du im Menü den Punkt 'Baby Station' aus. "
        , "Drücke auf dem anderen Gerät CONNECT TO BABY."
        , " 3. CONNECT TO BABY "
@@ -122,10 +122,10 @@ $f = [ "F.A.Q"
      , "Ich bin ein kostenloser Babymonitor, der auf jedem Gerät verwendet werden kann, welches einen aktuellen Chrome Browser installiert hat."
      , "Was unterscheidet mich von anderen Babymonitoren?"
      , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt."
-     , "Was brauchst du, um mich verwenden zu können?" 
+     , "Was brauchst du, um mich verwenden zu können?"
      , "Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen aktuellen Chrome Browser installiert hat. Bei längerer Verwendung ist sicher zu stellen, dass alle Geräte mit ausreichend Strom versorgt sind."
-     , "Kostet die Benutzung etwas?"  
-     , "Nein!!! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen. Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt hier &lt </a>"                                                                                                           
+     , "Kostet die Benutzung etwas?"
+     , "Nein!!! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und kostenlos zugänglich zu machen. Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt hier &lt </a>"
      , "Kann ich nicht auch einfach Skype verwenden?"
      , "Natürlich kannst du auch Skype als Babyphon verwenden ...</p><p>Aber Skype ist nun mal ein Telefonieprogramm: </p><ul><li> Dein Baby kann nicht abheben, das macht es ein bisschen unpraktisch. Insbesondere wenn die Verbindung abreißt und du dich neu verbinden musst.</li><li> Wenn du in einem Telefonat ein Standbild bekommst (schlechte Verbindung), wirst du das merken - wenn du ein schlafendes Kind anschaust, eher nicht. Deswegen warnt dich Gonimo wenn du ein Standbild siehst.</li><li> Wenn die Verbindung in einem Telefonat abreißt, wirst du es merken. Wenn du einem schlafenden Kind zuhörst, eher nicht. Deswegen alarmiert dich Gonimo wenn die Verbindung abreisst.</li><li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert, während Skype auf die Nutzung als Telefon optimiert ist. Skype ist"
      , "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
@@ -152,7 +152,7 @@ $f = [ "F.A.Q"
      , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. "
      , "Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a>. Ich freue mich, wenn ich weiter helfen kann."
      ];
-	 
+
 $faq = [
 		["Kategorie1"
 			,["FrageA","AntwortA"]
