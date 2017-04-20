@@ -1,188 +1,107 @@
 <?php
 require_once 'header.php';
 ?>
-
-<title>Gonimo-Team</title>
-<div class="container">
-<div class="row">
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Robert.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Robert
-		</p>
+<title>Gonimo Team</title>
+<div class="container-fluid s-t lvl-0">
+<main>
+	<div class="container-fluid s-t lvl-1">
+	<img class="img-responsive" src="/img/team.jpg" />
+	</div>
+	<div class="container s-t lvl-1">
+	<header>
+	<h2><?php echo $t[0]; ?></h2>
+	</header>
+	<h3><?php echo $t[1]; ?></h3>
+	<p>
+	<?php echo $t[2]; ?>
+	</p>
+	
+		<div class="row s-t lvl-2">
+	
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/robert.jpg" class="img-responsive img-portrait" alt="Robert" />
+			<h4 class="name">Robert</h4>
+			<h4 class="job"><?php echo $t[3]; ?></h4>
+            <p class="comment"><?php echo $t[4]; ?></p>
+            </div>
+			
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/hannes.jpg" class="img-responsive img-portrait" alt="Hannes" />
+			<h4 class="name">Hannes</h4>
+			<h4 class="job"><?php echo $t[5]; ?></h4>
+			<p class="comment"><?php echo $t[6]; ?></p>
+			</div>
+			
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/martin.jpg" class="img-responsive img-portrait" alt="Martin" />
+			<h4 class="name">Martin</h4>
+			<h4 class="job"><?php echo $t[7]; ?></h4>
+			<p class="comment"><?php echo $t[8]; ?></p>
+			</div>
+			<div class="clearfix visible-md-block"></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/romana.jpg" class="img-responsive img-portrait" alt="Romana" />
+			<h4 class="name">Romana</h4>
+			<h4 class="job"><?php echo $t[9]; ?></h4>
+			<p class="comment"><?php echo $t[10]; ?></p>
+			</div>
+			<div class="clearfix visible-lg-block"></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/christian.jpg" class="img-responsive img-portrait" alt="Christian" />
+			<h4 class="name">Christian</h4>
+			<h4 class="job"><?php echo $t[11]; ?></h4>
+			<p class="comment"><?php echo $t[12]; ?></p>
+			</div>
+			
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/aris.jpg" class="img-responsive img-portrait" alt="Aris" />
+			<h4 class="name">Aris</h4>
+			<h4 class="job"><?php echo $t[13]; ?></h4>
+			<p class="comment"><?php echo $t[14]; ?></p>
+			</div>
+			<div class="clearfix visible-md-block"></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/michi.jpg" class="img-responsive img-portrait" alt="Michael" />
+			<h4 class="name">Michael</h4>
+			<h4 class="job"><?php echo $t[13]; ?></h4>
+			<p class="comment"><?php echo $t[15]; ?></p>
+			</div>
+			
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/esther.jpg" class="img-responsive img-portrait" alt="Esther" />
+			<h4 class="name">Esther</h4>
+			<h4 class="job"><?php echo $t[16]; ?></h4>
+			<p class="comment"><?php echo $t[17]; ?></p>
+			</div>
+			<div class="clearfix visible-lg-block"></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/no-foto.jpg" class="img-responsive img-portrait" alt="Christian" />
+			<h4 class="name">Christian</h4>
+			<h4 class="job"><?php echo $t[18]; ?></h4>
+			<p class="comment"><?php echo $t[19]; ?></p>
+			</div>
+			<div class="clearfix visible-md-block"></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/joy.jpg" class="img-responsive img-portrait" alt="Joy" />
+			<h4 class="name">Joy</h4>
+			<h4 class="job"><?php echo $t[20]; ?></h4>
+			<p class="comment"><?php echo $t[21]; ?></p>
+			</div>
+			
+			<div class="col-lg-3 col-md-4 col-sm-6 s-t lvl-3">
+			<img src="/img/team/no-foto.jpg" class="img-responsive img-portrait" alt="Georg" />
+			<h4 class="name">Georg</h4>
+			<h4 class="job"><?php echo $t[22]; ?></h4>
+			<p class="comment"><?php echo $t[23]; ?></p>
+			</div>
+			
 		</div>
+	
 	</div>
-	<div>
-		<span class="team-job">The Boss</span><br>
-		<br>
-		<span class="team-slogan">Codet bis es passt</span>
-	</div>
+</main>
 </div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Hannes.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Hannes
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Marketing</span><br>
-		<br>
-		<span class="team-slogan">Suchst du was? Brauchst du was?</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Martin.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Martin
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Programmierung</span><br>
-		<br>
-		<span class="team-slogan">Weils vom Boss doch nicht immer passt</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Romana.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Romana
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Grafikdesign</span><br>
-		<br>
-		<span class="team-slogan">Wenn ich fotos retuschier schaut jeder spitze aus</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Christian.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Chris
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Texter</span><br>
-		<br>
-		<span class="team-slogan">Danke AutoKorrektur!</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Aris.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Aristoteles
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Webdesign</span><br>
-		<br>
-		<span class="team-slogan">Das ist auch ein Beruf!</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Michi.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Michael
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Webdesign</span><br>
-		<br>
-		<span class="team-slogan">The Good, The Bad and The Blög</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/Esther.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Esther
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Social Media / PR</span><br>
-		<br>
-		<span class="team-slogan">Gefällt mir!</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/no-foto.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Christian
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Fotograf</span><br>
-		<br>
-		<span class="team-slogan">Bild fehlt...</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/joy.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Joy
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Maskottchen</span><br>
-		<br>
-		<span class="team-slogan">Miau (!?)</span>
-	</div>
-</div>
-
-<div class="team-portrait col-lg-4 col-md-6">
-	<div class="test-portrait">
-		<img src="img/no-foto.jpg" class="img-responsive img-portrait">
-		<div class="team-name-test">
-		<p class="team-name">
-		Georg
-		</p>
-		</div>
-	</div>
-	<div>
-		<span class="team-job">Security</span><br>
-		<br>
-		<span class="team-slogan">Du kummst da net rein!</span>
-	</div>
-</div>
-
-</div>
-</div>
-
-<?php include 'footer.php'; ?>
+<?php 
+include 'footer.php';
+?>
+</body>
+</html>
