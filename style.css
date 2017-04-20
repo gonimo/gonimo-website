@@ -610,6 +610,11 @@ img.intro-img{
 .s-f a{
 	font-weight:bold;
 }
+.s-f.category{
+	font-weight:bolder;
+	letter-spacing:0.1em;
+	text-decoration:underline;
+}
 /* IMPRESSUM (I) */
 .s-i.lvl-0{
 	background: rgb(220,220,220);

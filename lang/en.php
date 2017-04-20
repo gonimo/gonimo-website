@@ -151,6 +151,9 @@ $f = [ "F.A.Q."
      , "gomimo.com is an open-source-project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used unter the conditions stated."
      , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
      ];
+	 
+$f_c = [ "example category: "
+	];
 
 $i = [ "Site notice"
      , "Publishers responsible for this website"

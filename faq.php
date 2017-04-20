@@ -9,6 +9,10 @@ require_once 'header.php';
 	<h2><?php echo $f[1]; ?></h2>
 	</header>
 	<article>
+		<div class="s-f lvl-2"> <!-- copy this div for categories -->
+		<h3 class="s-f category"><?php echo $f_c[0]; ?></h3>
+		</div>
+	
 		<div class="s-f lvl-2">
 		<h3><?php echo $f[2]; ?></h3>
 		<p>

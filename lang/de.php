@@ -152,6 +152,9 @@ $f = [ "F.A.Q"
      , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. "
      , "Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a>. Ich freue mich, wenn ich weiter helfen kann."
      ];
+	 
+$f_c = [ "Beispielkategorie: "
+	];
 
 $i = [ "Impressum"
      , "Für diese Website verantwortliche Herausgeber"
