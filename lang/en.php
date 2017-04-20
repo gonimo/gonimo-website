@@ -152,6 +152,18 @@ $f = [ "F.A.Q."
      , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
      ];
 	 
+$faq = [
+		["Category1"
+			,["QuestionA","AnswerA"]
+			,["QuestionB","AnswerB"]
+		],
+		["Kategorie2"
+		,["QuestionC","AnswerC"]
+		,["QuestionD","AnswerD"]
+		,["QuestionE","AnswerE"]
+		]
+];
+	 
 $f_c = [ "example category: "
 	];
 

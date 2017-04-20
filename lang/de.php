@@ -153,8 +153,17 @@ $f = [ "F.A.Q"
      , "Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a>. Ich freue mich, wenn ich weiter helfen kann."
      ];
 	 
-$f_c = [ "Beispielkategorie: "
-	];
+$faq = [
+		["Kategorie1"
+			,["FrageA","AntwortA"]
+			,["FrageB","AntwortB"]
+		],
+		["Kategorie2"
+		,["FrageC","AntwortC"]
+		,["FrageD","AntwortD"]
+		,["FrageE","AntwortE"]
+		]
+];
 
 $i = [ "Impressum"
      , "Für diese Website verantwortliche Herausgeber"
