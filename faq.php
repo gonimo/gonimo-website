@@ -18,12 +18,18 @@ require_once 'header.php';
 		
 	<?php
 	foreach ($faq as $cat){
-		echo "<div class='s-f lvl-2'><h3 class='s-f category'>".$cat[0]."</h3></div>";
+		echo "<div class='s-f lvl-2 panel-group'>
+			<a data-toggle='collapse' href='#".$cat[0]."'>
+			<div class='s-f lvl-2 panel-head'><h3 class='s-f category'>".$cat[0]."</h3></div>
+			</a>
+			<div class='panel-collapse collapse s-f' id='".$cat[0]."'>
+			<div class='panel-body'>";
 		for ($counter = 1; $counter < count($cat); $counter++){
 			echo "<div class='s-f lvl-2'>
 			<h3>".$cat[$counter][0]."</h3>
 			<p>".$cat[$counter][1]."</p></div>";
 			}
+		echo "</div></div></div>";
 		}
 	?>	
 	</article>
@@ -35,3 +41,16 @@ include 'footer.php';
 ?>
 </body>
 </html>
+
+<div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>

@@ -614,6 +614,15 @@ img.intro-img{
 	font-weight:bolder;
 	letter-spacing:0.1em;
 	text-decoration:underline;
+	padding:1%;
+	background:rgb(230,202,212);
+	margin:0;
+}
+.s-f.panel-group{
+	border:solid 4px rgb(230,202,212);
+}
+.s-f.panel-head{
+	margin:0;
 }
 /* IMPRESSUM (I) */
 .s-i.lvl-0{
