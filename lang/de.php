@@ -115,7 +115,7 @@ $t = [ "Team"
      , "Du kummst da net rein!"
      ];
 
-$f = [ "F.A.Q"
+$f = [ "FAQ"
      , "Frequently Asked Questions"
      , "Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen."
      , "Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a>. Ich freue mich, wenn ich weiter helfen kann."
