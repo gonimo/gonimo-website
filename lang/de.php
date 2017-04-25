@@ -118,7 +118,7 @@ $t = [ "Team"
 $f = [ "FAQ"
      , "Frequently Asked Questions"
      , "Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen."
-     , "Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a> oder besuche uns auf <a href='https://www.facebook.com/mygonimo/?fref=ts>Facebook</a>. Ich freue mich, wenn ich weiter helfen kann."
+     , "Solltest deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a> oder besuche uns auf <a href='https://www.facebook.com/mygonimo/?fref=ts'>Facebook</a>. Ich freue mich, wenn ich weiter helfen kann."
      ];
 
 $faq = [
@@ -139,7 +139,7 @@ $faq = [
       ,["Werden meine Daten gespeichert oder an Dritte weitergegeben?","Es werden bei mir nur die Daten gespeichert, die notwendig sind, um eine die Funktion zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben und können auf deinen konkreten Wunsch hin auch jederzeit von den Servern gelöscht werden (Formular). Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."]
     ],
     ["Technisch"
-      ,["Warum funktioniere ich auf dem iOS Chrome Browser nicht?","Auf Apple Geräten müssen alle Browser mit der Safarie Engine arbeiten, diese unterstützt WebRTC (noch) nicht und somit muss ich noch warten bis ich auch auf einem iOS Gerät funktioniere. Halte dich <a href='https://www.facebook.com/mygonimo/?fref=ts>hier über Facebook</a> am laufenden."]
+      ,["Warum funktioniere ich auf dem iOS Chrome Browser nicht?","Auf Apple Geräten müssen alle Browser mit der Safarie Engine arbeiten, diese unterstützt WebRTC (noch) nicht und somit muss ich noch warten bis ich auch auf einem iOS Gerät funktioniere. Halte dich <a href='https://www.facebook.com/mygonimo/?fref=ts'>hier über Facebook</a> am laufenden."]
       ,["Wie hoch ist der mobile Datenverbrauch von mir?","Befinden sich beide Geräte in einem WLAN Netzwerk, so wird gar kein mobiles Datenvolumen benötigt. Wenn ich nur mit Audio benutzt werde, ist die Übertragunsrate sehr gering. Bei gleichzeitigem Audio- und Videostreaming kann (je nach Qualität der Verbindung) wesentlich mehr Datenvolumen anfallen. Empfehlenswert ist, dies ein wenig im Auge zu behalten."]
       ,["Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?","Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Somit auch nicht höher, als die Belastung, wenn Facebook und Co. pausenlos Informationen aus dem Internet abfragen, oder du über deine Bluetooth-Köpfhörer Musik hörst."]
       ,["Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?","Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden."]
