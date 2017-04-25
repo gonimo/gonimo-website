@@ -31,7 +31,7 @@ $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
        , " Super! Jetzt brauchst du nur noch auf dem Elterngerät auf 'verbinden (connect)' klicken und du hast erfolgreich eine sichere Verbindung zu deinem Kind aufgebaut. "
        , "Erweitere deine Gonimo Family"
        , "Baby/Eltern-Station funktioniert mit einer Vielzahl an Geräten"
-       , "Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt. Du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Eltergerät oder Babystation zu verwenden."
+       , "Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt. Du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Elterngerät oder Babystation zu verwenden."
        ];
 
 $i_b = [ "Vorteile von Gonimo"
