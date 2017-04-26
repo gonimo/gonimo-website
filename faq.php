@@ -32,9 +32,14 @@ require_once 'header.php';
 		echo "</div></div></div>";
 		}
 	?>	
+
+		<div class="s-f lvl-2">
+		<h3><?php echo $f[3]; ?></h3>
+		<p>
+		</p>
+		</div>
 	</article>
 	</div>
-
 </div>
 <?php 
 include 'footer.php';
