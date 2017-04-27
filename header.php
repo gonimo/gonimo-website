@@ -29,17 +29,8 @@ require_once 'lang/locals.php';
     <link href="/style.css" rel="stylesheet"> 
 	<script src="/bootstrap/jquery.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
-	<!--<script src="/bootstrap/js/snowstorm-min.js"></script>
-	 <script>
-	snowStorm.flakesMax = 100;
-	snowStorm.flakesMaxActive = 75;
-	snowStorm.followMouse = false;
-	snowStorm.freezeOnBlur = true;
-	snowStorm.vMaxX = 5;
-	snowStorm.vMaxY = 5;
-	snowStorm.snowStick = false;
-	snowStorm.useMeltEffect = false;
-	</script> -->
+	<script src="/bootstrap/js/script.js"></script>
+	<!--<script src="/bootstrap/js/snowstorm-min.js"></script> -->
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -48,7 +39,7 @@ require_once 'lang/locals.php';
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <spans class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/index.php" title="Home">GONIMO</a>
     </div>

@@ -117,6 +117,7 @@ $t = [ "team"
 $f = [ "F.A.Q."
      , "Frequently Asked Questions"
      , "Hi, I'm Gonimo. This is where you find answers to the questions I get most often."
+	 , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
      , "What are you?"
      , "I'm a free baby monitor that can be used on any device with a microphone and/or a camera that runs one of the following browsers: Chrome, Firefox, Microsoft Edge, Opera or Safari."
      , "What sets you apart from other baby monitors?"
@@ -149,8 +150,7 @@ $f = [ "F.A.Q."
      , "A team of young, motivated people whose profiles you can find <a href='/team.php' title='Gonimo Team'> &gt here &lt </a>."
      , "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
      , "gomimo.com is an open-source-project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used unter the conditions stated."
-     , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
-     ];
+    ];
 	 
 $faq = [
 		["Category1"

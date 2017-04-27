@@ -19,25 +19,6 @@ require_once 'header.php';
 			</div></a>
 		</div>
 	</div>
-	<script>
-	$(window).resize(function(){
-		var width = $(window).width();
-		var source = "img/impact-";		
-		
-		if (width <= 360 ){
-			source += "xs.png";
-		}else if(width > 360 && width <= 486 ){
-			source += "sm.png";
-		}else if(width > 486 && width <= 768 ){
-			source += "md.png";
-		}else if(width > 768 && width <= 1024 ){
-			source += "lg.png";
-		}else {
-			source += "xl.png";
-		}
-		$("#img-impact").attr("src",source);
-	});
-	</script> 
 </div>
 </section>
 <section class="intro">
@@ -231,25 +212,6 @@ require_once 'header.php';
 			</div>
 		</div>
 	</div>
-	<script>
-	$(window).resize(function(){
-    $('.img-wrapper').each(function() {
-        $(this).height($(this).width());
-    });
-	});
-	</script>
-<!-- for function toogle
-	<script>
-	$(".functions.lvl-4").click(function(){
-		if( $(window).width() > 800 ){
-			return;
-		}else{
-		$(this).find('.content-wrapper').slideToggle();
-		$(this).toggleClass("detailed");
-		}
-	});
-	</script>
--->
 </div>
 </section>
 <section class="team">
@@ -301,13 +263,6 @@ require_once 'header.php';
 			</a>
 		</div>
 	</div>
-	<script>
-	$(window).resize(function(){
-    $('.help.lvl-5').each(function() {
-        $(this).height($(this).width());
-    });
-	}).resize();
-	</script>
 </div>
 </section>
 <section class="partner">
