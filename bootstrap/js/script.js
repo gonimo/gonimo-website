@@ -1,6 +1,6 @@
 $(window).resize(function(){
 		var width = $(window).width();
-		var source = "img/impact-";		
+		var source = "/img/impression-";		
 		
 		if (width <= 360 ){
 			source += "xs.png";

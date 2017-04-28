@@ -156,10 +156,23 @@ ul.lang{
 	.impact .lvl-2{
 		bottom:15%;
 	}
+	h2.impact-txt{
+		font-size:200% !important;
+	}
 }
 @media(min-width:1280px){
 	.impact .lvl-2{
 		bottom:15% ;
+	}
+}
+@media(max-width:768px){
+	.lvl-2.impact-txt{
+		top:5% !important;
+		text-align:center !important;
+	}
+	.lvl-2.start-btn{
+		text-align:center !important;
+		left:0% !important;
 	}
 }
 .impact .lvl-3{
@@ -170,20 +183,21 @@ ul.lang{
 	font-family: "Raleway-light";
 }
 .impact-txt{
-	color:white;
+	color:black;
 }
 .impact-btn{
 	display:inline-block;
 	padding:0.5%;
 	line-height:1;
-	border:2px solid #E6CAD4;
-	color:#E6CAD4;
+	border:2px solid black;
+	color:black;
 	transition: background 1s;
+	text-align:center;
 }
 .impact-btn:hover{
 	border:2px solid white;
-	color:white;
-	background:rgba(230, 202, 212, 0.7);
+	color:#E6CAD4;
+	background:rgba(256, 256, 256, 0.7);
 }
 .impact-btn p{
 	display: inline;
@@ -197,6 +211,16 @@ ul.lang{
 }
 span.version{
 	font-size:50%;
+}
+.lvl-2.impact-txt{
+	bottom:45%;
+	text-align:right;
+	color:black;
+}
+.lvl-2.start-btn{
+	text-align:left;
+	bottom:0%;
+	left:10%;
 }
 /* INTRO */
 .lvl-0 .intro{
