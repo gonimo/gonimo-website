@@ -19,7 +19,6 @@ require_once 'header.php';
 			</p>
 		</div></a>
 	</div>
-	</div>
 </div>
 </section>
 <section class="intro">
