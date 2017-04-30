@@ -133,6 +133,9 @@ ul.lang{
 	overflow-y: unset !important;
 }
 /* IMPACT */
+section.impact{
+	background:rgb(240,240,240);
+}
 .impact h2{
 	font-size:300%;
 }
@@ -144,7 +147,7 @@ ul.lang{
 }
 @media(max-width:360px){
 	.impact .lvl-2{
-		bottom:0%;
+		bottom:2.5%;
 	}
 }
 @media(max-width:1000px){
@@ -171,7 +174,7 @@ ul.lang{
 		text-align:center !important;
 	}
 	.impact .lvl-2{
-		bottom:0%;
+		bottom:2.5%;
 	}
 }
 .impact .lvl-3{

@@ -37,6 +37,9 @@ $(".functions.lvl-4").click(function(){
 });
 */
 // Trigger resize script when doc is ready
+$("#img-impact").load(function(){
+	$(window).resize();
+});
 $(document).ready(function(){
 	$(window).resize();
 });
