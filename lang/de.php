@@ -67,7 +67,7 @@ $i_f = [ "Funktionen"
        , "WIFI & MOBILE"
        , "Deine Grenzen der Reichweite kannst du dir selbst setzen: Gonimo funktioniert nicht nur im gemeinsamen WLAN, sondern auch unterwegs über mobile Datenverbindungen."
        , "Zwei Mobilgeräte"
-       , "MULTIBABY/MULTIELTERN"
+       , "MULTIBABY/<wbr>MULTIELTERN"
        , "Mit Gonimo ist es möglich so viele Elterngeräte wie du willst und so viele Babystationen wie du brauchst gleichzeitig zu konfigurieren."
        ];
 

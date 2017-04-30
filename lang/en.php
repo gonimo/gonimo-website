@@ -66,7 +66,7 @@ $i_f = [ "Features"
        , "WIFI & MOBILE"
        , "In terms of range, you set your own limits: Gonimo works on shared wifi as well as via mobile data connection when you're out."
        , "two mobile phones"
-       , "MULTIBABY/MULTIPARENT"
+       , "MULTIBABY/<wbr>MULTIPARENT"
        , "Gonimo allows you to configure as many parent devices as you want and as many baby stations as you need, simultaneously."
        ];
 
