@@ -19,6 +19,10 @@ $i_i = [ "Schütze das <br> Wertvolle im Leben."
        , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> Firefox funktioniert, in einer aktuellen Version, aber auch, Opera sollte ebenso funktionieren. An der Kompatibilität mit Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
+	   
+$i_v = ["Gonimo Trailer auf Youtube ansehen"
+		, "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
+		];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
        , " 1. ADD DEVICE "

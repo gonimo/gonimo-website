@@ -268,6 +268,10 @@ img.intro-img{
 .intro .img-wrapper{
 	display:flex;
 }
+/* VIDEO */
+section.video{
+	background:#5C5D5F;
+}
 /* STEPS */
 .steps p{
 	font-size:larger;
