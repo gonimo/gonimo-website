@@ -23,7 +23,7 @@ require_once 'header.php';
 	<a href="tel:+4367762096744" target="_blank" title="<?php echo $i[5]; ?>">+43 677 620 967 44</a><br>
 	<br>
 	<span class="glyphicon glyphicon-envelope"></span> E-Mail: <br>
-	<a href="mailto:robert@gonimo.com" target="_blank" title="<?php echo $i[6]; ?>">robert@gonimo.com</a><br>
+	<a href="mailto:hello@gonimo.com" target="_blank" title="<?php echo $i[6]; ?>">robert@gonimo.com</a><br>
 	<br>
 	<?php echo $i[7]; ?><a href="mailto:hello@gonimo.com" target="_blank" title="Mail an hello@gonimo.com senden">robert@gonimo.com</a><br>
 	Internet: <a href="http://www.gonimo.com" target="_blank" title="gonimo.com">www.gonimo.com</a><br>

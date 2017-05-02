@@ -18,7 +18,11 @@ $i_i = ["Protect what's precious"
        , "Gonimo the baby monitor - always on."
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Like Chrome, Firefox, Microsoft Edge, Opera or Safari. <br> Get started by clicking 'START NOW', without any downloads or an installation process."
        ];
-
+	   
+$i_v = ["watch gonimo trailer on youtube"
+		, "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
+		];
+		
 $i_s = ["Send an invitation from one device to another."
        , "Add device"
        , "Add one or more devices to your 'family' by sending an invitation via e-mail, WhatsApp or Telegram."
@@ -173,7 +177,7 @@ $i = [ "Site notice"
      , "Address:"
      , "Phone:"
      , "call Gonimo"
-     , "e-mail robert@gonimo.com"
+     , "e-mail hello@gonimo.com"
      , "For general inquiries:"
      , "Photo credits"
      , "Web design"
