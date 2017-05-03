@@ -23,7 +23,6 @@ $(window).resize(function(){
 		$('.help.lvl-5').each(function() {
         $(this).height($(this).width());
 		});
-    
 });
 //For function toggle 
 /*
@@ -37,9 +36,6 @@ $(".functions.lvl-4").click(function(){
 });
 */
 // Trigger resize script when doc is ready
-$("#img-impact").load(function(){
-	$(window).resize();
-});
 $(document).ready(function(){
 	$(window).resize();
 });

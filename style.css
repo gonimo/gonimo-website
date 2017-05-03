@@ -126,11 +126,11 @@ ul.lang{
 	min-width:100%;
 	text-align:center;
 }
-.navbar-collapse{
-	max-height: none !important;
+#Navbar{
+	max-height:65vh;
 }
-.navbar-collapse.in{
-	overflow-y: unset !important;
+.navbar-collapse > .container{
+	max-height:65vh;
 }
 /* IMPACT */
 section.impact{
@@ -189,7 +189,7 @@ section.impact{
 }
 .impact-btn{
 	display:inline-block;
-	padding:0.5%;
+	padding:2% 0.5%;
 	line-height:1;
 	border:2px solid black;
 	color:black;
@@ -243,7 +243,7 @@ img.intro-img{
 .intro-btn{
 	font-size:280%;
 	display:inline-block;
-	padding:0.5%;
+	padding:2% 0.5%;
 	line-height:1;
 	border:2px solid rgb(92,94,95);
 	color:rgb(92,94,95);
