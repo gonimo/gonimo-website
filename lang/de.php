@@ -15,9 +15,9 @@ $i_i = [ "Schütze das <br> Wertvolle im Leben."
        , "App starten"
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"
-       , "Gonimo das Babyphon – Immer mit dabei."
-       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> Firefox funktioniert, in einer aktuellen Version, aber auch, Opera sollte ebenso funktionieren. An der Kompatibilität mit Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
-   Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
+       , "Gonimo das Babyphon – Wie funktionert's?"
+       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
+   'Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
 	   
 $i_v = ["Gonimo Trailer auf Youtube ansehen"
@@ -25,15 +25,15 @@ $i_v = ["Gonimo Trailer auf Youtube ansehen"
 		];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
-       , " 1. ADD DEVICE "
+       , " 1. FAMILIE ERSTELLEN "
        , "Füge mindestens ein zweites Gerät zu deiner 'Familie' hinzu, indem du eine Einladung per Mail, Whatsapp oder Telegram verschickst. "
-       , "Drücke auf einem der Geräte START BABYPHON."
-       , " 2. START BABYPHON "
-       , " Wenn auf dem eingeladenen Gerät die Anfrage akzeptiert wurde, machst du eines der Geräte zur Babystation. Dazu wählst du im Menü den Punkt 'Baby Station' aus. "
-       , "Drücke auf dem anderen Gerät CONNECT TO BABY."
-       , " 3. CONNECT TO BABY "
-       , " Super! Jetzt brauchst du nur noch auf dem Elterngerät auf 'verbinden (connect)' klicken und du hast erfolgreich eine sichere Verbindung zu deinem Kind aufgebaut. "
-       , "Erweitere deine Gonimo Family"
+       , "Aktiviere die Babystation auf einem der Geräte."
+       , " 2. START BABYSTATION "
+       , " Wenn auf dem eingeladenen Gerät die Anfrage akzeptiert wurde, machst du eines der Geräte zur Babystation. Dazu klickst du auf 'BABY' und dann auf 'STARTEN'. "
+       , "Wähle auf dem anderen Gerät 'ELTERN' und drücke 'VERBINDEN'."
+       , " 3. VERBINDEN "
+       , " Super! Jetzt brauchst du nur noch auf dem Elterngerät auf 'VERBINDEN' klicken und du hast erfolgreich eine sichere Verbindung zu deinem Kind aufgebaut. "
+       , "Erweitere deine Gonimo Familie"
        , "Baby/Eltern-Station funktioniert mit einer Vielzahl an Geräten"
        , "Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt. Du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Elterngerät oder Babystation zu verwenden."
        ];
