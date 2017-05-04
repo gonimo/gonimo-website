@@ -55,8 +55,8 @@ require_once 'lang/locals.php';
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-flag"></span> <span class="caret"></span></a>
           <ul class="dropdown-menu lang">
-            <li><a href="?lang=de"><img class="lang" src="/lang/de.svg">Deutsch</a></li>
-            <li><a href="?lang=en"><img class="lang" src="/lang/en.svg">English</a></li>
+            <li><a href="?lang=de"><img class="lang" src="/lang/de.svg"> Deutsch</a></li>
+            <li><a href="?lang=en"><img class="lang" src="/lang/en.svg"> English</a></li>
           </ul>
         </li>
 	</ul>
