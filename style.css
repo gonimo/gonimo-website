@@ -140,7 +140,7 @@ section.impact{
 	background:rgb(240,240,240);
 	padding-top:50px;
   text-align: center;
-  height: 1080px;
+  height: calc(100vh - 2em);
 }
 
 #img-impact {
