@@ -5,7 +5,7 @@ require_once 'header.php';
 <div class="container-fluid lvl-0">
 <section class="impact">
 <div class="container-fluid impact lvl-1">
-	<img class="img-responsive" src="/img/impression-xl.png" id="img-impact" alt="Gonimo"/>
+	<img class="img-responsive" src="" id="img-impact" alt="Gonimo"/>
 	<div class="container impact lvl-2 impact-txt">
 			<h2 class="impact-txt">
 			<?php echo $i_i[0]; ?>
@@ -14,8 +14,7 @@ require_once 'header.php';
 	<div class="impact lvl-2 start-btn">
 		<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" ><div class="impact-btn">
 			<p>
-			<?php echo $i_i[2]; ?><br>
-			<span class="version"><?php echo $i_i[3]; ?></span>
+			<?php echo $i_i[2]; ?>
 			</p>
 		</div></a>
 	</div>
@@ -70,8 +69,7 @@ require_once 'header.php';
 	<div class="col-xs-12 intro lvl-4">
 	<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>"><div class="intro-btn">
 		<p>
-		<?php echo $i_i[2]; ?><br>
-		<span class="version"><?php echo $i_i[3]; ?></span>
+		<?php echo $i_i[2]; ?>
 		</p>
 	</div></a>
 	</div>
