@@ -144,14 +144,14 @@ $faq = [
                   <li> Die Batterie ist leer. </li>
                   <li> Dein Handy ist abgestürzt. </li>
                   <li> Handy auf lautlos - verpasster Anruf! </li>
-                </ul>"
+                </ul>
             </li>
             <li> Unpraktisch:
                 <ul>
                   <li> Oft ist man gar nicht so weit weg von seinem Kind, ein Fehlalarm weckt das Kind auf. </li>
                   <li> Handy läutet, jetzt mal Handy finden, abheben und hören was Sache ist - statt es einfach zu wissen. </li>
                   <li> Du benötigst zwei Handys!</li>
-                </ul>"
+                </ul>
             </li>
           </ul>"
        ]
