@@ -63,6 +63,9 @@ html, body{
 p{
 	font-size:120%;
 }
+.benefits > h3{
+	font-size:17px;
+}
 }
 @media(min-width:1001px){
 html, body{
@@ -135,6 +138,7 @@ ul.lang{
 /* IMPACT */
 section.impact{
 	background:rgb(240,240,240);
+	padding-top:50px;
 }
 .impact h2{
 	font-size:300%;
@@ -147,7 +151,7 @@ section.impact{
 }
 @media(max-width:360px){
 	.impact .lvl-2{
-		bottom:2.5%;
+		bottom:5%;
 	}
 }
 @media(max-width:1000px){
@@ -170,11 +174,11 @@ section.impact{
 }
 @media(max-width:768px){
 	.lvl-2.impact-txt{
-		top:5% !important;
+		top:0% !important;
 		text-align:center !important;
 	}
 	.impact .lvl-2{
-		bottom:2.5%;
+		bottom:5%;
 	}
 }
 .impact .lvl-3{
@@ -189,7 +193,7 @@ section.impact{
 }
 .impact-btn{
 	display:inline-block;
-	padding:2% 0.5%;
+	padding:1% 0.5%;
 	line-height:1;
 	border:2px solid black;
 	color:black;
