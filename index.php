@@ -82,7 +82,7 @@ require_once 'header.php';
 <div class="container-fluid video lvl-1">
 	<div class="container video lvl-2">
 		<div class="embed-responsive embed-responsive-16by9">
-		<embed aria-label='ARIA label for embed' type='video/mp4' alt="<?php echo $i_v[0]; ?>" src="<?php echo $i_v[1]; ?>" allowfullscreen></embed>
+		<embed aria-label='ARIA label for embed' type='video/mp4' alt="<?php echo $i_v[2]; ?>" src="<?php echo $i_v[3]; ?>" allowfullscreen></embed>
 		</div>
 	</div>
 </div>

@@ -23,7 +23,7 @@ $i_i = [ "Schütze das <br> Wertvolle im Leben."
 $i_v = ["Gonimo Trailer auf Youtube ansehen"
 		, "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
 		,"Hier das Tutorial ansehen"
-		, "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
+		, "https://www.youtube-nocookie.com/embed/tFeQQW8PpNI?rel=0"
 		];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."

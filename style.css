@@ -139,14 +139,16 @@ ul.lang{
 section.impact{
 	background:rgb(240,240,240);
 	padding-top:50px;
-  text-align: center;
-  height: 100vh;
+	text-align: center;
+	height: 100%;
+	padding-bottom:5%;
 }
 
 #img-impact {
     display: inline-block;
-    width: 80%;
-    height: auto;
+    width: auto;
+	max-width:100%;
+    height: 90vh;
 }
 
 .impact h2{
