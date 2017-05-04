@@ -21,6 +21,8 @@ $i_i = ["Protect what's precious"
 	   
 $i_v = ["watch gonimo trailer on youtube"
 		, "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
+		,"watch gonimo tutorial on youtube"
+		, "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
 		];
 		
 $i_s = ["Send an invitation from one device to another."
@@ -167,9 +169,6 @@ $faq = [
 		,["QuestionE","AnswerE"]
 		]
 ];
-	 
-$f_c = [ "example category: "
-	];
 
 $i = [ "Site notice"
      , "Publishers responsible for this website"

@@ -78,6 +78,15 @@ require_once 'header.php';
 	</div>
 </div>
 </section>
+<section class="video">
+<div class="container-fluid video lvl-1">
+	<div class="container video lvl-2">
+		<div class="embed-responsive embed-responsive-16by9">
+		<embed aria-label='ARIA label for embed' type='video/mp4' alt="<?php echo $i_v[0]; ?>" src="<?php echo $i_v[1]; ?>" allowfullscreen></embed>
+		</div>
+	</div>
+</div>
+</section>
 <section class="family">
 <div class="container-fluid family lvl-1">
 	<h2> <?php echo $i_s[9]; ?> </h2>

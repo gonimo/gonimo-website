@@ -152,12 +152,12 @@ section.impact{
 }
 @media(max-width:1000px){
 	.impact .lvl-2{
-		bottom:45%;
+		bottom:25%;
 	}
 }
 @media(max-width:1280px){
 	.impact .lvl-2{
-		bottom:50%;
+		bottom:20%;
 	}
 	h2.impact-txt{
 		font-size:200% !important;
@@ -165,7 +165,7 @@ section.impact{
 }
 @media(min-width:1280px){
 	.impact .lvl-2{
-		bottom:50% ;
+		bottom:20% ;
 	}
 }
 @media(max-width:768px){
@@ -215,7 +215,8 @@ span.version{
 	font-size:50%;
 }
 .lvl-2.impact-txt{
-	bottom:40%;
+	bottom:10%;
+	padding-right:5%;
 	text-align:right;
 	color:black;
 }
@@ -270,7 +271,7 @@ img.intro-img{
 }
 /* VIDEO */
 section.video{
-	background:#5C5D5F;
+	background:rgb(90,90,90);
 }
 /* STEPS */
 .steps p{

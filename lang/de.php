@@ -22,6 +22,8 @@ $i_i = [ "Schütze das <br> Wertvolle im Leben."
 	   
 $i_v = ["Gonimo Trailer auf Youtube ansehen"
 		, "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
+		,"Hier das Tutorial ansehen"
+		, "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
 		];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
@@ -134,7 +136,7 @@ $faq = [
        , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyphon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
        ]
      , [ "Was unterscheidet mich von anderen Babyphonen?"
-       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyphon keine guten Wahl, weil:
+       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyphon keine gute Wahl, weil:
           <ul>
             <li> Unzuverlässig: Handy läutet nicht, kann bedeuten:
                 <ul>
