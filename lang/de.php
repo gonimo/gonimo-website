@@ -15,7 +15,7 @@ $i_i = [ "Schütze das <br> Wertvolle im Leben."
        , "App starten"
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"
-       , "Gonimo das Babyphon – Wie funktionert's?"
+       , "Gonimo das Babyphon – Wie funktioniert's?"
        , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    'Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
@@ -41,22 +41,22 @@ $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
 $i_b = [ "Vorteile von Gonimo"
        , "Gonimo überreicht dir ein Geschenk"
        , " OPEN SOURCE &amp KOSTENLOS "
-       , "Gonimo ist ein Open Source Projekt und für jeden kostenlos und werbefrei ohne Einschränkungen zugänglich."
+       , "Gonimo ist ein Open Source Projekt und für jeden kostenlos und werbe-frei ohne Einschränkungen zugänglich."
        , "Gonimo steckt in einem Rucksack"
        , " IMMER MIT DABEI "
        , "Gonimo ist das erste Babyphon, welches du jederzeit einfach starten kannst. Keine Installation, keine Registrierung, kein Bezahlen - einfach loslegen!"
        , "Gonimo mit einer Ritterrüstung"
        , "ZUVERLÄSSIG &amp SICHER"
-       , "Egal ob unterwegs oder zu Hause, es ist stets für größt mögliche Sicherheit deiner Daten gesorgt."
+       , "Egal ob unterwegs oder zu Hause, es ist stets für größtmögliche Sicherheit deiner Daten gesorgt."
        , "Gonimo rennt schnell"
        , " EINFACH &amp SCHNELL "
        , "Gehe einfach auf gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!"
-       , "Gonimo giesst eine Topfpflanze"
+       , "Gonimo gießt eine Topfpflanze"
        , "NACHHALTIG"
        , "Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir."
        ];
 
-$i_r = [ "Grossaufnahme von Robert Klotzner"
+$i_r = [ "Großaufnahme von Robert Klotzner"
        , "The best things <br> in life <br> are free"
        ];
 
@@ -95,7 +95,7 @@ $i_p = [ "Mit freundlicher Unterstützung durch netidee.at" ];
 
 $t = [ "Team"
      , "unser aufgewecktes, frisch fröhliches Team"
-     , "Jung, dynamisch, begeistert, fasziniert und so vielseitig wie es nur vorstellbar ist. Hier werden Code, Design und Ideen entwickelt, die bis ins kleinste Detail mit Fantasie, Liebe, Know-How und Durchaltevermögen umgesetzt werden. An den Ergebnissen, die das Team schon vollbracht hat, sieht man den Zusammenhalt und die einzigartige Verbindung. Das sind wir. Das ist Gonimo."
+     , "Jung, dynamisch, begeistert, fasziniert und so vielseitig wie es nur vorstellbar ist. Hier werden Code, Design und Ideen entwickelt, die bis ins kleinste Detail mit Fantasie, Liebe, Know-How und Durchhaltevermögen umgesetzt werden. An den Ergebnissen, die das Team schon vollbracht hat, sieht man den Zusammenhalt und die einzigartige Verbindung. Das sind wir. Das ist Gonimo."
      , "The Boss"
      , "Codet, bis es passt "
      , "Marketing"
@@ -105,7 +105,7 @@ $t = [ "Team"
      , "Grafikdesign"
      , "Design oder nicht sein - das ist hier die Frage"
      , "Texter"
-     , "Danke AutoKorrektur!"
+     , "Danke Auto-Korrektur!"
      , "Webdesign"
      , "Das ist auch ein Beruf!"
      , "The Good, The Bad and The Blög"
@@ -130,8 +130,30 @@ $faq = [
      , [ "Was bin ich?"
        , "Ich bin ein kostenloses Babyphon, der auf jedem Gerät verwendet werden kann, welches einen aktuellen Chrome, Firefox oder Opera Browser installiert hat (am besten funktioniert Chrome!)."
        ]
+     , [ "Warum wurde Gonimo entwickelt?"
+       , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyphon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
+       ]
      , [ "Was unterscheidet mich von anderen Babyphonen?"
-       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt."
+       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt. Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyphon keine guten Lösungen, weil:
+          <ul>
+            <li> Unzuverlässig: Handy läutet nicht, kann bedeuten:
+                <ul>
+                  <li> Dein Kind schläft. </li>
+                  <li> Der Schwellwert wurde falsch gewählt. </li>
+                  <li> Dein Handy (Eltern oder Baby) hat gerade keinen Empfang. </li>
+                  <li> Die Batterie ist leer. </li>
+                  <li> Dein Handy ist abgestürzt. </li>
+                  <li> Handy auf lautlos - verpasster Anruf! </li>
+                </ul>"
+            </li>
+            <li> Unpraktisch:
+                <ul>
+                  <li> Oft ist man gar nicht so weit weg von seinem Kind, ein Fehlalarm weckt das Kind auf. </li>
+                  <li> Handy läutet, jetzt mal Handy finden, abheben und hören was Sache ist - statt es einfach zu wissen. </li>
+                  <li> Du benötigst zwei Handys!</li>
+                </ul>"
+            </li>
+          </ul>"
        ]
      , [ "Was brauchst du, um mich verwenden zu können?"
        , "Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen aktuellen Chrome (bevorzugt) Browser installiert hat. Bei längerer Verwendung ist sicher zu stellen, dass alle Geräte mit ausreichend Strom versorgt sind."
@@ -152,10 +174,10 @@ $faq = [
             <li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert, während Skype auf die Nutzung als Telefon optimiert ist, dies betrifft sowohl das Userinterface als auch z.b. Tonverarbeitung."
        ]
      , [ "Wie finanziert sich Gonimo?"
-       , "Damit das das Startup Projekt überhaupt gestartet und umgesetzt werden konnte, gab es eine Förderung durch NetIdee.at. Eine native (installierbare) App ist geplant, die gegen einen überschaubaren Betrag erhältlich sein wird. Sie wird Funktionen abdecken, die über einen Browser technisch nicht umsetzbar sind. Auch Spenden ist möglich und wäre eine große Hilfe. Damit kann die stetige Verbesserung und Weiterentwicklung gewährleistet und besser vorangetrieben werden."
+       , "Damit das Projekt überhaupt gestartet und umgesetzt werden konnte, gab es eine Förderung durch NetIdee.at. Eine native (installierbare) App ist geplant, die gegen einen überschaubaren Betrag erhältlich sein wird. Sie wird Funktionen abdecken, die über einen Browser technisch nicht umsetzbar sind. Auch Spenden ist möglich und wäre eine große Hilfe. Damit kann die stetige Verbesserung und Weiterentwicklung gewährleistet und besser vorangetrieben werden."
        ]
      , [ "Kann ich das Projekt unterstützen?"
-       , "Ja! Du kannst das Gonimo-Projekt durch eine Spende über den Donate-Button oder durch den Erwerb der kostenpflichtigen App (In Entwiklung) und/oder durch deinen Like auf verschiedenen Social-Media-Plattformen unterstützen. Natürlich sind wir auch immer auf der Suche nach kreativen und motivierten Leuten, die das Projekt mit ihrem Ehrgeiz und ihrem Know-How tatkräftig unterstützen wollen."
+       , "Ja! Du kannst das Gonimo-Projekt durch eine Spende über den Donate-Button oder durch den Erwerb der kostenpflichtigen App (In Entwicklung) und/oder durch deinen Like auf verschiedenen Social-Media-Plattformen unterstützen. Natürlich sind wir auch immer auf der Suche nach kreativen und motivierten Leuten, die das Projekt mit ihrem Ehrgeiz und ihrem Know-How tatkräftig unterstützen wollen."
        ]
      , [ "Wer sind meine Schöpfer?"
        , "Ein Team junger, motivierter Leute, deren Profile du <a href='/team.php' title='Gonimo Team'> &gt hier &lt </a> findest."
@@ -163,7 +185,7 @@ $faq = [
      ],
      ["Sicherheit"
        , [ "Wie sicher ist die Verbindung zwischen den Geräten?"
-         , "Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei uns folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, in welchem die Einladung bestätigt werden muss, alle Verbindungen sind verschlüsselt und Audio und Video Daten werden Peer-to-Peer übertragen, um das 'Mithören' Dritter zu verhindern. Weiters lassen wir bei der Entwicklung größte Sorgfalt walten und überprüfen die Sicherheit auch regelmässig."
+         , "Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei uns folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, in welchem die Einladung bestätigt werden muss, alle Verbindungen sind verschlüsselt und Audio und Video Daten werden Peer-to-Peer übertragen, um das 'Mithören' Dritter zu verhindern. Weiteres lassen wir bei der Entwicklung größte Sorgfalt walten und überprüfen die Sicherheit auch regelmäßig."
          ]
        , [ "Wie stabil ist die Verbindung zwischen den Geräten?"
          , "Keine Netzwerkverbindung ist perfekt, weshalb es zu Ausfällen kommen kann! Unser eingebauter Alarm warnt dich jedoch bei Verbindungsproblemen. Weitere Features die die Zuverlässigkeit weiter erhöhen sind geplant!"
@@ -184,12 +206,12 @@ $faq = [
          , "Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Somit auch niedriger, als die Belastung, wenn Facebook und Co. pausenlos Informationen aus dem Internet abfragen, oder du über deine Bluetooth-Köpfhörer Musik hörst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
          ]
        , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
-         , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse wären wir einer Partnerschaft wahrschenlich nicht abgeneigt."
+         , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
          ]
      ],
      ["App im PlayStore"
        , [ "Wieso wird es eine zusätzliche App geben?"
-         , "Die geplante kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind, weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann. Ausserdem bevorzugen manche Nutzer ganz einfach installierte Applikationen."
+         , "Die geplante kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind, weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann. Außerdem bevorzugen manche Nutzer ganz einfach installierte Applikationen."
          ]
        , [ "Warum wird diese App etwas kosten?"
          , "Gonimo ist ein vollwertiges Babyphon, welches wir jedem zur Verfügung stellen wollen. Über die App kann nicht nur jeder Benutzer Gonimo unterstützen, sondern man erhält auch Zugriff auf zusätzliche Funktionen."
@@ -211,7 +233,7 @@ $i = [ "Impressum"
      , "Bildernachweis"
      , "Webdesign"
      , "Webentwicklung"
-     , "Diese Homepage nutzt mit grossem Dank"
+     , "Diese Homepage nutzt mit großem Dank"
      , "Haftungsausschluss / Disclaimer für Webseite"
      , "1. Inhalt des Onlineangebotes"
      , "Der Autor übernimmt keinerlei Gewähr für die Aktualität, Richtigkeit und Vollständigkeit der bereitgestellten Informationen auf unserer Website. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen."
@@ -227,7 +249,7 @@ $k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich dar
      , "Danke für Ihre Anfrage. Wir werden uns so bald wie möglich bei Ihnen melden."
      , "Kontakt"
      , "PRESSE-ANFRAGE:"
-     , "Bitte stellen sie uns Ihre Presse-Anfrage über das untenstehende Formular"
+     , "Bitte stellen sie uns Ihre Presse-Anfrage über das unten stehende Formular"
      , "Stell uns eine Frage, <br>Teile uns deine Gedanken mit, <br>Gib uns Feedback, <br><br>Schreib uns eine Nachricht!<br>"
      , "Name"
      , "Mail"
