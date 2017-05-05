@@ -205,13 +205,16 @@ $faq = [
      [ "Technisch"
        , [ "Warum funktioniere ich auf dem iOS Chrome Browser nicht?"
          , "Auf Apple iOS Geräten müssen alle Browser mit der Safari Engine arbeiten, diese unterstützt WebRTC (noch) nicht und somit muss ich noch warten bis ich auch auf einem iOS Gerät funktioniere.
-            Halte dich <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>hier über Facebook</a> am laufenden!"
+            Halte dich <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>hier über Facebook</a> am laufenden!
+
+            <p>Wir gehen von einer Unterstützung von iOS Geräten noch 2017 aus!
+            </p>"
          ]
        , [ "Wie hoch ist der mobile Datenverbrauch von mir?"
          , "Befinden sich beide Geräte in einem WLAN Netzwerk, so wird gar kein mobiles Datenvolumen benötigt. Wenn ich nur mit Audio benutzt werde, ist die Übertragunsrate sehr gering. Bei gleichzeitigem Audio- und Videostreaming kann (je nach Qualität der Verbindung) wesentlich mehr Datenvolumen anfallen. Empfehlenswert ist, dies ein wenig im Auge zu behalten."
          ]
        , [ "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
-         , "Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Somit auch niedriger, als die Belastung, wenn Facebook und Co. pausenlos Informationen aus dem Internet abfragen, oder du über deine Bluetooth-Köpfhörer Musik hörst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
+         , "Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
          ]
        , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
          , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse, wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
