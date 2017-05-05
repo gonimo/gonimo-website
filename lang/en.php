@@ -122,43 +122,54 @@ $t = [ "team"
 
 $f = [ "F.A.Q."
      , "Frequently Asked Questions"
-     , "Hi, I'm Gonimo. This is where you find answers to the questions I get most often."
-       , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Contakt'> &gt this contact form &lt </a>. I'm always happy to help."
+     , "Hi, I'm Gonimo. This is where you find answers to the questions I get asked most often."
+     , "In case your question was not answered here, please send me a message
+        using <a href='/kontakt.php' title='Gonimo Contact'> &gt this contact form &lt </a>. I'm always happy to help."
      ];
 
 $faq = [ [ "General"
          , [ "What are you?"
-             , "I'm a free baby monitor that can be used on any device with a microphone and/or a camera that runs the browser Chrome (unfortunately no iOS yet, Apple is being a bit mean here). Support for Firefox, Microsoft Edge, Opera and Safari is in the works!"
+           , "I'm a free baby monitor and an be used on any device with a
+              microphone and/or a camera, that runs a Chrome browser. Support
+              for Firefox, Microsoft Edge, Opera and Safari is in the works!
+              Unfortunately I cannot support iOS yet, since Apple does
+              implement my core technogy properly."
              ]
          , [ "Why was Gonimo started?"
-             , "Robert became father of twins and at some point in time it became obvious that they sleep better separated. Buying another baby monitor? Definitely not, sure there is an App!
-                 But the existing free apps all were either unreliable and impractical (they call you when your child is screaming) or simply did not work properly. It can't be that hard, he thought and wrote a first prototype of Gonimo, called 'mybabymontior.org' back then - great name, wasn't it?"
+           , "Robert became father of twins, and at some point in time it
+              became obvious that they sleep better separated. Buying another
+              baby monitor? Definitely not, surely there is an App for that! But
+              the existing free apps all were either unreliable and impractical
+              (they call you when your child is screaming) or simply did not
+              work properly. It can't be that hard, he thought and wrote a first
+              prototype of Gonimo, called 'mybabymontior.org' back then - great
+              name, wasn't it?"
              ]
          , [ "What sets you apart from other baby monitors?"
-           , "You can use me on a variety of different devices because I work on
-              your browser and because you don't have to install an app. I'm free
-              and you can use all my functions without any restrictions. I also
-              have excellent security measures built in - so you and your data are
-              as secure as can be.
-              <br>In comparison to other free apps, Gonimo is the only one which
-              does puts an emphasis on reliability. Solutions that trigger a
+           , "You can use me on many different devices, because I work in
+              your browser this is the same reason why you don't have to install
+              an app. I'm free and you can use all my functions without any
+              restrictions. I also have excellent security measures built in -
+              so you and your data are as secure as can be.<br>
+              In comparison to other free apps, Gonimo is the only one which
+              puts an emphasis on reliability. Solutions that trigger a
               call at a given volume threshold, are not a good choice for a baby
               monitor because:
                <ul>
-                   <li> It is unreliable, your mobile does not ring? The reason can be:
+                   <li> It is unreliable. If your mobile phone does not ring, the reason can be:
                        <ul>
                        <li> Your baby sleeps. </li>
-                       <li> You got the threshold wrong. </li>
+                       <li> You set the threshold wrong. </li>
                        <li> One of your devices has no reception. </li>
                        <li> The battery is empty. </li>
-                       <li> The phone crashed. </li>
-                       <li> Your mobile was set to silent - missed call! </li>
+                       <li> The phone has crashed. </li>
+                       <li> Your mobile phone is set to silent-mode and you missed the call! </li>
                        </ul>
                    </li>
                    <li> It is impractical:
                        <ul>
                        <li> Often you are not really that far away from your baby, a false alert (your phone rings) wakes your baby. </li>
-                       <li> Your mobile rings, OK now find it, pick up, listen what's going on, then finally you can take action. For me, I just want to hear whats going on and take action immediately!</li>
+                       <li> Your mobile rings, OK now find it, pick up, listen what's going on, then finally you can take action. For me, I just want to hear what's going on and take action immediately!</li>
                        <li> Last but not least, you need two phones for this to work!</li>
                        </ul>
                    </li>
@@ -167,85 +178,96 @@ $faq = [ [ "General"
          , [ "What do I need to get started?"
            , "You need a device that has a microphone and/or a camera and with a
               Chrome (preferred) browser installed.
-              <p>Depending on how and for how long you use Gonimo, eventually you
-              will need to connect me to a power outlet. If you're using audio
-              only, you can easily get through the night without recharging the
-              battery.
+              <p>Depending on which mode you use (audio only/audio and video)
+              and for how long you use Gonimo, eventually you will need to
+              connect me to a power outlet. If you're using audio only, you
+              should get through the night easily without recharging the battery.
              </p>"
            ]
          , [ "Do I have to pay to use Gonimo?"
-           , "No! Gonimo is an open source project and it's free to use. It's
-              very important to my creators to make my many features available to
+           , "No! Gonimo is an open source project and free to use. It is
+              very important to my creators to make my features available to
               as many people as possible, easy and free. You can find more
               information on what exactly open source means <a
               href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia:
               Open Source' target='_blank'> &gt here &lt </a>."
            ]
          , [ "Can I use you as anything other than a baby monitor?"
-           , "In principle, my features are intended for use as a baby monitor. Of course, you can use me for other activities that require audio and/or video streaming. "
+           , "In principle, I am intended to be used as a baby monitor. Of
+              course, you can use me for other activities that require audio
+              and/or video streaming."
            ]
          , [ "Can't I just use Skype?"
            , "Obviously you can use Skype or similar products as a baby monitor ...
                <p>but Skype is tailored for telephony: </p>
                <ul>
                    <li> Your baby can not pick up. This is unfortunate, especially when the connection breaks and you have to reconnect.</li>
-                   <li> If you get a still during telephony, you will probably notice, not so when watching a sleeping baby. Therefore Gonimo warns you when you are seeing a still.</li>
-                   <li> If the Audio connection breaks, you will notice that in a call, not so when listening to a sleeping baby. Therefore Gonimo warns you when the audio connection breaks.</li>
-                   <li> In general, Gonimo is optimised for use as a baby monitor, Skype is optimised for telephony. This concerns things like the user interface or audio processing for example. </li>
+                   <li> If you get a still during telephony, you will probably
+                        notice, not so much when watching a sleeping baby.
+                        Gonimo in contrast warns you when you are seeing a still.
+                   </li>
+                   <li> If the Audio connection breaks, you will notice that
+                        during a call, not so much when listening to a sleeping
+                        baby. Gonimo in contrast warns you when the audio
+                        connection breaks.</li>
+                   <li> In general, Gonimo is optimised for use as a baby
+                        monitor, Skype is optimised for telephony. This concerns
+                        things like the user interface or audio processing for
+                        example. </li>
                </ul>"
            ]
          , [ "How is Gonimo financed?"
-           , "To get the project going and product implemented, NetIdee.at
-              provided us with funding. A native (installable app) is in planning
-              and will be available for a small fee. It will cover features that
-              are not feasible via browser. You can also donate, this would help us
+           , "To get the project going, NetIdee.at provided us with funding.
+              A native (installable iOS and Android app) is planned and will be
+              available for a small fee. It will cover features that are not
+              feasible in a web-browser. You can also donate, this would help us
               a lot and guarantees we can constantly develop and improve."
            ]
          , [ "Is there a way to support you?"
            , "Sure! You can support the Gonimo project by donating via the
               donate button, by purchasing the fee-based app (in development)
-              and/or by liking us on various social media platform. Of course, we
+              and/or by liking us on various social media platforms. Of course, we
               are always on the look-out for creative and motivated people who
               would like to support the project with their ambition and their
-              know-how. "
+              know-how."
            ]
          , [ "Who are your creators?"
            , "A team of young, motivated people whose profiles you can find
               <a href='/team.php' title='Gonimo Team'> &gt here &lt </a>."
            ]
          ]
-       , [ "Reliability, Security, Privacy"
+       , [ "Reliability, Security, and Privacy"
          , [ "How secure is the connection between devices?"
            , "To guarantee maximum security, I come with the following security
-             features: an invitation-based system in which invitations need to be
-             confirmed, and peer-to-peer connections which are encrypted to prevent
+             features: an invitation-based system, where invitations need to be
+             confirmed; peer-to-peer connections which are encrypted to prevent
              third parties from 'listening in'.
-             <p>In addition we always keeps security
-               concerns in mind during development, also we test our security on a
-               regular basis. An external security review just got finished and the
-               attestor started the report with the following words (translated from
-               German):
-               <q>The report turned out to be excellent! Quite frankly, I have never seen any system before, that was so well secured as yours.
-               </q>
+             <p>In addition we always keep security
+             concerns in mind during development, so we test our security on a
+             regular basis. An external security review just got finished and the
+             report starts with the following words (translated from German):
+             <q>The report turned out to be excellent! Quite frankly, I have never seen any system before, that was so well secured as yours.
+             </q>
              </p>"
          ]
          , [ "How reliable is the connection??"
-             , "No network connection is perfect, failures will happen! That is why
+           , "No network connection is perfect, failures will happen eventually! That is why
              Gonimo alerts you when there are connectivity problems. Further
              features, increasing reliability even more, are planned!"
              ]
          , [ "Will my data be saved or passed on to third parties?"
-             , "I save only as much data as is necessary for my features to function.
-             This data is not passed on to third parties under any circumstances and
-             Audio and/or video data is not saved. Due to the peer-to-peer
-             connection and encryption, not even we have access to your audio/video data."
+           , "I save only as much data as is necessary for my features to function.
+              This data is not passed on to third parties under any circumstances and
+              Audio and/or video data is not saved. Due to the peer-to-peer
+              connection and encryption, not even we have access to your audio/video data."
          ]
        ]
        , [ "Technical"
          , [ "Why does Gonimo not work on iOS, not even with Chrome?"
-           , "Apple demands that all apps on iOS use Safaris rendering engine,
+           , "Apple restricts all apps on iOS to use Safari's rendering engine,
              Chrome is not allowed to use it's own. But Safari's rendering engine
-             does not yet support WebRTC which is needed by Gonimo to work. We'll keep you posted on the current state of affairs on
+             does not yet support WebRTC, which is needed by Gonimo to work.
+             We'll keep you posted on the current state of affairs on
              <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>!
 
              <p>We anticipate Apple iOS support in the course of 2017!
@@ -253,18 +275,18 @@ $faq = [ [ "General"
            ]
          , [ "How much mobile data does Gonimo need?"
            , "If both devices are connected to the same WiFi network, I don't
-               need any mobile data. If you use me with audio only, the data transfer
-               rate is very low. If audio and video streaming are being used
-               simultaneously, depending on the quality of the connection the data
-               volume used up may be high. I recommend you keep an eye on the data
-               usage in this case. "
+              need any mobile data. If you use me with audio only, the data transfer
+              rate is very low. If audio and video streaming are being used
+              simultaneously, depending on the quality of the connection the data
+              volume used up may be high. I recommend you keep an eye on the data
+              usage in this case. "
            ]
          , [ "How high is the exposure to radiation while I'm on?"
            , "If the baby station is a meter away from your baby, the exposure is
-               a lot lower than when you talk with your phone at your ear (by about
-               100.000). Gonimo amplifies quiet sounds! So it should work flawlessly,
-               even if you put your mobile/tablet or whatever you are using,
-               relatively far away from your child."
+              a lot lower than when you talk with your phone at your ear (by about
+              a factor of 100,000). Gonimo amplifies quiet sounds! So it should work flawlessly,
+              even if you put your mobile/tablet or whatever you are using,
+              relatively far away from your child."
            ]
          , [ "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
            , "Gonimo is an open-source project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used under the conditions stated.
@@ -272,7 +294,7 @@ $faq = [ [ "General"
              </p>"
            ]
        ]
-       , [ "App im PlayStore"
+       , [ "App in PlayStore"
          , [ "Why is there going to be an additional fee-based app?"
            , "The planned fee-based app will offer various features over and
               above those offered in the web application. Those can only be
@@ -316,7 +338,7 @@ $i = [ "Site notice"
      , "This liability waiver/disclaimer is to be regarded as part of the internet publication which you were referred from.  Should parts or individual terms of this statement not, no longer or not fully comply with the current law, the content and validity of the remaining parts of the document shall remain unaffected. ."
      ];
 
-$k = [ "Thank you very much for your message. We will deal with it as soon as possible."
+$k = [ "Thank you very much for your message. We will take care of it as soon as possible."
      , "Thank you for your request. We will be in touch as soon as possible."
      , "Get in touch"
      , "Press inquiries"
