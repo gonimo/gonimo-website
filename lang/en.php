@@ -94,7 +94,7 @@ $i_h = [ "How can you help us?"
 
 $i_p = [ "With the friendly assistance of netidee.at"];
 
-$t = [ "team"
+$t = [ "Team"
      , "our bright, cheerful team"
      , "Young, dynamic, excitable and as diverse as it gets. This is where we develop code, designs and ideas that we pour our hearts into implementing, down to the smallest detail, with lots of imagination, love, know-how and grit. The results our team has already achieved show our team spirit and our unique connection. That's us. That's Gonimo. "
      , "the boss"
