@@ -321,7 +321,7 @@ $k = [ "Thank you very much for your message. We will deal with it as soon as po
      , "Get in touch"
      , "Press inquiries"
      , "Please send us your press inquiry via the form below."
-     , "Ask us a question, <br>share your thoughts, <br>give us feedback, <br><br>send us a message! <br><br>"
+     , "Ask us a question, <br>share your thoughts, <br>give us feedback, <br>send us a message! <br><br>"
      , "Name"
      , "E-mail"
      , "Your e-mail address"
