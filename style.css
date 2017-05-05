@@ -165,7 +165,7 @@ section.impact{
 		bottom:5%;
 	}
   #img-impact {
-    height: 85vh; /* Damn, Chrome! */
+    height: 80vh; /* Damn, Chrome! */
   }
 }
 @media(max-width:1000px){
