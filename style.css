@@ -213,6 +213,7 @@ section.impact{
 	color:black;
 	transition: background 1s;
 	text-align:center;
+  background-color: rgba(255,255,255,0.5);
 }
 .impact-btn:hover{
 	border:2px solid white;
