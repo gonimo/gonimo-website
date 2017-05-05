@@ -187,7 +187,13 @@ $faq = [
      ],
      ["Sicherheit"
        , [ "Wie sicher ist die Verbindung zwischen den Geräten?"
-         , "Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei uns folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, in welchem die Einladung bestätigt werden muss, alle Verbindungen sind verschlüsselt und Audio und Video Daten werden Peer-to-Peer übertragen, um das 'Mithören' Dritter zu verhindern. Weiteres lassen wir bei der Entwicklung größte Sorgfalt walten und überprüfen die Sicherheit auch regelmäßig."
+         , "Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei uns folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, in welchem die Einladung bestätigt werden muss, alle Verbindungen sind verschlüsselt und Audio und Video Daten werden Peer-to-Peer übertragen, um das 'Mithören' Dritter zu verhindern. Weiteres lassen wir bei der Entwicklung größte Sorgfalt walten und überprüfen die Sicherheit auch regelmäßig.
+           <p>Wir haben auch ein externes Sicherheitsreview durchführen lassen, der Prüfer sendete seinen Bericht mit den folgenden einleitenden Worten:
+               <q>Wie bereits angekündigt ist der Bericht ausgezeichnet ausgefallen, ehrlich
+                  gestanden, hatte ich noch nie ein System, dass so abgesichert wurde, wie
+                  das Ihre!
+               </q>
+           </p>"
          ]
        , [ "Wie stabil ist die Verbindung zwischen den Geräten?"
          , "Keine Netzwerkverbindung ist perfekt, weshalb es zu Ausfällen kommen kann! Unser eingebauter Alarm warnt dich jedoch bei Verbindungsproblemen. Weitere Features, die die Zuverlässigkeit weiter erhöhen, sind geplant!"
