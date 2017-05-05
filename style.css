@@ -164,6 +164,9 @@ section.impact{
 	.impact .lvl-2{
 		bottom:5%;
 	}
+  #img-impact {
+    height: 85vh; /* Damn, Chrome! */
+  }
 }
 @media(max-width:1000px){
 	.impact .lvl-2{
