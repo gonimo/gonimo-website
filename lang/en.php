@@ -70,7 +70,7 @@ $i_f = [ "Features"
        , "No matter how quietly your baby reaches out for you, with Gonimo, you catch even the slightest sound from their bedroom. "
        , "WiFi/LTE"
        , "WIFI & MOBILE"
-       , "In terms of range, you set your own limits: Gonimo works on shared wifi as well as via mobile data connection when you're out."
+       , "In terms of range, you set your own limits: Gonimo works on shared WiFi as well as via mobile data connection when you're out."
        , "two mobile phones"
        , "MULTIBABY/<wbr>MULTIPARENT"
        , "Gonimo allows you to configure as many parent devices as you want and as many baby stations as you need, simultaneously."
@@ -106,7 +106,7 @@ $t = [ "team"
      , "graphic design"
      , "design"
      , "copywriters"
-     , "Thank you Autocorrect!"
+     , "Thank you auto correct!"
      , "web design"
      , "It's a job, too!"
      , "The good, the bad and the blog"
@@ -123,7 +123,7 @@ $t = [ "team"
 $f = [ "F.A.Q."
      , "Frequently Asked Questions"
      , "Hi, I'm Gonimo. This is where you find answers to the questions I get most often."
-       , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
+       , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Contakt'> &gt this contact form &lt </a>. I'm always happy to help."
      ];
 
 $faq = [ [ "General"
@@ -158,7 +158,7 @@ $faq = [ [ "General"
                    <li> It is impractical:
                        <ul>
                        <li> Often you are not really that far away from your baby, a false alert (your phone rings) wakes your baby. </li>
-                       <li> Your mobile rings, ok now find it, pick up, listen what's going on, then finally you can take action. For me, I just want to hear whats going on and take action immediately!</li>
+                       <li> Your mobile rings, OK now find it, pick up, listen what's going on, then finally you can take action. For me, I just want to hear whats going on and take action immediately!</li>
                        <li> Last but not least, you need two phones for this to work!</li>
                        </ul>
                    </li>
@@ -191,7 +191,7 @@ $faq = [ [ "General"
                    <li> Your baby can not pick up. This is unfortunate, especially when the connection breaks and you have to reconnect.</li>
                    <li> If you get a still during telephony, you will probably notice, not so when watching a sleeping baby. Therefore Gonimo warns you when you are seeing a still.</li>
                    <li> If the Audio connection breaks, you will notice that in a call, not so when listening to a sleeping baby. Therefore Gonimo warns you when the audio connection breaks.</li>
-                   <li> In general, Gonimo is optimized for use as a baby monitor, Skype is optimized for telephony. This concerns things like the user interface or audio processing for example. </li>
+                   <li> In general, Gonimo is optimised for use as a baby monitor, Skype is optimised for telephony. This concerns things like the user interface or audio processing for example. </li>
                </ul>"
            ]
          , [ "How is Gonimo financed?"
@@ -229,7 +229,7 @@ $faq = [ [ "General"
                </q>
              </p>"
          ]
-         , [ "How reliable ist the connection??"
+         , [ "How reliable is the connection??"
              , "No network connection is perfect, failures will happen! That is why
              Gonimo alerts you when there are connectivity problems. Further
              features, increasing reliability even more, are planned!"
@@ -252,7 +252,7 @@ $faq = [ [ "General"
              </p>"
            ]
          , [ "How much mobile data does Gonimo need?"
-           , "If both devices are connected to the same wifi network, I don't
+           , "If both devices are connected to the same WiFi network, I don't
                need any mobile data. If you use me with audio only, the data transfer
                rate is very low. If audio and video streaming are being used
                simultaneously, depending on the quality of the connection the data
@@ -267,7 +267,7 @@ $faq = [ [ "General"
                relatively far away from your child."
            ]
          , [ "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
-           , "Gonimo is an open-source project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used unter the conditions stated.
+           , "Gonimo is an open-source project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used under the conditions stated.
              <p>Depending on your goal, we might be interested in a cooperation!
              </p>"
            ]
