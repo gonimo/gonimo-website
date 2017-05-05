@@ -1,6 +1,6 @@
 <?php
 
-$m = ["HOME"
+$m = [ "HOME"
      , "ADVANTAGES"
      , "FEATURES"
      , "TEAM"
@@ -11,21 +11,21 @@ $m = ["HOME"
      , "PRESS"
      ];
 
-$i_i = ["Protect what is precious"
+$i_i = [ "Protect what is precious"
        , "start app"
        , "START NOW"
        , "ALPHA-VERSION 0.9"
        , "Gonimo the baby monitor - How does it work?"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'START NOW', without any downloads or an installation process."
        ];
-	   
-$i_v = ["watch gonimo trailer on youtube"
-		, "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
-		,"watch gonimo tutorial on youtube"
-		, "https://www.youtube-nocookie.com/embed/lFdUfklyrBc?rel=0"
-		];
-		
-$i_s = ["Send an invitation from one device to another."
+
+$i_v = [ "watch gonimo trailer on youtube"
+        , "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
+        ,"watch gonimo tutorial on youtube"
+        , "https://www.youtube-nocookie.com/embed/lFdUfklyrBc?rel=0"
+        ];
+
+$i_s = [ "Send an invitation from one device to another."
        , "1. CREATE FAMILY"
        , "Add one or more devices to your 'family' by sending an invitation via e-mail, WhatsApp or Telegram."
        , "Start a baby station, by pressing 'BABY' and 'START', on one of the devices"
@@ -57,7 +57,7 @@ $i_b = [ "Gonimo's advantages"
        , "Reuse old devices, do not throw them away! We make it possible."
        ];
 
-$i_r = ["close-up of Robert Klotzner"
+$i_r = [ "close-up of Robert Klotzner"
        , "The best things <br> in life <br> are free"
        ];
 
@@ -92,7 +92,7 @@ $i_h = [ "How can you help us?"
        , "We are happy to receive any feedback that will help us improve Gonimo."
        ];
 
-$i_p = ["With the friendly assistance of netidee.at"];
+$i_p = [ "With the friendly assistance of netidee.at"];
 
 $t = [ "team"
      , "our bright, cheerful team"
@@ -123,9 +123,9 @@ $t = [ "team"
 $f = [ "F.A.Q."
      , "Frequently Asked Questions"
      , "Hi, I'm Gonimo. This is where you find answers to the questions I get most often."
-	   , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
-    ];
-	 
+       , "In case your question was not answered here, send me a message using <a href='/kontakt.php' title='Gonimo Kontakt'> &gt this contact form &lt </a>. I'm always happy to help."
+     ];
+
 $faq = [ [ "General"
          , [ "What are you?"
              , "I'm a free baby monitor that can be used on any device with a microphone and/or a camera that runs the browser Chrome (unfortunately no iOS yet, Apple is being a bit mean here). Support for Firefox, Microsoft Edge, Opera and Safari is in the works!"
@@ -163,7 +163,7 @@ $faq = [ [ "General"
                        </ul>
                    </li>
                </ul>"
-           ]
+         ]
          , [ "What do I need to get started?"
            , "You need a device that has a microphone and/or a camera and with a
               Chrome (preferred) browser installed.
@@ -213,85 +213,85 @@ $faq = [ [ "General"
            , "A team of young, motivated people whose profiles you can find
               <a href='/team.php' title='Gonimo Team'> &gt here &lt </a>."
            ]
-		]
-      , [ "Reliability, Security, Privacy"
-        , [ "How secure is the connection between devices?"
-          , "To guarantee maximum security, I come with the following security
-            features: an invitation-based system in which invitations need to be
-            confirmed, and peer-to-peer connections which are encrypted to prevent
-            third parties from 'listening in'.
-            <p>In addition we always keeps security
-              concerns in mind during development, also we test our security on a
-              regular basis. An external security review just got finished and the
-              attestor started the report with the following words (translated from
-              German):
-              <q>The report turned out to be excellent! Quite frankly, I have never seen any system before, that was so well secured as yours.
-              </q>
-            </p>"
-        ]
-        , [ "How reliable ist the connection??"
-            , "No network connection is perfect, failures will happen! That is why
-            Gonimo alerts you when there are connectivity problems. Further
-            features, increasing reliability even more, are planned!"
-            ]
-        , [ "Will my data be saved or passed on to third parties?"
-            , "I save only as much data as is necessary for my features to function.
-            This data is not passed on to third parties under any circumstances and
-            Audio and/or video data is not saved. Due to the peer-to-peer
-            connection and encryption, not even we have access to your audio/video data."
-        ]
-      ]
-      , [ "Technical"
-        , [ "Why does Gonimo not work on iOS, not even with Chrome?"
-          , "Apple demands that all apps on iOS use Safaris rendering engine,
-            Chrome is not allowed to use it's own. But Safari's rendering engine
-            does not yet support WebRTC which is needed by Gonimo to work. We'll keep you posted on the current state of affairs on
-            <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>!
-
-            <p>We anticipate Apple iOS support in the course of 2017!
-            </p>"
-          ]
-        , [ "How much mobile data does Gonimo need?"
-          , "If both devices are connected to the same wifi network, I don't
-              need any mobile data. If you use me with audio only, the data transfer
-              rate is very low. If audio and video streaming are being used
-              simultaneously, depending on the quality of the connection the data
-              volume used up may be high. I recommend you keep an eye on the data
-              usage in this case. "
-          ]
-        , [ "How high is the exposure to radiation while I'm on?"
-          , "If the baby station is a meter away from your baby, the exposure is
-              a lot lower than when you talk with your phone at your ear (by about
-              100.000). Gonimo amplifies quiet sounds! So it should work flawlessly,
-              even if you put your mobile/tablet or whatever you are using,
-              relatively far away from your child."
-          ]
-        , [ "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
-          , "Gonimo is an open-source project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used unter the conditions stated.
-            <p>Depending on your goal, we might be interested in a cooperation!
-            </p>"
-          ]
-      ]
-      , ["App im PlayStore"
-        , [ "Why is there going to be an additional fee-based app?"
-          , "The planned fee-based app will offer various features over and
-             above those offered in the web application. Those can only be
-             implemented via an installed app, because browsers don't have
-             permission to control everything on a device.
-             <p>In addition some users might simply prefer an installed app over a Web application, also the installed app will be faster.
+         ]
+       , [ "Reliability, Security, Privacy"
+         , [ "How secure is the connection between devices?"
+           , "To guarantee maximum security, I come with the following security
+             features: an invitation-based system in which invitations need to be
+             confirmed, and peer-to-peer connections which are encrypted to prevent
+             third parties from 'listening in'.
+             <p>In addition we always keeps security
+               concerns in mind during development, also we test our security on a
+               regular basis. An external security review just got finished and the
+               attestor started the report with the following words (translated from
+               German):
+               <q>The report turned out to be excellent! Quite frankly, I have never seen any system before, that was so well secured as yours.
+               </q>
              </p>"
-          ]
-        , [ "Why will there be a fee?"
-          , "Gonimo is a full-featured baby monitor, which we want to make
-             available to everyone. By paying for the native app, you can support
-             Gonimo and will get additional features in return. Yeah, we need to
-             eat too ;-)"
-          ]
-        , [ "When will the native app be available?"
-          , "It is still in development, but we are working hard to make it available soon. (Yeah, we really need the money ;-) )"
-          ]
-      ]
-];
+         ]
+         , [ "How reliable ist the connection??"
+             , "No network connection is perfect, failures will happen! That is why
+             Gonimo alerts you when there are connectivity problems. Further
+             features, increasing reliability even more, are planned!"
+             ]
+         , [ "Will my data be saved or passed on to third parties?"
+             , "I save only as much data as is necessary for my features to function.
+             This data is not passed on to third parties under any circumstances and
+             Audio and/or video data is not saved. Due to the peer-to-peer
+             connection and encryption, not even we have access to your audio/video data."
+         ]
+       ]
+       , [ "Technical"
+         , [ "Why does Gonimo not work on iOS, not even with Chrome?"
+           , "Apple demands that all apps on iOS use Safaris rendering engine,
+             Chrome is not allowed to use it's own. But Safari's rendering engine
+             does not yet support WebRTC which is needed by Gonimo to work. We'll keep you posted on the current state of affairs on
+             <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>!
+
+             <p>We anticipate Apple iOS support in the course of 2017!
+             </p>"
+           ]
+         , [ "How much mobile data does Gonimo need?"
+           , "If both devices are connected to the same wifi network, I don't
+               need any mobile data. If you use me with audio only, the data transfer
+               rate is very low. If audio and video streaming are being used
+               simultaneously, depending on the quality of the connection the data
+               volume used up may be high. I recommend you keep an eye on the data
+               usage in this case. "
+           ]
+         , [ "How high is the exposure to radiation while I'm on?"
+           , "If the baby station is a meter away from your baby, the exposure is
+               a lot lower than when you talk with your phone at your ear (by about
+               100.000). Gonimo amplifies quiet sounds! So it should work flawlessly,
+               even if you put your mobile/tablet or whatever you are using,
+               relatively far away from your child."
+           ]
+         , [ "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
+           , "Gonimo is an open-source project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used unter the conditions stated.
+             <p>Depending on your goal, we might be interested in a cooperation!
+             </p>"
+           ]
+       ]
+       , [ "App im PlayStore"
+         , [ "Why is there going to be an additional fee-based app?"
+           , "The planned fee-based app will offer various features over and
+              above those offered in the web application. Those can only be
+              implemented via an installed app, because browsers don't have
+              permission to control everything on a device.
+              <p>In addition some users might simply prefer an installed app over a Web application, also the installed app will be faster.
+              </p>"
+           ]
+         , [ "Why will there be a fee?"
+           , "Gonimo is a full-featured baby monitor, which we want to make
+              available to everyone. By paying for the native app, you can support
+              Gonimo and will get additional features in return. Yeah, we need to
+              eat too ;-)"
+           ]
+         , [ "When will the native app be available?"
+           , "It is still in development, but we are working hard to make it available soon. (Yeah, we really need the money ;-) )"
+           ]
+         ]
+       ];
 
 $i = [ "Site notice"
      , "Publishers responsible for this website"
