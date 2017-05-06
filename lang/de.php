@@ -90,7 +90,7 @@ $i_h = [ "Wie kannst du uns helfen ?"
        , "Kontakt"
        , "Zwei Sprechblasen"
        , "Feedback"
-       , "Wir freuen uns über jedes Feedback, dass uns bei der Verbesserung von Gonimo hilft."
+       , "Wir freuen uns über jedes Feedback welches uns bei der Verbesserung von Gonimo hilft!"
        ];
 
 $i_p = [ "Mit freundlicher Unterstützung durch netidee.at" ];

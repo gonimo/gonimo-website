@@ -21,7 +21,7 @@ require_once 'lang/locals.php';
 	<meta property="og:title" content="gonimo" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://gonimo.com/" />
-	<meta property="og:image" content="https://gonimo.com/img/impact.png" />
+	<meta property="og:image" content="https://gonimo.com/img/impression-xl.png" />
 	<meta property="og:site_name" content="gonimo" />
 	<meta property="og:description" content="Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyphon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)" />
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
