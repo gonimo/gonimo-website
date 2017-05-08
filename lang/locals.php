@@ -8,7 +8,9 @@ if (isset($_GET["lang"])){
 	}elseif(isset($_COOKIE["gonimo-lang"]) and !isset($_SESSION["lang"])){
 		$_SESSION["lang"] = substr($_COOKIE["gonimo-lang"],0,2)."cookie";
 	}elseif(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) and !isset($_SESSION["lang"]) and !isset($_COOKIE["gonimo-lang"])){
-	$_SESSION["lang"] = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,2)."http";
+		$_SESSION["lang"] = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,2)."http";
+	}elseif(!isset($_SESSION["lang"])){
+		$_SESSION["lang"] = "undefined";
 	}
 
 switch (substr($_SESSION["lang"],0,2)){
