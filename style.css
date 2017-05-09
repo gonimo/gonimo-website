@@ -239,6 +239,23 @@ span.version{
 	text-align:right;
 	color:black;
 }
+/* GODDAMMIT APPLE! Y U NO support iNTERWEBS ??? */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){ /* iPad with portrait orientation*/
+  #img-impact {
+    height: 920px;
+  }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){ /* iPad with landscape orientation*/
+  #img-impact {
+    height: 614px;
+  }
+}
+@media screen and (device-aspect-ratio: 40/71) { /* iPhone 5 */
+  #img-impact {
+    height: 400px;
+  }
+}
+/* END of Apple-Fix */
 /* INTRO */
 .lvl-0 .intro{
 	background: rgb(220,220,220);
