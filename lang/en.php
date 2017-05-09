@@ -132,7 +132,7 @@ $faq = [ [ "General"
            , "I'm a free baby monitor and an be used on any device with a
               microphone and/or a camera, that runs a Chrome browser. Support
               for Firefox, Microsoft Edge, Opera and Safari is in the works!
-              Unfortunately I cannot support iOS yet, since Apple does
+              Unfortunately I cannot support iOS yet, since Apple does not
               implement my core technogy properly."
              ]
          , [ "Why was Gonimo started?"
