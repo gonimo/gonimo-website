@@ -41,16 +41,16 @@ $i_s = [ "Send an invitation from one device to another."
 
 $i_b = [ "Gonimo's advantages"
        , "Gonimo's present to you"
-       , "OPEN SOURCE &amp FREE"
+       , "OPEN SOURCE &amp; FREE"
        , "Gonimo is an <a href='https://github.com/gonimo/gonimo' title='github link'>open source project</a> and available to everyone for free, without any ads or restrictions!"
        , "Gonimo in a backpack"
        , "ALREADY IN YOUR POCKET"
        , "Gonimo is the first baby monitor that you can simply start, no installation, no registration, no payments - already in your pocket!"
        , "Gonimo's knight's armour"
-       , "RELIABLE &amp SECURE"
+       , "RELIABLE &amp; SECURE"
        , "Whether you're at home or out and about, we always make sure your data is as secure as possible."
        , "Gonimo runs quickly"
-       , "QUICK &amp SIMPLE"
+       , "QUICK &amp; SIMPLE"
        , "Just go to gonimo.com, send an invitation to a second device and turn your web browser into a baby monitor!"
        , "Gonimo waters pot plants"
        , "SUSTAINABLE"
@@ -69,7 +69,7 @@ $i_f = [ "Features"
        , "ALL SOUNDS"
        , "No matter how quietly your baby reaches out for you, with Gonimo, you catch even the slightest sound from their bedroom. "
        , "WiFi/LTE"
-       , "WIFI & MOBILE"
+       , "WIFI &amp; MOBILE"
        , "In terms of range, you set your own limits: Gonimo works on shared WiFi as well as via mobile data connection when you're out."
        , "two mobile phones"
        , "MULTIBABY/<wbr>MULTIPARENT"
@@ -124,7 +124,7 @@ $f = [ "F.A.Q."
      , "Frequently Asked Questions"
      , "Hi, I'm Gonimo. This is where you find answers to the questions I get asked most often."
      , "In case your question was not answered here, please send me a message
-        using <a href='/kontakt.php' title='Gonimo Contact'> &gt this contact form &lt </a>. I'm always happy to help."
+        using <a href='/kontakt.php' title='Gonimo Contact'> &gt; this contact form &lt; </a>. I'm always happy to help."
      ];
 
 $faq = [ [ "General"
@@ -190,7 +190,7 @@ $faq = [ [ "General"
               as many people as possible, easy and free. You can find more
               information on what exactly open source means <a
               href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia:
-              Open Source' target='_blank'> &gt here &lt </a>."
+              Open Source' target='_blank'> &gt; here &lt; </a>."
            ]
          , [ "Can I use you as anything other than a baby monitor?"
            , "In principle, I am intended to be used as a baby monitor. Of
@@ -233,7 +233,7 @@ $faq = [ [ "General"
            ]
          , [ "Who are your creators?"
            , "A team of young, motivated people whose profiles you can find
-              <a href='/team.php' title='Gonimo Team'> &gt here &lt </a>."
+              <a href='/team.php' title='Gonimo Team'> &gt; here &lt; </a>."
            ]
          ]
        , [ "Reliability, Security, and Privacy"

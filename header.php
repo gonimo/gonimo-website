@@ -9,9 +9,12 @@ require_once 'lang/locals.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="application-name" content="Gonimo">
 	<meta name="author" content="Gonimo/ninjagulbi">
-	<meta name="description" content="Good Night Monitor - das erste kostenlose, web-basierte Babyphon. KEINE App-Installation! Web-Browser öffnen und loslegen. Das Familien-System ermöglicht Multi-Baby und Multi-Parent von Beginn an. Already in your pocket!">
+	<meta name="description" content="Good Night Monitor - das erste kostenlose, web-basierte Babyphon. KEINE App-Installation! Web-Browser öffnen und loslegen. Das Familien-System ermöglicht Multi-Baby und Multi-Parent von Beginn an.">
 	<meta name="keywords" content="babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling">
 	<meta name="ROBOTS" content="INDEX,FOLLOW">
+	<link rel="canonical" href="https://gonimo.com"/>
+	<link rel="alternate" hreflang="de" href="https://gonimo.com/?lang=de"/>
+	<link rel="alternate" hreflang="en" href="https://gonimo.com/?lang=en"/>
 	<meta name="theme-color" content="#E6CAD4">
 	<meta name="msapplication-navbutton-color" content="#E6CAD4">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#E6CAD4">
@@ -55,8 +58,8 @@ require_once 'lang/locals.php';
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-flag"></span> <span class="caret"></span></a>
           <ul class="dropdown-menu lang">
-            <li><a href="?lang=de"><img class="lang" src="/lang/de.svg"> Deutsch</a></li>
-            <li><a href="?lang=en"><img class="lang" src="/lang/en.svg"> English</a></li>
+            <li><a href="?lang=de"><img class="lang" src="/lang/de.svg" alt="Deutsch" title="Deutsch"> Deutsch</a></li>
+            <li><a href="?lang=en"><img class="lang" src="/lang/en.svg" alt="English" title="English"> English</a></li>
           </ul>
         </li>
 	</ul>

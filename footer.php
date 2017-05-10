@@ -22,7 +22,7 @@
 			</div>
 			<div class="col-xs-12 footer copyright lvl-3">
 			<p>
-			COPYRIGHT &copy 2016 - <?php echo date("Y"); ?> BY GONIMO
+			COPYRIGHT &copy; 2016 - <?php echo date("Y"); ?> BY GONIMO
 			</p>
 			</div>
 		</div>

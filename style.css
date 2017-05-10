@@ -143,7 +143,11 @@ section.impact{
 	height: 100%;
 	padding-bottom:5%;
 }
-
+.impact > h1{
+	position:absolute;
+	width:100%;
+	font-family:Raleway-Light;
+}
 #img-impact {
     display: inline-block;
     width: auto;

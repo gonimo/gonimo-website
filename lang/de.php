@@ -42,16 +42,16 @@ $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
 
 $i_b = [ "Vorteile von Gonimo"
        , "Gonimo überreicht dir ein Geschenk"
-       , " OPEN SOURCE &amp KOSTENLOS "
+       , " OPEN SOURCE &amp; KOSTENLOS "
        , "Gonimo ist ein <a href='https://github.com/gonimo/gonimo' title='github link'>Open Source Projekt</a> und für jeden kostenlos und werbe-frei ohne Einschränkungen zugänglich."
        , "Gonimo steckt in einem Rucksack"
        , " IMMER MIT DABEI "
        , "Gonimo ist das erste Babyphon, welches du jederzeit einfach starten kannst. Keine Installation, keine Registrierung, kein Bezahlen - einfach loslegen!"
        , "Gonimo mit einer Ritterrüstung"
-       , "ZUVERLÄSSIG &amp SICHER"
+       , "ZUVERLÄSSIG &amp; SICHER"
        , "Egal ob unterwegs oder zu Hause, es ist stets für größtmögliche Sicherheit deiner Daten gesorgt."
        , "Gonimo rennt schnell"
-       , " EINFACH &amp SCHNELL "
+       , " EINFACH &amp; SCHNELL "
        , "Gehe einfach auf gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!"
        , "Gonimo gießt eine Topfpflanze"
        , "NACHHALTIG"
@@ -70,7 +70,7 @@ $i_f = [ "Funktionen"
        , "ALLE GERÄUSCHE"
        , "Egal wie laut dein Schatz deine Aufmerksamkeit einfordert, mit Gonimo bekommst du auch das leiseste Geräusch im Kinderzimmer mit."
        , "WiFi/LTE"
-       , "WIFI & MOBILE"
+       , "WIFI &amp; MOBILE"
        , "Deine Grenzen der Reichweite kannst du dir selbst setzen: Gonimo funktioniert nicht nur im gemeinsamen WLAN, sondern auch unterwegs über mobile Datenverbindungen."
        , "Zwei Mobilgeräte"
        , "MULTIBABY/<wbr>MULTIELTERN"
@@ -124,7 +124,7 @@ $t = [ "Team"
 $f = [ "FAQ"
      , "Frequently Asked Questions"
      , "Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen."
-     , "Sollte deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt dieses Kontaktformular &lt </a> oder besuche uns auf <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'> &gt Facebook &lt </a>. Ich freue mich, wenn ich weiter helfen kann."
+     , "Sollte deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt; dieses Kontaktformular &lt; </a> oder besuche uns auf <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'> &gt; Facebook &lt; </a>. Ich freue mich, wenn ich weiter helfen kann."
      ];
 
 $faq = [
@@ -161,7 +161,7 @@ $faq = [
        , "Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen aktuellen Chrome (bevorzugt) Browser installiert hat. Bei längerer Verwendung ist sicher zu stellen, dass alle Geräte mit ausreichend Strom versorgt sind."
        ]
      , [ "Kostet die Benutzung etwas?"
-       , "Nein! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und ohne Hindernisse zugänglich zu machen: 'already in your pocket'!<br>Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt hier &lt </a>"
+       , "Nein! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und ohne Hindernisse zugänglich zu machen: 'already in your pocket'!<br>Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt; hier &lt; </a>"
        ]
      , [ "Kannst du mich nur als Babyphon verwenden?"
        , "Grundsätzlich sind meine Funktionen für die Benutzung als Babyphon vorgesehen und darauf optimiert, aber natürlich kannst du mich für andere Aktivitäten auch verwenden, bei denen du Audio- und/oder Videostreams verwenden willst."
@@ -182,7 +182,7 @@ $faq = [
        , "Ja! Du kannst das Gonimo-Projekt durch eine Spende über den Donate-Button oder durch den Erwerb der kostenpflichtigen App (In Entwicklung) und/oder durch deinen Like auf verschiedenen Social-Media-Plattformen unterstützen. Natürlich sind wir auch immer auf der Suche nach kreativen und motivierten Leuten, die das Projekt mit ihrem Ehrgeiz und ihrem Know-How tatkräftig unterstützen wollen."
        ]
      , [ "Wer sind meine Schöpfer?"
-       , "Ein Team junger, motivierter Leute, deren Profile du <a href='/team.php' title='Gonimo Team'> &gt hier &lt </a> findest."
+       , "Ein Team junger, motivierter Leute, deren Profile du <a href='/team.php' title='Gonimo Team'> &gt; hier &lt; </a> findest."
        ]
      ],
      ["Sicherheit"
