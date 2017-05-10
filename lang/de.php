@@ -11,7 +11,7 @@ $m = [ "HOME"
      , "PRESSE"
      ];
 
-$i_i = [ "Schütze das <br> Wertvolle im Leben."
+$i_i = [ "Schütze das<br>Wertvolle im Leben."
        , "App starten"
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"

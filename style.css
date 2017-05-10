@@ -144,9 +144,9 @@ section.impact{
 	padding-bottom:5%;
 }
 .impact > h1{
-	position:absolute;
 	width:100%;
 	font-family:Raleway-Light;
+	margin:5px 0px;
 }
 #img-impact {
     display: inline-block;
@@ -192,7 +192,7 @@ section.impact{
 }
 @media(max-width:768px){
 	.lvl-2.impact-txt{
-		top:0% !important;
+		top:5% !important;
 		text-align:center !important;
 	}
 	.impact .lvl-2{
