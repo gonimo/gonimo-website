@@ -4,7 +4,7 @@ require_once 'lang/locals.php';
 ?>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="application-name" content="Gonimo">
@@ -34,6 +34,22 @@ require_once 'lang/locals.php';
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/bootstrap/js/script.js"></script>
 	<!--<script src="/bootstrap/js/snowstorm-min.js"></script> -->
+<!-- Piwik Analytics-->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+		var u="//gonimo1.piwikpro.com/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', 1]);
+		_paq.push(['enableHeartBeatTimer']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//gonimo1.piwikpro.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -67,3 +83,8 @@ require_once 'lang/locals.php';
   </div>
   </div>
 </nav>
+<?php
+	if(!isset($_COOKIE['cookie_confirm'])){
+		echo "<div class='container-fluid' id='cookie-confirm'><div class='container cookie-confirm'>".$c[0]."</div></div>";
+	}
+?>

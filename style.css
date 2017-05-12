@@ -135,6 +135,33 @@ ul.lang{
 .navbar-collapse > .container{
 	max-height:65vh;
 }
+#cookie-confirm{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	z-index:100;
+	background:rgba(92,92,92,0.5);
+	font-family:Raleway-Light;
+	color:white;
+	text-align:center;
+	padding-top:0.5%;
+	padding-bottom:2.5%;
+	font-size:medium;
+}
+.cookie-info{
+	display:inline-block;
+	padding:10px 35px;
+	background:#C8C5C5;
+	border:2px solid #787878;
+	margin:1%;
+}
+.cookie-btn{
+	display:inline-block;
+	padding:10px 35px;
+	background:#E6CAD4;
+	border:2px solid #CDA4B4;
+	margin:1%;
+}
 /* IMPACT */
 section.impact{
 	background:rgb(240,240,240);

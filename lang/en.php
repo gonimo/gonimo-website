@@ -10,6 +10,9 @@ $m = [ "HOME"
      , "SITE NOTICE"
      , "PRESS"
      ];
+	 
+$c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php#Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
+	];
 
 $i_i = [ "Protect what is precious"
        , "start app"
@@ -312,8 +315,18 @@ $faq = [ [ "General"
          , [ "When will the native app be available?"
            , "It is still in development, but we are working hard to make it available soon. (Yeah, we really need the money ;-) )"
            ]
-         ]
-       ];
+         ],
+	["Cookies",
+		["What are Cookies",
+		"Cookies are small text-files stored in your Browser. Cookies can contain data that websites need to run oder settings you changed, for example the displayed language."]
+		, ["Why is gonimo using Cookies",
+		"Gonimo uses special cookies to function. Amongst other things we use the open-source analysis platform <a href='https://piwik.org/' title='Piwik'>Piwik</a> to better understand who visits gonimo.com. Your use of the webapp will not be tracked, gonimo still stands for privacy and data security!"]
+		, ["What can I do against Cookies",
+		"in the settings of your browser you can delete Cookies from gonimo.com or disallow websites to store cookies on your device."]
+		, ["Can I use gonimo without Cookies",
+		"Yes, you can use gonimo without cookies but only very limited. The Cookies in the webapp are needed to garantuee the function. The cookies on gonimo.com can be blocked, but these data would really help us to further improve gonimo for your needs."]
+	]
+];
 
 $i = [ "Site notice"
      , "Publishers responsible for this website"

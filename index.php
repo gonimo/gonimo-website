@@ -13,7 +13,7 @@ require_once 'header.php';
 			</h2>
 	</div>
 	<div class="impact lvl-2 start-btn">
-		<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" ><div class="impact-btn">
+		<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" id="start-btn"><div class="impact-btn">
 			<p>
 			<?php echo $i_i[2]; ?>
 			</p>
@@ -68,7 +68,7 @@ require_once 'header.php';
 	</div>
 	<div class="row intro lvl-3">
 	<div class="col-xs-12 intro lvl-4">
-	<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>"><div class="intro-btn">
+	<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" id="start-btn"><div class="intro-btn">
 		<p>
 		<?php echo $i_i[2]; ?>
 		</p>

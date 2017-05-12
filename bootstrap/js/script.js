@@ -38,4 +38,16 @@ $(".functions.lvl-4").click(function(){
 // Trigger resize script when doc is ready
 $(document).ready(function(){
 	$(window).resize();
+	
+	$( "#cookie-btn" ).click(function() {
+		var expiredate = new Date();
+		expiredate.setTime(expiredate.getTime() + 31536000000);
+		document.cookie = "cookie_confirm = ok; expires = " + expiredate + "; path = /";
+		$("#cookie-confirm").hide("300");
+	});
+	
+	$("#start-btn").click(function(){
+		_paq.push(['trackGoal', 1]);
+	});
 });
+

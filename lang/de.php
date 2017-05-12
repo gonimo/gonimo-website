@@ -10,6 +10,9 @@ $m = [ "HOME"
      , "IMPRESSUM"
      , "PRESSE"
      ];
+	 
+$c = [ "Durch die Nutzung von gonimo akzeptierst du, dass gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php#Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
+	];
 
 $i_i = [ "Schütze das<br>Wertvolle im Leben."
        , "App starten"
@@ -230,7 +233,17 @@ $faq = [
        , [ "Wann wird es diese App geben?"
          , "Sie ist leider noch in Entwicklung, jedoch sind wir bemüht, dass wir sie so bald wie uns möglich veröffentlichen! (Ja, auch wir brauchen ein Einkommen! ;-) )"
          ]
-     ]
+     ],
+	 ["Cookies",
+		["Was sind Cookies?",
+		"Cookies sind kleine Text-dateien die in deinem Browser gespeichert werden. Cookies können Daten enthalten die Webseiten zum Betrieb brauchen oder Einstellungen die du gesetzt hast, zum Beispiel die angezeigte Sprache."]
+		, ["Warum verwendet gonimo Cookies?",
+		"Gonimo benötigt bestimmte Cookies um zu funktionieren. Unter anderem verwenden wir auf gonimo.com die Open-Source Analyse Platform <a href='https://piwik.org/' title='Piwik'>Piwik</a> um besser zu verstehen wer gonimo.com besucht. In der Webapp wird dein Verhalten allerdings nicht verfolgt, gonimo steht immer noch für Datenschutz und Privatsphäre!"]
+		, ["Was kann ich gegen Cookies tun?",
+		"In den Einstellungen deines Browser kannst du die Cookies von gonimo löschen und deaktivieren dass Webseiten Cookies auf deinem Gerät speichern."]
+		, ["Kann ich gonimo ohne Cookies verwenden?",
+		"Ja du kannst gonimo auch ohne Cookies verwenden, allerdings sehr eingeschränkt. Die Cookies in der Webapp sind dringend für die Funktion notwendig. Die Cookies auf gonimo.com kannst du blockieren, allerdings würden uns diese Daten helfen gonimo weiter zu verbessern und deinen Bedürfnissen anzupassen."]
+	]
 ];
 
 $i = [ "Impressum"
