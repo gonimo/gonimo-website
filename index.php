@@ -5,7 +5,7 @@ require_once 'header.php';
 <div class="container-fluid lvl-0">
 <section class="impact">
 <div class="container-fluid impact lvl-1">
-	<h1>Gonimo</h1>
+	// <h1>Gonimo</h1>
 	<img class="img-responsive" src="" id="img-impact" alt="Gonimo" title="Gonimo - Already in your pocket"/>
 	<div class="container impact lvl-2 impact-txt">
 			<h2 class="impact-txt">
