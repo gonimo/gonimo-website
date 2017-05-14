@@ -173,7 +173,6 @@ $faq = [
        , "Natürlich kannst du auch Skype als Babyphon verwenden ...
           <p>Aber Skype ist nun mal ein Telefonieprogramm: </p>
           <ul>
-            <li> Dein Baby kann nicht abheben, das macht es ein bisschen unpraktisch. Insbesondere wenn die Verbindung abreißt und du dich neu verbinden musst.</li>
             <li> Wenn du in einem Telefonat ein Standbild bekommst (schlechte Verbindung), wirst du das merken - wenn du ein schlafendes Kind anschaust, eher nicht. Deswegen warnt dich Gonimo wenn du ein Standbild siehst.</li>
             <li> Wenn die Verbindung in einem Telefonat abreißt, wirst du es merken. Wenn du einem schlafenden Kind zuhörst, eher nicht. Deswegen alarmiert dich Gonimo wenn die Verbindung abreisst.</li>
             <li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert, während Skype auf die Nutzung als Telefon optimiert ist, dies betrifft sowohl das Userinterface als auch z.b. Tonverarbeitung."
@@ -236,13 +235,22 @@ $faq = [
      ],
 	 ["Cookies",
 		["Was sind Cookies?",
-		"Cookies sind kleine Text-dateien die in deinem Browser gespeichert werden. Cookies können Daten enthalten die Webseiten zum Betrieb brauchen oder Einstellungen die du gesetzt hast, zum Beispiel die angezeigte Sprache."]
-		, ["Warum verwendet gonimo Cookies?",
-		"Gonimo benötigt bestimmte Cookies um zu funktionieren. Unter anderem verwenden wir auf gonimo.com die Open-Source Analyse Platform <a href='https://piwik.org/' title='Piwik'>Piwik</a> um besser zu verstehen wer gonimo.com besucht. In der Webapp wird dein Verhalten allerdings nicht verfolgt, gonimo steht immer noch für Datenschutz und Privatsphäre!"]
-		, ["Was kann ich gegen Cookies tun?",
-		"In den Einstellungen deines Browser kannst du die Cookies von gonimo löschen und deaktivieren dass Webseiten Cookies auf deinem Gerät speichern."]
-		, ["Kann ich gonimo ohne Cookies verwenden?",
-		"Ja du kannst gonimo auch ohne Cookies verwenden, allerdings sehr eingeschränkt. Die Cookies in der Webapp sind dringend für die Funktion notwendig. Die Cookies auf gonimo.com kannst du blockieren, allerdings würden uns diese Daten helfen gonimo weiter zu verbessern und deinen Bedürfnissen anzupassen."]
+		"Cookies sind kleine Textdateien die in deinem Browser gespeichert werden. Cookies können Daten enthalten die Webseiten zum Betrieb brauchen oder Einstellungen die du gesetzt hast, zum Beispiel die angezeigte Sprache."]
+		, ["Warum verwendet Gonimo Cookies?",
+		"Auf der Landingpage werden Cookies eingesetzt um uns Einblick zu geben
+		wie gut unsere Landingpage funktioniert. Wieviele User kommen, wie lange
+		bleiben sie, kommen sie wieder? Das sind essentielle Informationen für
+		uns, die uns helfen Gonimo laufend zu verbessern. Wir stellen deine
+		Privatsphäre und Anonymität aber sicher indem wir bewusst auf google analytics
+		verzichten und stattdessen auf die Open-Source Analyse Platform <a
+		href='https://piwik.org/' title='Piwik'>Piwik</a> setzen."]
+		, ["Ich bin aber auf Diät, was kann ich gegen Cookies tun?",
+		"In den Einstellungen deines Browser kannst du die Cookies von Gonimo löschen und deaktivieren, dass Webseiten Cookies auf deinem Gerät speichern."]
+		, ["Kann ich Gonimo ohne Cookies verwenden?",
+		"Ja du kannst Gonimo auch ohne Cookies verwenden, die App selbst
+		benötigt allerdings local storage um zu funktionieren. Die Cookies auf
+		gonimo.com kannst du blockieren, allerdings würden uns diese Daten
+		helfen Gonimo weiter zu verbessern und deinen Bedürfnissen anzupassen."]
 	]
 ];
 

@@ -171,7 +171,6 @@ $faq = [ [ "Geral"
          , [ "Eu não posso simplesmente usar o Skype?"
            , "É claro que você pode usar o Skype ou produtos similares para monitorar seu bebê… mas o Skype é customizado para telefonia:
                <ul>
-                   <li>Seu bebê não pode atender. Isto é inconveniente, especialmente quando a conexão falha e você precisa conectar novamente.</li> 
                    <li>  Você perceberá se a imagem congelar durante uma ligação, mas talvez não se estiver olhando para um bebê dormindo. Gonimo, por outro lado, avisa que o vídeo congelou.</li>
                    <li> Você perceberá se a conexão de áudio falhar durante uma ligação, mas talvez não quando estiver ouvindo um bebê dormindo. Gonimo, por outro lado, avisa que a conexão de áudio falhou.</li>
                    <li>  De modo geral, Gonimo é otimizado para usar como um monitor de bebê, ao passo que o Skype é otimizado para telefonia. Isto é relevante para coisas como a interface e o processamento de áudio, por exemplo.</li>

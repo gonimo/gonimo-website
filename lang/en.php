@@ -204,7 +204,6 @@ $faq = [ [ "General"
            , "Obviously you can use Skype or similar products as a baby monitor ...
                <p>but Skype is tailored for telephony: </p>
                <ul>
-                   <li> Your baby can not pick up. This is unfortunate, especially when the connection breaks and you have to reconnect.</li>
                    <li> If you get a still during telephony, you will probably
                         notice, not so much when watching a sleeping baby.
                         Gonimo in contrast warns you when you are seeing a still.
@@ -317,14 +316,23 @@ $faq = [ [ "General"
            ]
          ],
 	["Cookies",
-		["What are Cookies",
-		"Cookies are small text-files stored in your Browser. Cookies can contain data that websites need to run oder settings you changed, for example the displayed language."]
-		, ["Why is gonimo using Cookies",
-		"Gonimo uses special cookies to function. Amongst other things we use the open-source analysis platform <a href='https://piwik.org/' title='Piwik'>Piwik</a> to better understand who visits gonimo.com. Your use of the webapp will not be tracked, gonimo still stands for privacy and data security!"]
-		, ["What can I do against Cookies",
-		"in the settings of your browser you can delete Cookies from gonimo.com or disallow websites to store cookies on your device."]
-		, ["Can I use gonimo without Cookies",
-		"Yes, you can use gonimo without cookies but only very limited. The Cookies in the webapp are needed to garantuee the function. The cookies on gonimo.com can be blocked, but these data would really help us to further improve gonimo for your needs."]
+		["What are Cookies?",
+		"Cookies are small text files stored in your Browser. Cookies can contain data that websites need to run or settings you changed, for example the displayed language."]
+		, ["Why is Gonimo using Cookies?",
+		"On the landing page we use cookies mostly for analysis, like how many visitors
+		do we have? Where do they come from? Do they come again? In order to
+		ensure your privacy and your anonymity we pass on google analytics and
+		use the open-source analysis platform <a href='https://piwik.org/'
+		title='Piwik'>Piwik</a> instead. This way we get vital information, that
+		we need for improving Gonimo and still protect your privacy."]
+		, ["I am on a diet, what can I do against Cookies?",
+		"In the settings of your browser you can delete Cookies from gonimo.com or disallow websites to store cookies on your device."]
+		, ["Can I use Gonimo without Cookies?",
+		"Yes, you can use Gonimo without cookies, but the app needs local
+		storage in order to function. The cookies on gonimo.com can be blocked,
+		but this does not really help you, because we already take your privacy
+		seriously, on the flip-side we loose viable data that could help us improving
+		Gonimo."]
 	]
 ];
 
