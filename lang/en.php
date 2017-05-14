@@ -317,7 +317,7 @@ $faq = [ [ "General"
          ],
 	["Cookies",
 		["What are Cookies?",
-		"Cookies are small text files stored in your Browser. Cookies can contain data that websites need to run or settings you changed, for example the displayed language."]
+		"Cookies are small text files stored in your browser. Cookies can contain data that websites need to run or settings you changed, for example the displayed language."]
 		, ["Why is Gonimo using Cookies?",
 		"On the landing page we use cookies mostly for analysis, like how many visitors
 		do we have? Where do they come from? Do they come again? In order to
