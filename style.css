@@ -127,7 +127,7 @@ ul.lang{
 	box-shadow:none;
 	background-color:rgba(230,202,212,0.7);
 	min-width:100%;
-	text-align:center;
+	text-align:left;
 }
 #Navbar{
 	max-height:65vh;
