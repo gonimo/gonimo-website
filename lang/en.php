@@ -317,13 +317,13 @@ $faq = [ [ "General"
          ],
 	["Cookies",
 		["What are Cookies?",
-		"Cookies are small text files stored in your browser. Cookies can contain data that websites need to run or settings you changed, for example the displayed language."]
+		"Cookies are small text files stored in your browser. Cookies can contain data, that websites need to run or settings you changed, for example the displayed language."]
 		, ["Why is Gonimo using Cookies?",
-		"On the landing page we use cookies mostly for analysis, like how many visitors
+		"On the landing page we use cookies mostly for analytics, like how many visitors
 		do we have? Where do they come from? Do they come again? In order to
 		ensure your privacy and your anonymity we pass on google analytics and
 		use the open-source analysis platform <a href='https://piwik.org/'
-		title='Piwik'>Piwik</a> instead. This way we get vital information, that
+		title='Piwik'>Piwik</a> instead. This way, we get vital information, that
 		we need for improving Gonimo and still protect your privacy."]
 		, ["I am on a diet, what can I do against Cookies?",
 		"In the settings of your browser you can delete Cookies from gonimo.com or disallow websites to store cookies on your device."]

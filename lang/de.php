@@ -241,13 +241,13 @@ $faq = [
 		wie gut unsere Landingpage funktioniert. Wieviele User kommen, wie lange
 		bleiben sie, kommen sie wieder? Das sind essentielle Informationen für
 		uns, die uns helfen Gonimo laufend zu verbessern. Wir stellen deine
-		Privatsphäre und Anonymität aber sicher indem wir bewusst auf google analytics
-		verzichten und stattdessen auf die Open-Source Analyse Platform <a
+		Privatsphäre und Anonymität aber sicher, indem wir bewusst auf google analytics
+		verzichten und stattdessen auf die Open-Source Analyse Plattform <a
 		href='https://piwik.org/' title='Piwik'>Piwik</a> setzen."]
 		, ["Ich bin aber auf Diät, was kann ich gegen Cookies tun?",
 		"In den Einstellungen deines Browser kannst du die Cookies von Gonimo löschen und deaktivieren, dass Webseiten Cookies auf deinem Gerät speichern."]
 		, ["Kann ich Gonimo ohne Cookies verwenden?",
-		"Ja du kannst Gonimo auch ohne Cookies verwenden, die App selbst
+		"Ja, du kannst Gonimo auch ohne Cookies verwenden. Die App selbst
 		benötigt allerdings local storage um zu funktionieren. Die Cookies auf
 		gonimo.com kannst du blockieren, allerdings würden uns diese Daten
 		helfen Gonimo weiter zu verbessern und deinen Bedürfnissen anzupassen."]
