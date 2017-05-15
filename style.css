@@ -219,7 +219,7 @@ section.impact{
 }
 @media(max-width:768px){
 	.lvl-2.impact-txt{
-		top:5% !important;
+		top:0 !important;
 		text-align:center !important;
 	}
 	.impact .lvl-2{
