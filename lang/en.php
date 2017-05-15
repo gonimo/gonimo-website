@@ -11,7 +11,7 @@ $m = [ "HOME"
      , "PRESS"
      ];
 	 
-$c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php#Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
+$c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	];
 
 $i_i = [ "Protect what is precious"

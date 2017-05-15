@@ -90,4 +90,11 @@ require_once 'lang/locals.php';
 	if(!isset($_COOKIE['cookie_confirm'])){
 		echo "<div class='container-fluid' id='cookie-confirm'><div class='container cookie-confirm'>".$c[0]."</div></div>";
 	}
+	if(isset($_GET['t'])){
+		$t = htmlspecialchars($_GET['t']);
+		echo "<script>$('document').ready(function(){
+			$('#".$t."').collapse();
+			$('html, body').animate({ scrollTop: $('#".$t."').offset().top - 150}, 'slow');
+		});</script>";
+	}
 ?>
