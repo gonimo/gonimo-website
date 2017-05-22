@@ -1,22 +1,12 @@
 <?php
 include 'header.php';
 
-if (isset($_GET['msg']) and $_GET['msg'] == "success"){
-	echo ("<SCRIPT>
-        window.alert('".$k[0]."')
-		window.location.href='/index.php'
-        </SCRIPT>");
-}elseif (isset($_GET['msg']) and $_GET['msg'] == "press"){
-	echo ("<SCRIPT>
-        window.alert('".$k[1]."')
-		window.location.href='/kontakt.php?press=true'
-        </SCRIPT>");
-}
-
 $press = false;
+$successmsg = $k[0];
 
 if (isset($_GET['press']) and $_GET['press'] == true){
 $press = true;
+$successmsg = $k[1];
 }
 
 if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)){
@@ -31,10 +21,10 @@ if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['m
 		$name = $name." von ".$media;
 	}	
 	
-	contactmail($name, $mail, $subject, $press, $message);
+	contactmail($name, $mail, $subject, $press, $message, $successmsg);
 }
 
-function contactmail($name, $mail, $subject, $press, $message){
+function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 	$mail_to = "hello@gonimo.com";
 	$email_from = $mail;
 	$headers    = array
@@ -66,12 +56,17 @@ function contactmail($name, $mail, $subject, $press, $message){
 	mail ($mail_to,'=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers);
 	
 	if ($press == true){
-	header("Location: kontakt.php?msg=press");		
+	echo ("<SCRIPT>
+        window.alert('".$successmsg."')
+		window.location.href='/kontakt.php?press=true'
+        </SCRIPT>");	
 	}else{
-	header("Location: kontakt.php?msg=success");
+	echo ("<SCRIPT>
+        window.alert('".$successmsg."')
+		window.location.href='/index.php'
+        </SCRIPT>");
 	}
 }
-
 ?>
 <title>Gonimo <?php echo $k[2]; ?></title>
 <div class="container-fluid s-k lvl-0">
