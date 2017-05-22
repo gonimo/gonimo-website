@@ -277,7 +277,7 @@ $i = [ "Impressum"
      , "Dieser Haftungsausschluss/Disclaimer ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt."
      ];
 
-$k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich darum kümmern"
+$k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich darum kümmern."
      , "Danke für Ihre Anfrage. Wir werden uns so bald wie möglich bei Ihnen melden."
      , "Kontakt"
      , "PRESSE-ANFRAGE:"
