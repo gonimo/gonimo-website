@@ -53,7 +53,12 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 	$message = $name." schrieb am ".date("r",time())." folgende Nachricht über das Kontaktformular auf gonimo.com \r \n \r \n".$message."\r\n \r\nEND OF TRANSMISSION";
 	}	
 		
-	mail ($mail_to,'=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers);
+	$success = mail ($mail_to,'=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers);
+    if (!$success) {
+        echo(error_get_last()['message']);
+    }
+
+
 	
 	if ($press == true){
 	echo ("<SCRIPT>
