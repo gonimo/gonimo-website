@@ -203,6 +203,12 @@ $faq = [
        , [ "Werden meine Daten gespeichert oder an Dritte weitergegeben?"
          , "Es werden bei mir nur die Daten gespeichert, die notwendig sind, um die Funktion des Babyphones zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben! Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."
          ]
+       , [ "Kann ich auf meinem Handy oder Tablet auch noch andere Sachen machen, während das Babyphone läuft?"
+         , "Wir empfehlen die App stehts im Fordergrund zu behalten. Auch ist das Abschalten von Sperrbildschirmen und Stromsparereignisse die den Chromebrowser betreffen von Vorteil."
+         ]
+       , [ "Wie kann ich selbst Gonimo noch sicherer machen?"
+         , "Derzeit gibt es leider noch nicht die Möglichkeit Hintergrundmusik abzuspielen. Wenn du selbst eine ruhige Musik bei deinem Baby abspielst, kannst du mit dieser Musik die Verbindung von deinem Babyphone permanent testen. Ein unbemerkter Verbindungsabbruch ist somit ausgeschlossen und du kannst dich noch besser entspannen. Wir werden diese Funktion so bald wie uns möglich zur Verfügung stellen."
+         ]      
      ],
      [ "Technisch"
        , [ "Warum funktioniere ich auf dem iOS Chrome Browser nicht?"
@@ -218,6 +224,9 @@ $faq = [
        , [ "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
          , "Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
          ]
+       , [ "Kann ich Gonimo auch auf Computer verwenden, wo ich nur Gast bin?"
+         , "Ja, Gonimo funktioniert auch auf Chrome Portable. Diesen Chrome kannst du dir auf deinen USB Stick installieren und er funktioniert auf jedem Rechner wo du deinen USB anstecken kannst und somit auch Gonimo."
+         ] 
        , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
          , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse, wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
          ]
