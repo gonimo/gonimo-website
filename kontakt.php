@@ -55,10 +55,10 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		
 	$success = mail ($mail_to,'=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers);
     if (!$success) {
-        echo(error_get_last()['message']);
+        syslog(LOG_CRIT, "Mail sending failed: " + error_get_last()['message']);
     }
     else {
-        echo('Successfully sent mail!');
+        syslog(LOG_INFO, 'Successfully sent mail!');
     }
 	
 	if ($press == true){
