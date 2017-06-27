@@ -57,8 +57,9 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
     if (!$success) {
         echo(error_get_last()['message']);
     }
-
-
+    else {
+        echo('Successfully sent mail!');
+    }
 	
 	if ($press == true){
 	echo ("<SCRIPT>
