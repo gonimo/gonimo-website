@@ -204,7 +204,7 @@ $faq = [
          , "Es werden bei mir nur die Daten gespeichert, die notwendig sind, um die Funktion des Babyphones zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben! Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."
          ]
        , [ "Kann ich auf meinem Handy oder Tablet auch noch andere Sachen machen, während das Babyphone läuft?"
-         , "Wir empfehlen die App stehts im Fordergrund zu behalten. Auch ist das Abschalten von Sperrbildschirmen und Stromsparereignisse die den Chromebrowser betreffen von Vorteil."
+         , "Wir empfehlen die App stehts im Vordergrund zu behalten. Auch ist das Abschalten von Sperrbildschirmen und Stromspareinstellungen die den Chromebrowser betreffen von Vorteil."
          ]
        , [ "Wie kann ich selbst Gonimo noch sicherer machen?"
          , "Derzeit gibt es leider noch nicht die Möglichkeit Hintergrundmusik abzuspielen. Wenn du selbst eine ruhige Musik bei deinem Baby abspielst, kannst du mit dieser Musik die Verbindung von deinem Babyphone permanent testen. Ein unbemerkter Verbindungsabbruch ist somit ausgeschlossen und du kannst dich noch besser entspannen. Wir werden diese Funktion so bald wie uns möglich zur Verfügung stellen."
