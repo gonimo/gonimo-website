@@ -270,6 +270,9 @@ span.version{
 	text-align:right;
 	color:black;
 }
+video{
+	width:100%;
+}
 /* GODDAMMIT APPLE! Y U NO support iNTERWEBS ??? */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){ /* iPad with portrait orientation*/
   #img-impact {

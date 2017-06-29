@@ -23,9 +23,9 @@ $i_i = [ "Schütze das<br>Wertvolle im Leben."
    'Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
        ];
 	   
-$i_v = ["Gonimo Trailer auf Youtube ansehen"
+$i_v = [ "trailer_de"
 		, "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
-		,"Hier das Tutorial ansehen"
+		,"tutorial_de"
 		, "https://www.youtube-nocookie.com/embed/tFeQQW8PpNI?rel=0"
 		];
 

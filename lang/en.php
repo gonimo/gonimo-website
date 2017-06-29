@@ -22,9 +22,9 @@ $i_i = [ "Protect what is precious"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'START NOW', without any downloads or an installation process."
        ];
 
-$i_v = [ "watch gonimo trailer on youtube"
+$i_v = [ "trailer_en"
         , "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
-        ,"watch gonimo tutorial on youtube"
+        ,"tutorial_en"
         , "https://www.youtube-nocookie.com/embed/lFdUfklyrBc?rel=0"
         ];
 
