@@ -1,6 +1,10 @@
 <?php
 include 'header.php';
 
+// require_once 'swiftmailer/lib/swift_required.php'; //set path to swiftmailer installation see homepage for instalation guide
+$transport = new Swift_SmtpTransport('localhost', 25); //set server here!
+
+
 $press = false;
 $successmsg = $k[0];
 
@@ -19,60 +23,51 @@ if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['m
 	if(isset($_POST['media']) and $_POST['media'] != ""){
 		$media = htmlspecialchars($_POST['media']);
 		$name = $name." von ".$media;
-	}	
-	
-	contactmail($name, $mail, $subject, $press, $message, $successmsg);
-}
-
-function contactmail($name, $mail, $subject, $press, $message, $successmsg){
-	$mail_to = "hello@gonimo.com";
-	$email_from = $mail;
-	$headers    = array
-    (
-        'MIME-Version: 1.0',
-        'Content-Type: text/plain; charset=utf-8; format=flowed;',
-        'Content-Transfer-Encoding: 8-bit',
-        'Date: ' . date('r', $_SERVER['REQUEST_TIME']),
-        'Message-ID: <' . $_SERVER['REQUEST_TIME'] . md5($_SERVER['REQUEST_TIME']) . '@' . $_SERVER['SERVER_NAME'] . '>',
-        'From: ' . $email_from,
-        'Reply-To: ' . $email_from,
-        'Return-Path: ' . $email_from,
-        'X-Mailer: PHP v' . phpversion(),
-        'X-Originating-IP: ' . $_SERVER['SERVER_ADDR'],
-    );
-	if ($press == true){
-		array_push($headers,'X-Priority: 1 (Highest)', 'X-MSMail-Priority: High','Importance: High');
+		$message = $name." schrieb am ".date("r",time())." folgende Anfrage über das Presseformular auf gonimo.com \r \n \r \n".$message."\r\n \r\n END OF TRANSMISSION";
+	}else{
+		$message = $name." schrieb am ".date("r",time())." folgende Nachricht über das Kontaktformular auf gonimo.com \r \n \r \n".$message."\r\n \r\nEND OF TRANSMISSION";
 	}
 	
-	$headers = implode("\r\n",$headers);
-	$subject = "Kontaktformular: ".$subject;
+	$mailer = new Swift_Mailer($transport); //create swiftmailer object
 	
-	if ($press == true){
-	$message = $name." schrieb am ".date("r",time())." folgende Anfrage über das Presseformular auf gonimo.com \r \n \r \n".$message."\r\n \r\nEND OF TRANSMISSION";
-	}else{
-	$message = $name." schrieb am ".date("r",time())." folgende Nachricht über das Kontaktformular auf gonimo.com \r \n \r \n".$message."\r\n \r\nEND OF TRANSMISSION";
-	}	
-		
-	$success = mail ($mail_to,'=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers);
-    if (!$success) {
+	//create message here using the escaped input
+	$email = (new Swift_Message($subject))
+  ->setFrom([$mail => $name])
+  ->setTo(['hello@gonimo.com' => 'Gonimo Team'])
+  ->setBody('Here is the message itself')
+  ;
+	
+	$success= $mailer->send($message); //send message
+	
+	if (!$success) {
         syslog(LOG_CRIT, "Mail sending failed!");
+		$mailpath = "/var/lib/nginx/gonimo-landingPage/mails-backup/".date("y-m-d")."-".$mail.".txt"; //path and file for backup
+		$mailfile = fopen($mailpath, "w"); //create file
+			if ($mailfile == false){
+				syslog(LOG_CRIT, "Backup failed too. Now thats a real problem");} //error log for backupfile
+		$mailstring = $message->toString(); //convert message to string
+		fwrite($mailfile, $mailstring); //write to file
+		fclose($mailfile); //close file
+		echo ("<SCRIPT>
+        window.alert('an error occured')
+		window.location.href='/kontakt.php'
+        </SCRIPT>");
     }
-    else {
-        syslog(LOG_INFO, 'Successfully sent mail!');
-    }
-	
-	if ($press == true){
-	echo ("<SCRIPT>
+    elseif($success == true and $press == true) {
+        syslog(LOG_INFO, 'press-mail successfully sent');
+		echo ("<SCRIPT>
         window.alert('".$successmsg."')
 		window.location.href='/kontakt.php?press=true'
         </SCRIPT>");
-	}else{
-	echo ("<SCRIPT>
+    }else{
+		syslog(LOG_INFO, 'mail successfully sent');
+		echo ("<SCRIPT>
         window.alert('".$successmsg."')
 		window.location.href='/index.php'
-        </SCRIPT>");
+        </SCRIPT>");	
 	}
 }
+
 ?>
 <title>Gonimo <?php echo $k[2]; ?></title>
 <div class="container-fluid s-k lvl-0">
