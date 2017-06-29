@@ -55,21 +55,21 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		
 	$success = mail ($mail_to,'=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers);
     if (!$success) {
-        echo( "Mail sending failed: " + error_get_last()['message']);
+        syslog(LOG_CRIT, "Mail sending failed!");
     }
     else {
-        echo('Successfully sent mail!');
+        syslog(LOG_INFO, 'Successfully sent mail!');
     }
 	
 	if ($press == true){
 	echo ("<SCRIPT>
         window.alert('".$successmsg."')
-		//window.location.href='/kontakt.php?press=true'
-        </SCRIPT>");	
+		window.location.href='/kontakt.php?press=true'
+        </SCRIPT>");
 	}else{
 	echo ("<SCRIPT>
         window.alert('".$successmsg."')
-		//window.location.href='/index.php'
+		window.location.href='/index.php'
         </SCRIPT>");
 	}
 }
