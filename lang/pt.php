@@ -22,9 +22,9 @@ $i_i = [ "Proteja o que é precioso"
        , "Gonimo é um monitor de bebê que precisa somente de um navegador de internet. No momento, funciona melhor no Chrome, mas estamos trabalhando para melhorar o suporte ao Firefox, Microsoft Edge, Opera e Safari também! Comece a usar clicando em “COMECE AGORA”, sem nenhum download ou processo de instalação."
        ];
 
-$i_v = [ "Assista ao trailer de Gonimo no YouTube"
+$i_v = [ "trailer_en"
         , "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
-        ,"Assista ao tutorial de Gonimo no YouTube"
+        ,"tutorial_en"
         , "https://www.youtube-nocookie.com/embed/lFdUfklyrBc?rel=0"
         ];
 
