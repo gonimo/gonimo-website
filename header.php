@@ -34,22 +34,22 @@ require_once 'lang/locals.php';
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/bootstrap/js/script.js"></script>
 	<!--<script src="/bootstrap/js/snowstorm-min.js"></script> -->
-<!-- Piwik Analytics-->
-	<script type="text/javascript">
-		var _paq = _paq || [];
-		_paq.push(['trackPageView']);
-		_paq.push(['enableLinkTracking']);
-		(function() {
-		var u="//gonimo1.piwikpro.com/";
-		_paq.push(['setTrackerUrl', u+'piwik.php']);
-		_paq.push(['setSiteId', 1]);
-		_paq.push(['enableHeartBeatTimer']);
-		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-		})();
-	</script>
-	<noscript><p><img src="//gonimo1.piwikpro.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+      <!-- Piwik -->
+      <script type="text/javascript">
+      var _paq = _paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var u="//piwik.gonimo.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
 <!-- End Piwik Code -->
+
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
