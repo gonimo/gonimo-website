@@ -197,6 +197,9 @@ $faq = [
                </q>
            </p>"
          ]
+       , [ "Wer kann aller in meiner Familie sein?"
+         , "Die Familie ist ein begrenzter Bereich, welcher von allen Geräten die in der Familie sind gesteuert werden. Jedes Gerät welches sich in der Familie befindet, kann Einladungen verschicken. Im Bereich der Eltern findest du eine Übersicht von allen Geräten. Dadurch wird dir ermöglicht, Gastgeräte oder Geräte die nicht mehr gebraucht werden wieder zu entfernen und du bewahrst stehts eine Übersicht welche Geräte derzeit in deiner Familie sind."
+         ]
        , [ "Wie stabil ist die Verbindung zwischen den Geräten?"
          , "Keine Netzwerkverbindung ist perfekt, weshalb es zu Ausfällen kommen kann! Unser eingebauter Alarm warnt dich jedoch bei Verbindungsproblemen. Weitere Features, die die Zuverlässigkeit weiter erhöhen, sind geplant!"
          ]
@@ -223,6 +226,9 @@ $faq = [
          ]
        , [ "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
          , "Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
+         ]
+       , [ "Warum hoere ich mein Kind zeitverzoegert?"
+         , "Je nach Qualitaet deiner Netzwerkverbindung muessen Daten mehr oder weniger gepuffert werden, dies verursacht eine Netzwerkabhaengige Verzoegerung die bis zu einige Sekunden erreichen kann."
          ]
        , [ "Kann ich Gonimo auch auf Computer verwenden, wo ich nur Gast bin?"
          , "Ja, Gonimo funktioniert auch auf Chrome Portable. Diesen Chrome kannst du dir auf deinen USB Stick installieren und er funktioniert auf jedem Rechner wo du deinen USB anstecken kannst und somit auch Gonimo."
