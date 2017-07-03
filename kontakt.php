@@ -63,7 +63,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
                 </SCRIPT>");
     }
     else {
-        fwrite($mailfile, "To: hello@gonimo.com");
+        fwrite($mailfile, "To: hello@gonimo.com\n");
         fwrite($mailfile, "From: " . $email_from . "\n");
         fwrite($mailfile, "Subject: " . $subject . "\n\n");
         fwrite($mailfile, $message); //write to file
