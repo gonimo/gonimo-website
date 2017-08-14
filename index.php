@@ -5,22 +5,31 @@ require_once 'header.php';
 <div class="container-fluid lvl-0">
 <section class="impact">
 <div class="container-fluid impact lvl-1">
-	<img class="img-responsive" src="" id="img-impact" alt="Gonimo" title="Gonimo - Already in your pocket"/>
-	<div class="container impact lvl-2 impact-txt">
-			<h2 class="impact-txt">
-			<?php echo $i_i[0]; ?>
-			</h2>
-	</div>
-	<div class="impact lvl-2 start-btn">
-		<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" id="start-btn"><div class="impact-btn">
+	<div class="row impact lvl-2">
+		<div class="col-md-6 sm-hidden impact lvl-2">
+			<img class="img img-responsive" src="/img/w-impact-lg.png" alt="Gonimo" title="Gonimo">
+		</div>
+		<div class="col-xs-12 col-md-6 impact lvl-2">
+			<h1>Gonimo</h1>
+			<h3>Good Night Monitor</h3>
+			<h2><?php echo $i_i[0]; ?></h2>
+			<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" id="start-btn"><div class="impact-btn">
+				<p>
+				<?php echo $i_i[2]; ?>
+				</p>
+			</div></a>
+			<br>
+			<ul>
+				<?php echo $i_i[6]; ?>
+			</ul>
 			<p>
-			<?php echo $i_i[2]; ?>
+				<?php echo $i_i[7]; ?>
 			</p>
-		</div></a>
+		</div>
 	</div>
 </div>
 </section>
-<section class="video">
+<section class="video" id="trailer">
 <div class="container-fluid video lvl-1">
 	<div class="container video lvl-2">
 		<video  controls preload="metadata">
@@ -33,7 +42,7 @@ require_once 'header.php';
 	</div>
 </div>
 </section>
-<section class="intro">
+<section class="intro" id="intro">
 <div class="container-fluid intro lvl-1">
 	<div class="container intro lvl-2">
 	<div class="row intro lvl-3">
