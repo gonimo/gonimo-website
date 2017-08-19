@@ -168,107 +168,80 @@ section.impact{
 	padding-top:50px;
 	text-align: center;
 	height: 100%;
-	padding-bottom:5%;
-}
-.impact > h1{
-	width:100%;
-	font-family:Raleway-Light;
-	margin:5px 0px;
-}
-#img-impact {
-    display: inline-block;
-    width: auto;
-	max-width:100%;
-    height: 90vh;
-}
-
-.impact h2{
-	font-size:300%;
 }
 .impact .lvl-2{
-	position:absolute;
-	bottom:0%;
-	width:100%;
-	text-align:center;
+	margin:0;
+	padding:0;
 }
-@media(max-width:360px){
-	.impact .lvl-2{
-		bottom:5%;
-	}
-  #img-impact {
-    height: 83vh; /* Damn, Chrome! */
-  }
+@media(max-width:980px){
+.impact .sm-hidden{
+	display:none;
 }
-@media(max-width:1000px){
-	.impact .lvl-2{
-		bottom:25%;
-	}
+.impact .col-xs-12{
+	background: url("/img/w-impact-lg.png");
 }
-@media(max-width:1280px){
-	.impact .lvl-2{
-		bottom:20%;
-	}
-	h2.impact-txt{
-		font-size:200% !important;
-	}
+.impact{
+	color:white;
 }
-@media(min-width:1280px){
-	.impact .lvl-2{
-		bottom:20% ;
-	}
 }
-@media(max-width:768px){
-	.lvl-2.impact-txt{
-		top:0 !important;
-		text-align:center !important;
-	}
-	.impact .lvl-2{
-		bottom:5%;
-	}
+@media(min-width:981px){
+.impact .sm-hidden{
+	display:block;
 }
-.impact .lvl-3{
-	margin:2%;
+.impact .col-xs-12{
+	background:none;
 }
-.impact > p{
-	font-size:300%;
-	font-family: "Raleway-light";
-}
-.impact-txt{
+.impact{
 	color:black;
+}
+}
+.impact > h1{
+	font-size:400%;
+	margin-bottom:0;
+	line-height:0.6;
+	margin-top:50px;
+}
+.impact > h3{
+	margin-top:0;
+	line-height:1;
 }
 .impact-btn{
+	font-size:280%;
 	display:inline-block;
-	padding:1% 0.5%;
+	padding:2% 0.5%;
 	line-height:1;
-	border:2px solid black;
 	color:black;
 	transition: background 1s;
-	text-align:center;
-  background-color: rgba(255,255,255,0.5);
+	background:rgb(230,202,212);
+	border:2px solid rgb(230,202,212);
+	padding:25px;
+	margin:5%;
+}
+.impact > ul{
+	text-align:left;
+	font-size:x-large;
+	font-weight:bold;
+	display:inline-block;
+	list-style:none;
+	margin-bottom:5%;
+}
+.impact > ul > li:before{
+	content:"\2022";
+	color:rgb(230,202,212);
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
 }
 .impact-btn:hover{
-	border:2px solid white;
-	color:#E6CAD4;
-	background:rgba(256, 256, 256, 0.7);
+	border:2px solid rgb(230,202,212);
+	background:transparent;
+	transition: background 1s;
 }
-.impact-btn p{
-	display: inline;
-	font-size:300%;
-	font-family: "Raleway-light";
+.impact > p{
+	font-size:150%;
 }
-@media(max-width:400px){
-	.impact-btn{
-		padding: 1.5% 5%;
-	}
-}
-span.version{
-	font-size:50%;
-}
-.lvl-2.impact-txt{
-	bottom:10%;
-	padding-right:5%;
-	text-align:right;
-	color:black;
+.impact > p > a{
+	text-decoration:underline;
 }
 video{
 	width:100%;

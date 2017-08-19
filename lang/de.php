@@ -14,13 +14,16 @@ $m = [ "HOME"
 $c = [ "Durch die Nutzung von gonimo akzeptierst du, dass gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	];
 
-$i_i = [ "Schütze das<br>Wertvolle im Leben."
+$i_i = [ "Das kostenlose Babyphone für Smartphone, Tablet oder PC."
        , "App starten"
        , "JETZT STARTEN"
        , "ALPHA-VERSION 0.9"
        , "Gonimo das Babyphon – Wie funktioniert's?"
        , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    'Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
+	   , "<li>Absolut kostenlos</li><li>Auf jedem Gerät verfügbar</li><li>Ohne Installation</li><li>Stabil, Einfach und Sicher</li>"
+	   , "Noch nicht überzeugt? Dann schau dir unser <a href='#trailer' title='Trailer-Video'>Trailer-Video</a> an!<br>
+			Noch Fragen? Dann ab zum <a href='#intro' title='Tutorial'>Tutorial</a> oder zum <a href='/faq.php' title='FAQ'>FAQ</a>"
        ];
 	   
 $i_v = [ "trailer_de"
