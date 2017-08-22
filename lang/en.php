@@ -26,9 +26,9 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC"
        ];
 
 $i_v = [ "trailer_en"
-        , "/videos/trailer_en"
+        , "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
         ,"tutorial_en"
-        , "/videos/tutorial_en"
+        , "https://www.youtube-nocookie.com/embed/lFdUfklyrBc?rel=0"
         ];
 
 $i_s = [ "Send an invitation from one device to another."

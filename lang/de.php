@@ -27,9 +27,9 @@ $i_i = [ "Das kostenlose Babyphone für Smartphone, Tablet oder PC."
        ];
 	   
 $i_v = [ "trailer_de"
-        , "/videos/trailer_de"
+        , "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
 		,"tutorial_de"
-		, "/videos/tutorial_de"
+        , "https://www.youtube-nocookie.com/embed/tFeQQW8PpNI?rel=0"
 		];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
