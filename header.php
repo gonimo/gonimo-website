@@ -29,7 +29,7 @@ require_once 'lang/locals.php';
 	<meta property="og:description" content="Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyphon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)" />
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/bootstrap/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet"> 
+    <link href="/gonimo-style.css" rel="stylesheet"> 
 	<script src="/bootstrap/jquery.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/bootstrap/js/script.js"></script>
