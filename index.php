@@ -33,8 +33,8 @@ require_once 'header.php';
 <div class="container-fluid video lvl-1">
 	<div class="container video lvl-2">
 		<video  controls preload="metadata">
-			<source src=<?php echo "/vid/".$i_v[0].".webm" ?> type="video/webm">
-			<source src=<?php echo "/vid/".$i_v[0].".mp4" ?> type="video/mp4">
+			<source src=<?php echo "/videos/".$i_v[0].".webm" ?> type="video/webm">
+			<source src=<?php echo "/videos/".$i_v[0].".mp4" ?> type="video/mp4">
 			<div class="embed-responsive embed-responsive-16by9">
 			<embed aria-label='ARIA label for embed' type='video/mp4' src="<?php echo $i_v[1]; ?>" allowfullscreen>
 			</div>
@@ -95,8 +95,8 @@ require_once 'header.php';
 <div class="container-fluid video lvl-1">
 	<div class="container video lvl-2">
 		<video  controls preload="metadata">
-			<source src=<?php echo "/vid/".$i_v[2].".webm" ?> type="video/webm">
-			<source src=<?php echo "/vid/".$i_v[2].".mp4" ?> type="video/mp4">
+			<source src=<?php echo "/videos/".$i_v[2].".webm" ?> type="video/webm">
+			<source src=<?php echo "/videos/".$i_v[2].".mp4" ?> type="video/mp4">
 			<div class="embed-responsive embed-responsive-16by9">
 			<embed aria-label='ARIA label for embed' type='video/mp4' src="<?php echo $i_v[3]; ?>" allowfullscreen>
 			</div>

@@ -23,9 +23,9 @@ $i_i = [ "Proteja o que é precioso"
        ];
 
 $i_v = [ "trailer_en"
-        , "https://www.youtube-nocookie.com/embed/D9GXuVntG2Q?rel=0"
+        , "/videos/trailer_en"
         ,"tutorial_en"
-        , "https://www.youtube-nocookie.com/embed/lFdUfklyrBc?rel=0"
+        , "/videos/tutorial_en"
         ];
 
 $i_s = [ "Enviar convite de um dispositivo a outro."
