@@ -16,13 +16,15 @@ $c = [ "By using gonimo you accept that gonimo.com stores cookies where it is ne
 
 $i_i = [ "The free baby monitor for smartphone, tablet or PC"
        , "start app"
-       , "START NOW"
+       , "START BABYPHONE"
        , "ALPHA-VERSION 0.9"
        , "Gonimo the baby monitor - How does it work?"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'START NOW', without any downloads or an installation process."
 	   , "<li>Absolutely free</li><li>Available on every device</li><li>Without installation</li><li>stable, simple and secure</li>"
-	   , "Still not convinced? Watch our <a href='#trailer' title='Trailer-Video'>trailer video</a><br>
-			Still got questions? Visit the <a href='#intro' title='Tutorial'>tutorial</a> or <a href='/faq.php' title='FAQ'>FAQ</a>"
+	   , "Find more information here"
+	   , "trailer"
+	   , "tutorial"
+	   , "faq"
        ];
 
 $i_v = [ "trailer_en"
@@ -376,6 +378,7 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
      , "Your message"
      , "Please state your media company so your request can be processed correctly"
      , "SEND"
+	 , "RESET"
      ];
 
 ?>

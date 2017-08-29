@@ -125,6 +125,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		?>
 		<input class="url" type="text" name="url" placeholder="url" maxlength="30" size="30">
 		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $k[13]; ?> </button>
+		<button name="btn-reset" type="reset" class="btn btn-warning btn-block" role="button"> <?php echo $k[14]; ?> </button>
 		</form>
 	</div>
 	</section>

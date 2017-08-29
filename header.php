@@ -52,8 +52,8 @@ _paq.push(['enableLinkTracking']);
 
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid nav-bg">
+<nav class="navbar navbar-default navbar-fixed-top nav-bg">
+  <div class="container ">
     <div class="navbar-header">
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
         <span class="icon-bar"></span>
@@ -77,8 +77,8 @@ _paq.push(['enableLinkTracking']);
             <li><a href="?lang=de"><img class="lang" src="/lang/at.svg" alt="Deutsch" title="Deutsch"> Deutsch</a></li>
             <li><a href="?lang=de"><img class="lang" src="/lang/de.svg" alt="Deutsch" title="Deutsch"> Deutsch</a></li>
             <li><a href="?lang=en"><img class="lang" src="/lang/en.svg" alt="English" title="English"> English</a></li>
-            <li><a href="?lang=pt"><img class="lang" src="/lang/pt.svg" alt="Português" title="Português"> Português</a></li>
-            <li><a href="?lang=pt"><img class="lang" src="/lang/br.svg" alt="Português" title="Português"> Português</a></li>
+        <!--    <li><a href="?lang=pt"><img class="lang" src="/lang/pt.svg" alt="Português" title="Português"> Português</a></li>
+            <li><a href="?lang=pt"><img class="lang" src="/lang/br.svg" alt="Português" title="Português"> Português</a></li>-->
           </ul>
         </li>
 	</ul>

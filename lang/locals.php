@@ -20,9 +20,9 @@ switch (substr($_SESSION["lang"],0,2)){
 	case "en":
 		include_once 'lang/en.php';
 		break;
-	case "pt":
+	/*  case "pt":
 		include_once 'lang/pt.php';
-		break;
+		break; */
 	default:
 		include_once 'lang/en.php';
 	}

@@ -4,14 +4,14 @@ require_once 'header.php';
 $videosPath="/videos/";
 ?>
 <title>Gonimo - Already in your Pocket</title>
-<div class="container-fluid lvl-0">
+<div class="container lvl-0">
 <section class="impact">
 <div class="container-fluid impact lvl-1">
 	<div class="row impact lvl-2">
-		<div class="col-md-6 sm-hidden impact lvl-2">
+<!--		<div class="col-md-6 sm-hidden impact lvl-2">
 			<img class="img img-responsive" src="/img/w-impact-lg.png" alt="Gonimo" title="Gonimo">
-		</div>
-		<div class="col-xs-12 col-md-6 impact lvl-2">
+		</div> -->
+		<div class="col-xs-12 col-md-6 col-md-offset-6 impact lvl-2">
 			<h1>Gonimo</h1>
 			<h3>Good Night Monitor</h3>
 			<h2><?php echo $i_i[0]; ?></h2>
@@ -21,19 +21,26 @@ $videosPath="/videos/";
 				</p>
 			</div></a>
 			<br>
-			<ul>
+			<ul class="impact-list">
 				<?php echo $i_i[6]; ?>
 			</ul>
+		</div>
+		<div class="col-xs-12 impact lvl-2">	
 			<p>
 				<?php echo $i_i[7]; ?>
 			</p>
+			<ul class="impact-links">
+				<li><a href="#tutorial" title="<?php echo $i_i[8]; ?>"><?php echo $i_i[8]; ?></a></li>
+				<li><a href="#intro" title="<?php echo $i_i[9]; ?>"><?php echo $i_i[9]; ?></a></li>
+				<li><a href="/faq.php" title="<?php echo $i_i[10]; ?>"><?php echo $i_i[10]; ?></a></li>
+			</ul>
 		</div>
 	</div>
 </div>
 </section>
 <section class="video" id="trailer">
 <div class="container-fluid video lvl-1">
-	<div class="container video lvl-2">
+	<div class="video lvl-2">
 		<video  controls preload="metadata">
 			<source src=<?php echo $videosPath.$i_v[0].".webm" ?> type="video/webm">
 			<source src=<?php echo $videosPath.$i_v[0].".mp4" ?> type="video/mp4">
@@ -46,56 +53,54 @@ $videosPath="/videos/";
 </section>
 <section class="intro" id="intro">
 <div class="container-fluid intro lvl-1">
-	<div class="container intro lvl-2">
 	<div class="row intro lvl-3">
-	<div class="col-xs-12 intro lvl-4">
-	<h2> <?php echo $i_i[4]; ?> </h2>
-		<div class="intro-txt">
-			<p>
-			<?php echo $i_i[5]; ?>
-			</p>
+		<div class="col-xs-12 intro lvl-4">
+		<h2> <?php echo $i_i[4]; ?> </h2>
+			<div class="intro-txt">
+				<p>
+				<?php echo $i_i[5]; ?>
+				</p>
+			</div>
 		</div>
 	</div>
+	<div class="row intro lvl-3">
+		<div class="col-sm-4 intro steps lvl-4">
+		<div class="img-wrapper step1">
+		<img class="img-responsive" src="/img/ico/steps/step1.svg" alt="<?php echo $i_s[0]; ?>" title="<?php echo $i_s[0]; ?>">
+		</div>
+		<h3><?php echo $i_s[1]; ?></h3>
+		<p> <?php echo $i_s[2]; ?></p>
+		</div>
+		<div class="col-sm-4 intro steps lvl-4">
+		<div class="img-wrapper">
+		<img class="img-responsive" src="/img/ico/steps/step2.svg" alt="<?php echo $i_s[3]; ?>" title="<?php echo $i_s[3]; ?>">
+		</div>
+		<h3><?php echo $i_s[4]; ?></h3>
+		<p><?php echo $i_s[5]; ?></p>
+		</div>
+		<div class="col-sm-4 intro steps lvl-4">
+		<div class="img-wrapper">
+		<img class="img-responsive" src="/img/ico/steps/step3.svg" alt="<?php echo $i_s[6]; ?>" title="<?php echo $i_s[6]; ?>">
+		</div>
+		<h3><?php echo $i_s[7]; ?></h3>
+		<p><?php echo $i_s[8]; ?></p>
+		</div>
 	</div>
 	<div class="row intro lvl-3">
-	<div class="col-sm-4 intro steps lvl-4">
-	<div class="img-wrapper step1">
-	<img class="img-responsive" src="/img/ico/steps/step1.svg" alt="<?php echo $i_s[0]; ?>" title="<?php echo $i_s[0]; ?>">
+		<div class="col-xs-12 intro lvl-4">
+		<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" id="start-btn"><div class="impact-btn">
+			<p>
+			<?php echo $i_i[2]; ?>
+			</p>
+		</div></a>
+		</div>
 	</div>
-	<h3><?php echo $i_s[1]; ?></h3>
-	<p> <?php echo $i_s[2]; ?></p>
-	</div>
-	<div class="col-sm-4 intro steps lvl-4">
-	<div class="img-wrapper">
-	<img class="img-responsive" src="/img/ico/steps/step2.svg" alt="<?php echo $i_s[3]; ?>" title="<?php echo $i_s[3]; ?>">
-	</div>
-	<h3><?php echo $i_s[4]; ?></h3>
-	<p><?php echo $i_s[5]; ?></p>
-	</div>
-	<div class="col-sm-4 intro steps lvl-4">
-	<div class="img-wrapper">
-	<img class="img-responsive" src="/img/ico/steps/step3.svg" alt="<?php echo $i_s[6]; ?>" title="<?php echo $i_s[6]; ?>">
-	</div>
-	<h3><?php echo $i_s[7]; ?></h3>
-	<p><?php echo $i_s[8]; ?></p>
-	</div>
-	</div>
-	<div class="row intro lvl-3">
-	<div class="col-xs-12 intro lvl-4">
-	<a href="https://app.gonimo.com" role="button" title="<?php echo $i_i[1]; ?>" id="start-btn"><div class="intro-btn">
-		<p>
-		<?php echo $i_i[2]; ?>
-		</p>
-	</div></a>
-	</div>
-	
-	</div>
-	</div>
+
 </div>
 </section>
 <section class="video">
 <div class="container-fluid video lvl-1">
-	<div class="container video lvl-2">
+	<div class="video lvl-2">
 		<video  controls preload="metadata">
 			<source src=<?php echo $videosPath.$i_v[2].".webm" ?> type="video/webm">
 			<source src=<?php echo $videosPath.$i_v[2].".mp4" ?> type="video/mp4">
@@ -109,7 +114,7 @@ $videosPath="/videos/";
 <section class="family">
 <div class="container-fluid family lvl-1">
 	<h2> <?php echo $i_s[9]; ?> </h2>
-	<div class="container family lvl-2">
+	<div class="family lvl-2">
 	<img class="img-responsive" src="/img/ico/family/gonimo-family-08.svg" alt="<?php echo $i_s[10]; ?>" title="<?php echo $i_s[10]; ?>">
 		<div class="family lvl-3">
 		<p>
@@ -134,7 +139,7 @@ $videosPath="/videos/";
 -->
 <section class="benefits">
 <div class="container-fluid benefits lvl-1" id="vorteile">
-	<div class="container benefits lvl-2">
+	<div class="benefits lvl-2">
 		<div class="row benefits lvl-3">
 			<div class="col-xs-12 benefits lvl-4">
 			<h2><?php echo $i_b[0]; ?></h2>
@@ -196,7 +201,7 @@ $videosPath="/videos/";
 </section>
 <section class="functions">
 <div class="container-fluid functions lvl-1" id="funktionen">
-	<div class="container functions lvl-2">
+	<div class="functions lvl-2">
 		<div class="row functions lvl-3">
 			<div class="col-xs-12 functions lvl-4">
 			<h2><?php echo $i_f[0]; ?></h2>
@@ -252,19 +257,18 @@ $videosPath="/videos/";
 <section class="team">
 <div class="container-fluid team lvl-1">
 	<img class="img-responsive" src="/img/team.jpg" alt="<?php echo $i_t[0]; ?>" title="<?php echo $i_t[0]; ?>"/>
-
-	<div class="container team lvl-2">
+	<div class="team lvl-2">
 		<div class="team lvl-3">
-			<a href="/team.php"  title="<?php echo $i_t[1]; ?>"><p class="team-btn">
+			<a href="/team.php"  title="<?php echo $i_t[1]; ?>"><div class="impact-btn">
 				<?php echo $i_t[2]; ?>
-			</p></a>
+			</div></a>
 		</div>
 	</div>
 </div>
 </section>
 <section class="help">
 <div class="container-fluid help lvl-1">
-	<div class="container help lvl-2">
+	<div class="help lvl-2">
 		<div class="row help lvl-3">
 			<div class="col-xs-12 help lvl-4">
 			<h2><?php echo $i_h[0]; ?></h2>
@@ -302,7 +306,7 @@ $videosPath="/videos/";
 </section>
 <section class="partner">
 <div class="container-fluid partner lvl-1">
-	<div class="container partner lvl-2">
+	<div class="partner lvl-2">
 		<div class="row partner lvl-3">
 			<div class="col-xs-12 help lvl-4">
 			<h3><?php echo $i_p[0]; ?></h3>

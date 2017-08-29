@@ -4,7 +4,7 @@ require_once 'header.php';
 <title>Gonimo Team</title>
 <div class="container-fluid s-t lvl-0">
 <main>
-	<div class="container-fluid s-t lvl-1">
+	<div class="container s-t lvl-1">
 	<img class="img-responsive" src="/img/team.jpg" />
 	</div>
 	<div class="container s-t lvl-1">
