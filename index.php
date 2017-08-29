@@ -146,33 +146,31 @@ $videosPath="/videos/";
 			</div>
 		</div>
 		<div class="row benefits lvl-3">
-			<div class="col-xs-12 col-md-6 col-md-offset-3 benefits lvl-4">
+			<div class="col-xs-6 col-md-4 col-md-offset-2 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-02.svg" alt="<?php echo $i_b[1]; ?>" title="<?php echo $i_b[1]; ?>"/>
 			<h3><?php echo $i_b[2]; ?></h3>
 			<p>
 			<?php echo $i_b[3]; ?>
 			</p>
-			</div>
-		</div>
-		<div class="row benefits lvl-3">		
-			<div class="col-xs-6 col-md-3 benefits lvl-4">
+			</div>		
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-03.svg" alt="<?php echo $i_b[4]; ?>" title="<?php echo $i_b[4]; ?>"/>
 			<h3><?php echo $i_b[5]; ?></h3>
 			<p><?php echo $i_b[6]; ?></p>
 			</div>
-			<div class="col-xs-6 col-md-3 benefits lvl-4">
+			<div class="clearfix visible-xs-block visible-sm-block"></div>
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-04.svg" alt="<?php echo $i_b[7]; ?>" title="<?php echo $i_b[7]; ?>"/>
 			<h3><?php echo $i_b[8]; ?></h3>
 			<p><?php echo $i_b[9]; ?></p>
 			</div>
 			<div class="clearfix visible-xs-block visible-sm-block"></div>
-			<div class="col-xs-6 col-md-3 benefits lvl-4">
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-05.svg" alt="<?php echo $i_b[10]; ?>" title="<?php echo $i_b[10]; ?>"/>
 			<h3><?php echo $i_b[11]; ?></h3>
 			<p><?php echo $i_b[12]; ?></p>
 			</div>
-			
-			<div class="col-xs-6 col-md-3 benefits lvl-4">
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-06.svg" alt="<?php echo $i_b[13]; ?>" title="<?php echo $i_b[13]; ?>"/>
 			<h3><?php echo $i_b[14]; ?></h3>
 			<p><?php echo $i_b[15]; ?></p>
@@ -273,7 +271,7 @@ $videosPath="/videos/";
 			<div class="col-xs-12 help lvl-4">
 			<h2><?php echo $i_h[0]; ?></h2>
 			</div>
-			<div class="col-xs-12 col-sm-6 help lvl-4">
+			<div class="col-xs-12 col-sm-4 col-sm-offset-1 help lvl-4">
 			<div class="help lvl-5">
 			<img class="img-responsive" src="/img/ico/helfen/spenden.svg" alt="<?php echo $i_h[1]; ?>" title="<?php echo $i_h[1]; ?>"/>
 			<h3><?php echo $i_h[2]; ?></h3>
@@ -288,7 +286,7 @@ $videosPath="/videos/";
 			</div>
 			</div>
 			<a href="/kontakt.php" title="<?php echo $i_h[5]; ?>">
-			<div class="col-xs-12 col-sm-6 help lvl-4">
+			<div class="col-xs-12 col-sm-4 col-sm-offset-2 help lvl-4">
 			<div class="help lvl-5">
 			<img class="img-responsive" src="/img/ico/helfen/feedback.svg" alt="<?php echo $i_h[6]; ?>" title="<?php echo $i_h[6]; ?>"/>
 			<h3><?php echo $i_h[7]; ?></h3>
