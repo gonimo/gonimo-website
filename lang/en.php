@@ -22,8 +22,8 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'START NOW', without any downloads or an installation process."
 	   , "<li>Absolutely free</li><li>Available on every device</li><li>Without installation</li><li>stable, simple and secure</li>"
 	   , "Find more information here"
-	   , "trailer"
 	   , "tutorial"
+	   , "trailer"
 	   , "faq"
        ];
 
@@ -45,6 +45,7 @@ $i_s = [ "Send an invitation from one device to another."
        , "expand your Gonimo family"
        , "the baby/parent station works with a multitude of devices"
        , "Congratulations! You've added one device to your family. You're ready to expand it now! With Gonimo, you can add as many devices as you need to your family and use them as parent devices or baby stations."
+	   , "Watch the video"
       ];
 
 $i_b = [ "Gonimo's advantages"
@@ -100,7 +101,7 @@ $i_h = [ "How can you help us?"
        , "We are happy to receive any feedback that will help us improve Gonimo."
        ];
 
-$i_p = [ "With the friendly assistance of netidee.at"];
+$i_p = [ "With the friendly assistance of:"];
 
 $t = [ "Team"
      , "our bright, cheerful team"
@@ -348,7 +349,7 @@ $i = [ "Site notice"
      , "Phone:"
      , "call Gonimo"
      , "e-mail hello@gonimo.com"
-     , "For general inquiries:"
+     , "For general inquiries: "
      , "Photo credits"
      , "Web design"
      , "Web development"

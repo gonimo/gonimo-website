@@ -2,9 +2,11 @@
 require_once 'header.php';
 ?>
 <title>Gonimo Impressum</title>
-<div class="container-fluid s-i lvl-0">
-	<div class="container s-i lvl-1">
+<div class="container s-i lvl-0">
+	<div class="container-fluid s-i lvl-1">
 	<section class="impressum">
+	<div class="row">
+	<div class="col-sm-12">
 	<header class="impressum">
 	<h1><?php echo $i[0]; ?></h1>
 	</header>
@@ -33,20 +35,23 @@ require_once 'header.php';
 	Christian Klotzner<br>
 	<br>
 	<h4><?php echo $i[9]; ?></h4>
-	Romana Roithner<br>
 	Aristoteles Riedmann<br>
 	<br>
 	<h4><?php echo $i[10]; ?></h4>
 	Aristoteles Riedmann<br>
-	Michael Klotzner<br>
 	<br>
 	<h4><?php echo $i[11]; ?></h4>
 	<a href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a><br>
 	<a href="http://glyphicons.com/" target="_blank" title="Glyphicons">Glyphicons</a><br>
 	<a href="https://jquery.com/" target="_blank" title="JQuery">JQuery</a><br>
 	<br>
+	</p>
+	</div>
+	</div>
 	</section>
 	<section class="disclaimer">
+	<div class="row">
+	<div class="col-sm-12">
 	<header class="disclaimer">
 	<h1><?php echo $i[12]; ?></h1>
 	</header>
@@ -66,9 +71,10 @@ require_once 'header.php';
 	<p>
 	<?php echo $i[20]; ?>
 	</p>
-	</section>
 	</div>
-
+	</div>
+	</section>
+</div>
 </div>
 <?php 
 include 'footer.php';

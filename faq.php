@@ -2,8 +2,10 @@
 require_once 'header.php';
 ?>
 <title>Gonimo FAQ</title>
-<div class="container-fluid s-f lvl-0">
-	<div class="container s-f lvl-1">
+<div class="container s-f lvl-0">
+	<div class="container-fluid s-f lvl-1">
+	<div class="row">
+	<div class="col-xs-12">
 	<header>
 	<h1><?php echo $f[0]; ?></h1>
 	<h2><?php echo $f[1]; ?></h2>
@@ -34,11 +36,13 @@ require_once 'header.php';
 	?>	
 
 		<div class="s-f lvl-2">
-		<h3><?php echo $f[3]; ?></h3>
+		<h4><?php echo $f[3]; ?></h4>
 		<p>
 		</p>
 		</div>
 	</article>
+	</div>
+	</div>
 	</div>
 </div>
 <?php 

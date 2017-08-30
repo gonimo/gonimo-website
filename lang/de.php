@@ -23,8 +23,8 @@ $i_i = [ "Das kostenlose Babyphone für Smartphone, Tablet oder PC."
    'Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
 	   , "<li>Absolut kostenlos</li><li>Auf jedem Gerät verfügbar</li><li>Ohne Installation</li><li>Stabil, Einfach und Sicher</li>"
 	   , "Weitere Informationen findest du hier"
-	   , "Trailer"
 	   , "Tutorial"
+	   , "Trailer"
 	   , "FAQ"
        ];
 	   
@@ -46,6 +46,7 @@ $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
        , "Erweitere deine Gonimo Familie"
        , "Baby/Eltern-Station funktioniert mit einer Vielzahl an Geräten"
        , "Gratulation! Du hast bereits ein Gerät zu deiner Familie hinzugefügt. Du bist nun bereit diese zu erweitern. Mit Gonimo ist es möglich so viele Geräte wie du benötigst in deine Familie einzuladen und anschliessend als Elterngerät oder Babystation zu verwenden."
+	   , "Video anschauen"
        ];
 
 $i_b = [ "Vorteile von Gonimo"
@@ -101,7 +102,7 @@ $i_h = [ "Wie kannst du uns helfen ?"
        , "Wir freuen uns über jedes Feedback welches uns bei der Verbesserung von Gonimo hilft!"
        ];
 
-$i_p = [ "Mit freundlicher Unterstützung durch netidee.at" ];
+$i_p = [ "Mit freundlicher Unterstützung durch:" ];
 
 $t = [ "Team"
      , "unser aufgewecktes, frisch fröhliches Team"
@@ -281,7 +282,7 @@ $i = [ "Impressum"
      , "Telefon:"
      , "Gonimo anrufen"
      , "Mail an hello@gonimo.com senden"
-     , "Für allgemeine Anfragen:"
+     , "Für allgemeine Anfragen: "
      , "Bildernachweis"
      , "Webdesign"
      , "Webentwicklung"

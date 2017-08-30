@@ -1,6 +1,5 @@
-<footer>
-<div class="container-fluid footer lvl-0">
-	<div class="container footer lvl-1">
+<footer class="container footer lvl-0">
+<div class="container-fluid footer lvl-1">
 		<div class="row footer lvl-2">
 			<div class="col-xs-12 col-sm-6 footer map-link lvl-3">
 			<nav>
@@ -26,6 +25,5 @@
 			</p>
 			</div>
 		</div>
-	</div>
 </div>
 </footer>

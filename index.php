@@ -29,16 +29,16 @@ $videosPath="/videos/";
 			<p>
 				<?php echo $i_i[7]; ?>
 			</p>
-			<ul class="impact-links">
-				<li><a href="#tutorial" title="<?php echo $i_i[8]; ?>"><?php echo $i_i[8]; ?></a></li>
-				<li><a href="#intro" title="<?php echo $i_i[9]; ?>"><?php echo $i_i[9]; ?></a></li>
-				<li><a href="/faq.php" title="<?php echo $i_i[10]; ?>"><?php echo $i_i[10]; ?></a></li>
+			<ul class="impact-links">				
+				<a href="#intro" title="<?php echo $i_i[8]; ?>"><li><?php echo $i_i[8]; ?></li></a>
+				<a href="#trailer" data-toggle="collapse" title="<?php echo $i_i[9]; ?>"><li><?php echo $i_i[9]; ?></li></a>
+				<a href="/faq.php" title="<?php echo $i_i[10]; ?>"><li><?php echo $i_i[10]; ?></li></a>
 			</ul>
 		</div>
 	</div>
 </div>
 </section>
-<section class="video" id="trailer">
+<section class="video collapse" id="trailer">
 <div class="container-fluid video lvl-1">
 	<div class="video lvl-2">
 		<video  controls preload="metadata">
@@ -48,6 +48,53 @@ $videosPath="/videos/";
 			<embed aria-label='ARIA label for embed' type='video/mp4' src="<?php echo $i_v[1]; ?>" allowfullscreen>
 			</div>
 		</video>
+	</div>
+</div>
+</section>
+<section class="benefits">
+<div class="container-fluid benefits lvl-1" id="vorteile">
+	<div class="benefits lvl-2">
+		<div class="row benefits lvl-3">
+			<div class="col-xs-12 benefits lvl-4">
+			<h2><?php echo $i_b[0]; ?></h2>
+			</div>
+		</div>
+		<div class="row benefits lvl-3">
+			<div class="col-xs-6 col-md-4 col-md-offset-2 benefits lvl-4">
+			<img class="img-responsive" src="/img/ico/usp/gonimo-02.svg" alt="<?php echo $i_b[1]; ?>" title="<?php echo $i_b[1]; ?>"/>
+			<h3><?php echo $i_b[2]; ?></h3>
+			<p><?php echo $i_b[3]; ?></p>
+			</div>		
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
+			<img class="img-responsive" src="/img/ico/usp/gonimo-03.svg" alt="<?php echo $i_b[4]; ?>" title="<?php echo $i_b[4]; ?>"/>
+			<h3><?php echo $i_b[5]; ?></h3>
+			<p><?php echo $i_b[6]; ?></p>
+			</div>
+			<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
+			<img class="img-responsive" src="/img/ico/usp/gonimo-04.svg" alt="<?php echo $i_b[7]; ?>" title="<?php echo $i_b[7]; ?>"/>
+			<h3><?php echo $i_b[8]; ?></h3>
+			<p><?php echo $i_b[9]; ?></p>
+			</div>
+			<div class="col-xs-6 col-md-4 benefits lvl-4">
+			<img class="img-responsive" src="/img/ico/usp/gonimo-05.svg" alt="<?php echo $i_b[10]; ?>" title="<?php echo $i_b[10]; ?>"/>
+			<h3><?php echo $i_b[11]; ?></h3>
+			<p><?php echo $i_b[12]; ?></p>
+			</div>
+			<div class="clearfix visible-xs-block visible-sm-block"></div>
+			<div class="col-xs-6 col-md-4 col-xs-offset-3 col-md-offset-0 benefits lvl-4">
+			<img class="img-responsive" src="/img/ico/usp/gonimo-06.svg" alt="<?php echo $i_b[13]; ?>" title="<?php echo $i_b[13]; ?>"/>
+			<h3><?php echo $i_b[14]; ?></h3>
+			<p><?php echo $i_b[15]; ?></p>
+			</div>
+			<!--
+			<div class="col-xs-12 benefits lvl-4"><a href="soon.php">
+			<p class="benefits-btn">
+			MEHR ERFAHREN
+			</p></a>
+			</div>
+			-->
+		</div>
 	</div>
 </div>
 </section>
@@ -95,10 +142,16 @@ $videosPath="/videos/";
 		</div></a>
 		</div>
 	</div>
-
+	<div class="row intro lvl-3">
+		<div class="col-xs-12 intro lvl-4">
+		<a href="#tutorial" role="button" data-toggle="collapse" title="<?php echo $i_s[12]; ?>" id="start-btn"><div class="video-btn">
+			<?php echo $i_s[12]; ?>
+		</div></a>
+		</div>
+	</div>
 </div>
 </section>
-<section class="video">
+<section class="video collapse" id="tutorial">
 <div class="container-fluid video lvl-1">
 	<div class="video lvl-2">
 		<video  controls preload="metadata">
@@ -137,56 +190,8 @@ $videosPath="/videos/";
 </div>
 </section>
 -->
-<section class="benefits">
-<div class="container-fluid benefits lvl-1" id="vorteile">
-	<div class="benefits lvl-2">
-		<div class="row benefits lvl-3">
-			<div class="col-xs-12 benefits lvl-4">
-			<h2><?php echo $i_b[0]; ?></h2>
-			</div>
-		</div>
-		<div class="row benefits lvl-3">
-			<div class="col-xs-6 col-md-4 col-md-offset-2 benefits lvl-4">
-			<img class="img-responsive" src="/img/ico/usp/gonimo-02.svg" alt="<?php echo $i_b[1]; ?>" title="<?php echo $i_b[1]; ?>"/>
-			<h3><?php echo $i_b[2]; ?></h3>
-			<p>
-			<?php echo $i_b[3]; ?>
-			</p>
-			</div>		
-			<div class="col-xs-6 col-md-4 benefits lvl-4">
-			<img class="img-responsive" src="/img/ico/usp/gonimo-03.svg" alt="<?php echo $i_b[4]; ?>" title="<?php echo $i_b[4]; ?>"/>
-			<h3><?php echo $i_b[5]; ?></h3>
-			<p><?php echo $i_b[6]; ?></p>
-			</div>
-			<div class="clearfix visible-xs-block visible-sm-block"></div>
-			<div class="col-xs-6 col-md-4 benefits lvl-4">
-			<img class="img-responsive" src="/img/ico/usp/gonimo-04.svg" alt="<?php echo $i_b[7]; ?>" title="<?php echo $i_b[7]; ?>"/>
-			<h3><?php echo $i_b[8]; ?></h3>
-			<p><?php echo $i_b[9]; ?></p>
-			</div>
-			<div class="clearfix visible-xs-block visible-sm-block"></div>
-			<div class="col-xs-6 col-md-4 benefits lvl-4">
-			<img class="img-responsive" src="/img/ico/usp/gonimo-05.svg" alt="<?php echo $i_b[10]; ?>" title="<?php echo $i_b[10]; ?>"/>
-			<h3><?php echo $i_b[11]; ?></h3>
-			<p><?php echo $i_b[12]; ?></p>
-			</div>
-			<div class="col-xs-6 col-md-4 benefits lvl-4">
-			<img class="img-responsive" src="/img/ico/usp/gonimo-06.svg" alt="<?php echo $i_b[13]; ?>" title="<?php echo $i_b[13]; ?>"/>
-			<h3><?php echo $i_b[14]; ?></h3>
-			<p><?php echo $i_b[15]; ?></p>
-			</div>
-			<!--
-			<div class="col-xs-12 benefits lvl-4"><a href="soon.php">
-			<p class="benefits-btn">
-			MEHR ERFAHREN
-			</p></a>
-			</div>
-			-->
-		</div>
-	</div>
-</div>
-</section>
-<section class="robert">
+
+<!-- <section class="robert">
 <div class="container-fluid robert lvl-1">
 	<img src="/img/gonimo-robert.jpg" alt="<?php echo $i_r[0]; ?>" title="<?php echo $i_r[0]; ?>">
 	<div class="container robert lvl-2">
@@ -196,7 +201,7 @@ $videosPath="/videos/";
 		<br>
 	</div>
 </div>
-</section>
+</section> -->
 <section class="functions">
 <div class="container-fluid functions lvl-1" id="funktionen">
 	<div class="functions lvl-2">
@@ -271,7 +276,7 @@ $videosPath="/videos/";
 			<div class="col-xs-12 help lvl-4">
 			<h2><?php echo $i_h[0]; ?></h2>
 			</div>
-			<div class="col-xs-12 col-sm-4 col-sm-offset-1 help lvl-4">
+			<div class="col-xs-12 col-sm-4 col-sm-offset-2 help lvl-4">
 			<div class="help lvl-5">
 			<img class="img-responsive" src="/img/ico/helfen/spenden.svg" alt="<?php echo $i_h[1]; ?>" title="<?php echo $i_h[1]; ?>"/>
 			<h3><?php echo $i_h[2]; ?></h3>
@@ -286,23 +291,28 @@ $videosPath="/videos/";
 			</div>
 			</div>
 			<a href="/kontakt.php" title="<?php echo $i_h[5]; ?>">
-			<div class="col-xs-12 col-sm-4 col-sm-offset-2 help lvl-4">
+			<div class="col-xs-12 col-sm-4 help lvl-4">
 			<div class="help lvl-5">
 			<img class="img-responsive" src="/img/ico/helfen/feedback.svg" alt="<?php echo $i_h[6]; ?>" title="<?php echo $i_h[6]; ?>"/>
 			<h3><?php echo $i_h[7]; ?></h3>
 			<p>
            <?php echo $i_h[8]; ?>
-            <br>
-			<!-- Du würdest uns sehr helfen wenn du an einer kleinen Umfrage teilnimmst und uns hilfst unser Projekt noch weiter zu verbessern.<br> -->
 			</p>
 			</div>
 			</div>
 			</a>
+			<div class="col-xs-12 help lvl-4">
+			<h3><?php echo $i_p[0]; ?></h3>
+			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
+			<img class="img-responsive" src="/img/partner/netidee.svg" alt="NETIDEE - Logo" title="NETIDEE - Logo"/><br>
+			<span>netidee.at</span>
+			</a>
+			</div>
 		</div>
 	</div>
 </div>
 </section>
-<section class="partner">
+<!--<section class="partner">
 <div class="container-fluid partner lvl-1">
 	<div class="partner lvl-2">
 		<div class="row partner lvl-3">
@@ -315,7 +325,7 @@ $videosPath="/videos/";
 		</div>
 	</div>
 </div>
-</section>
+</section>-->
 </div>
 <?php 
 include 'footer.php';

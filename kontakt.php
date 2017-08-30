@@ -83,8 +83,10 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 }
 ?>
 <title>Gonimo <?php echo $k[2]; ?></title>
-<div class="container-fluid s-k lvl-0">
-	<div class="container s-k lvl-1">
+<div class="container s-k lvl-0">
+	<div class="container-fluid s-k lvl-1">
+	<div class="row">
+	<div class="col-xs-12">
 	<header class="contact">
 	<h1><?php if ($press==true){echo $k[3];}else{echo $k[2];} ?></h1>
 	<p>
@@ -94,9 +96,9 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		}else{
 		echo $k[5];
 		} ?>
+	</p>
 	</header>
 	<section class="contact">
-	<div class="container s-k s-k-form">
 		<form action="" method="POST" name="contact-form" id="contact-form" role="form">
 		<div class="form-group">
 		<label for="name"><?php echo $k[6]; ?> *</label>
@@ -127,10 +129,10 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $k[13]; ?> </button>
 		<button name="btn-reset" type="reset" class="btn btn-warning btn-block" role="button"> <?php echo $k[14]; ?> </button>
 		</form>
-	</div>
 	</section>
 	</div>
-
+	</div>
+	</div>
 </div>
 <?php 
 include 'footer.php';

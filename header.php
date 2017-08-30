@@ -52,9 +52,9 @@ _paq.push(['enableLinkTracking']);
 
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top nav-bg">
-  <div class="container ">
-    <div class="navbar-header">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header nav-bg">
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -62,8 +62,8 @@ _paq.push(['enableLinkTracking']);
       </button>
       <a class="navbar-brand" href="/index.php" title="Home">GONIMO</a>
     </div>
-  <div class="nav-menu collapse navbar-collapse" id="Navbar">
-  <div class="container">
+  <div class="nav-menu collapse navbar-collapse nav-bg" id="Navbar">
+  <div class="container-fluid">
     <ul class="nav nav-justified">
       <li><a href="/index.php" title="<?php echo $m[0]; ?>"><?php echo $m[0]; ?> </a></li>
       <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[1]; ?>"><?php echo $m[1]; ?></a></li>
