@@ -20,9 +20,6 @@ $(window).resize(function(){
         $(this).height($(this).width());
 		});
 		
-		$('.help.lvl-5').each(function() {
-        $(this).height($(this).width());
-		});
 });
 //For function toggle 
 /*

@@ -276,9 +276,8 @@ $videosPath="/videos/";
 			<div class="col-xs-12 help lvl-4">
 			<h2><?php echo $i_h[0]; ?></h2>
 			</div>
-			<div class="col-xs-12 col-sm-4 col-sm-offset-2 help lvl-4">
-			<div class="help lvl-5">
-			<img class="img-responsive" src="/img/ico/helfen/spenden.svg" alt="<?php echo $i_h[1]; ?>" title="<?php echo $i_h[1]; ?>"/>
+			<div class="col-xs-6 col-sm-4 col-sm-offset-2 help lvl-4">
+			<div class="img-wrapper"><img class="img-responsive" src="/img/ico/helfen/spenden.svg" alt="<?php echo $i_h[1]; ?>" title="<?php echo $i_h[1]; ?>"/></div>
 			<h3><?php echo $i_h[2]; ?></h3>
 			<p>
 			<?php echo $i_h[3]; ?>
@@ -289,23 +288,19 @@ $videosPath="/videos/";
 			<input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="<?php echo $i_h[4]; ?>">
 			</form>
 			</div>
-			</div>
 			<a href="/kontakt.php" title="<?php echo $i_h[5]; ?>">
-			<div class="col-xs-12 col-sm-4 help lvl-4">
-			<div class="help lvl-5">
-			<img class="img-responsive" src="/img/ico/helfen/feedback.svg" alt="<?php echo $i_h[6]; ?>" title="<?php echo $i_h[6]; ?>"/>
+			<div class="col-xs-6 col-sm-4 help lvl-4">
+			<div class="img-wrapper"><img class="img-responsive" src="/img/ico/helfen/feedback.svg" alt="<?php echo $i_h[6]; ?>" title="<?php echo $i_h[6]; ?>"/></div>
 			<h3><?php echo $i_h[7]; ?></h3>
 			<p>
            <?php echo $i_h[8]; ?>
 			</p>
-			</div>
 			</div>
 			</a>
 			<div class="col-xs-12 help lvl-4">
 			<h3><?php echo $i_p[0]; ?></h3>
 			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
 			<img class="img-responsive" src="/img/partner/netidee.svg" alt="NETIDEE - Logo" title="NETIDEE - Logo"/><br>
-			<span>netidee.at</span>
 			</a>
 			</div>
 		</div>

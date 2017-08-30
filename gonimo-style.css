@@ -49,6 +49,41 @@ a:hover, a:focus{
 	padding-top:2.5%;
 	padding-bottom:3.5%;
 }
+h2{
+	font-family:Raleway-Regular;
+	padding-bottom:2.5%;
+}
+/* FONT-SIZE CORRECTION */
+@media(max-width:768px){
+	h2{
+		font-size:150%;
+	}
+	.impact-btn{
+		font-size:100%;
+	}
+	.video-btn{
+		font-size:100%;
+	}
+}
+@media(min-width:768px){
+	h2{
+		font-size:250%;
+	}
+	.impact-btn{
+		font-size:150%;
+	}
+	.video-btn{
+		font-size:125%;
+	}
+}
+@media(min-width:1200px){
+	.impact-btn{
+		font-size:200%;
+	}
+	.video-btn{
+		font-size:150%;
+	}
+}
 /* NAVIGATION */
 .nav > li > a {
 	font-size:larger;
@@ -158,7 +193,6 @@ section.impact{
 	font-size:large;
 }
 .impact-btn{
-	font-size:200%;
 	display:inline-block;
 	padding:2%;
 	line-height:1;
@@ -195,6 +229,7 @@ section.impact{
 	align-content:space-around;
 	justify-content:space-around;
 	color:white;
+	padding-left:0;
 }
 .impact .impact-links > a {
 	margin:0;
@@ -234,11 +269,6 @@ video{
 /* INTRO */
 .lvl-0 .intro{
 	background: silver;
-}
-.intro h2{
-	text-align:center;
-	font-family: "Raleway-light";
-	font-size:280%;
 }
 div.intro-txt{
 	text-align:center;
@@ -286,7 +316,6 @@ img.intro-img{
 	width:75%;
 }
 .video-btn{
-	font-size:150%;
 	display:inline-block;
 	padding:1%;
 	line-height:1;
@@ -313,7 +342,7 @@ section.video{
 }
 /* FAMILY */
 .family.lvl-1{
-	background:darkgrey;
+	background:white;
 	text-align:center;
 }
 .family p{
@@ -371,10 +400,6 @@ section.video{
 	display:inline;
 	max-width:55%;
 }
-.benefits h2{
-	font-family:"Raleway-light";
-	font-size: 280%;
-}
 .benefits-btn{
 	font-size:260%;
 	display:inline;
@@ -398,55 +423,10 @@ section.video{
 @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(30deg);}25%{-webkit-transform:rotate(-30deg);}50%{-webkit-transform:rotate(30deg);}100%{-webkit-transform:rotate(0deg);}}
 @keyframes wiggle{0%{transform:rotate(30deg);}25%{transform:rotate(-30deg);}50%{transform:rotate(30deg);}100%{transform:rotate(0deg);}}
 
-/* ROBERT 
-.lvl-0 > .robert{
-	max-width:100%;
-	overflow:hidden;
-}
-.robert .lvl-2{
-	width:100%;
-	position:absolute;
-	top:40%;
-	text-align:right;
-	padding:1% 7%;
-}
-.robert h3{
-	font-size: 300%;
-	font-family:"Raleway-light";
-	color: black;
-}
-
-@media(max-width:1200px){
-	.robert img{
-		transform:translate(-425px);
-	}
-}
-@media(max-width:1000px){
-	.robert img{
-		transform:translate(-480px);
-	}
-	.robert-quote > br{
-		display:none;
-	}
-	.robert .lvl-2{
-	width:100%;
-	position:absolute;
-	top: unset !important;
-	bottom:0%;
-	text-align:center;
-	background:rgba(255,255,255,0.5);
-	padding:0% !important;
-	}
-}
 /* FUNCTIONS */
 .lvl-0 > .functions{
 	background: lightgrey;
 	text-align:center;
-}
-.functions h2{
-	font-family:"Raleway-light";
-	font-size: 280%;
-	margin-bottom:5%;
 }
 .functions .lvl-4{
 	transition: background 0.2s;
@@ -530,37 +510,18 @@ section.video{
 }
 /* HELP */
 .lvl-0 > .help{
-	background:darkgrey;
-}
-.help h2{
-	font-family:"Raleway-light";
-	font-size: 280%;
+	background:white;
 }
 .help .lvl-4{
 	text-align:center;
 	padding:1%;
 }
-.help .lvl-5{
-	background: rgb(220,220,220);
-	padding:4%;
-	transition: all 1s;
-}
-.help.lvl-5:hover{
-	color:white;
-	background: rgb(120,120,120);
-	transform: scale(1.1);
-}
 .help img{
-	max-width:15%;
 	display:inline;
 }
-/* PARTNER */
-.lvl-0 > .partner{
-	background:lightgrey;
-	text-align:center;
-}
-.partner img{
-	display:inline;
+.help .img-wrapper{
+	display:inline-block;
+	width:15%;
 }
 /* FOOTER */
 .footer.lvl-1{
@@ -577,12 +538,9 @@ section.video{
 .footer .map-link a:hover{
 	color:black;
 }
-.footer .sm-icon{
-	text-align:right;
-}
 .footer .sm-icon img{
 	display:inline;
-	max-width:10%;
+	max-width:5%;
 	transition: background 1s;
 	border-radius:50%;
 }
@@ -604,7 +562,16 @@ section.video{
 .footer.row{
 	padding-top:1.5%;
 }
-
+@media(min-width:768px){
+	.footer .sm-icon{
+		text-align:right;
+	}
+}
+@media(max-width:768px){
+	.footer{
+		text-align:center;
+	}
+}
 /* SUBPAGES------------------------------------------------------------------------------------SUBPAGES------------------------------------------------------------------------------------SUBPAGES */
 
 /*TEAM (T) */
@@ -617,10 +584,6 @@ section.video{
 }
 .s-t.lvl-1 img{
 	display:inline;
-}
-.s-t h2{
-	font-family: "Raleway-light";
-	font-size:280%;
 }
 .s-t h3{
 	font-family: "Raleway-light";
