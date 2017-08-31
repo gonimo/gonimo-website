@@ -52,6 +52,7 @@ a:hover, a:focus{
 h2{
 	font-family:Raleway-Regular;
 	padding-bottom:2.5%;
+  font-size: 180%;
 }
 /* FONT-SIZE CORRECTION */
 @media(max-width:768px){
@@ -290,8 +291,8 @@ video{
 }
 div.intro-txt{
 	text-align:center;
-	font-size:120%;
-	margin-bottom:5%;
+	font-size:100%;
+	margin-bottom:1%;
 }
 img.intro-img{
 	max-width:70%;
@@ -473,7 +474,6 @@ section.video{
 }
 .functions h3{
 	font-family:"Raleway-Medium";
-	font-size: 140%;
 }
 .functions-btn{
 	font-size:260%;
