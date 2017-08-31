@@ -45,7 +45,7 @@ $i_s = [ "Send an invitation from one device to another."
        , "Expand your Gonimo family"
        , "the baby/parent station works with a multitude of devices"
        , "Congratulations! You've added one device to your family. You're ready to expand it now! With Gonimo, you can add as many devices as you need to your family and use them as parent devices or baby stations."
-	   , "Watch the video"
+	   , "Watch the Video"
       ];
 
 $i_b = [ "Gonimo's advantages"
