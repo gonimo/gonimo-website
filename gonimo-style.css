@@ -68,7 +68,7 @@ h2{
 }
 @media(min-width:768px){
 	h2{
-		font-size:250%;
+		font-size:180%;
 	}
 	.impact-btn{
 		font-size:150%;
