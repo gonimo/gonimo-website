@@ -14,7 +14,7 @@ $m = [ "HOME"
 $c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	];
 
-$i_i = [ "The free baby monitor for smartphone, tablet or PC"
+$i_i = [ "The free baby monitor for smartphone, tablet or PC."
        , "start app"
        , "START BABYPHONE"
        , "ALPHA-VERSION 0.9"
@@ -42,10 +42,10 @@ $i_s = [ "Send an invitation from one device to another."
        , "Click 'PARENT and then ''CONNECT' on the other device."
        , "3. CONNECT TO BABY"
        , "Great! Now simply click 'CONNECT' on the parent device and your secure connection to your child is successfully established."
-       , "expand your Gonimo family"
+       , "Expand your Gonimo family"
        , "the baby/parent station works with a multitude of devices"
        , "Congratulations! You've added one device to your family. You're ready to expand it now! With Gonimo, you can add as many devices as you need to your family and use them as parent devices or baby stations."
-	   , "Watch the video"
+	   , "Watch the Video"
       ];
 
 $i_b = [ "Gonimo's advantages"
