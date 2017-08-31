@@ -53,7 +53,7 @@ $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
 $i_b = [ "Vorteile von Gonimo"
        , "Gonimo überreicht dir ein Geschenk"
        , " OPEN SOURCE &amp; KOSTENLOS "
-       , "Gonimo ist ein <a href='https://github.com/gonimo/gonimo' title='github link'>Open Source Projekt</a> und für jeden kostenlos und werbe-frei ohne Einschränkungen zugänglich."
+       , "Gonimo ist ein <a class='link' href='https://github.com/gonimo/gonimo' title='github link'>Open Source Projekt</a> und für jeden kostenlos und werbe-frei ohne Einschränkungen zugänglich."
        , "Gonimo steckt in einem Rucksack"
        , " IMMER MIT DABEI "
        , "Gonimo ist das erste Babyphon, welches du jederzeit einfach starten kannst. Keine Installation, keine Registrierung, kein Bezahlen - einfach loslegen!"
@@ -134,7 +134,7 @@ $t = [ "Team"
 $f = [ "FAQ"
      , "Frequently Asked Questions"
      , "Hi, ich bin Gonimo. Hier findest du die Antworten auf die am häufigsten gestellten Fragen."
-     , "Sollte deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a href='/kontakt.php' title='Gonimo Kontakt'> &gt; dieses Kontaktformular &lt; </a> oder besuche uns auf <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'> &gt; Facebook &lt; </a>. Ich freue mich, wenn ich weiter helfen kann."
+     , "Sollte deine Frage hier nicht geklärt worden sein, sende mir eine Nachricht über <a class='link' href='/kontakt.php' title='Gonimo Kontakt'>dieses Kontaktformular</a> oder besuche uns auf <a class='link'  href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>. Ich freue mich, wenn ich weiter helfen kann."
      ];
 
 $faq = [
@@ -171,7 +171,7 @@ $faq = [
        , "Du brauchst ein Gerät, das ein Mikrofon und/oder eine Kamera besitzt und einen aktuellen Chrome (bevorzugt) Browser installiert hat. Bei längerer Verwendung ist sicher zu stellen, dass alle Geräte mit ausreichend Strom versorgt sind."
        ]
      , [ "Kostet die Benutzung etwas?"
-       , "Nein! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und ohne Hindernisse zugänglich zu machen: 'already in your pocket'!<br>Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'> &gt; hier &lt; </a>"
+       , "Nein! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und ohne Hindernisse zugänglich zu machen: 'already in your pocket'!<br>Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a class='link' href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'>hier</a>"
        ]
      , [ "Kannst du mich nur als Babyphon verwenden?"
        , "Grundsätzlich sind meine Funktionen für die Benutzung als Babyphon vorgesehen und darauf optimiert, aber natürlich kannst du mich für andere Aktivitäten auch verwenden, bei denen du Audio- und/oder Videostreams verwenden willst."
@@ -191,7 +191,7 @@ $faq = [
        , "Ja! Du kannst das Gonimo-Projekt durch eine Spende über den Donate-Button oder durch den Erwerb der kostenpflichtigen App (In Entwicklung) und/oder durch deinen Like auf verschiedenen Social-Media-Plattformen unterstützen. Natürlich sind wir auch immer auf der Suche nach kreativen und motivierten Leuten, die das Projekt mit ihrem Ehrgeiz und ihrem Know-How tatkräftig unterstützen wollen."
        ]
      , [ "Wer sind meine Schöpfer?"
-       , "Ein Team junger, motivierter Leute, deren Profile du <a href='/team.php' title='Gonimo Team'> &gt; hier &lt; </a> findest."
+       , "Ein Team junger, motivierter Leute, deren Profile du <a class='link' href='/team.php' title='Gonimo Team'>hier</a> findest."
        ]
      ],
      ["Sicherheit"
@@ -223,7 +223,7 @@ $faq = [
      [ "Technisch"
        , [ "Warum funktioniere ich auf dem iOS Chrome Browser nicht?"
          , "Auf Apple iOS Geräten müssen alle Browser mit der Safari Engine arbeiten, diese unterstützt WebRTC (noch) nicht und somit muss ich noch warten bis ich auch auf einem iOS Gerät funktioniere.
-            Halte dich <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>hier über Facebook</a> am laufenden!
+            Halte dich <a class='link' href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>hier über Facebook</a> am laufenden!
 
             <p>Wir gehen von einer Unterstützung von iOS Geräten noch 2017 aus!
             </p>"
@@ -241,7 +241,7 @@ $faq = [
          , "Ja, Gonimo funktioniert auch auf Chrome Portable. Diesen Chrome kannst du dir auf deinen USB Stick installieren und er funktioniert auf jedem Rechner wo du deinen USB anstecken kannst und somit auch Gonimo."
          ] 
        , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
-         , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse, wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
+         , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a class='link' href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a class='link' href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse, wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
          ]
      ],
      ["App im PlayStore"
@@ -264,7 +264,7 @@ $faq = [
 		bleiben sie, kommen sie wieder? Das sind essentielle Informationen für
 		uns, die uns helfen Gonimo laufend zu verbessern. Wir stellen deine
 		Privatsphäre und Anonymität aber sicher, indem wir bewusst auf google analytics
-		verzichten und stattdessen auf die Open-Source Analyse Plattform <a
+		verzichten und stattdessen auf die Open-Source Analyse Plattform <a class='link' 
 		href='https://piwik.org/' title='Piwik'>Piwik</a> setzen."]
 		, ["Ich bin aber auf Diät, was kann ich gegen Cookies tun?",
 		"In den Einstellungen deines Browser kannst du die Cookies von Gonimo löschen und deaktivieren, dass Webseiten Cookies auf deinem Gerät speichern."]

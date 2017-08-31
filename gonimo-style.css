@@ -53,6 +53,9 @@ h2{
 	font-family:Raleway-Regular;
 	padding-bottom:2.5%;
 }
+a.link{
+	text-decoration:underline;
+}
 /* FONT-SIZE CORRECTION */
 @media(max-width:768px){
 	h2{

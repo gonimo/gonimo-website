@@ -28,7 +28,7 @@ require_once 'header.php';
 	<a href="mailto:hello@gonimo.com" target="_blank" title="<?php echo $i[6]; ?>">hello@gonimo.com</a><br>
 	<br>
 	<?php echo $i[7]; ?><a href="mailto:hello@gonimo.com" target="_blank" title="Mail an hello@gonimo.com senden">hello@gonimo.com</a><br>
-	Internet: <a href="http://www.gonimo.com" target="_blank" title="gonimo.com">www.gonimo.com</a><br>
+	Internet: <a class='link' href="http://www.gonimo.com" target="_blank" title="gonimo.com">www.gonimo.com</a><br>
 	<br>
 	<h4><?php echo $i[8]; ?></h4>
 	Romana Roithner<br>
@@ -41,9 +41,9 @@ require_once 'header.php';
 	Aristoteles Riedmann<br>
 	<br>
 	<h4><?php echo $i[11]; ?></h4>
-	<a href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a><br>
-	<a href="http://glyphicons.com/" target="_blank" title="Glyphicons">Glyphicons</a><br>
-	<a href="https://jquery.com/" target="_blank" title="JQuery">JQuery</a><br>
+	<a class='link' href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a><br>
+	<a class='link' href="http://glyphicons.com/" target="_blank" title="Glyphicons">Glyphicons</a><br>
+	<a class='link' href="https://jquery.com/" target="_blank" title="JQuery">JQuery</a><br>
 	<br>
 	</p>
 	</div>
