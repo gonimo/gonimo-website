@@ -21,8 +21,8 @@ $i_i = [ "Das kostenlose Babyphone für Smartphone, Tablet oder PC."
        , "Gonimo das Babyphon – Wie funktioniert's?"
        , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    'Jetzt Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
-	   , "<li>Absolut kostenlos</li><li>Auf jedem Gerät verfügbar</li><li>direkt hier im Browser <i class='fa fa-firefox' aria-hidden='true'></i><i class='fa fa-chrome' aria-hidden='true'></i>
- </li><li>Ohne Installation</li><li>Stabil, Einfach und Sicher</li>"
+	   , "<li>Absolut kostenlos</li><li>Auf jedem Gerät verfügbar</li><li>Direkt hier im Browser <i class='fa fa-firefox' aria-hidden='true'></i> <i class='fa fa-chrome' aria-hidden='true'></i>
+ </li><li>Ohne Installation</li><li>Stabil, einfach und sicher</li>"
 	   , "Weitere Informationen findest du hier"
 	   , "Tutorial"
 	   , "Trailer"
