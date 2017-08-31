@@ -34,7 +34,7 @@ $i_v = [ "trailer_en"
         ];
 
 $i_s = [ "Send an invitation from one device to another."
-       , "1. CREATE FAMILY"
+       , "1. PAIR YOUR DEVICES"
        , "Add one or more devices to your 'family' by sending an invitation via e-mail, WhatsApp or Telegram."
        , "Start a baby station, by pressing 'BABY' and 'START', on one of the devices"
        , "2. START BABY STATION"
