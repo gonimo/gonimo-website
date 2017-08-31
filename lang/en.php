@@ -14,7 +14,7 @@ $m = [ "HOME"
 $c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	];
 
-$i_i = [ "The free baby monitor for smartphone, tablet or PC"
+$i_i = [ "The free baby monitor for smartphone, tablet or PC."
        , "start app"
        , "START BABYPHONE"
        , "ALPHA-VERSION 0.9"
@@ -22,9 +22,9 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'START NOW', without any downloads or an installation process."
 	   , "<li>Absolutely free</li><li>Available on every device</li><li>Without installation</li><li>stable, simple and secure</li>"
 	   , "Find more information here"
-	   , "tutorial"
-	   , "trailer"
-	   , "faq"
+	   , "Tutorial"
+	   , "Trailer"
+	   , "FAQ"
        ];
 
 $i_v = [ "trailer_en"
