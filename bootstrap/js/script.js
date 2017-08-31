@@ -1,25 +1,7 @@
 $(window).resize(function(){
-		var width = $(window).width();
-		var source = "/img/impression-";		
-		
-		if (width <= 360 ){
-			source += "xs.png";
-		}else if(width > 360 && width <= 486 ){
-			source += "sm.png";
-		}else if(width > 486 && width <= 768 ){
-			source += "md.png";
-		}else if(width > 768 && width <= 1024 ){
-			source += "lg.png";
-		}else {
-			source += "xl.png";
-		}
-		$("#img-impact").attr("src",source);
-		
-		
 		$('.img-wrapper').each(function() {
         $(this).height($(this).width());
-		});
-		
+		});	
 });
 //For function toggle 
 /*
@@ -43,8 +25,12 @@ $(document).ready(function(){
 		$("#cookie-confirm").hide("300");
 	});
 	
-	$("#start-btn").click(function(){
-		_paq.push(['trackGoal', 1]);
+	$('*[data-video]').click(function(){
+		_paq.push(['trackEvent', 'Videos', 'open', $(this).data("video")]);
+	});
+	
+	$('video').on('play',function(){
+		_paq.push(['trackEvent', 'Videos', 'play', $(this).data("videoname")]);
 	});
 });
 

@@ -31,7 +31,7 @@ $videosPath="/videos/";
 			</p>
 			<ul class="impact-links">				
 				<a href="#intro" title="<?php echo $i_i[8]; ?>"><li><?php echo $i_i[8]; ?></li></a>
-				<a href="#trailer" data-toggle="collapse" title="<?php echo $i_i[9]; ?>"><li><?php echo $i_i[9]; ?></li></a>
+				<a href="#trailer" data-toggle="collapse" data-video="trailer" title="<?php echo $i_i[9]; ?>"><li><?php echo $i_i[9]; ?></li></a>
 				<a href="/faq.php" title="<?php echo $i_i[10]; ?>"><li><?php echo $i_i[10]; ?></li></a>
 			</ul>
 		</div>
@@ -41,7 +41,7 @@ $videosPath="/videos/";
 <section class="video collapse" id="trailer">
 <div class="container-fluid video lvl-1">
 	<div class="video lvl-2">
-		<video  controls preload="metadata">
+		<video  controls preload="metadata" data-videoname="trailer">
 			<source src=<?php echo $videosPath.$i_v[0].".webm" ?> type="video/webm">
 			<source src=<?php echo $videosPath.$i_v[0].".mp4" ?> type="video/mp4">
 			<div class="embed-responsive embed-responsive-16by9">
@@ -144,7 +144,7 @@ $videosPath="/videos/";
 	</div>
 	<div class="row intro lvl-3">
 		<div class="col-xs-12 intro lvl-4">
-		<a href="#tutorial" role="button" data-toggle="collapse" title="<?php echo $i_s[12]; ?>" id="start-btn"><div class="video-btn">
+		<a href="#tutorial" role="button" data-toggle="collapse" data-video="tutorial" title="<?php echo $i_s[12]; ?>" id="start-btn"><div class="video-btn">
 			<?php echo $i_s[12]; ?>
 		</div></a>
 		</div>
@@ -154,7 +154,7 @@ $videosPath="/videos/";
 <section class="video collapse" id="tutorial">
 <div class="container-fluid video lvl-1">
 	<div class="video lvl-2">
-		<video  controls preload="metadata">
+		<video  controls preload="metadata" data-videoname="tutorial">
 			<source src=<?php echo $videosPath.$i_v[2].".webm" ?> type="video/webm">
 			<source src=<?php echo $videosPath.$i_v[2].".mp4" ?> type="video/mp4">
 			<div class="embed-responsive embed-responsive-16by9">

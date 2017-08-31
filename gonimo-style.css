@@ -52,7 +52,6 @@ a:hover, a:focus{
 h2{
 	font-family:Raleway-Regular;
 	padding-bottom:2.5%;
-  font-size: 180%;
 }
 /* FONT-SIZE CORRECTION */
 @media(max-width:768px){
@@ -126,9 +125,10 @@ ul.lang{
 	border:none;
 	border-radius:0px;
 	box-shadow:none;
-	background-color:rgba(200,200,200,0.8);
+	background-color:rgba(255,255,255,0.9);
 	min-width:100%;
 	text-align:left;
+	position:unset;
 }
 #Navbar{
 	max-height:65vh;
@@ -168,12 +168,29 @@ section.impact{
 	text-align: center;
 	height: 100%;
 }
-.impact .row{
-	background:black;
-	background: url("/img/stock.jpg");
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:100% 100%;
+@media(min-width:1000px){
+	.impact .lvl-1{
+		background:black;
+		background: url("/img/impact-lg.jpg");
+		background-repeat:no-repeat;
+		background-position:left top;
+		background-size:contain;
+	}
+	.impact .row{
+		background:linear-gradient(to right, rgba(255,255,255,0) 45%,rgba(255,255,255,1) 100%);
+	}
+}
+@media(max-width:1000px){
+	.impact .lvl-1{
+		background:black;
+		background: url("/img/impact-md.jpg");
+		background-repeat:no-repeat;
+		background-position:left top;
+		background-size:cover;
+	}
+	.impact .row{
+		background:linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+	}
 }
 .impact{
 	color:black;
@@ -273,8 +290,8 @@ video{
 }
 div.intro-txt{
 	text-align:center;
-	font-size:100%;
-	margin-bottom:1%;
+	font-size:120%;
+	margin-bottom:5%;
 }
 img.intro-img{
 	max-width:70%;
@@ -346,7 +363,9 @@ section.video{
 	background:white;
 	text-align:center;
 }
-
+.family p{
+	font-size:larger;
+}
 @media(min-width:1000px){
 	.family .lvl-2{
 		position:relative;
@@ -456,6 +475,7 @@ section.video{
 }
 .functions h3{
 	font-family:"Raleway-Medium";
+	font-size: 140%;
 }
 .functions-btn{
 	font-size:260%;
@@ -667,8 +687,4 @@ section.video{
 }
 .s-k form{
 	padding:2.5% 0%;
-}
-
-h3 {
-    font-size: 120%;
 }
