@@ -35,7 +35,7 @@ $i_v = [ "trailer_de"
 		];
 
 $i_s = [ "Versende eine Einladung von einem Gerät zu einem zweiten."
-       , " 1. FAMILIE ERSTELLEN "
+       , " 1. GERÄTE KOPPELN "
        , "Füge mindestens ein zweites Gerät zu deiner 'Familie' hinzu, indem du eine Einladung per Mail, Whatsapp oder Telegram verschickst. "
        , "Aktiviere die Babystation auf einem der Geräte."
        , " 2. STARTE BABYSTATION "
