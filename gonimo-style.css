@@ -346,9 +346,7 @@ section.video{
 	background:white;
 	text-align:center;
 }
-.family p{
-	font-size:larger;
-}
+
 @media(min-width:1000px){
 	.family .lvl-2{
 		position:relative;
