@@ -297,7 +297,7 @@ $videosPath="/videos/";
 			</p>
 			</div>
 			</a>
-			<div class="col-xs-12 help lvl-4">
+			<div class="col-xs-12 help partner lvl-4">
 			<h3><?php echo $i_p[0]; ?></h3>
 			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
 			<img class="img-responsive" src="/img/partner/netidee.svg" alt="NETIDEE - Logo" title="NETIDEE - Logo"/><br>
@@ -307,20 +307,6 @@ $videosPath="/videos/";
 	</div>
 </div>
 </section>
-<!--<section class="partner">
-<div class="container-fluid partner lvl-1">
-	<div class="partner lvl-2">
-		<div class="row partner lvl-3">
-			<div class="col-xs-12 help lvl-4">
-			<h3><?php echo $i_p[0]; ?></h3>
-			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
-			<img class="img-responsive" src="/img/netidee.png" alt="NETIDEE - Logo" title="NETIDEE - Logo"/>
-			</a>
-			</div>
-		</div>
-	</div>
-</div>
-</section>-->
 </div>
 <?php 
 include 'footer.php';

@@ -54,6 +54,9 @@ h2{
 	padding-bottom:2.5%;
   font-size: 180%;
 }
+a.link{
+	text-decoration:underline;
+}
 /* FONT-SIZE CORRECTION */
 @media(max-width:768px){
 	h2{
@@ -129,7 +132,6 @@ ul.lang{
 	background-color:rgba(255,255,255,0.9);
 	min-width:100%;
 	text-align:left;
-	position:unset;
 }
 #Navbar{
 	max-height:65vh;
@@ -178,7 +180,10 @@ section.impact{
 		background-size:contain;
 	}
 	.impact .row{
-		background:linear-gradient(to right, rgba(255,255,255,0) 45%,rgba(255,255,255,1) 100%);
+		background:linear-gradient(to right, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 80%);
+		background: -moz-linear-gradient(left, rgba(255,255,255,0) 35%, rgba(255,255,255,1) 80%);
+		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 80%);
+		background: linear-gradient(to right, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 80%);
 	}
 }
 @media(max-width:1000px){
@@ -190,7 +195,7 @@ section.impact{
 		background-size:cover;
 	}
 	.impact .row{
-		background:linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+		background: rgba(255,255,255,0.6);
 	}
 }
 .impact{
@@ -227,6 +232,10 @@ section.impact{
 	transition: all 1s;
 	color:rgb(230,202,212);
 }
+.impact .impact-btn{
+	font-size:180%;
+	padding:2.5%;
+}
 .impact-btn > p{
 	margin:0;
 }
@@ -236,9 +245,13 @@ section.impact{
 	display:inline-block;
 	list-style:none;
 	margin-bottom:5%;
+	padding-left:0;
 }
 .impact > ul.impact-list  > li:nth-of-type(even){
 	margin-left:10%;
+}
+.impact > .impact-list > li{
+	padding:1% 0%;
 }
 .impact .impact-links{
 	list-style:none;
@@ -538,6 +551,9 @@ section.video{
 .help .img-wrapper{
 	display:inline-block;
 	width:15%;
+}
+.partner.lvl-4{
+	margin-bottom:2.5%;
 }
 /* FOOTER */
 .footer.lvl-1{

@@ -20,7 +20,7 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC."
        , "ALPHA-VERSION 0.9"
        , "Gonimo the baby monitor - How does it work?"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'START NOW', without any downloads or an installation process."
-	   , "<li>Absolutely free</li><li>Available on every device</li><li>Without installation</li><li>stable, simple and secure</li>"
+	   , "<li>Absolutely free</li><li>Available on every device</li><li>runs in your browser: <i class='fa fa-firefox' aria-hidden='true'></i><i class='fa fa-chrome' aria-hidden='true'></i></li><li>Without installation</li><li>stable, simple and secure</li>"
 	   , "Find more information here"
 	   , "Tutorial"
 	   , "Trailer"
@@ -51,7 +51,7 @@ $i_s = [ "Send an invitation from one device to another."
 $i_b = [ "Gonimo's advantages"
        , "Gonimo's present to you"
        , "OPEN SOURCE &amp; FREE"
-       , "Gonimo is an <a href='https://github.com/gonimo/gonimo' title='github link'>open source project</a> and available to everyone for free, without any ads or restrictions!"
+       , "Gonimo is an <a class='link' href='https://github.com/gonimo/gonimo' title='github link'>open source project</a> and available to everyone for free, without any ads or restrictions!"
        , "Gonimo in a backpack"
        , "ALREADY IN YOUR POCKET"
        , "Gonimo is the first baby monitor that you can simply start, no installation, no registration, no payments - already in your pocket!"
@@ -133,7 +133,7 @@ $f = [ "F.A.Q."
      , "Frequently Asked Questions"
      , "Hi, I'm Gonimo. This is where you find answers to the questions I get asked most often."
      , "In case your question was not answered here, please send me a message
-        using <a href='/kontakt.php' title='Gonimo Contact'> &gt; this contact form &lt; </a>. I'm always happy to help."
+        using <a class='link' href='/kontakt.php' title='Gonimo Contact'>this contact form</a>. I'm always happy to help."
      ];
 
 $faq = [ [ "General"
@@ -197,9 +197,9 @@ $faq = [ [ "General"
            , "No! Gonimo is an open source project and free to use. It is
               very important to my creators to make my features available to
               as many people as possible, easy and free. You can find more
-              information on what exactly open source means <a
+              information on what exactly open source means <a class='link' 
               href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia:
-              Open Source' target='_blank'> &gt; here &lt; </a>."
+              Open Source' target='_blank'>here</a>."
            ]
          , [ "Can I use you as anything other than a baby monitor?"
            , "In principle, I am intended to be used as a baby monitor. Of
@@ -241,7 +241,7 @@ $faq = [ [ "General"
            ]
          , [ "Who are your creators?"
            , "A team of young, motivated people whose profiles you can find
-              <a href='/team.php' title='Gonimo Team'> &gt; here &lt; </a>."
+              <a class='link' href='/team.php' title='Gonimo Team'>here</a>."
            ]
          ]
        , [ "Reliability, Security, and Privacy"
@@ -276,7 +276,7 @@ $faq = [ [ "General"
              Chrome is not allowed to use it's own. But Safari's rendering engine
              does not yet support WebRTC, which is needed by Gonimo to work.
              We'll keep you posted on the current state of affairs on
-             <a href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>!
+             <a class='link' href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>!
 
              <p>We anticipate Apple iOS support in the course of 2017!
              </p>"
@@ -297,7 +297,7 @@ $faq = [ [ "General"
               relatively far away from your child."
            ]
          , [ "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
-           , "Gonimo is an open-source project and subject to the guidelines of <a href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used under the conditions stated.
+           , "Gonimo is an open-source project and subject to the guidelines of <a class='link' href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a class='link' href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used under the conditions stated.
              <p>Depending on your goal, we might be interested in a cooperation!
              </p>"
            ]
@@ -328,7 +328,7 @@ $faq = [ [ "General"
 		"On the landing page we use cookies mostly for analytics, like how many visitors
 		do we have? Where do they come from? Do they come again? In order to
 		ensure your privacy and your anonymity we pass on google analytics and
-		use the open-source analysis platform <a href='https://piwik.org/'
+		use the open-source analysis platform <a class='link' href='https://piwik.org/'
 		title='Piwik'>Piwik</a> instead. This way, we get vital information, that
 		we need for improving Gonimo and still protect your privacy."]
 		, ["I am on a diet, what can I do against Cookies?",
