@@ -250,6 +250,17 @@ section.impact{
 .impact > ul.impact-list  > li:nth-of-type(even){
 	margin-left:10%;
 }
+/* FONT-SIZE CORRECTION */
+@media(max-width:768px){
+
+    .impact > ul.impact-list  > li:nth-of-type(even){
+	      margin-left:5%;
+    }
+
+    .impact > ul {
+	      font-size:80%;
+    }
+}
 .impact > .impact-list > li{
 	padding:1% 0%;
 }
