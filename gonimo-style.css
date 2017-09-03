@@ -274,6 +274,11 @@ section.impact{
 	color:white;
 	padding-left:0;
 }
+
+.browser-icons > i {
+    display: inline;
+}
+
 .impact .impact-links > a {
 	margin:0;
 	display:inline-block;
