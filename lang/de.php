@@ -22,7 +22,7 @@ $i_i = [ "Das kostenlose Babyphone für Smartphone, Tablet oder PC."
        , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    'Babyphone Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
          , "<li>Absolut kostenlos</li><!-- <li>Auf jedem Gerät verfügbar</li> --> 
- </li><li>Ohne Installation</li><li>Stabil, einfach und sicher</li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' aria-hidden='true'></i></span>"
+ </li><li>Ohne Installation</li><li>Stabil, einfach und <a href='/security.php' class='link' title='Sicherheit'>sicher</a></li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' aria-hidden='true'></i></span>"
 	   , "Weitere Informationen findest du hier"
 	   , "Tutorial"
 	   , "Trailer"
@@ -316,4 +316,29 @@ $k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich dar
 	 , "ZURÜCKSETZEN"
      ];
 
+$s = [ "Gonimo-Sicherheit"
+	 , "Hier erfährst du alles zur Sicherheit von gonimo."
+	 , "Allgemeines"
+	 , "Die Familie ist ein geschützter Bereich und deshalb wird SICHERHEIT bei gonimo auch gross geschrieben. Hier erfährst du alles über die technischen Sicherheitsmerkmale die bei gonimo zum Einsatz kommen."
+	 , "Peer-to-Peer (P2P)"
+	 , "Die Kommunikation zwischen deinen Baby- und Eltern-Geräten erfolgt über eine sichere Peer-to-Peer Verbindung. Das bedeutet dass der gonimo-Server nur dazu verwendet wird deine Geräte sozusagen einander vorzustellen (Handshake). Nachdem sich die Geräte nun 'kennen' stellen Sie eine Peer-to-Peer Verbindung. Dafür suchen Sie sich die schnellstmögliche direkte Route zueinander aus. Verwendest du gonimo zum Beispiel nur in deinem W-LAN zuhause so wird das Signal direkt über dein Netzwerk von einem Gertät zum anderen übertragen. Der Stream verlässt deinen geschützten Bereich also gar nicht. Verwendest du gonimo in verschiedenen Netzwerken so wird das Signal zwar über das Internet übertragen, die Daten kommen aber nicht an unserem Server vorbei. Deshalb können wir sie auch nicht speichern oder manipulieren.<br>Sollte die P2P-Verbindung nicht möglich sein, zum Beispiel aufgrund einer Firewall am Arbeitsplatz, stellen wir einen speziellen Server zur Verfügung um den Stream zu ermöglichen, auch hier werden die Daten natürlich nicht gespeichert oder manipuliert."
+	 , "Verschlüsselung"
+	 , "Alle Verbindungen die du mit gonimo herstellst sind verschlüsselt. Die Verbindung zum gonimo-Server und zur Homepage sind über <abr title='HyperText Transfer Protocol Secure'>HTTPS</abr> verschlüsselt. Das kannst du am Schloss-Symbol in der Adressleiste deines Browsers erkennen. Durch klicken auf das kleine Schloss-Symbol kannst du dir auch das Zertifikat anzeigen lassen, das von 'Let´s Encrypt' für 'gonimo.com' ausgestellt wurde.<br>Die Verbindung zwischen deinen Geräten wird ebenfalls über HTTPS verschlüsselt und ist somit selbst dann geschützt wenn das Signal abgefangen wird.<br>Die Verbindung zwischen WebApp und unserem Server, die verwendet wird um anzuzeigen ob ein Gerät online und bereit zum Streamen ist, wird über secureWebSocket ebenfalls verschlüsselt übertragen."
+	 , "Daten"
+	 , "Damit gonimo funktionieren kann und dich beim zweiten Besuch auch wiedererkennt müssen wir bestimmte Daten speichern aus denen man dich identifizeren könnte. Diese Daten sind allerdings in einer verschlüsselten Datenbank gespeichert und enthalten keine personenbezogenen Daten und können auch nicht zu dir zurückverfolgt werden. Diese Daten werden auch garantiert nicht an Andere weitergegeben."
+	 , "Einladungs- und Familien-System"
+	 , "Deine Geräte werden in deiner 'gonimo-Familie' verwaltet. Wenn du gonimo das erste Mal benutzt wird für dich eine neue Familie erstellt. Neue Geräte kannst du über unser Einladungssystem zu deiner Familie hinzufügen. Jede Einladung beinhaltet einen komplizierten Code und ist nur einmal gültig. Das garantiert dass du wirklich nur die Personen in deiner Familie hast die dort auch hingehören.<br>Solltest du versehentlich eine falsche Person eingeladen haben, kannst du einfach selbst den Einladungslink anklicken und somit die Einladung ungültig machen. Wenn das schon zu spät ist kannst du ungeliebte und falsche Mitglieder jederzeit in der Familienübersicht wieder entfernen.<br>Sollte wirklich alles schief gehen, kannst du auch einfach eine neue Familie gründen und einen Neuanfang wagen."
+	 , "PIWIK"
+	 , "Auch wir müssen Marktforschung betreiben um herauszufinden wie wir gonimo für euch noch besser und einfacher gestallten können. Statt, wie die meisten, auf den Marktführer 'Google Analytics' zu setzen verwenden wir die Open Source Alternative PIWIK. Dadurch behalten wir die volle Kontrolle über die gesammelten Daten und geben keine Nutzerdaten an google weiter. Dadurch können Datensätze auch nicht eindeutig einem Nutzer zugeordnet werden, was automatisch für mehr Privatsphäre sorgt. Wir benutzen diese Daten auch nur anonymisiert und nur zum Zweck eure Interaktionen mit gonimo zu verstehen."
+	 , "Open Source"
+	 , "gonimo wird in allen Bereichen als Open Source Projekt verwirklicht. Das bedeutet das unser Code öffentlich ist und von jedem auch in anderen Projekten verwendet werden kann. Die einzige Einschränkung ist dass auch dieses Projekt Open Source ist.<br>Ein positiver Nebeneffekt ist auch dass jeder unsere Sicherheitskonzepte überprüfen kann. Wir freuen uns auch über Feedback und Fehlerberichte (Bug-Reports)."
+	 , "Zusätzliche Informationen"
+	 , "Noch mehr Infos findest du unter folgenden Links:<ul>
+	 <li><a class='link' href='https://de.wikipedia.org/wiki/Peer-to-Peer' title='P2P'>Peer-to-Peer auf Wikipedia</a></li>
+	 <li><a class='link' href='https://de.wikipedia.org/wiki/Https' title='HTTPS'>HTTPS auf Wikipedia</a></li>
+	 <li><a class='link' href='https://de.wikipedia.org/wiki/WebSocket' title='WebSocket'>WebSocket auf Wikipedia</a></li>
+	 <li><a class='link' href='https://piwik.org/' title='PIWIK'>PIWIK</a></li>
+	 <li><a class='link' href='https://de.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source auf Wikipedia</a></li>
+	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='gonimo auf github'>gonimo auf github</a></li>"
+	 ];
 ?>

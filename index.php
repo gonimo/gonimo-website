@@ -73,7 +73,7 @@ $videosPath="/videos/";
 			<div class="clearfix visible-xs-block visible-sm-block visible-md-block"></div>
 			<div class="col-xs-6 col-md-4 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-04.svg" alt="<?php echo $i_b[7]; ?>" title="<?php echo $i_b[7]; ?>"/>
-			<h3><?php echo $i_b[8]; ?></h3>
+			<h3><a href="/security.php" class="link" title="<?php echo $s[0]; ?>"><?php echo $i_b[8]; ?></a></h3>
 			<p><?php echo $i_b[9]; ?></p>
 			</div>
 			<div class="col-xs-6 col-md-4 benefits lvl-4">
