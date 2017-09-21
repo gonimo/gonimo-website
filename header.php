@@ -33,23 +33,17 @@ require_once 'lang/locals.php';
 	<script src="/bootstrap/jquery.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/bootstrap/js/script.js"></script>
-	<!--<script src="/bootstrap/js/snowstorm-min.js"></script> -->
-      <!-- Piwik -->
-      <script type="text/javascript">
-      var _paq = _paq || [];
-/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-_paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
-(function() {
-    var u="//piwik.gonimo.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-})();
-</script>
-<!-- End Piwik Code -->
-
+    <?php 
+	if (date('n') >= 11 or date('n') <=3){
+		echo "<script src='/bootstrap/js/snowstorm-min.js'></script>";
+	};
+	//Check $_SERVER['SERVER_NAME'] on alpha-server and insert result in if-Statement
+	if($_SERVER['SERVER_NAME'] == "alpha.gonimo.com"){
+		echo "<script src='/bootstrap/js/piwik-alpha.js'></script><noscript><p><img src='//gonimo.innocraft.cloud/piwik.php?idsite=2&rec=1' style='border:0;' alt='' /></p></noscript>";
+	}else{
+		echo "<script src='/bootstrap/js/piwik.js'></script><noscript><p><img src='//gonimo.innocraft.cloud/piwik.php?idsite=1&rec=1' style='border:0;# alt='' /></p></noscript>";
+	};
+	?>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
