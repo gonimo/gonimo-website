@@ -9,12 +9,15 @@ require_once 'lang/locals.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="application-name" content="Gonimo">
 	<meta name="author" content="Gonimo/ninjagulbi">
-	<meta name="description" content="Good Night Monitor - das erste kostenlose, web-basierte Babyphon. KEINE App-Installation! Web-Browser öffnen und loslegen. Das Familien-System ermöglicht Multi-Baby und Multi-Parent von Beginn an.">
-	<meta name="keywords" content="babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling">
+	<?php 
+	foreach ($header as $name => $content){
+		echo "<meta name='".$name."' content='".$content."'>";
+	};
+	?>
 	<meta name="ROBOTS" content="INDEX,FOLLOW">
 	<link rel="canonical" href="https://gonimo.com"/>
-	<link rel="alternate" hreflang="de" href="https://gonimo.com/?lang=de"/>
-	<link rel="alternate" hreflang="en" href="https://gonimo.com/?lang=en"/>
+	<link rel="alternate" hreflang="de" href="https://gonimo.com/de/"/>
+	<link rel="alternate" hreflang="en" href="https://gonimo.com/en/"/>
 	<meta name="theme-color" content="#E6CAD4">
 	<meta name="msapplication-navbutton-color" content="#E6CAD4">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#E6CAD4">
@@ -24,9 +27,12 @@ require_once 'lang/locals.php';
 	<meta property="og:title" content="gonimo" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://gonimo.com/" />
-	<meta property="og:image" content="https://gonimo.com/img/impression-xl.png" />
-	<meta property="og:site_name" content="gonimo" />
-	<meta property="og:description" content="Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyphon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)" />
+	<meta property="og:image" content="https://gonimo.com/img/impact-lg.jpg" />
+		<?php 
+	foreach ($og as $name => $content){
+		echo "<meta property='".$name."' content='".$content."'>";
+	};
+	?>
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="/gonimo-style.css" rel="stylesheet"> 
