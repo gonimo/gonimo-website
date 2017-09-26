@@ -4,7 +4,7 @@ $header = ["description" => "gonimo Good Night Monitor - the first free, web-bas
 	 ];
 	 
 $og = [ "og:site_name" => "gonimo - the free baby-monitor"
-	 , "og:description" => "Do you know anyone in need for a baby monitor? new or soon to be parents? They already got one. gonimo - Already in your pocket!“ ;)"
+	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. gonimo - Already in your pocket!“ ;)"
 	 ];
 	
 
