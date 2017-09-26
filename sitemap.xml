@@ -1,6 +1,16 @@
 <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 		<loc>https://gonimo.com/</loc>
+		 <xhtml:link 
+                 rel="alternate"
+                 hreflang="de"
+                 href="https://gonimo.com/de/"
+                 />
+				 <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://gonimo.com/en/"
+                 />
 		<changefreq>daily</changefreq>
 		<priority>1.00</priority>
 	</url>
