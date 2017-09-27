@@ -4,7 +4,7 @@ $header = ["description" => "gonimo Good Night Monitor - the first free, web-bas
 	 ];
 	 
 $og = [ "og:site_name" => "gonimo - the free baby-monitor"
-	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. gonimo - Already in your pocket!“ ;)"
+	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. gonimo - Already in your pocket! ;)"
 	 ];
 	
 
@@ -390,27 +390,26 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
 	 , "RESET"
      ];
 
-	 $s = [ "Gonimo-Security"
+	 $s = [ "Gonimo Security"
 	 , "Here you can find everything you need to know about the security of gonimo."
 	 , "General"
 	 , "Family is a safe space, that's why SECURITY is a major issue at gonimo. Here you can learn about the technical security measures gonimo uses."
 	 , "Peer-to-Peer (P2P)"
-	 , "Communication between your baby- and parent-devices takes place over a secure peer-to-peer connection. Usually the gonimo server is only needed to introduce your devices to each other (handshake), afterwards a direct peer-to-peer and end-to-end encrypted connection gets established via WebRTC. For the common case that both devices use the same WiFi, the stream will not even leave your home. For other scenarios, our server might give a hand when two devices can't establish a peer-to-peer connection (firewalls), in this case the data gets relayed over one of our servers, but it is still end-to-end encrypted and neither we nor anyone else is able to see the transmitted data."
+	 , "Communication between your baby- and parent-devices takes place over a secure peer-to-peer connection. Usually the gonimo server is only needed to introduce your devices to each other (handshake). Afterwards a direct peer-to-peer and end-to-end encrypted connection gets established via WebRTC. For the common case that both devices use the same WiFi, the stream will not even leave your home. For other scenarios, our server might give a hand when two devices can't establish a peer-to-peer connection (firewalls), in this case the data gets relayed over one of our servers, but it is still end-to-end encrypted and neither we nor anyone else is able to see the transmitted data."
 	 , "Encryption"
-	 , "All connections established with gonimo are encrypted. The connection to the gonimo server and to the website use <abr title='HyperText Transfer Protocol Secure'>HTTPS</a> for encryption. You can check that by looking at the little lock-symbol in your browsers address bar. if you click the lock-symbol you can look at the certificate that was issued by 'Let´s Encrypt' for 'gonimo.com'.<br>The connection between your devices is also encrypted and is therefor secure even if the signal got intercepted."
+	 , "All connections established with gonimo are encrypted. The connection to the gonimo server and to the website use <abr title='HyperText Transfer Protocol Secure'>HTTPS</a> for encryption. You can check that by looking at the little lock-symbol in your browsers address bar. if you click the lock-symbol you can look at the certificate that was issued by 'Let´s Encrypt' for 'gonimo.com'.<br>The connection between your devices is also encrypted and is therefore secure even if the signal got intercepted."
 	 , "Data"
-	 , "For gonimo to work we need to store some data, both on your device and on our servers. We work hard on ensuring this data is safe. The servers holding your data are very well secured!"
+	 , "For gonimo to work, we need to store some data, both on your device and on our servers. We work hard on ensuring this data is safe. We even had an external security audit, which was excellent!"
 	 , "Invitation and family-system"
-	 , "Your devices are managed in your 'gonimo family'. If you use gonimo for the first time a family is created for you. With our invitation system you can add new devices to your family. Every invitation consists of a very long secret code and is only valid a single time. This ensures that only those who belong there can join your family.<br>If you accidentally invite the wrong person you can simply click on the invitation-link yourself and render it invalid. If its already too late you can easily remove unloved and wrong members from your family in the device list.<br>If everything goes wrong, you can just create a new family and start over."
+	 , "Your devices are managed in your 'gonimo family'. If you use gonimo for the first time, a family is created for you. With our invitation system you can add new devices to your family. Every invitation consists of a very long secret code and is only valid a single time. This ensures that only those who belong there can join your family.<br>If you accidentally invite the wrong person, you can simply click on the invitation-link yourself and render it invalid. If its already too late you can easily remove unloved and wrong members from your family in the device list.<br>If everything goes wrong, you can just create a new family and start over."
 	 , "PIWIK"
-     , "We need market research too, to figure out how to make gonimo even better and simpler for you. Instead of using the market leading 'Google Analytics', like most do, we count on the open source alternative PIWIK. Thereby we keep full control over the collected data and pass no user data to Google. This means that no record can be allocated to a single user which means more privacy. We only use the collected data anonymized and only for the purpose of understanding your interaction with gonimo."
+     , "We need market research too, to figure out how to make gonimo even better and simpler for you. Instead of using the market leading 'Google Analytics', like most do, we count on the open source alternative PIWIK. Thereby we keep full control over the collected data and pass no user data to Google. This means that no record can be allocated to a single user, which means more privacy. We only use the collected data anonymized and only for the purpose of understanding your interaction with gonimo."
 	 , "Open Source"
 	 , "gonimo is realized as open source project in all sections. This means our code is public and can be used in other projects. The only restriction is that the resulting project needs to be open source too.<br>A positive side effect is that everyone can review our security measures. We are glad to get feedback or bug-reports!"
 	 , "Additional information"
 	 , "More information can be found here:<ul>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Peer-to-Peer' title='P2P'>Peer-to-Peer on Wikipedia</a></li>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Https' title='HTTPS'>HTTPS on Wikipedia</a></li>
-	 <li><a class='link' href='https://en.wikipedia.org/wiki/WebSocket' title='WebSocket'>WebSocket on Wikipedia</a></li>
 	 <li><a class='link' href='https://piwik.org/' title='PIWIK'>PIWIK</a></li>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source on Wikipedia</a></li>
 	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='gonimo auf github'>gonimo on github</a></li>"
