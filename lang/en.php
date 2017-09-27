@@ -399,7 +399,7 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
 	 , "Encryption"
 	 , "All connections established with gonimo are encrypted. The connection to the gonimo server and to the website use <abr title='HyperText Transfer Protocol Secure'>HTTPS</a> for encryption. You can check that by looking at the little lock-symbol in your browsers address bar. if you click the lock-symbol you can look at the certificate that was issued by 'Let´s Encrypt' for 'gonimo.com'.<br>The connection between your devices is also encrypted and is therefore secure even if the signal got intercepted."
 	 , "Data"
-	 , "For gonimo to work, we need to store some data, both on your device and on our servers. We work hard on ensuring this data is safe. We even had an external security audit, which was excellent!"
+	 , "For gonimo to work, we need to store some data, both on your device and on our servers. We work hard on ensuring this data is secure. We even had an external security audit, which turned out excellent!"
 	 , "Invitation and family-system"
 	 , "Your devices are managed in your 'gonimo family'. If you use gonimo for the first time, a family is created for you. With our invitation system you can add new devices to your family. Every invitation consists of a very long secret code and is only valid a single time. This ensures that only those who belong there can join your family.<br>If you accidentally invite the wrong person, you can simply click on the invitation-link yourself and render it invalid. If its already too late you can easily remove unloved and wrong members from your family in the device list.<br>If everything goes wrong, you can just create a new family and start over."
 	 , "PIWIK"
