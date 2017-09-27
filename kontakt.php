@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include $_SERVER["DOCUMENT_ROOT"].'/header.php';
 
 $press = false;
 $successmsg = $k[0];
@@ -135,7 +135,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 	</div>
 </div>
 <?php 
-include 'footer.php';
+include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 </body>
 </html>

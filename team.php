@@ -1,5 +1,5 @@
 <?php
-require_once 'header.php';
+require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 ?>
 <title>Gonimo Team</title>
 <div class="container s-t lvl-0">
@@ -74,7 +74,7 @@ require_once 'header.php';
 </main>
 </div>
 <?php 
-include 'footer.php';
+include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 </body>
 </html>

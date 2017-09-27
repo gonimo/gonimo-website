@@ -1,6 +1,5 @@
 <?php
-require_once 'header.php';
-
+require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 $videosPath="/videos/";
 ?>
 <title>Gonimo - Already in your Pocket</title>
@@ -309,7 +308,7 @@ $videosPath="/videos/";
 </section>
 </div>
 <?php 
-include 'footer.php';
+include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 </body>
 </html>

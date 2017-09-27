@@ -45,7 +45,7 @@ a:hover, a:focus{
 .lvl-1{
 	position:relative;
 }
-.lvl-1.intro, .lvl-1.family, .lvl-1.devices, .lvl-1.benefits, .lvl-1.functions, .lvl-1.partner, .lvl-1.s-k, .lvl-1.s-f, .lvl-1.s-i{
+.lvl-1.intro, .lvl-1.family, .lvl-1.devices, .lvl-1.benefits, .lvl-1.functions, .lvl-1.partner, .lvl-1.s-k, .lvl-1.s-f, .lvl-1.s-i, .lvl-1.error{
 	padding-top:2.5%;
 	padding-bottom:3.5%;
 }
@@ -620,9 +620,14 @@ section.video{
 		text-align:center;
 	}
 }
+/* ERROR */
+.error.lvl-0{
+	text-align:center;
+	margin-top:49px;
+}
 /* SUBPAGES------------------------------------------------------------------------------------SUBPAGES------------------------------------------------------------------------------------SUBPAGES */
 
-/*TEAM (T) */
+/* TEAM (T) */
 .s-t.lvl-0{
 	text-align:center;
 	margin-top:49px;

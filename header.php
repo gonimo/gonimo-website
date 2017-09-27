@@ -1,6 +1,6 @@
 <!doctype html>
 <?php 
-require_once 'lang/locals.php';
+require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 ?>
 <html>
 <head>

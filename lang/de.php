@@ -6,7 +6,12 @@ $header = ["description" => "gonimo Good Night Monitor - das erste kostenlose, w
 $og = [ "og:site_name" => "gonimo - das kostenlose Babyphone"
 	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyphone? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
 	 ];
-	
+	 
+$error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst du leider nicht!<br>Du solltest gar nicht hier sein.<br>Aber wenn du gleich wieder gehst, verrate ich niemandem was.<br>Der Zugriff auf diese Ressource ist gesperrt."]
+	 , "404" => ["title" => "404 - Not Found", "description" => "Hier gibt es nichts!<br>Leider gibt es hier nichts zu sehen oder wir haben nicht gefunden was du suchst.<br>Die angeforderte Ressource wurde nicht gefunden."]
+	 , "back" => "Hier gehts zurück zu gonimo"
+	 ];
+	 
 $m = [ "HOME"
      , "VORTEILE"
      , "FUNKTIONEN"

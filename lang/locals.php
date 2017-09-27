@@ -15,16 +15,16 @@ if (isset($_GET["lang"])){
 
 switch (substr($_SESSION["lang"],0,2)){
 	case "de":
-		include_once 'lang/de.php';
+		include_once $_SERVER["DOCUMENT_ROOT"].'/lang/de.php';
 		break;
 	case "en":
-		include_once 'lang/en.php';
+		include_once $_SERVER["DOCUMENT_ROOT"].'/lang/en.php';
 		break;
 	/*  case "pt":
-		include_once 'lang/pt.php';
+		include_once $_SERVER["DOCUMENT_ROOT"].'/lang/pt.php';
 		break; */
 	default:
-		include_once 'lang/en.php';
+		include_once $_SERVER["DOCUMENT_ROOT"].'/lang/en.php';
 	}
 
 ?>

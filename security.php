@@ -1,5 +1,5 @@
 <?php
-require_once 'header.php';
+require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 ?>
 <title><?php echo $s[0]; ?></title>
 <div class="container s-f lvl-0">
@@ -67,7 +67,7 @@ require_once 'header.php';
 	</div>
 </div>
 <?php 
-include 'footer.php';
+include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 </body>
 </html>
