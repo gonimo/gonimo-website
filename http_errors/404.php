@@ -10,9 +10,13 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<h1><?php echo $error['404']['title']; ?></h1>
 	</header>
 	<article>
-	<img class="img img-responsive" src="/http_errors/404.svg" alt="404">
-	<h2><?php echo $error['404']['description']; ?></h2>
-	<h2><a href="/index.php" title="gonimo" class="link"><?php echo $error['back']; ?></a></h2>
+	<div class="row">
+		<div class="col-xs-12 col-md-6 col-md-offset-3"><img class="img img-responsive" src="/http_errors/404.svg" alt="404"></div>
+		<div class="col-xs-12">
+		<p><?php echo $error['404']['description']; ?></p>
+		<h2><a href="/index.php" title="gonimo" class="link"><?php echo $error['back']; ?></a></h2>
+		</div>
+	</div>
 	</article>
 	</div>
 	</div>
