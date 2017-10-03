@@ -1,7 +1,3 @@
 User-Agent: *
 Disallow: /http_errors/
-Disallow: /img/
-Disallow: /bootstrap/
-
 Sitemap: https://gonimo.com/sitemap.xml
-
