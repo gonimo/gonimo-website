@@ -11,7 +11,13 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you 
 	 , "404" => ["title" => "404 - Not Found", "description" => "There is nothing here!<br>Sadly you can not see anything here or we have not found what you are looking for.<br>The requested resource was not found"]
 	 , "back" => "Get back to gonimo here"
 	 ];
-	 
+	
+$news = [ "head" => "Problems with google Chrome for Android 61"
+	 , "body" => "Actually there is a problem with the gonimo video stream in google Chrome 61 for Android. We informed google about this error and got the promise that it will be fixed in the next update."
+	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
+	 , "link-title" => "Blog"
+	 ];
+	 	 
 $m = [ "HOME"
      , "ADVANTAGES"
      , "FEATURES"

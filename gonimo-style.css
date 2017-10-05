@@ -314,6 +314,14 @@ video{
   }
 }
 /* END of Apple-Fix */
+/* NEWS */
+.news{
+	text-align:center;
+}
+.news > h3 > i{
+	color:red;
+	padding:0% 1%;
+}
 /* INTRO */
 .lvl-0 .intro{
 	background: silver;

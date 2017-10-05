@@ -37,6 +37,17 @@ $videosPath="/videos/";
 	</div>
 </div>
 </section>
+<div class="container-fluid news lvl-1">
+	<div class="row news lvl-2">
+		<div class="col-xs-12 col-md-6 col-md-offset-3 news lvl-3">
+			<h3><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><?php echo $news['head']; ?><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></h3>
+			<p>
+			<?php echo $news['body']; ?>
+			</p>
+			<a class="link" href="<?php echo $news['link']; ?>" title="<?php echo $news['link-title']; ?>"><?php echo $news['link-title']; ?></a>
+		</div>
+	</div>
+</div> 
 <section class="video collapse" id="trailer">
 <div class="container-fluid video lvl-1">
 	<div class="video lvl-2">

@@ -12,6 +12,12 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst 
 	 , "back" => "Hier gehts zurück zu gonimo"
 	 ];
 	 
+$news = [ "head" => "Probleme mit google Chrome für Android 61"
+	 , "body" => "Aktuell kommt es bei google Chrome für Android 61 leider zu Problemen mit dem gonimo Videostream. Wir haben den Fehler bei google gemeldet und die Bestätigung bekommen, dass der Fehler im nächsten Update behoben ist."
+	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
+	 , "link-title" => "Blog"
+	 ];
+	 
 $m = [ "HOME"
      , "VORTEILE"
      , "FUNKTIONEN"
