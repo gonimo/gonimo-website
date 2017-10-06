@@ -12,10 +12,10 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst 
 	 , "back" => "Hier gehts zurück zu gonimo"
 	 ];
 	 
-$news = [ "head" => "Probleme mit google Chrome für Android 61"
-	 , "body" => "Aktuell kommt es bei google Chrome für Android 61 leider zu Problemen mit dem gonimo Videostream. Wir haben den Fehler bei google gemeldet und die Bestätigung bekommen, dass der Fehler im nächsten Update behoben ist."
+$news = [ "head" => "Probleme mit Google Chrome 61 für Android"
+	 , "body" => "Aktuell kommt es bei Google Chrome 61 für Android leider zu Problemen bei der Videodarstellung. Wir haben den Fehler bei Google gemeldet und die Bestätigung bekommen, dass der Fehler in Chrome 62 behoben wird."
 	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
-	 , "link-title" => "Blog"
+	 , "link-title" => "Mehr Informationen in unserem Blog"
 	 ];
 	 
 $m = [ "HOME"
@@ -281,7 +281,7 @@ $faq = [
 		wie gut unsere Landingpage funktioniert. Wieviele User kommen, wie lange
 		bleiben sie, kommen sie wieder? Das sind essentielle Informationen für
 		uns, die uns helfen Gonimo laufend zu verbessern. Wir stellen deine
-		Privatsphäre und Anonymität aber sicher, indem wir bewusst auf google analytics
+		Privatsphäre und Anonymität aber sicher, indem wir bewusst auf Google Analytics
 		verzichten und stattdessen auf die Open-Source Analyse Plattform <a class='link' 
 		href='https://piwik.org/' title='Piwik'>Piwik</a> setzen."]
 		, ["Ich bin aber auf Diät, was kann ich gegen Cookies tun?",

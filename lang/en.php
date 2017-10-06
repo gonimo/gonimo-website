@@ -12,10 +12,10 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you 
 	 , "back" => "Get back to gonimo here"
 	 ];
 	
-$news = [ "head" => "Problems with google Chrome for Android 61"
-	 , "body" => "Actually there is a problem with the gonimo video stream in google Chrome 61 for Android. We informed google about this error and got the promise that it will be fixed in the next update."
+$news = [ "head" => "Problems with Google Chrome 61 for Android"
+	 , "body" => "Currently there exists a problem with the video stream display in Google Chrome 61 for Android. We informed Google about this problem and got the promise that it will be fixed in Chrome 62."
 	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
-	 , "link-title" => "Blog"
+	 , "link-title" => "More information on our blog"
 	 ];
 	 	 
 $m = [ "HOME"
@@ -345,7 +345,7 @@ $faq = [ [ "General"
 		, ["Why is Gonimo using Cookies?",
 		"On the landing page we use cookies mostly for analytics, like how many visitors
 		do we have? Where do they come from? Do they come again? In order to
-		ensure your privacy and your anonymity we pass on google analytics and
+		ensure your privacy and your anonymity we pass on Google Analytics and
 		use the open-source analysis platform <a class='link' href='https://piwik.org/'
 		title='Piwik'>Piwik</a> instead. This way, we get vital information, that
 		we need for improving Gonimo and still protect your privacy."]
