@@ -1,6 +1,7 @@
 <?php
 $header = ["description" => "gonimo Good Night Monitor - the first free, web-based, secure, reliable, stable baby monitor without app installation! Open your web Browser and start. Multi-baby and Multi-parent"
 	 , "keywords" => "babyphone, babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, reliable, secure, encrypted, wlan, wifi, mobile, ad free, easy, fast, setup, multi, multi-baby, multi-parent, eltern, station, babystation, family, invitation, system, smartphone, tablet, laptop, advantages, skype, connection, app,no installation, recycling, upcycling"
+	 , "lang" => "en"
 	 ];
 	 
 $og = [ "og:site_name" => "gonimo - the free baby-monitor"

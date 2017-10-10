@@ -133,6 +133,9 @@ ul.lang{
 	min-width:100%;
 	text-align:left;
 }
+.lang-nav{
+	max-height:20px;
+}
 #Navbar{
 	max-height:65vh;
 }
