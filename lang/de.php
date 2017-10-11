@@ -1,6 +1,8 @@
 <?php
 $header = ["description" => "gonimo Good Night Monitor - das erste kostenlose, web-basierte, sichere, zuverlässige, stabile Babyphon, ohne App-Installation! Web-Browser öffnen und loslegen. Multi-Baby und Multi-Parent von Beginn an."
 	 , "keywords" => "babyphone, babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling"
+	 , "lang" => "de"
+	 , "language" => "Deutsch"
 	 ];
 	 
 $og = [ "og:site_name" => "gonimo - das kostenlose Babyphone"
@@ -27,6 +29,7 @@ $m = [ "HOME"
      , "KONTAKT"
      , "IMPRESSUM"
      , "PRESSE"
+	 , "Sprache wechseln"
      ];
 	 
 $c = [ "Durch die Nutzung von gonimo akzeptierst du, dass gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"

@@ -55,15 +55,15 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header nav-bg">
-	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar" data-parent="#Navbar" >
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/index.php" title="Home">GONIMO</a>
     </div>
-  <div class="nav-menu collapse navbar-collapse nav-bg" id="Navbar">
-  <div class="container-fluid">
+  <div class="nav-menu collapse navbar-collapse" id="Navbar">
+  <div class="container-fluid nav-bg">
     <ul class="nav nav-justified">
       <li><a href="/index.php" title="<?php echo $m[0]; ?>"><?php echo $m[0]; ?> </a></li>
       <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[1]; ?>"><?php echo $m[1]; ?></a></li>
@@ -72,19 +72,19 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	  <li><a href="/faq.php" title="<?php echo $m[4]; ?>"><?php echo $m[4]; ?></a></li>
 	  <li><a href="https://blog.gonimo.com" target="_blank" title="<?php echo $m[5]; ?>"><?php echo $m[5]; ?></a></li>
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-flag"></span> <span class="caret"></span></a>
-          <ul class="dropdown-menu lang">
-            <li><a href="?lang=de"><img class="lang" src="/lang/at.svg" alt="Deutsch" title="Deutsch"> Deutsch</a></li>
-            <li><a href="?lang=de"><img class="lang" src="/lang/de.svg" alt="Deutsch" title="Deutsch"> Deutsch</a></li>
-            <li><a href="?lang=en"><img class="lang" src="/lang/en.svg" alt="English" title="English"> English</a></li>
-        <!--    <li><a href="?lang=pt"><img class="lang" src="/lang/pt.svg" alt="Português" title="Português"> Português</a></li>
-            <li><a href="?lang=pt"><img class="lang" src="/lang/br.svg" alt="Português" title="Português"> Português</a></li>-->
-          </ul>
+          <a href="#" class="" data-toggle="collapse" data-target="#settings" data-parent="#Navbar" role="button" aria-expanded="false"><img class="lang-nav" src="/lang/<?php echo $header['lang']; ?>.svg" alt="<?php echo $header['language']; ?>" title="<?php echo $m[9]; ?>"></span><span class="caret"></span></a>
         </li>
 	</ul>
 	</div>
-  </div>
-  </div>
+	<div class="settings collapse" id="settings">
+		<div class="lang"><?php echo $m[9]; ?>
+			<ul class="menu lang">
+			<a href="?lang=de"><li><img class="lang" src="/lang/de.svg" alt="Deutsch" title="Deutsch"> Deutsch</li></a>
+			<a href="?lang=en"><li><img class="lang" src="/lang/en.svg" alt="English" title="English"> English</li></a>
+			</ul>
+		</div>
+    </div>	
+	</div>
 </nav>
 <?php
 	if(!isset($_COOKIE['cookie_confirm'])){

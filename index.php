@@ -2,6 +2,35 @@
 require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 $videosPath="/videos/";
 ?>
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "gonimo",
+  "url": "https://gonimo.com",
+  "sameAs": [
+    "https://www.facebook.com/mygonimo/",
+    "https://twitter.com/mygonimo",
+    "https://www.instagram.com/mygonimo/"
+	],
+  "logo": "",
+  "image": "https://gonimo.com/img/impact-lg.jpg",
+  "description": "<?php echo $header['description']; ?>",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Erdbergstraße 61/10",
+    "addressLocality": "Wien",
+    "postalCode": "1030",
+    "addressCountry": "Austria"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+43 677 620 967 44",
+	"email": "hello@gonimo.com",
+    "contactType": "Customer Support"
+  }
+}
+</script>
 <title>Gonimo - Already in your Pocket</title>
 <div class="container lvl-0">
 <section class="impact">

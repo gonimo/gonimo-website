@@ -1,6 +1,8 @@
 <?php
 $header = ["description" => "gonimo Good Night Monitor - the first free, web-based, secure, reliable, stable baby monitor without app installation! Open your web Browser and start. Multi-baby and Multi-parent"
 	 , "keywords" => "babyphone, babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, reliable, secure, encrypted, wlan, wifi, mobile, ad free, easy, fast, setup, multi, multi-baby, multi-parent, eltern, station, babystation, family, invitation, system, smartphone, tablet, laptop, advantages, skype, connection, app,no installation, recycling, upcycling"
+	 , "lang" => "en"
+	 , "language" => "english"
 	 ];
 	 
 $og = [ "og:site_name" => "gonimo - the free baby-monitor"
@@ -27,6 +29,7 @@ $m = [ "HOME"
      , "GET IN TOUCH"
      , "SITE NOTICE"
      , "PRESS"
+	 , "Change language"
      ];
 	 
 $c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"

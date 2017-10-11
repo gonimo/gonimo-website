@@ -105,7 +105,7 @@ a.link{
 .nav > li > a {
 	color:black;
 	font-family: "Raleway-Medium";
-	padding:15px;
+	padding:15px 0;
 	transition: all 1s;
 }
 .nav > li > a:hover {
@@ -125,13 +125,32 @@ img.lang{
 	display:inline;
 	max-width:25px;
 }
-ul.lang{
-	border:none;
-	border-radius:0px;
-	box-shadow:none;
-	background-color:rgba(255,255,255,0.9);
-	min-width:100%;
-	text-align:left;
+div.settings{
+	width:100%;
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+div.settings ul{
+	list-style:none;
+	padding:0;
+}
+.settings > .lang{
+	text-align:right;
+	display:inline-block;
+	width:25%;
+	padding:2% 0%;
+	background:rgba(150,150,150,0.8);
+}
+@media(max-width:768px){
+	.settings > .lang{
+		text-align:center;
+		display:block;
+		width:100%;
+	}
+}
+.lang-nav{
+	max-height:20px;
 }
 #Navbar{
 	max-height:65vh;
