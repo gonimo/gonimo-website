@@ -73,7 +73,6 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	  <li><a href="https://blog.gonimo.com" target="_blank" title="<?php echo $m[5]; ?>"><?php echo $m[5]; ?></a></li>
 		<li class="dropdown">
           <a href="#" class="" data-toggle="collapse" data-target="#settings" data-parent="#Navbar" role="button" aria-expanded="false"><img class="lang-nav" src="/lang/<?php echo $header['lang']; ?>.svg" alt="<?php echo $header['language']; ?>" title="<?php echo $m[9]; ?>"></span><span class="caret"></span></a>
-        </li>
 	</ul>
 	</div>
 	<div class="settings collapse" id="settings">
