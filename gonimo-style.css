@@ -149,8 +149,9 @@ div.settings ul{
 		width:100%;
 	}
 }
-.lang-nav{
-	max-height:20px;
+.menu.lang > a:hover > li{
+	background:rgba(200,200,200,0.9);
+	color:white;
 }
 .lang-nav{
 	max-height:20px;
