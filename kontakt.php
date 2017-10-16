@@ -3,6 +3,8 @@ include $_SERVER["DOCUMENT_ROOT"].'/header.php';
 
 $press = false;
 $successmsg = $k[0];
+$captchasecret = "6LdVoDQUAAAAAAtBORuoOSEMixIe0hAXoSmoRMs4";
+
 
 if (isset($_GET['press']) and $_GET['press'] == true){
 $press = true;
@@ -14,14 +16,22 @@ if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['m
 	$mail = htmlspecialchars($_POST['mail']);
 	$subject = htmlspecialchars($_POST['subject']);
 	$message = htmlspecialchars($_POST['message']);
-	$media = htmlspecialchars($_POST['media']);
-	
+	$captcharesponse = $_POST['g-recaptcha-response'];
+	$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $captchasecret . "&response=" . $captcharesponse . "");
+	$responseArray = json_decode($response, true);
+
 	if(isset($_POST['media']) and $_POST['media'] != ""){
 		$media = htmlspecialchars($_POST['media']);
 		$name = $name." von ".$media;
-	}	
+	}
 	
+	if( $responseArray["success"] == true){
 	contactmail($name, $mail, $subject, $press, $message, $successmsg);
+	}else{
+		echo ("<SCRIPT>
+		window.alert('".$k[15]."')window.location.href='/kontakt.php' 
+		</SCRIPT>");
+	}
 }
 
 function contactmail($name, $mail, $subject, $press, $message, $successmsg){
@@ -68,7 +78,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
         fwrite($mailfile, "Subject: " . $subject . "\n\n");
         fwrite($mailfile, $message); //write to file
         fclose($mailfile); //close file
-        if ($press == true){
+         if ($press == true){
             echo ("<SCRIPT>
         window.alert('".$successmsg."')
 		window.location.href='/kontakt.php?press=true'
@@ -82,6 +92,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
     }
 }
 ?>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <title>Gonimo <?php echo $k[2]; ?></title>
 <div class="container s-k lvl-0">
 	<div class="container-fluid s-k lvl-1">
@@ -125,6 +136,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		</div>");
 		}
 		?>
+		<div class="g-recaptcha" data-sitekey="6LdVoDQUAAAAAOEL6apHqo1dcHLEECrphfa6Jf9f"></div>
 		<input class="url" type="text" name="url" placeholder="url" maxlength="30" size="30">
 		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $k[13]; ?> </button>
 		<button name="btn-reset" type="reset" class="btn btn-warning btn-block" role="button"> <?php echo $k[14]; ?> </button>

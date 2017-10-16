@@ -401,6 +401,7 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
      , "Please state your media company so your request can be processed correctly"
      , "SEND"
 	 , "RESET"
+	 , "An Error occured. Please try again."
      ];
 
 	 $s = [ "Gonimo Security"

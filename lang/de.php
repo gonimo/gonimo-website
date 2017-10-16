@@ -335,6 +335,7 @@ $k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich dar
      , "Bitte geben Sie Ihr Medium an, damit Ihre Anfrage richtig zugeordnet werden kann"
      , "SENDEN"
 	 , "ZURÜCKSETZEN"
+	 , "Ein Fehler ist aufgetreten. Bitte erneut versuchen."
      ];
 
 $s = [ "Gonimo-Sicherheit"
