@@ -1,10 +1,9 @@
 <?php
 include $_SERVER["DOCUMENT_ROOT"].'/header.php';
+include 'secrets.php';
 
 $press = false;
 $successmsg = $k[0];
-$captchasecret = "6LdVoDQUAAAAAAtBORuoOSEMixIe0hAXoSmoRMs4";
-
 
 if (isset($_GET['press']) and $_GET['press'] == true){
 $press = true;
@@ -136,7 +135,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		</div>");
 		}
 		?>
-		<div class="g-recaptcha" data-sitekey="6LdVoDQUAAAAAOEL6apHqo1dcHLEECrphfa6Jf9f"></div>
+		<div class="g-recaptcha" data-sitekey="<?php echo $captchasitekey;?>"></div>
 		<input class="url" type="text" name="url" placeholder="url" maxlength="30" size="30">
 		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $k[13]; ?> </button>
 		<button name="btn-reset" type="reset" class="btn btn-warning btn-block" role="button"> <?php echo $k[14]; ?> </button>
