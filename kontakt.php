@@ -1,9 +1,10 @@
 <?php
 include $_SERVER["DOCUMENT_ROOT"].'/header.php';
-include 'secrets.php';
+require 'secrets.php';
 
 $press = false;
 $successmsg = $k[0];
+$formvalues = ["name" => "", "mail" => "", "subject" => "", "message" => ""];
 
 if (isset($_GET['press']) and $_GET['press'] == true){
 $press = true;
@@ -18,7 +19,6 @@ if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['m
 	$captcharesponse = $_POST['g-recaptcha-response'];
 	$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $captchasecret . "&response=" . $captcharesponse . "");
 	$responseArray = json_decode($response, true);
-
 	if(isset($_POST['media']) and $_POST['media'] != ""){
 		$media = htmlspecialchars($_POST['media']);
 		$name = $name." von ".$media;
@@ -26,10 +26,13 @@ if (isset($_POST['btn-submit']) and $_POST['url'] == "" and filter_var($_POST['m
 	
 	if( $responseArray["success"] == true){
 	contactmail($name, $mail, $subject, $press, $message, $successmsg);
+	echo "<script>console.log('success');</script>";
 	}else{
+		$formvalues = ["name" => $name, "mail" => $mail, "subject" => $subject, "message" => $message];
+		echo "<script>console.log('error');</script>";
 		echo ("<SCRIPT>
-		window.alert('".$k[15]."')window.location.href='/kontakt.php' 
-		</SCRIPT>");
+		window.alert('".$k[15]."');
+		</SCRIPT>"); 
 	}
 }
 
@@ -68,7 +71,7 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
     if ($mailfile == false){
             syslog(LOG_CRIT, "Backup mail failed too. Now thats a real problem"); //error log for backupfile
             echo ("<SCRIPT>
-                window.alert('Sending your mail failed!')
+                window.alert('Sending your mail failed!');
                 </SCRIPT>");
     }
     else {
@@ -79,13 +82,13 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
         fclose($mailfile); //close file
          if ($press == true){
             echo ("<SCRIPT>
-        window.alert('".$successmsg."')
-		window.location.href='/kontakt.php?press=true'
+        window.alert('".$successmsg."');
+		window.location.href='/kontakt.php?press=true';
         </SCRIPT>");
         }else{
             echo ("<SCRIPT>
-        window.alert('".$successmsg."')
-		window.location.href='/index.php'
+        window.alert('".$successmsg."');
+		window.location.href='/index.php';
         </SCRIPT>");
         }
     }
@@ -112,19 +115,19 @@ function contactmail($name, $mail, $subject, $press, $message, $successmsg){
 		<form action="" method="POST" name="contact-form" id="contact-form" role="form">
 		<div class="form-group">
 		<label for="name"><?php echo $k[6]; ?> *</label>
-		<input id="name" name="name" type="text" required class="form-control" placeholder="<?php echo $k[6]; ?>">
+		<input id="name" name="name" type="text" required class="form-control" placeholder="<?php echo $k[6]; ?>" value="<?php echo $formvalues['name'];?>" >
 		</div>
 		<div class="form-group">
 		<label for="mail"><?php echo $k[7]; ?> *</label>
-		<input id="mail" name="mail" type="text" required class="form-control" placeholder="<?php echo $k[8]; ?>">
+		<input id="mail" name="mail" type="text" required class="form-control" placeholder="<?php echo $k[8]; ?>" value="<?php echo $formvalues['mail'];?>">
 		</div>
 		<div class="form-group">
 		<label for="subject"><?php echo $k[9]; ?> *</label>
-		<input id="subject" name="subject" type="text" required class="form-control" placeholder="<?php echo $k[9]; ?>" value=<?php if ($press==true){echo($k[3]);} ?>>
+		<input id="subject" name="subject" type="text" required class="form-control" placeholder="<?php echo $k[9]; ?>" value=<?php if ($press==true){echo($k[3]);} echo $formvalues['subject']; ?>>
 		</div>
 		<div class="form-group">
 		<label for="message"><?php echo $k[10]; ?> *</label>
-		<textarea id="message" name="message" required class="form-control" maxlength="2000" rows="4" cols="40" placeholder="<?php echo $k[11]; ?>"></textarea>
+		<textarea id="message" name="message" required class="form-control" maxlength="2000" rows="4" cols="40" placeholder="<?php echo $k[11]; ?>"><?php echo $formvalues['message'];?></textarea>
 		</div>
 		<?php
 		if ($press==true){
