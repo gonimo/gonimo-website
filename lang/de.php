@@ -1,12 +1,12 @@
 <?php
-$header = ["description" => "gonimo Good Night Monitor - das erste kostenlose, web-basierte, sichere, zuverlässige, stabile Babyphon, ohne App-Installation! Web-Browser öffnen und loslegen. Multi-Baby und Multi-Parent von Beginn an."
+$header = ["description" => "gonimo Good Night Monitor - das erste kostenlose, web-basierte, sichere, zuverlässige, stabile Babyfon, ohne App-Installation! Web-Browser öffnen und loslegen. Multi-Baby und Multi-Parent von Beginn an."
 	 , "keywords" => "babyphone, babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling"
 	 , "lang" => "de"
 	 , "language" => "Deutsch"
 	 ];
 	 
-$og = [ "og:site_name" => "gonimo - das kostenlose Babyphone"
-	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyphone? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
+$og = [ "og:site_name" => "gonimo - das kostenlose Babyfon"
+	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyfon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
 	 ];
 	 
 $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst du leider nicht!<br>Du solltest gar nicht hier sein.<br>Aber wenn du gleich wieder gehst, verrate ich niemandem was.<br>Der Zugriff auf diese Ressource ist gesperrt."]
@@ -35,13 +35,13 @@ $m = [ "HOME"
 $c = [ "Durch die Nutzung von gonimo akzeptierst du, dass gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	 ];
 
-$i_i = [ "Das kostenlose Babyphone für Smartphone, Tablet oder PC."
+$i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
        , "App starten"
-       , "BABYPHONE STARTEN"
+       , "BABYFON STARTEN"
        , "ALPHA-VERSION 0.9"
-       , "Gonimo das Babyphon – Wie funktioniert's?"
-       , "Gonimo ist ein Babyphon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
-   'Babyphone Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
+       , "Gonimo das Babyfon – Wie funktioniert's?"
+       , "Gonimo ist ein Babyfon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
+   'Babyfon Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
          , "<li>Absolut kostenlos</li><!-- <li>Auf jedem Gerät verfügbar</li> --> 
  </li><li>Ohne Installation</li><li>Stabil, einfach und <a href='/security.php' class='disabled-link' title='Sicherheit'>sicher</a></li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' aria-hidden='true'></i></span>"
 	   , "Weitere Informationen findest du hier"
@@ -77,13 +77,13 @@ $i_b = [ "Vorteile von Gonimo"
        , "Gonimo ist ein <a class='link' href='https://github.com/gonimo/gonimo' title='github link'>Open Source Projekt</a> und für jeden kostenlos und werbe-frei ohne Einschränkungen zugänglich."
        , "Gonimo steckt in einem Rucksack"
        , " IMMER MIT DABEI "
-       , "Gonimo ist das erste Babyphon, welches du jederzeit einfach starten kannst. Keine Installation, keine Registrierung, kein Bezahlen - einfach loslegen!"
+       , "Gonimo ist das erste Babyfon, welches du jederzeit einfach starten kannst. Keine Installation, keine Registrierung, kein Bezahlen - einfach loslegen!"
        , "Gonimo mit einer Ritterrüstung"
        , "ZUVERLÄSSIG &amp; SICHER"
        , "Egal ob unterwegs oder zu Hause, es ist stets für größtmögliche Sicherheit deiner Daten gesorgt."
        , "Gonimo rennt schnell"
        , " EINFACH &amp; SCHNELL "
-       , "Gehe einfach auf gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyphon!"
+       , "Gehe einfach auf gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyfon!"
        , "Gonimo gießt eine Topfpflanze"
        , "NACHHALTIG"
        , "Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir."
@@ -161,13 +161,13 @@ $f = [ "FAQ"
 $faq = [
      [ "Allgemeines"
      , [ "Was bin ich?"
-       , "Ich bin ein kostenloses Babyphon, der auf jedem Gerät verwendet werden kann, welches einen aktuellen Chrome, Firefox oder Opera Browser installiert hat (am besten funktioniert Chrome!)."
+       , "Ich bin ein kostenloses Babyfon, der auf jedem Gerät verwendet werden kann, welches einen aktuellen Chrome, Firefox oder Opera Browser installiert hat (am besten funktioniert Chrome!)."
        ]
      , [ "Warum wurde Gonimo entwickelt?"
-       , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyphon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
+       , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyfon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
        ]
-     , [ "Was unterscheidet mich von anderen Babyphonen?"
-       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyphon keine gute Wahl, weil:
+     , [ "Was unterscheidet mich von anderen Babyfonen?"
+       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyfon keine gute Wahl, weil:
           <ul>
             <li> Unzuverlässig: Handy läutet nicht, kann bedeuten:
                 <ul>
@@ -194,16 +194,16 @@ $faq = [
      , [ "Kostet die Benutzung etwas?"
        , "Nein! Gonimo ist ein Open Source Projekt, auch die Nutzung ist kostenlos, da es meinen Schöpfern ein großes Anliegen ist, meine umfangreichen Funktionen so vielen Menschen wie möglich, so einfach wie möglich und ohne Hindernisse zugänglich zu machen: 'already in your pocket'!<br>Mehr Informationen dazu, was genau Open Source bedeutet, findest du <a class='link' href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia: Open Source' target='_blank'>hier</a>"
        ]
-     , [ "Kannst du mich nur als Babyphon verwenden?"
-       , "Grundsätzlich sind meine Funktionen für die Benutzung als Babyphon vorgesehen und darauf optimiert, aber natürlich kannst du mich für andere Aktivitäten auch verwenden, bei denen du Audio- und/oder Videostreams verwenden willst."
+     , [ "Kannst du mich nur als Babyfon verwenden?"
+       , "Grundsätzlich sind meine Funktionen für die Benutzung als Babyfon vorgesehen und darauf optimiert, aber natürlich kannst du mich für andere Aktivitäten auch verwenden, bei denen du Audio- und/oder Videostreams verwenden willst."
        ]
      , [ "Kann ich nicht auch einfach Skype verwenden?"
-       , "Natürlich kannst du auch Skype als Babyphon verwenden ...
+       , "Natürlich kannst du auch Skype als Babyfon verwenden ...
           <p>Aber Skype ist nun mal ein Telefonieprogramm: </p>
           <ul>
             <li> Wenn du in einem Telefonat ein Standbild bekommst (schlechte Verbindung), wirst du das merken - wenn du ein schlafendes Kind anschaust, eher nicht. Deswegen warnt dich Gonimo wenn du ein Standbild siehst.</li>
             <li> Wenn die Verbindung in einem Telefonat abreißt, wirst du es merken. Wenn du einem schlafenden Kind zuhörst, eher nicht. Deswegen alarmiert dich Gonimo wenn die Verbindung abreisst.</li>
-            <li> Ganz allgemein ist Gonimo auf die Benutzung als Babyphon optimiert, während Skype auf die Nutzung als Telefon optimiert ist, dies betrifft sowohl das Userinterface als auch z.b. Tonverarbeitung."
+            <li> Ganz allgemein ist Gonimo auf die Benutzung als Babyfon optimiert, während Skype auf die Nutzung als Telefon optimiert ist, dies betrifft sowohl das Userinterface als auch z.b. Tonverarbeitung."
        ]
      , [ "Wie finanziert sich Gonimo?"
        , "Damit das Projekt überhaupt gestartet und umgesetzt werden konnte, gab es eine Förderung durch NetIdee.at. Eine native (installierbare) App ist geplant, die gegen einen überschaubaren Betrag erhältlich sein wird. Sie wird Funktionen abdecken, die über einen Browser technisch nicht umsetzbar sind. Auch Spenden ist möglich und wäre eine große Hilfe. Damit kann die stetige Verbesserung und Weiterentwicklung gewährleistet und besser vorangetrieben werden."
@@ -232,13 +232,13 @@ $faq = [
          , "Keine Netzwerkverbindung ist perfekt, weshalb es zu Ausfällen kommen kann! Unser eingebauter Alarm warnt dich jedoch bei Verbindungsproblemen. Weitere Features, die die Zuverlässigkeit weiter erhöhen, sind geplant!"
          ]
        , [ "Werden meine Daten gespeichert oder an Dritte weitergegeben?"
-         , "Es werden bei mir nur die Daten gespeichert, die notwendig sind, um die Funktion des Babyphones zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben! Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."
+         , "Es werden bei mir nur die Daten gespeichert, die notwendig sind, um die Funktion des Babyfons zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben! Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."
          ]
-       , [ "Kann ich auf meinem Handy oder Tablet auch noch andere Sachen machen, während das Babyphone läuft?"
+       , [ "Kann ich auf meinem Handy oder Tablet auch noch andere Sachen machen, während das Babyfon läuft?"
          , "Wir empfehlen die App stehts im Vordergrund zu behalten. Auch ist das Abschalten von Sperrbildschirmen und Stromspareinstellungen die den Chromebrowser betreffen von Vorteil."
          ]
        , [ "Wie kann ich selbst Gonimo noch sicherer machen?"
-         , "Derzeit gibt es leider noch nicht die Möglichkeit Hintergrundmusik abzuspielen. Wenn du selbst eine ruhige Musik bei deinem Baby abspielst, kannst du mit dieser Musik die Verbindung von deinem Babyphone permanent testen. Ein unbemerkter Verbindungsabbruch ist somit ausgeschlossen und du kannst dich noch besser entspannen. Wir werden diese Funktion so bald wie uns möglich zur Verfügung stellen."
+         , "Derzeit gibt es leider noch nicht die Möglichkeit Hintergrundmusik abzuspielen. Wenn du selbst eine ruhige Musik bei deinem Baby abspielst, kannst du mit dieser Musik die Verbindung von deinem Babyfon permanent testen. Ein unbemerkter Verbindungsabbruch ist somit ausgeschlossen und du kannst dich noch besser entspannen. Wir werden diese Funktion so bald wie uns möglich zur Verfügung stellen."
          ]      
      ],
      [ "Technisch"
@@ -253,7 +253,7 @@ $faq = [
          , "Befinden sich beide Geräte in einem WLAN Netzwerk, so wird gar kein mobiles Datenvolumen benötigt. Wenn ich nur mit Audio benutzt werde, ist die Übertragunsrate sehr gering. Bei gleichzeitigem Audio- und Videostreaming kann (je nach Qualität der Verbindung) wesentlich mehr Datenvolumen anfallen. Empfehlenswert ist, dies ein wenig im Auge zu behalten."
          ]
        , [ "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
-         , "Wenn das Babyphon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
+         , "Wenn das Babyfon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
          ]
        , [ "Warum hoere ich mein Kind zeitverzoegert?"
          , "Je nach Qualitaet deiner Netzwerkverbindung muessen Daten mehr oder weniger gepuffert werden, dies verursacht eine Netzwerkabhaengige Verzoegerung die bis zu einige Sekunden erreichen kann."
@@ -270,7 +270,7 @@ $faq = [
          , "Die geplante kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind, weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann. Außerdem bevorzugen manche Nutzer ganz einfach installierte Applikationen."
          ]
        , [ "Warum wird diese App etwas kosten?"
-         , "Gonimo ist ein vollwertiges Babyphon, welches wir jedem zur Verfügung stellen wollen. Über die App kann nicht nur jeder Benutzer Gonimo unterstützen, sondern man erhält auch Zugriff auf zusätzliche Funktionen."
+         , "Gonimo ist ein vollwertiges Babyfon, welches wir jedem zur Verfügung stellen wollen. Über die App kann nicht nur jeder Benutzer Gonimo unterstützen, sondern man erhält auch Zugriff auf zusätzliche Funktionen."
          ]
        , [ "Wann wird es diese App geben?"
          , "Sie ist leider noch in Entwicklung, jedoch sind wir bemüht, dass wir sie so bald wie uns möglich veröffentlichen! (Ja, auch wir brauchen ein Einkommen! ;-) )"
