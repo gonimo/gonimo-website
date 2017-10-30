@@ -45,9 +45,9 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	};
 	//Check $_SERVER['SERVER_NAME'] on alpha-server and insert result in if-Statement
 	if($_SERVER['SERVER_NAME'] == "alpha.gonimo.com"){
-		echo "<script src='/bootstrap/js/gonimo-piwik-alpha.js'></script><noscript><p><img src='//gonimo.innocraft.cloud/piwik.php?idsite=2&rec=1' style='border:0;' alt='' /></p></noscript>";
+		echo "<script src='/bootstrap/js/gonimo-piwik-alpha.js'></script><noscript><p><img src='//piwik.gonimo.com/piwik.php?idsite=2&rec=1' style='border:0;' alt='' /></p></noscript>";
 	}else{
-		echo "<script src='/bootstrap/js/gonimo-piwik.js'></script><noscript><p><img src='//gonimo.innocraft.cloud/piwik.php?idsite=1&rec=1' style='border:0;' alt='' /></p></noscript>";
+		echo "<script src='/bootstrap/js/gonimo-piwik.js'></script><noscript><p><img src='//piwik.gonimo.com/piwik.php?idsite=1&rec=1' style='border:0;' alt='' /></p></noscript>";
 	};
 	?>
 </head>
