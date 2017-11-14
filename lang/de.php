@@ -22,7 +22,7 @@ $news = [ "head" => "Probleme mit Google Chrome 61 für Android"
 	 
 $m = [ "HOME"
      , "VORTEILE"
-     , "FUNKTIONEN"
+     , "APPS"
      , "TEAM"
      , "FAQ"
      , "BLOG"
@@ -43,7 +43,7 @@ $i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
        , "Gonimo ist ein Babyfon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    'Babyfon Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
          , "<li>Absolut kostenlos</li><!-- <li>Auf jedem Gerät verfügbar</li> --> 
- </li><li>Ohne Installation</li><li>Stabil, einfach und <a href='/security.php' class='disabled-link' title='Sicherheit'>sicher</a></li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' aria-hidden='true'></i></span>"
+ </li><li>Ohne Installation</li><li>Stabil, einfach und <a href='/security.php' class='disabled-link' title='Sicherheit'>sicher</a></li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i></span></li><li><a href='/apps.php' title='App'>Als App für <i class='fa fa-android' title='Android' aria-hidden='true'></i></a></li>"
 	   , "Weitere Informationen findest du hier"
 	   , "Tutorial"
 	   , "Trailer"
@@ -361,5 +361,40 @@ $s = [ "Gonimo-Sicherheit"
 	 <li><a class='link' href='https://piwik.org/' title='PIWIK'>PIWIK</a></li>
 	 <li><a class='link' href='https://de.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source auf Wikipedia</a></li>
 	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='gonimo auf github'>gonimo auf github</a></li>"
+	 ];
+	 
+$apps = [
+		"browser" => ["Browser"
+			,"<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>"
+			,"Die originale gonimo Webapp"
+			,"gonimo im Browser, so einfach und sicher wie gewohnt!"
+			,"Browserunterstützung"
+			,"Browser"
+			,"Version"
+			,"aktuell nicht unterstützt"
+			,"(eingeschränkt)"
+			,"Systemvoraussetzungen"
+			,"Minimale Systemanforderung"
+			,["Betriebssystem" => "Microsoft Windows<br>Mac OS X<br>Linux<br>Andere", "Prozessor" => "ab 1 GHz", "Arbeitsspeicher" => "ab 512 MB", "Speicher" => "1 MB", "Audio" => "Lautsprecher (Eltern)<br>Mikrofon (Baby)", "Browser" => "siehe oben", "JavaScript" => "aktiviert"]
+			,"Kann ich gonimo verwenden?"
+			,"Mit dem folgenden Test kannst du herausfinden ob du gonimo auf deinem Gerät verwenden kannst"
+			,"Für exakte Ergebnisse musst du den Zugriff auf Kamera und/oder Mikrofon zulassen"
+			,"Bitte aktiviere JavaScript! Es ist für den Test und für gonimo dringend erforderlich!"
+			,"TEST STARTEN"
+			,"Ergebnisse"
+			,"Feature"
+			,"Ergebnis"
+			,["os" => "Betriebssystem", "mobile" => "Mobilgerät", "browser" => "Browser", "private" => "Inkognito-Modus", "resolution" => "Auflösung (Format)", "speaker" => "Lautsprecher", "mic" => "Mikrofon", "cam" => "Kamera", "perm-mic" => "Zugriff auf Mikrofon", "perm-cam" => "Zugriff auf Kamera", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
+			]
+		,"android" => ["Android"
+			,"<i class='fa fa-android' title='Android' aria-hidden='true'></i>"
+			,"Jetzt auch nativ für Android"
+			,"Zum installieren mit erweiterten Funktionen"
+			]
+		,"ios" => ["iOS"
+			,"<i class='fa fa-apple' title='iOS' aria-hidden='true'></i>"
+			,"Bald auch für Reiche Leute!"
+			,"Wer zuviel Geld hat..."
+			]
 	 ];
 ?>

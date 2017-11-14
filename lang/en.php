@@ -22,7 +22,7 @@ $news = [ "head" => "Problems with Google Chrome 61 for Android"
 	 	 
 $m = [ "HOME"
      , "ADVANTAGES"
-     , "FEATURES"
+     , "APPS"
      , "TEAM"
      , "FAQ"
      , "BLOG"
@@ -41,7 +41,7 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC."
        , "ALPHA-VERSION 0.9"
        , "Gonimo the baby monitor - How does it work?"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'Start baby monitor', without any downloads or an installation process."
-         , "<li>Absolutely free</li><!-- <li>Available on every device</li> --><li>Without installation</li><li>Stable, simple and <a href='/security.php' class='disabled-link' title='security'>secure</a></li><li>Right here in your browser <span class='browser-icons'><i class='fa fa-chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' aria-hidden='true'></i></span></li>"
+         , "<li>Absolutely free</li><!-- <li>Available on every device</li> --><li>Without installation</li><li>Stable, simple and <a href='/security.php' class='disabled-link' title='security'>secure</a></li><li>Right here in your browser <span class='browser-icons'><i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i></span></li><li><a href='/apps.php' title='App'>App for <i class='fa fa-android' title='android' aria-hidden='true'></i></a></li>"
 	   , "Find more information here"
 	   , "Tutorial"
 	   , "Trailer"
@@ -427,5 +427,39 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
 	 <li><a class='link' href='https://piwik.org/' title='PIWIK'>PIWIK</a></li>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source on Wikipedia</a></li>
 	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='gonimo auf github'>gonimo on github</a></li>"
+	 ];
+$apps = [
+		"browser" => ["browser"
+			,"<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>"
+			,"The original gonimo webapp"
+			,"gonimo in your browser, as easy as you know it!"
+			,"browser support"
+			,"browser"
+			,"version"
+			,"currently not supported"
+			,"(limited)"
+			,"system requirements"
+			,"minimum system requirements"
+			,["operating system" => "Microsoft Windows<br>Mac OS X<br>Linux<br>other", "CPU" => "1 GHz or faster", "Memory" => "512 MB", "Storage" => "1 MB", "Audio" => "speakers (parents)<br>microphone (baby)", "browser" => "see above", "JavaScript" => "enabled"]
+			,"Can I use gonimo?"
+			,"Detect if you can use gonimo on your device with the test below"
+			,"for accurate results please allow access to microphone and/or camera"
+			,"Please enable JavaScript. It is required for this test and gonimo!"
+			,"START TEST"
+			,"results"
+			,"Feature"
+			,"result"
+			,["os" => "operating system", "mobile" => "mobile device", "browser" => "browser", "private" => "private mode", "resolution" => "resolution (aspect ratio)", "speaker" => "speakers", "mic" => "microphone", "cam" => "cam", "perm-mic" => "access to microphone", "perm-cam" => "access to cam", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
+			]
+		,"android" => ["android"
+			,"<i class='fa fa-android' title='android' aria-hidden='true'></i>"
+			,"Now as native android app"
+			,"with new extended features"
+			]
+		,"ios" => ["iOS"
+			,"<i class='fa fa-apple' title='iOS' aria-hidden='true'></i>"
+			,"Soon for the rich"
+			,"Wif you've got too much money..."
+			]
 	 ];
 ?>

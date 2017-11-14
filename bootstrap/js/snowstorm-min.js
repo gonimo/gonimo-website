@@ -28,15 +28,14 @@ a.flakes[d].melt();c<a.flakesMaxActive&&(d=a.flakes[parseInt(k(a.flakes.length),
 Math.max(20,a.animationInterval);a.timerInit()};this.start=function(c){if(B){if(c)return!0}else B=!0;if("string"===typeof a.targetElement&&(c=a.targetElement,a.targetElement=f.getElementById(c),!a.targetElement))throw Error('Snowstorm: Unable to get targetElement "'+c+'"');a.targetElement||(a.targetElement=f.body||f.documentElement);a.targetElement!==f.documentElement&&a.targetElement!==f.body&&(a.resizeHandler=a.resizeHandlerAlt,a.usePixelPosition=!0);a.resizeHandler();a.usePositionFixed=a.usePositionFixed&&
 !r&&!a.flakeBottom;if(g.getComputedStyle)try{w="relative"===g.getComputedStyle(a.targetElement,null).getPropertyValue("position")}catch(d){w=!1}t=a.usePositionFixed;h&&(l&&!a.disabled)&&(a.init(),a.active=!0)};a.autoStart&&a.events.add(g,"load",y,!1);return this}(window,document);
 
-	snowStorm.flakesMax = 100;
+	snowStorm.flakesMax = 75;
 	snowStorm.snowColor = '#FAFAFF';
-	snowStorm.flakesMaxActive = 75;
+	snowStorm.flakesMaxActive = 50;
 	snowStorm.followMouse = false;
 	snowStorm.freezeOnBlur = true;
 	snowStorm.vMaxX = 5;
 	snowStorm.vMaxY = 5;
 	snowStorm.snowStick = false;
-	snowStorm.useMeltEffect = false;
 	snowStorm.snowCharacter = "<i class='fa fa-snowflake-o' aria-hidden='true'></i>";
 	snowStorm.flakeWidth = 25;
 	snowStorm.flakeHeight = 25;
