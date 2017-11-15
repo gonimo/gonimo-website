@@ -148,6 +148,9 @@ div.settings ul{
 		display:block;
 		width:100%;
 	}
+	.dropdown-menu{
+	position:relative;	
+	}
 }
 .menu.lang > a:hover > li{
 	background:rgba(200,200,200,0.9);
@@ -155,6 +158,14 @@ div.settings ul{
 }
 .lang-nav{
 	max-height:20px;
+	max-width:45px !important;
+}
+.nav-justified > .dropdown .dropdown-menu{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	border: none;
+	box-shadow: none;
 }
 #Navbar{
 	max-height:65vh;

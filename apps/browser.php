@@ -94,14 +94,13 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 		</div>
 		
 	</div>	
-
 <script>
 $(document).ready(function(){
     $("#test-btn").click(function(){
 		$("div.results").toggleClass("success");
 		$("[id^=result]").html("<i class='fa fa-cog fa-spin fa-2x fa-fw'></i><span class='sr-only'>Loading...</span>");
-		$("#result-perm-cam").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").toggleClass("error");
-		$("#result-perm-mic").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").toggleClass("error");
+		$("#result-perm-cam").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").addClass("error");
+		$("#result-perm-mic").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").addClass("error");
 		DetectRTC.load(function() {
 		$("#result-os").html(DetectRTC.osName+" "+DetectRTC.osVersion);
 		if (DetectRTC.isMobileDevice == true){
@@ -152,14 +151,14 @@ $(document).ready(function(){
 						$("#result-mic").html(mics.join('<br>'));
 						$("#result-cam").html(cams.join('<br>'));
 						if (DetectRTC.isWebsiteHasWebcamPermissions == true){
-							$("#result-perm-cam").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").toggleClass("success").removeClass("error");
+							$("#result-perm-cam").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").addClass("success").removeClass("error");
 						} else {
-							$("#result-perm-cam").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").toggleClass("error");
+							$("#result-perm-cam").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").addClass("error");
 						}
 						if (DetectRTC.isWebsiteHasMicrophonePermissions == true){
-							$("#result-perm-mic").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").toggleClass("success").removeClass("error");
+							$("#result-perm-mic").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").addClass("success").removeClass("error");
 						} else {
-							$("#result-perm-mic").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").toggleClass("error");
+							$("#result-perm-mic").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").addClass("error");
 						}
 				});
 			});
@@ -179,14 +178,14 @@ $(document).ready(function(){
 						$("#result-mic").html(mics.join('<br>'));
 						$("#result-cam").html(cams.join('<br>'));
 						if (DetectRTC.isWebsiteHasWebcamPermissions == true){
-							$("#result-perm-cam").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").toggleClass("success").removeClass("error");
+							$("#result-perm-cam").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").addClass("success").removeClass("error");
 						} else {
-							$("#result-perm-cam").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").toggleClass("error");
+							$("#result-perm-cam").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").addClass("error");
 						}
 						if (DetectRTC.isWebsiteHasMicrophonePermissions == true){
-							$("#result-perm-mic").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").toggleClass("success").removeClass("error");
+							$("#result-perm-mic").html("<i class='fa fa-check fa-2x'></i><span class='sr-only'>check</span>").addClass("success").removeClass("error");
 						} else {
-							$("#result-perm-mic").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").toggleClass("error");
+							$("#result-perm-mic").html("<i class='fa fa-times fa-2x'></i><span class='sr-only'>check</span>").addClass("error");
 						}
 			
 		}
@@ -207,6 +206,7 @@ $(document).ready(function(){
 	});
 });
 </script>
+	
 
 	</div>
 	</div>
