@@ -407,7 +407,7 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
 	 $s = [ "Gonimo Security"
 	 , "Here you can find everything you need to know about the security of gonimo."
 	 , "General"
-	 , "Family is a safe space, that's why SECURITY is a major issue at gonimo. Here you can learn about the technical security measures gonimo uses."
+	 , "Family is a safe space, that's why SECURITY is of utmost importance to us. Here you can learn about the technical security measures gonimo uses."
 	 , "Peer-to-Peer (P2P)"
 	 , "Communication between your baby- and parent-devices takes place over a secure peer-to-peer connection. Usually the gonimo server is only needed to introduce your devices to each other (handshake). Afterwards a direct peer-to-peer and end-to-end encrypted connection gets established via WebRTC. For the common case that both devices use the same WiFi, the stream will not even leave your home. For other scenarios, our server might give a hand when two devices can't establish a peer-to-peer connection (firewalls), in this case the data gets relayed over one of our servers, but it is still end-to-end encrypted and neither we nor anyone else is able to see the transmitted data."
 	 , "Encryption"
