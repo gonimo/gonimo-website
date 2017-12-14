@@ -32,5 +32,15 @@ $(document).ready(function(){
 	$('video').on('play',function(){
 		_paq.push(['trackEvent', 'Videos', 'play', $(this).data("videoname")]);
 	});
+	// remaining characters for Textarea
+	var maxLength = 2000;
+	$('textarea').keyup(function() {
+	  var length = $(this).val().length;
+	  var length = maxLength-length;
+	  $('#chars').text(length);
+	});
+
 });
+
+
 

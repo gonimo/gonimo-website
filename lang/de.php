@@ -325,7 +325,7 @@ $k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich dar
      , "Kontakt"
      , "PRESSE-ANFRAGE:"
      , "Bitte stellen sie uns Ihre Presse-Anfrage über das unten stehende Formular"
-     , "Stell uns eine Frage, <br>Teile uns deine Gedanken mit, <br>Gib uns Feedback, <br><br>Schreib uns eine Nachricht!<br>"
+     , "Stell uns eine Frage, <br>Teile uns deine Gedanken mit, <br>Gib uns Feedback, <br><br>Schreib uns eine Nachricht!<br>Oder nimm an unserer Umfrage teil:<br><a class='link' href='/feedback.php?src=contact' title='Feedback'>Feedback-Umfrage</a>"
      , "Name"
      , "Mail"
      , "Ihre Mail-Adresse"
@@ -397,4 +397,26 @@ $apps = [
 			,"Wer zuviel Geld hat..."
 			]
 	 ];
+	 
+$fb = [ "Feedback"
+	, "Um gonimo laufend zu verbessern sind wir auf dein Feedback angewiesen. Vielen Dank fürs Mitmachen"
+	, "Gesamteindruck"
+	, "Bedienung"
+	, "Verbindung"
+	, "Stabilität"
+	, "Funktionen"
+	, "Anwendungszweck"
+	, "Babyphone, Katzenphone, ..."
+	, "Anwendungsort"
+	, "Zuhause, Büro, Urlaub, ..."
+	, "Kommentar"
+	, "Was ich noch sagen wollte:"
+	, "Zeichen verfügbar"
+	, "Ich würde gonimo weiterempfehlen!"
+	, "gonimo darf meinen Kommentar veröffentlichen."
+	, "Feedback senden"
+	, "Zurücksetzen"
+	, "Vielen Dank für deine Unterstützung!"
+	, "Es ist ein Fehler aufgetreten. Bitte versuche es erneut!"
+	];
 ?>
