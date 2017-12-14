@@ -1,5 +1,7 @@
 <?php
 // recaptcha-SECRETS GO HERE
+$captchasecret = "";
+$captchasitekey = "";
 
 // TEst localhost
 //$captchasecret = "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe";

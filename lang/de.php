@@ -48,6 +48,8 @@ $i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
 	   , "Tutorial"
 	   , "Trailer"
 	   , "FAQ"
+	   , "Hilf mit gonimo zu verbessern!"
+	   , "Jetzt Feedback geben"
        ];
 	   
 $i_v = [ "trailer_de"

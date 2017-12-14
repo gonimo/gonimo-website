@@ -46,6 +46,8 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC."
 	   , "Tutorial"
 	   , "Trailer"
 	   , "FAQ"
+	   , "Help us to improve gonimo!"
+	   , "Give feedback"
        ];
 
 $i_v = [ "trailer_en"

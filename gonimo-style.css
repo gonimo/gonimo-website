@@ -284,6 +284,25 @@ section.impact{
 .impact > ul.impact-list  > li:nth-of-type(even){
 	margin-left:10%;
 }
+.impact .feedback{
+	background:rgba(230,202,212,0.65);
+}
+.impact .feedback .feedback-btn{
+	display:inline-block;
+	padding:0.8%;
+	line-height:1;
+	color:white;
+	transition: all 1s;
+	background:grey;
+	border: 1px solid transparent;
+	margin-bottom:0.5%;
+}
+.impact .feedback .feedback-btn:hover{
+	border:1px solid white;
+	background:transparent;
+	transition: all 1s;
+	color:white;
+}
 /* FONT-SIZE CORRECTION */
 @media(max-width:768px){
 
