@@ -401,7 +401,7 @@ $apps = [
 	 ];
 	 
 $fb = [ "Feedback"
-	, "Um gonimo laufend zu verbessern sind wir auf dein Feedback angewiesen. Vielen Dank fürs Mitmachen"
+	, "Um gonimo laufend zu verbessern sind wir auf dein Feedback angewiesen. Vielen Dank für's Mitmachen!"
 	, "Gesamteindruck"
 	, "Bedienung"
 	, "Verbindung"
