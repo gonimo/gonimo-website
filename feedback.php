@@ -3,8 +3,8 @@ include $_SERVER["DOCUMENT_ROOT"].'/header.php';
 require $_SERVER["DOCUMENT_ROOT"].'/bootstrap/php/secrets.php';
 require $_SERVER["DOCUMENT_ROOT"].'/bootstrap/php/functions.php';
 
-$con = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname) or die("MySQL Error: " . mysql_error());
-mysqli_select_db($con,$dbname) or die("MySQL Error: " . mysql_error());
+$con = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname) or die("MySQL Error: " . mysqli_error());
+mysqli_select_db($con,$dbname) or die("MySQL Error: " . mysqli_error());
 
 
 if (isset($_POST['btn-submit'])){
