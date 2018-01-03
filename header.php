@@ -67,15 +67,15 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
     <ul class="nav nav-justified">
       <li><a href="/index.php" title="<?php echo $m[0]; ?>"><?php echo $m[0]; ?> </a></li>
       <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[1]; ?>"><?php echo $m[1]; ?></a></li>
-<!--      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?></a></li> -->
-	  <li class="dropdown">
+      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?></a></li>
+<!--	  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?> <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="/apps/browser.php"><?php echo $apps['browser'][0]." ".$apps['browser'][1]; ?></a></li>
           <li><a href="/apps/android.php"><?php echo $apps['android'][0]." ".$apps['android'][1]; ?></a></li>
-<!--          <li><a href="/apps/ios.php"><?php echo $apps['ios'][0]." ".$apps['ios'][1]; ?></a></li> -->
+<!--          <li><a href="/apps/ios.php"><?php echo $apps['ios'][0]." ".$apps['ios'][1]; ?></a></li> 
         </ul>
-      </li>
+      </li> -->
       <li><a href="/team.php" title="<?php echo $m[3]; ?>"><?php echo $m[3]; ?></a></li>
 	  <li><a href="/faq.php" title="<?php echo $m[4]; ?>"><?php echo $m[4]; ?></a></li>
 	  <li><a href="https://blog.gonimo.com" target="_blank" title="<?php echo $m[5]; ?>"><?php echo $m[5]; ?></a></li>
