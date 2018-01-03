@@ -67,8 +67,8 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
     <ul class="nav nav-justified">
       <li><a href="/index.php" title="<?php echo $m[0]; ?>"><?php echo $m[0]; ?> </a></li>
       <li><a href="/index.php#vorteile" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[1]; ?>"><?php echo $m[1]; ?></a></li>
-      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?></a></li>
-<!--	  <li class="dropdown">
+<!--      <li><a href="/index.php#funktionen" data-toggle="collapse" data-target="#Navbar" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?></a></li>
+	  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?> <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="/apps/browser.php"><?php echo $apps['browser'][0]." ".$apps['browser'][1]; ?></a></li>
