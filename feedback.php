@@ -16,6 +16,7 @@ if (isset($_POST['btn-submit'])){
 	$usecase = esc_sql($_POST['usecase'], $con);
 	$location = esc_sql($_POST['location'], $con);
 	$message = esc_sql($_POST['message'], $con);
+	$captcharesponse = $_POST['g-recaptcha-response'];
 	if (isset($_POST['recommend'])){$recommend = true;}else{$recommend = false;}
 	if (isset($_POST['publish'])){$publish = true;}else{$publish = false;}
 	if (isset($_GET['src'])){$src = esc_sql($_GET['src'], $con);}else{$src = "homepage";}
