@@ -43,7 +43,7 @@ $i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
        , "Gonimo ist ein Babyfon, für dessen Benutzung du einfach einen Web-Browser benötigst.<br>Derzeit funktioniert Gonimo am besten mit Chrome. <br> An der Kompatibilität mit Firefox, Opera, Microsoft Edge und Safari wird fleißig gearbeitet.<br>Über
    'Babyfon Starten' kannst du sofort loslegen, ohne Download und ohne Installation.<br>"
          , "<li>Absolut kostenlos</li><!-- <li>Auf jedem Gerät verfügbar</li> --> 
- </li><li>Ohne Installation</li><li>Stabil, einfach und <a href='/security.php' class='disabled-link' title='Sicherheit'>sicher</a></li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i></span></li><li><a href='/apps.php' title='App'>Als App für <i class='fa fa-android' title='Android' aria-hidden='true'></i></a></li>"
+ </li><li>Ohne Installation</li><li>Stabil, einfach und <a href='/security.php' class='disabled-link' title='Sicherheit'>sicher</a></li><li>Direkt hier im Browser <span class='browser-icons'><i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i></span></li><!-- <li><a href='/apps.php' title='App'>Als App für <i class='fa fa-android' title='Android' aria-hidden='true'></i></a></li>-->"
 	   , "Weitere Informationen findest du hier"
 	   , "Tutorial"
 	   , "Trailer"
