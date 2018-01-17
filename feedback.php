@@ -10,9 +10,10 @@ mysqli_select_db($con,$dbname) or die("MySQL Error: " . mysqli_error());
 if (isset($_POST['btn-submit'])){
 	$overall = esc_sql($_POST['overall'], $con);
 	$operation = esc_sql($_POST['operation'], $con);
-	$connection = esc_sql($_POST['connection'], $con);
-	$stability = esc_sql($_POST['stability'], $con);
 	$functions = esc_sql($_POST['functions'], $con);
+	$missing = esc_sql($_POST['missing'], $con);
+	$app = esc_sql($_POST['app'], $con);
+	$price = esc_sql($_POST['price'], $con);
 	$usecase = esc_sql($_POST['usecase'], $con);
 	$location = esc_sql($_POST['location'], $con);
 	$message = esc_sql($_POST['message'], $con);
@@ -23,15 +24,15 @@ if (isset($_POST['btn-submit'])){
 	$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $captchasecret . "&response=" . $captcharesponse . "");
 	$responseArray = json_decode($response, true);
 	if( $responseArray["success"]  == true){
-		$success = mysqli_query($con, "INSERT INTO `feedback` (`ID`, `overall`, `operation`, `connection`, `stability`, `functions`, `usecase`, `location`, `message`, `recommend`, `publish`, `src`, `time`) VALUES (NULL, '$overall', '$operation', '$connection', '$stability', '$functions', '$usecase', '$location', '$message', '$recommend', '$publish', '$src', CURRENT_TIMESTAMP)");
+		$success = mysqli_query($con, "INSERT INTO `feedback` (`ID`, `overall`, `operation`, `functions`, `missing`, `app`, `price`, `usecase`, `location`, `message`, `recommend`, `publish`, `src`, `time`) VALUES (NULL, '$overall', '$operation', '$functions', '$missing', '$app', '$price', '$usecase', '$location', '$message', '$recommend', '$publish', '$src', CURRENT_TIMESTAMP)");
 		if ($success == true){
             echo ("<SCRIPT>
-        window.alert('".$fb[18]."');
+        window.alert('".$fb[23]."');
 		window.location.href='/index.php';
         </SCRIPT>");
         }else{
             echo ("<SCRIPT>
-        window.alert('".$fb[19]."');
+        window.alert('".$fb[24]."');
 		window.location.href='/feedback.php?src=error';
         </SCRIPT>");
         }
@@ -72,45 +73,46 @@ if (isset($_POST['btn-submit'])){
 		</select>
 		</div>
 		<div class="form-group">
-		<label for="connection"><?php echo $fb[4]; ?></label>
-		<select class="star-rating" name="connection">
-			<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
-		</select>
-		</div>
-		<div class="form-group">
-		<label for="stability"><?php echo $fb[5]; ?></label>
-		<select class="star-rating" name="stability">
-			<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
-		</select>
-		</div>
-		<div class="form-group">
-		<label for="functions"><?php echo $fb[6]; ?></label>
+		<label for="functions"><?php echo $fb[4]; ?></label>
 		<select class="star-rating" name="functions">
 			<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
 		</select>
 		</div>
 		<div class="form-group">
-		<label for="usecase"><?php echo $fb[7]; ?></label>
-		<input id="usecase" name="usecase" type="text" class="form-control" placeholder="<?php echo $fb[8]; ?>" >
+		<label for="missing"><?php echo $fb[5]; ?></label>
+		<input id="missing" name="missing" type="text" class="form-control" placeholder="<?php echo $fb[6]; ?>" >
+		</div>
+		<label><?php echo $fb[7]; ?></label><br>
+		<input type="radio" value="1" name="app" value="yes" checked><label><?php echo $fb[8]; ?></label><br>
+		<input type="radio" value="1" name="app" value="no" ><label><?php echo $fb[9]; ?></label><br>
+		<br>
+		<div class="form-group">
+		<label for="price"><?php echo $fb[10]; ?></label>
+		<input id="price" name="price" type="range" class="form-control range" min="0" max="10" step="0.01" value="3.99"><br>
+		<span class="select-price">3,99€</span>
 		</div>
 		<div class="form-group">
-		<label for="location"><?php echo $fb[9]; ?></label>
-		<input id="location" name="location" type="text" class="form-control" placeholder="<?php echo $fb[10]; ?>" >
+		<label for="usecase"><?php echo $fb[12]; ?></label>
+		<input id="usecase" name="usecase" type="text" class="form-control" placeholder="<?php echo $fb[13]; ?>" >
 		</div>
 		<div class="form-group">
-		<label for="message"><?php echo $fb[11]; ?> *</label>
-		<textarea id="message" name="message" required class="form-control" maxlength="2000" rows="4" cols="40" placeholder="<?php echo $fb[12]; ?>"></textarea>
-		<span class="char-count"><span id="chars">2000</span> <?php echo $fb[13]; ?></span>
+		<label for="location"><?php echo $fb[14]; ?></label>
+		<input id="location" name="location" type="text" class="form-control" placeholder="<?php echo $fb[15]; ?>" >
+		</div>
+		<div class="form-group">
+		<label for="message"><?php echo $fb[16]; ?></label>
+		<textarea id="message" name="message" class="form-control" maxlength="2000" rows="4" cols="40" placeholder="<?php echo $fb[17]; ?>"></textarea>
+		<span class="char-count"><span id="chars">2000</span> <?php echo $fb[18]; ?></span>
 		</div>
 		<div class="form-group">
 		<div class="checkbox" >
-		<label><input type="checkbox" value="1" name="recommend" checked><?php echo $fb[14]; ?></label><br>
-		<label><input type="checkbox" value="1" name="publish" checked><?php echo $fb[15]; ?></label>
+		<label><input type="checkbox" value="1" name="recommend" checked><?php echo $fb[19]; ?></label><br>
+		<label><input type="checkbox" value="1" name="publish"><?php echo $fb[20]; ?></label>
 		</div>
 		</div>
 		<div class="g-recaptcha" data-sitekey="<?php echo $captchasitekey;?>"></div>
-		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $fb[16]; ?> </button>
-		<button name="btn-reset" type="reset" class="btn btn-warning btn-block" role="button"> <?php echo $fb[17]; ?> </button>
+		<button name="btn-submit" type="submit" class="btn btn-success btn-block" role="button"> <?php echo $fb[21]; ?> </button>
+		<button name="btn-reset" type="reset" class="btn btn-warning btn-block" role="button"> <?php echo $fb[22]; ?> </button>
 		</form>
 	</section>
 	</div>
@@ -120,5 +122,14 @@ if (isset($_POST['btn-submit'])){
 <?php 
 include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
+<script>
+$('#price').on("change mousemove", function(){
+	if ($('#price').val() == 0){
+		$('.select-price').text("<?php echo $fb[11]; ?>");
+	}else{
+	$('.select-price').text($('#price').val()+"€");
+	}
+});
+</script>
 </body>
 </html>
