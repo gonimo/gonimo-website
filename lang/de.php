@@ -15,6 +15,7 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst 
 	 ];
 	 
 $news = [ "head" => "Probleme mit Google Chrome 61 für Android"
+   , "icon" => "<i class='fa fa-exclamation-triangle' aria-hidden='true'></i>"
 	 , "body" => "Aktuell kommt es bei Google Chrome 61 für Android leider zu Problemen bei der Videodarstellung. Wir haben den Fehler bei Google gemeldet und die Bestätigung bekommen, dass der Fehler in Chrome 62 behoben wird."
 	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
 	 , "link-title" => "Mehr Informationen in unserem Blog"

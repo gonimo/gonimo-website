@@ -15,6 +15,7 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you 
 	 ];
 	
 $news = [ "head" => "Problems with Google Chrome 61 for Android"
+   , "icon" => "<i class='fa fa-exclamation-triangle' aria-hidden='true'></i>"
 	 , "body" => "Currently there exists a problem with the video stream display in Google Chrome 61 for Android. We informed Google about this problem and got the promise that it will be fixed in Chrome 62."
 	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
 	 , "link-title" => "More information on our blog"
