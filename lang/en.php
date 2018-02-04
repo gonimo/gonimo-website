@@ -454,9 +454,9 @@ $apps = [
 			,"result"
 			,["os" => "operating system", "mobile" => "mobile device", "browser" => "browser", "private" => "private mode", "resolution" => "resolution (aspect ratio)", "speaker" => "speakers", "mic" => "microphone", "cam" => "cam", "perm-mic" => "access to microphone", "perm-cam" => "access to cam", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
 			]
-		,"android" => ["android"
+		,"android" => ["Android"
 			,"<i class='fa fa-android' title='android' aria-hidden='true'></i>"
-			,"Now as native android app"
+			,"Now as native Android app"
 			,"with new extended features"
 			]
 		,"ios" => ["iOS"
@@ -473,7 +473,7 @@ $fb = [ "Feedback"
 	, "Features"
 	, "Missing features"
 	, "What features do you need?"
-	, "Would you like a gonimo android app?"
+	, "Would you like a Gonimo Android app?"
 	, "Yes"
 	, "No"
 	, "What should be the maximum app price?"
