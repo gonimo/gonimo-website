@@ -10,10 +10,10 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<header class="impressum">
 	<h1><?php echo $i[0]; ?></h1>
 	</header>
-	<p> 
+	<p>
 	<h4><?php echo $i[1]; ?></h4>
 	<br>
-	Robert Klotzner<br>
+    Gonimo Software - Verein zur Förderung quelloffener Softwareentwicklung<br>
 	<br>
 	<h4><?php echo $i[2]; ?></h4>
 	<span class="glyphicon glyphicon-home"></span><?php echo $i[3]; ?><br>
