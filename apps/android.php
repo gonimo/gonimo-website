@@ -5,10 +5,10 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 {
     "@context": "http://schema.org/",
     "@type": "Product",
-    "name": "gonimo Android",
+    "name": "Gonimo Android",
     "url": "https://gonimo.com",
     "image": "https://gonimo.com/logo.jpg",
-    "description": "das originale browserbasierte gonimo-Babyfon",
+    "description": "das originale browserbasierte Gonimo Babyfon",
     "brand": {
         "@type": "Thing",
         "name": "gonimo"
@@ -31,7 +31,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<h2><?php echo $apps['android'][1]; ?></h2>
 	<a href="#" role="button" title="gonimo in google Play" id="start-btn"><div class="impact-btn">
 				<p>
-				Playstore - Link 
+				Playstore - Link
 				</p>
 	</div></a>
 	<h3><?php echo $apps['android'][2]; ?></h3>
@@ -42,7 +42,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	</div>
 	</div>
 </div>
-<?php 
+<?php
 include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 </body>

@@ -42,7 +42,7 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC."
        , "ALPHA-VERSION 0.9"
        , "Gonimo the baby monitor - How does it work?"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'Start baby monitor', without any downloads or an installation process."
-         , "<li>Absolutely free</li><!-- <li>Available on every device</li> --><li>Without installation</li><li>Stable, simple and <a href='/security.php' class='disabled-link' title='security'>secure</a></li><li>Right here in your browser <span class='browser-icons'><i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i></span></li><!-- <li><a href='/apps.php' title='App'>App for <i class='fa fa-android' title='android' aria-hidden='true'></i></a></li>-->"
+         , "<li>Absolutely free</li> <li>Available on every device</li> <li>Without installation</li><li>Stable, simple and <a href='/security.php' title='security'>secure</a></li><li>Right here in your browser <span class='browser-icons'><i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i></span></li> <li><a href='/apps.php' title='App'>App for <i class='fa fa-android' title='android' aria-hidden='true'></i></a></li>"
 	   , "Find more information here"
 	   , "Tutorial"
 	   , "Trailer"
@@ -250,7 +250,7 @@ $faq = [ [ "General"
            ]
          , [ "How is Gonimo financed?"
            , "To get the project going, NetIdee.at provided us with funding.
-              A native (installable iOS and Android app) is planned and will be
+              We provide a native Android app (iOS is planned) which is
               available for a small fee. It will cover features that are not
               feasible in a web-browser. You can also donate, this would help us
               a lot and guarantees we can constantly develop and improve."
