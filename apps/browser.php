@@ -45,10 +45,10 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<tr><th><?php echo $apps['browser'][5]; ?></th><th><?php echo $apps['browser'][6]; ?></th></tr>
 	<tr><td>Google Chrome</td><td>Version 50 +</td></tr>
 	<tr><td>Mozilla Firefox</td><td>Version 44 +</td></tr>
-	<tr><td>Apple Safari</td><td>Version 11 +</td></tr>
+	<!-- <tr><td>Apple Safari</td><td>Version 11 +</td></tr> -->
 	<tr><td>Microsoft Internet Explorer</td><td><?php echo $apps['browser'][7]; ?></td></tr>
 	<tr><td>Microsoft Edge</td><td>ab Version 11 <?php echo $apps['browser'][8]; ?></td></tr>
-	<tr><td>Opera</td><td>Version 48+</td></tr>
+	<!-- <tr><td>Opera</td><td>Version 48+</td></tr> -->
 	</tbody>
 	</table>
 	<h4><?php echo $apps['browser'][9]; ?></h4>
