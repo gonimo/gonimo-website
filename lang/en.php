@@ -1,17 +1,17 @@
 <?php
-$header = ["description" => "gonimo Good Night Monitor - the first free, web-based, secure, reliable, stable baby monitor without app installation! Open your web Browser and start. Multi-baby and Multi-parent"
+$header = ["description" => "Gonimo Good Night Monitor - the first free, web-based, secure, reliable, stable baby monitor without app installation! Open your web Browser and start. Multi-baby and Multi-parent"
 	 , "keywords" => "babyphone, babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, reliable, secure, encrypted, wlan, wifi, mobile, ad free, easy, fast, setup, multi, multi-baby, multi-parent, eltern, station, babystation, family, invitation, system, smartphone, tablet, laptop, advantages, skype, connection, app,no installation, recycling, upcycling"
 	 , "lang" => "en"
 	 , "language" => "english"
 	 ];
 	 
-$og = [ "og:site_name" => "gonimo - the free baby-monitor"
-	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. gonimo - Already in your pocket! ;)"
+$og = [ "og:site_name" => "Gonimo - the free baby-monitor"
+	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. Gonimo - Already in your pocket! ;)"
 	 ];
 	
 $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you can not do that!<br>You should not even be here!<br>But if you leave now, I am not going to tell anyone.<br>Access to this resource is blocked."]
 	 , "404" => ["title" => "404 - Not Found", "description" => "There is nothing here!<br>Sadly you can not see anything here or we have not found what you are looking for.<br>The requested resource was not found"]
-	 , "back" => "Get back to gonimo here"
+	 , "back" => "Get back to Gonimo here"
 	 ];
 	
 $news = [ "head" => "Problems with Google Chrome 61 for Android"
@@ -33,7 +33,7 @@ $m = [ "HOME"
 	 , "Change language"
      ];
 	 
-$c = [ "By using gonimo you accept that gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
+$c = [ "By using Gonimo you accept that Gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	];
 
 $i_i = [ "The free baby monitor for smartphone, tablet or PC."
@@ -47,7 +47,7 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC."
 	   , "Tutorial"
 	   , "Trailer"
 	   , "FAQ"
-	   , "Help us to improve gonimo!"
+	   , "Help us to improve Gonimo!"
 	   , "Give feedback"
        ];
 
@@ -84,7 +84,7 @@ $i_b = [ "Gonimo's advantages"
        , "Whether you're at home or out and about, we always make sure your data is as secure as possible."
        , "Gonimo runs quickly"
        , "QUICK &amp; SIMPLE"
-       , "Just go to gonimo.com, send an invitation to a second device and turn your web browser into a baby monitor!"
+       , "Just go to Gonimo.com, send an invitation to a second device and turn your web browser into a baby monitor!"
        , "Gonimo waters pot plants"
        , "SUSTAINABLE"
        , "Reuse old devices, do not throw them away! We make it possible."
@@ -321,7 +321,7 @@ $faq = [ [ "General"
               relatively far away from your child."
            ]
          , [ "If I'd like to start my own project based on the Gonimo code, can I just copy and use the Gonimo source code?"
-           , "Gonimo is an open-source project and subject to the guidelines of <a class='link' href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a class='link' href='https://github.com/gonimo' title='Source Code' target='_blank'>source code</a> can be used under the conditions stated.
+           , "Gonimo is an open-source project and subject to the guidelines of <a class='link' href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> which means the <a class='link' href='https://github.com/Gonimo' title='Source Code' target='_blank'>source code</a> can be used under the conditions stated.
              <p>Depending on your goal, we might be interested in a cooperation!
              </p>"
            ]
@@ -356,10 +356,10 @@ $faq = [ [ "General"
 		title='Piwik'>Piwik</a> instead. This way, we get vital information, that
 		we need for improving Gonimo and still protect your privacy."]
 		, ["I am on a diet, what can I do against Cookies?",
-		"In the settings of your browser you can delete Cookies from gonimo.com or disallow websites to store cookies on your device."]
+		"In the settings of your browser you can delete Cookies from Gonimo.com or disallow websites to store cookies on your device."]
 		, ["Can I use Gonimo without Cookies?",
 		"Yes, you can use Gonimo without cookies, but the app needs local
-		storage in order to function. The cookies on gonimo.com can be blocked,
+		storage in order to function. The cookies on Gonimo.com can be blocked,
 		but this does not really help you, because we already take your privacy
 		seriously, on the flip-side we loose viable data that could help us improving
 		Gonimo."]
@@ -372,7 +372,7 @@ $i = [ "Site notice"
      , "Address:"
      , "Phone:"
      , "call Gonimo"
-     , "e-mail hello@gonimo.com"
+     , "e-mail hello@Gonimo.com"
      , "For general inquiries: "
      , "Photo credits"
      , "Web design"
@@ -408,34 +408,34 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
      ];
 
 	 $s = [ "Gonimo Security"
-	 , "Here you can find everything you need to know about the security of gonimo."
+	 , "Here you can find everything you need to know about the security of Gonimo."
 	 , "General"
-	 , "Family is a safe space, that's why SECURITY is a major issue at gonimo. Here you can learn about the technical security measures gonimo uses."
+	 , "Family is a safe space, that's why SECURITY is a major issue at Gonimo. Here you can learn about the technical security measures Gonimo uses."
 	 , "Peer-to-Peer (P2P)"
-	 , "Communication between your baby- and parent-devices takes place over a secure peer-to-peer connection. Usually the gonimo server is only needed to introduce your devices to each other (handshake). Afterwards a direct peer-to-peer and end-to-end encrypted connection gets established via WebRTC. For the common case that both devices use the same WiFi, the stream will not even leave your home. For other scenarios, our server might give a hand when two devices can't establish a peer-to-peer connection (firewalls), in this case the data gets relayed over one of our servers, but it is still end-to-end encrypted and neither we nor anyone else is able to see the transmitted data."
+	 , "Communication between your baby- and parent-devices takes place over a secure peer-to-peer connection. Usually the Gonimo server is only needed to introduce your devices to each other (handshake). Afterwards a direct peer-to-peer and end-to-end encrypted connection gets established via WebRTC. For the common case that both devices use the same WiFi, the stream will not even leave your home. For other scenarios, our server might give a hand when two devices can't establish a peer-to-peer connection (firewalls), in this case the data gets relayed over one of our servers, but it is still end-to-end encrypted and neither we nor anyone else is able to see the transmitted data."
 	 , "Encryption"
-	 , "All connections established with gonimo are encrypted. The connection to the gonimo server and to the website use <abr title='HyperText Transfer Protocol Secure'>HTTPS</a> for encryption. You can check that by looking at the little lock-symbol in your browsers address bar. if you click the lock-symbol you can look at the certificate that was issued by 'Let´s Encrypt' for 'gonimo.com'.<br>The connection between your devices is also encrypted and is therefore secure even if the signal got intercepted."
+	 , "All connections established with Gonimo are encrypted. The connection to the Gonimo server and to the website use <abr title='HyperText Transfer Protocol Secure'>HTTPS</a> for encryption. You can check that by looking at the little lock-symbol in your browsers address bar. if you click the lock-symbol you can look at the certificate that was issued by 'Let´s Encrypt' for 'Gonimo.com'.<br>The connection between your devices is also encrypted and is therefore secure even if the signal got intercepted."
 	 , "Data"
-	 , "For gonimo to work, we need to store some data, both on your device and on our servers. We work hard on ensuring this data is secure. We even had an external security audit, which turned out excellent!"
+	 , "For Gonimo to work, we need to store some data, both on your device and on our servers. We work hard on ensuring this data is secure. We even had an external security audit, which turned out excellent!"
 	 , "Invitation and family-system"
-	 , "Your devices are managed in your 'gonimo family'. If you use gonimo for the first time, a family is created for you. With our invitation system you can add new devices to your family. Every invitation consists of a very long secret code and is only valid a single time. This ensures that only those who belong there can join your family.<br>If you accidentally invite the wrong person, you can simply click on the invitation-link yourself and render it invalid. If its already too late you can easily remove unloved and wrong members from your family in the device list.<br>If everything goes wrong, you can just create a new family and start over."
+	 , "Your devices are managed in your 'Gonimo family'. If you use Gonimo for the first time, a family is created for you. With our invitation system you can add new devices to your family. Every invitation consists of a very long secret code and is only valid a single time. This ensures that only those who belong there can join your family.<br>If you accidentally invite the wrong person, you can simply click on the invitation-link yourself and render it invalid. If its already too late you can easily remove unloved and wrong members from your family in the device list.<br>If everything goes wrong, you can just create a new family and start over."
 	 , "PIWIK"
-     , "We need market research too, to figure out how to make gonimo even better and simpler for you. Instead of using the market leading 'Google Analytics', like most do, we count on the open source alternative PIWIK. Thereby we keep full control over the collected data and pass no user data to Google. This means that no record can be allocated to a single user, which means more privacy. We only use the collected data anonymized and only for the purpose of understanding your interaction with gonimo."
+     , "We need market research too, to figure out how to make Gonimo even better and simpler for you. Instead of using the market leading 'Google Analytics', like most do, we count on the open source alternative PIWIK. Thereby we keep full control over the collected data and pass no user data to Google. This means that no record can be allocated to a single user, which means more privacy. We only use the collected data anonymized and only for the purpose of understanding your interaction with Gonimo."
 	 , "Open Source"
-	 , "gonimo is realized as open source project in all sections. This means our code is public and can be used in other projects. The only restriction is that the resulting project needs to be open source too.<br>A positive side effect is that everyone can review our security measures. We are glad to get feedback or bug-reports!"
+	 , "Gonimo is realized as open source project in all sections. This means our code is public and can be used in other projects. The only restriction is that the resulting project needs to be open source too.<br>A positive side effect is that everyone can review our security measures. We are glad to get feedback or bug-reports!"
 	 , "Additional information"
 	 , "More information can be found here:<ul>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Peer-to-Peer' title='P2P'>Peer-to-Peer on Wikipedia</a></li>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Https' title='HTTPS'>HTTPS on Wikipedia</a></li>
 	 <li><a class='link' href='https://piwik.org/' title='PIWIK'>PIWIK</a></li>
 	 <li><a class='link' href='https://en.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source on Wikipedia</a></li>
-	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='gonimo auf github'>gonimo on github</a></li>"
+	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='Gonimo auf github'>Gonimo on github</a></li>"
 	 ];
 $apps = [
-		"browser" => ["browser"
+		"Browser" => ["Browser"
 			,"<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>"
-			,"The original gonimo webapp"
-			,"gonimo in your browser, as easy as you know it!"
+			,"The original Gonimo webapp"
+			,"Gonimo in your browser, as easy as you know it!"
 			,"browser support"
 			,"browser"
 			,"version"
@@ -444,10 +444,10 @@ $apps = [
 			,"system requirements"
 			,"minimum system requirements"
 			,["operating system" => "Microsoft Windows<br>Mac OS X<br>Linux<br>other", "CPU" => "1 GHz or faster", "Memory" => "512 MB", "Storage" => "1 MB", "Audio" => "speakers (parents)<br>microphone (baby)", "browser" => "see above", "JavaScript" => "enabled"]
-			,"Can I use gonimo?"
-			,"Detect if you can use gonimo on your device with the test below"
+			,"Can I use Gonimo?"
+			,"Detect if you can use Gonimo on your device with the test below"
 			,"for accurate results please allow access to microphone and/or camera"
-			,"Please enable JavaScript. It is required for this test and gonimo!"
+			,"Please enable JavaScript. It is required for this test and Gonimo!"
 			,"START TEST"
 			,"results"
 			,"Feature"
@@ -467,7 +467,7 @@ $apps = [
 	 ];
 	 
 $fb = [ "Feedback"
-	, "To further improve gonimo we need your help. Thank you for participating!"
+	, "To further improve Gonimo we need your help. Thank you for participating!"
 	, "Overall Experience"
 	, "Usage"
 	, "Features"
@@ -485,8 +485,8 @@ $fb = [ "Feedback"
 	, "Comment"
 	, "What i wanted to tell you:"
 	, "characters remaining"
-	, "I would recommend gonimo!"
-	, "gonimo may publish my comment."
+	, "I would recommend Gonimo!"
+	, "Gonimo may publish my comment."
 	, "Send feedback"
 	, "Reset"
 	, "Thank you for your help!"
