@@ -218,7 +218,7 @@ $faq = [
        , "Ein Team junger, motivierter Leute, deren Profile du <a class='link' href='/team.php' title='Gonimo Team'>hier</a> findest."
        ]
      ],
-     ["Sicherheit"
+     ["Sicherheit & Privatsphäre"
        , [ "Wie sicher ist die Verbindung zwischen den Geräten?"
          , "Um die höchstmögliche Sicherheit zu gewährleisten, wurden bei uns folgende Sicherheitskonzepte umgesetzt: ein Einladungssystem, in welchem die Einladung bestätigt werden muss, alle Verbindungen sind verschlüsselt und Audio und Video Daten werden Peer-to-Peer übertragen, um das 'Mithören' Dritter zu verhindern. Weiteres lassen wir bei der Entwicklung größte Sorgfalt walten und überprüfen die Sicherheit auch regelmäßig.
            <p>Wir haben auch ein externes Sicherheitsreview durchführen lassen, der Prüfer sendete seinen Bericht mit den folgenden einleitenden Worten:
