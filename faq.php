@@ -21,10 +21,10 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<?php
 	foreach ($faq as $cat){
 		echo "<div class='s-f lvl-2 panel-group'>
-			<a data-toggle='collapse' href='#".preg_replace("/[\s,]+/","",$cat[0])."'>
+			<a data-toggle='collapse' href='#".preg_replace("/[\s\s+\&\+\.\-\_\,]/","",$cat[0])."'>
 			<div class='s-f lvl-2 panel-head'><h3 class='s-f category'>".$cat[0]."</h3></div>
 			</a>
-			<div class='panel-collapse collapse s-f' id='".preg_replace("/[\s,]+/","",$cat[0])."'>
+			<div class='panel-collapse collapse s-f' id='".preg_replace("/[\s\s+\&\+\.\-\_\,]/","",$cat[0])."'>
 			<div class='panel-body'>";
 		for ($counter = 1; $counter < count($cat); $counter++){
 			echo "<div class='s-f lvl-2'>
