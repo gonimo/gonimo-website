@@ -1,17 +1,17 @@
 <?php
-$header = ["description" => "gonimo Good Night Monitor - das erste kostenlose, web-basierte, sichere, zuverlässige, stabile Babyfon, ohne App-Installation! Web-Browser öffnen und loslegen. Multi-Baby und Multi-Parent von Beginn an."
+$header = ["description" => "Gonimo Good Night Monitor - das erste kostenlose, web-basierte, sichere, zuverlässige, stabile Babyfon, ohne App-Installation! Web-Browser öffnen und loslegen. Multi-Baby und Multi-Parent von Beginn an."
 	 , "keywords" => "babyphone, babyphon, babyfon, baby, good, night, monitor, best, free, open, source, webrtc, web, browser, gratis, kostenlos, reliable, zuverlässig, secure, sicher, sicherheit, verschlüsselt, encrypted, wlan, wifi, mobil, werbefrei, einfach, schnell, fast, bestes, reichweite, setup, multi, multi-baby, multi-parent, eltern, station, babystation, familie, family, invitation, system, loslegen, smartphone, tablet, laptop, vorteile, funktionen, advantages, skype,  verbindung, connection, app, keine installation, benutzung, recycling, upcycling"
 	 , "lang" => "de"
 	 , "language" => "Deutsch"
 	 ];
 	 
-$og = [ "og:site_name" => "gonimo - das kostenlose Babyfon"
+$og = [ "og:site_name" => "Gonimo - das kostenlose Babyfon"
 	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyfon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
 	 ];
 	 
 $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst du leider nicht!<br>Du solltest gar nicht hier sein.<br>Aber wenn du gleich wieder gehst, verrate ich niemandem was.<br>Der Zugriff auf diese Ressource ist gesperrt."]
 	 , "404" => ["title" => "404 - Not Found", "description" => "Hier gibt es nichts!<br>Leider gibt es hier nichts zu sehen oder wir haben nicht gefunden was du suchst.<br>Die angeforderte Ressource wurde nicht gefunden."]
-	 , "back" => "Hier gehts zurück zu gonimo"
+	 , "back" => "Hier gehts zurück zu Gonimo"
 	 ];
 	 
 $news = [ "head" => "Probleme mit Google Chrome 61 für Android"
@@ -33,7 +33,7 @@ $m = [ "HOME"
 	 , "Sprache wechseln"
      ];
 	 
-$c = [ "Durch die Nutzung von gonimo akzeptierst du, dass gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
+$c = [ "Durch die Nutzung von Gonimo akzeptierst du, dass Gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	 ];
 
 $i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
@@ -49,7 +49,7 @@ $i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
 	   , "Tutorial"
 	   , "Trailer"
 	   , "FAQ"
-	   , "Hilf mit gonimo zu verbessern!"
+	   , "Hilf mit Gonimo zu verbessern!"
 	   , "Jetzt Feedback geben"
        ];
 	   
@@ -86,7 +86,7 @@ $i_b = [ "Vorteile von Gonimo"
        , "Egal ob unterwegs oder zu Hause, es ist stets für größtmögliche Sicherheit deiner Daten gesorgt."
        , "Gonimo rennt schnell"
        , " EINFACH &amp; SCHNELL "
-       , "Gehe einfach auf gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyfon!"
+       , "Gehe einfach auf Gonimo.com, schicke eine Einladung an ein zweites Gerät und mache deinen Web-Browser zu einem Babyfon!"
        , "Gonimo gießt eine Topfpflanze"
        , "NACHHALTIG"
        , "Erwecke alte Geräte zum Leben, schmeiße sie nicht weg! Ich ermögliche es dir."
@@ -167,7 +167,7 @@ $faq = [
        , "Ich bin ein kostenloses Babyfon, der auf jedem Gerät verwendet werden kann, welches einen aktuellen Chrome, Firefox oder Opera Browser installiert hat (am besten funktioniert Chrome!)."
        ]
      , [ "Warum wurde Gonimo entwickelt?"
-       , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyfon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
+       , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyfon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von Gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
        ]
      , [ "Was unterscheidet mich von anderen Babyfonen?"
        , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyfon keine gute Wahl, weil:
@@ -295,7 +295,7 @@ $faq = [
 		, ["Kann ich Gonimo ohne Cookies verwenden?",
 		"Ja, du kannst Gonimo auch ohne Cookies verwenden. Die App selbst
 		benötigt allerdings local storage um zu funktionieren. Die Cookies auf
-		gonimo.com kannst du blockieren, allerdings würden uns diese Daten
+		Gonimo.com kannst du blockieren, allerdings würden uns diese Daten
 		helfen Gonimo weiter zu verbessern und deinen Bedürfnissen anzupassen."]
 	]
 ];
@@ -306,7 +306,7 @@ $i = [ "Impressum"
      , "Adresse:"
      , "Telefon:"
      , "Gonimo anrufen"
-     , "Mail an hello@gonimo.com senden"
+     , "Mail an hello@Gonimo.com senden"
      , "Für allgemeine Anfragen: "
      , "Bildernachweis"
      , "Webdesign"
@@ -342,35 +342,35 @@ $k = [ "Vielen Dank für deine Nachricht. Wir werden uns sobald wie möglich dar
      ];
 
 $s = [ "Gonimo-Sicherheit"
-	 , "Hier erfährst du alles zur Sicherheit von gonimo."
+	 , "Hier erfährst du alles zur Sicherheit von Gonimo."
 	 , "Allgemeines"
-	 , "Die Familie ist ein geschützter Bereich und deshalb wird SICHERHEIT bei gonimo auch gross geschrieben. Hier erfährst du alles über die technischen Sicherheitsmerkmale die bei gonimo zum Einsatz kommen."
+	 , "Die Familie ist ein geschützter Bereich und deshalb wird SICHERHEIT bei Gonimo auch gross geschrieben. Hier erfährst du alles über die technischen Sicherheitsmerkmale die bei Gonimo zum Einsatz kommen."
 	 , "Peer-to-Peer (P2P)"
-	 , "Die Kommunikation zwischen deinen Baby- und Eltern-Geräten erfolgt über eine sichere Peer-to-Peer und Ende-zu-Ende verschlüsselte Verbindung. Das bedeutet, dass der gonimo-Server nur dazu verwendet wird deine Geräte sozusagen einander vorzustellen (Handshake). Nachdem sich die Geräte nun 'kennen', stellen sie eine direkte Verbindung her. Dafür suchen Sie sich die schnellstmögliche direkte Route zueinander aus. Verwendest du gonimo zum Beispiel nur in deinem W-LAN zuhause, so wird das Signal direkt über dein Netzwerk von einem Gertät zum anderen übertragen. Der Stream verlässt deinen geschützten Bereich also gar nicht.<br>Sollte die P2P-Verbindung nicht möglich sein, zum Beispiel aufgrund einer Firewall am Arbeitsplatz, stellen wir einen speziellen Server zur Verfügung um den Stream zu ermöglichen. Durch die Ende-zu-Ende Verschlüsselung, ist ein Zugriff durch uns oder andere aber auch hier ausgeschlossen."
+	 , "Die Kommunikation zwischen deinen Baby- und Eltern-Geräten erfolgt über eine sichere Peer-to-Peer und Ende-zu-Ende verschlüsselte Verbindung. Das bedeutet, dass der Gonimo-Server nur dazu verwendet wird deine Geräte sozusagen einander vorzustellen (Handshake). Nachdem sich die Geräte nun 'kennen', stellen sie eine direkte Verbindung her. Dafür suchen Sie sich die schnellstmögliche direkte Route zueinander aus. Verwendest du Gonimo zum Beispiel nur in deinem W-LAN zuhause, so wird das Signal direkt über dein Netzwerk von einem Gertät zum anderen übertragen. Der Stream verlässt deinen geschützten Bereich also gar nicht.<br>Sollte die P2P-Verbindung nicht möglich sein, zum Beispiel aufgrund einer Firewall am Arbeitsplatz, stellen wir einen speziellen Server zur Verfügung um den Stream zu ermöglichen. Durch die Ende-zu-Ende Verschlüsselung, ist ein Zugriff durch uns oder andere aber auch hier ausgeschlossen."
 	 , "Verschlüsselung"
-	 , "Alle Verbindungen die du mit gonimo herstellst sind verschlüsselt. Die Verbindung zum gonimo-Server und zur Homepage sind über <abr title='HyperText Transfer Protocol Secure'>HTTPS</abr> verschlüsselt. Das kannst du am Schloss-Symbol in der Adressleiste deines Browsers erkennen. Durch klicken auf das kleine Schloss-Symbol kannst du dir auch das Zertifikat anzeigen lassen, das von 'Let´s Encrypt' für 'gonimo.com' ausgestellt wurde.<br>Die Verbindung zwischen deinen Geräten wird ebenfalls verschlüsselt und ist somit selbst dann geschützt wenn das Signal abgefangen wird."
+	 , "Alle Verbindungen die du mit Gonimo herstellst sind verschlüsselt. Die Verbindung zum Gonimo-Server und zur Homepage sind über <abr title='HyperText Transfer Protocol Secure'>HTTPS</abr> verschlüsselt. Das kannst du am Schloss-Symbol in der Adressleiste deines Browsers erkennen. Durch klicken auf das kleine Schloss-Symbol kannst du dir auch das Zertifikat anzeigen lassen, das von 'Let´s Encrypt' für 'Gonimo.com' ausgestellt wurde.<br>Die Verbindung zwischen deinen Geräten wird ebenfalls verschlüsselt und ist somit selbst dann geschützt wenn das Signal abgefangen wird."
 	 , "Daten"
-	 , "Damit gonimo funktionieren kann, müssen wir Daten speichern. Mit diesen Daten gehen wir allerdings sehr sorgsam um und die speichernden Server werden entsprechend gesichert."
+	 , "Damit Gonimo funktionieren kann, müssen wir Daten speichern. Mit diesen Daten gehen wir allerdings sehr sorgsam um und die speichernden Server werden entsprechend gesichert."
 	 , "Einladungs- und Familien-System"
-	 , "Deine Geräte werden in deiner 'gonimo-Familie' verwaltet. Wenn du gonimo das erste Mal benutzt, wird für dich eine neue Familie erstellt. Neue Geräte kannst du über unser Einladungssystem zu deiner Familie hinzufügen. Jede Einladung beinhaltet einen langen sicheren Code und ist nur einmal gültig. Das garantiert, dass du wirklich nur die Personen in deiner Familie hast die dort auch hingehören.<br>Solltest du versehentlich eine falsche Person eingeladen haben, kannst du einfach selbst den Einladungslink anklicken und somit die Einladung ungültig machen. Wenn das schon zu spät ist, kannst du ungeliebte und falsche Mitglieder jederzeit in der Familienübersicht wieder entfernen.<br>Sollte wirklich alles schief gehen, kannst du auch einfach eine neue Familie gründen und einen Neuanfang wagen."
+	 , "Deine Geräte werden in deiner 'Gonimo-Familie' verwaltet. Wenn du Gonimo das erste Mal benutzt, wird für dich eine neue Familie erstellt. Neue Geräte kannst du über unser Einladungssystem zu deiner Familie hinzufügen. Jede Einladung beinhaltet einen langen sicheren Code und ist nur einmal gültig. Das garantiert, dass du wirklich nur die Personen in deiner Familie hast die dort auch hingehören.<br>Solltest du versehentlich eine falsche Person eingeladen haben, kannst du einfach selbst den Einladungslink anklicken und somit die Einladung ungültig machen. Wenn das schon zu spät ist, kannst du ungeliebte und falsche Mitglieder jederzeit in der Familienübersicht wieder entfernen.<br>Sollte wirklich alles schief gehen, kannst du auch einfach eine neue Familie gründen und einen Neuanfang wagen."
 	 , "PIWIK"
-	 , "Auch wir müssen Marktforschung betreiben um herauszufinden wie wir gonimo für euch noch besser und einfacher gestalten können. Statt, wie die meisten, auf den Marktführer 'Google Analytics' zu setzen, verwenden wir die Open Source Alternative PIWIK. Dadurch behalten wir die volle Kontrolle über die gesammelten Daten und geben keine Nutzerdaten an Google weiter. Dadurch können Datensätze auch nicht eindeutig einem Nutzer zugeordnet werden, was automatisch für mehr Privatssphäre sorgt. Wir benutzen diese Daten auch nur anonymisiert und nur zum Zweck eure Interaktionen mit gonimo zu verbessern."
+	 , "Auch wir müssen Marktforschung betreiben um herauszufinden wie wir Gonimo für euch noch besser und einfacher gestalten können. Statt, wie die meisten, auf den Marktführer 'Google Analytics' zu setzen, verwenden wir die Open Source Alternative PIWIK. Dadurch behalten wir die volle Kontrolle über die gesammelten Daten und geben keine Nutzerdaten an Google weiter. Dadurch können Datensätze auch nicht eindeutig einem Nutzer zugeordnet werden, was automatisch für mehr Privatssphäre sorgt. Wir benutzen diese Daten auch nur anonymisiert und nur zum Zweck eure Interaktionen mit Gonimo zu verbessern."
 	 , "Open Source"
-	 , "gonimo wird in allen Bereichen als Open Source Projekt verwirklicht. Das bedeutet, dass unser Code öffentlich ist und von jedem auch in anderen Projekten verwendet werden kann. Die einzige Einschränkung ist, dass auch dieses Projekt Open Source ist.<br>Ein positiver Nebeneffekt ist auch, dass jeder unsere Sicherheitskonzepte überprüfen kann. Wir freuen uns sehr über Feedback und Fehlerberichte (Bug-Reports)."
+	 , "Gonimo wird in allen Bereichen als Open Source Projekt verwirklicht. Das bedeutet, dass unser Code öffentlich ist und von jedem auch in anderen Projekten verwendet werden kann. Die einzige Einschränkung ist, dass auch dieses Projekt Open Source ist.<br>Ein positiver Nebeneffekt ist auch, dass jeder unsere Sicherheitskonzepte überprüfen kann. Wir freuen uns sehr über Feedback und Fehlerberichte (Bug-Reports)."
 	 , "Zusätzliche Informationen"
 	 , "Noch mehr Infos findest du unter folgenden Links:<ul>
 	 <li><a class='link' href='https://de.wikipedia.org/wiki/Peer-to-Peer' title='P2P'>Peer-to-Peer auf Wikipedia</a></li>
 	 <li><a class='link' href='https://de.wikipedia.org/wiki/Https' title='HTTPS'>HTTPS auf Wikipedia</a></li>
 	 <li><a class='link' href='https://piwik.org/' title='PIWIK'>PIWIK</a></li>
 	 <li><a class='link' href='https://de.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source auf Wikipedia</a></li>
-	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='gonimo auf github'>gonimo auf github</a></li>"
+	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='Gonimo auf github'>Gonimo auf github</a></li>"
 	 ];
 	 
 $apps = [
 		"browser" => ["Browser"
 			,"<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>"
-			,"Die originale gonimo Webapp"
-			,"gonimo im Browser, so einfach und sicher wie gewohnt!"
+			,"Die originale Gonimo Webapp"
+			,"Gonimo im Browser, so einfach und sicher wie gewohnt!"
 			,"Browserunterstützung"
 			,"Browser"
 			,"Version"
@@ -379,10 +379,10 @@ $apps = [
 			,"Systemvoraussetzungen"
 			,"Minimale Systemanforderung"
 			,["Betriebssystem" => "Microsoft Windows<br>Mac OS X<br>Linux<br>Andere", "Prozessor" => "ab 1 GHz", "Arbeitsspeicher" => "ab 512 MB", "Speicher" => "1 MB", "Audio" => "Lautsprecher (Eltern)<br>Mikrofon (Baby)", "Browser" => "siehe oben", "JavaScript" => "aktiviert"]
-			,"Kann ich gonimo verwenden?"
-			,"Mit dem folgenden Test kannst du herausfinden ob du gonimo auf deinem Gerät verwenden kannst"
+			,"Kann ich Gonimo verwenden?"
+			,"Mit dem folgenden Test kannst du herausfinden ob du Gonimo auf deinem Gerät verwenden kannst"
 			,"Für exakte Ergebnisse musst du den Zugriff auf Kamera und/oder Mikrofon zulassen"
-			,"Bitte aktiviere JavaScript! Es ist für den Test und für gonimo dringend erforderlich!"
+			,"Bitte aktiviere JavaScript! Es ist für den Test und für Gonimo dringend erforderlich!"
 			,"TEST STARTEN"
 			,"Ergebnisse"
 			,"Feature"
@@ -402,16 +402,16 @@ $apps = [
 	 ];
 	 
 $fb = [ "Feedback"
-	, "Um gonimo laufend zu verbessern sind wir auf dein Feedback angewiesen. Vielen Dank für's Mitmachen!"
+	, "Um Gonimo laufend zu verbessern sind wir auf dein Feedback angewiesen. Vielen Dank für's Mitmachen!"
 	, "Gesamteindruck"
 	, "Bedienung"
 	, "Funktionen"
 	, "Fehlende Funktionen"
 	, "Welche Funktionen wünscht du dir?"
-	, "Willst du eine gonimo Android App?"
+	, "Willst du eine Gonimo Android App?"
 	, "Ja"
 	, "Nein"
-	, "Was darf die gonimo App maximal kosten?"
+	, "Was darf die Gonimo App maximal kosten?"
 	, "gratis"
 	, "Anwendungszweck"
 	, "Babyphone, Katzenphone, ..."
@@ -420,8 +420,8 @@ $fb = [ "Feedback"
 	, "Kommentar"
 	, "Was ich noch sagen wollte:"
 	, "Zeichen verfügbar"
-	, "Ich würde gonimo weiterempfehlen!"
-	, "gonimo darf meinen Kommentar veröffentlichen."
+	, "Ich würde Gonimo weiterempfehlen!"
+	, "Gonimo darf meinen Kommentar veröffentlichen."
 	, "Feedback senden"
 	, "Zurücksetzen"
 	, "Vielen Dank für deine Unterstützung!"
