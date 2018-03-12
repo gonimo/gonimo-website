@@ -367,7 +367,7 @@ $s = [ "Gonimo-Sicherheit"
 	 ];
 	 
 $apps = [
-		"browser" => ["Browser"
+		"Browser" => ["Browser"
 			,"<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>"
 			,"Die originale Gonimo Webapp"
 			,"Gonimo im Browser, so einfach und sicher wie gewohnt!"
@@ -389,7 +389,7 @@ $apps = [
 			,"Ergebnis"
 			,["os" => "Betriebssystem", "mobile" => "Mobilgerät", "browser" => "Browser", "private" => "Inkognito-Modus", "resolution" => "Auflösung (Format)", "speaker" => "Lautsprecher", "mic" => "Mikrofon", "cam" => "Kamera", "perm-mic" => "Zugriff auf Mikrofon", "perm-cam" => "Zugriff auf Kamera", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
 			]
-		,"android" => ["Android"
+		,"Android" => ["Android"
 			,"<i class='fa fa-android' title='Android' aria-hidden='true'></i>"
 			,"Jetzt auch nativ für Android"
 			,"Zum installieren, zukünftig mit erweiterten Funktionen"
