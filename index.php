@@ -39,6 +39,7 @@ $videosPath="/videos/";
 <!--		<div class="col-md-6 sm-hidden impact lvl-2">
 			<img class="img img-responsive" src="/img/w-impact-lg.png" alt="Gonimo" title="Gonimo">
 		</div> -->
+    <div class="impact banner"><a href="/apps/android.php"><?php echo $banner; ?></a></div>
 		<div class="col-xs-12 col-md-6 col-md-offset-6 impact lvl-2">
 			<h1>Gonimo</h1>
 			<h3>Good Night Monitor</h3>

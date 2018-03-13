@@ -219,6 +219,15 @@ section.impact{
 		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 80%);
 		background: linear-gradient(to right, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 80%);
 	}
+  .impact.banner{
+    position: absolute;
+    padding:0 100px;
+    right: 65%;
+    bottom: 75%;
+    transform: rotate(-45deg);
+    width: 50%;
+    text-align:right;
+  }
 }
 @media(max-width:1000px){
 	.impact .lvl-1{
@@ -231,10 +240,38 @@ section.impact{
 	.impact .row{
 		background: rgba(255,255,255,0.6);
 	}
+  .impact.banner{
+    position: absolute;
+    padding:0 75px;
+    right: 65%;
+    bottom: 82%;
+    transform: rotate(-45deg);
+    width: 50%;
+    text-align:right;
+  }
+}
+@media(max-width:600px){
+  .impact.banner{
+    transform: rotate(0);
+    width:100%;
+    position:relative;
+    padding:0;
+    right:0;
+    bottom:0;
+    text-align:center;
+  }
 }
 .impact{
 	color:black;
 	font-size:large;
+}
+.impact.lvl-2{
+  position:relative;
+  overflow:hidden;
+}
+.impact.banner{
+  color: black;
+  background: rgb(230,202,212);
 }
 .impact > h1{
 	font-size:400%;

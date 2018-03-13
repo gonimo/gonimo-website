@@ -5,6 +5,8 @@ $header = ["description" => "Gonimo Good Night Monitor - das erste kostenlose, w
 	 , "language" => "Deutsch"
 	 ];
 	 
+$banner = "Jetzt auch auf Google Play erhältlich";
+   
 $og = [ "og:site_name" => "Gonimo - das kostenlose Babyfon"
 	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyfon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
 	 ];
@@ -367,7 +369,7 @@ $s = [ "Gonimo-Sicherheit"
 	 ];
 	 
 $apps = [
-		"Browser" => ["Browser"
+		"browser" => ["Browser"
 			,"<i class='fa fa-firefox' title='Firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='Chrome' aria-hidden='true'></i>"
 			,"Die originale Gonimo Webapp"
 			,"Gonimo im Browser, so einfach und sicher wie gewohnt!"
@@ -389,7 +391,7 @@ $apps = [
 			,"Ergebnis"
 			,["os" => "Betriebssystem", "mobile" => "Mobilgerät", "browser" => "Browser", "private" => "Inkognito-Modus", "resolution" => "Auflösung (Format)", "speaker" => "Lautsprecher", "mic" => "Mikrofon", "cam" => "Kamera", "perm-mic" => "Zugriff auf Mikrofon", "perm-cam" => "Zugriff auf Kamera", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
 			]
-		,"Android" => ["Android"
+		,"android" => ["Android"
 			,"<i class='fa fa-android' title='Android' aria-hidden='true'></i>"
 			,"Jetzt auch nativ für Android"
 			,"Zum installieren, zukünftig mit erweiterten Funktionen"

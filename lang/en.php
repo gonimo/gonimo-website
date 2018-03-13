@@ -8,6 +8,8 @@ $header = ["description" => "Gonimo Good Night Monitor - the first free, web-bas
 $og = [ "og:site_name" => "Gonimo - the free baby-monitor"
 	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. Gonimo - Already in your pocket! ;)"
 	 ];
+
+$banner = "Now on Google Play";
 	
 $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you can not do that!<br>You should not even be here!<br>But if you leave now, I am not going to tell anyone.<br>Access to this resource is blocked."]
 	 , "404" => ["title" => "404 - Not Found", "description" => "There is nothing here!<br>Sadly you can not see anything here or we have not found what you are looking for.<br>The requested resource was not found"]
@@ -432,7 +434,7 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
 	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='Gonimo auf github'>Gonimo on github</a></li>"
 	 ];
 $apps = [
-		"Browser" => ["Browser"
+		"browser" => ["Browser"
 			,"<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i> <i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>"
 			,"The original Gonimo webapp"
 			,"Gonimo in your browser, as easy as you know it!"
