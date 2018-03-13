@@ -40,7 +40,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/bootstrap/js/script.js"></script>
     <?php 
-	if ((date('n') >= 11 or date('n') <=3) and $_SERVER['SERVER_NAME'] != "gonimo.local"){
+	if ((date('n') >= 11 or date('n') < 3) and $_SERVER['SERVER_NAME'] != "gonimo.local"){
 		echo "<script src='/bootstrap/js/snowstorm-min.js'></script>";
 	};
 	//Check $_SERVER['SERVER_NAME'] on alpha-server and insert result in if-Statement
