@@ -221,12 +221,12 @@ section.impact{
 	}
   .impact.banner{
     position: absolute;
-    padding:0 100px;
+    padding:0 100px 0 100px;
     right: 65%;
     bottom: 75%;
     transform: rotate(-45deg);
     width: 50%;
-    text-align:right;
+    text-align:center;
   }
 }
 @media(max-width:1000px){
@@ -892,6 +892,18 @@ h3 {
 .results td.error{
 	color:red;
 	border:solid 1px red;
+}
+
+.app-store-badge {
+    width: 230px;
+}
+
+.app-description {
+    margin-top: 2em;
+    text-align: left;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* FEEDBACK */
 /*star-rating*/

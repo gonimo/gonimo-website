@@ -39,7 +39,7 @@ $videosPath="/videos/";
 <!--		<div class="col-md-6 sm-hidden impact lvl-2">
 			<img class="img img-responsive" src="/img/w-impact-lg.png" alt="Gonimo" title="Gonimo">
 		</div> -->
-    <div class="impact banner"><a href="/apps/android.php"><?php echo $banner; ?></a></div>
+    <?php echo $banner; ?>
 		<div class="col-xs-12 col-md-6 col-md-offset-6 impact lvl-2">
 			<h1>Gonimo</h1>
 			<h3>Good Night Monitor</h3>
@@ -54,10 +54,11 @@ $videosPath="/videos/";
 				<?php echo $i_i[6]; ?>
 			</ul>
 		</div>
-		<div class="col-xs-12 impact lvl-2 feedback">
+		<!-- <div class="col-xs-12 impact lvl-2 feedback">
 		<h4 class="impact-feedback"><?php echo $i_i[11]; ?></h4>
 		<a href="/feedback.php" title="<?php echo $i_i[12]; ?>"><div class="feedback-btn"><?php echo $i_i[12]; ?></div></a>
 		</div>
+        -->
 		<div class="col-xs-12 impact lvl-2">
 			<p>
 				<?php echo $i_i[7]; ?>

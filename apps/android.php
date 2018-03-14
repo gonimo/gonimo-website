@@ -30,9 +30,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<h1><?php echo $apps['android'][0]; ?></h1>
 	<h2><?php echo $apps['android'][1]; ?></h2>
 
-    <a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-
-    <a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/></a>
+    <?php echo $apps['android'][4]; ?>
 
 	<h3><?php echo $apps['android'][2]; ?></h3>
 	<a>
