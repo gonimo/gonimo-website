@@ -172,7 +172,14 @@ $faq = [
        , "Robert ist Vater von Zwillingen und irgendwann stellte sich heraus, dass die Kinder besser getrennt schlafen und beim Mittagsschlaf legt man sich halt nicht selbst dazu. Ein zweites Babyfon wollte er aber deshalb nicht kaufen, also eine App! Die bestehenden kostenlosen Angebote waren aber entweder unzuverlässig und unpraktisch (Anruf wenn das Kind schreit) oder haben schlicht weg nicht richtig funktioniert. \"Kann doch nicht so schwer sein\", dachte er sich und schrieb einen ersten Prototypen von Gonimo, der damals noch \"mybabymonitor.org\" hieß - toller Name, nicht?"
        ]
      , [ "Was unterscheidet mich von anderen Babyfonen?"
-       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden, weil ich über den Browser funktioniere und keine eigene App installiert werden muss. Ich bin kostenlos und biete alle Funktionen in vollem Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt. Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyfon keine gute Wahl, weil:
+       , "Du kannst mich mit einer Vielzahl unterschiedlicher Geräte verwenden,
+       weil ich über den Browser funktioniere und keine eigene App installiert
+       werden muss. Ich bin kostenlos und biete alle Funktionen in vollem
+       Umfang. Zusätzlich biete ich eine herausragende Sicherheit. Du und deine
+       Daten sind damit bestmöglich geschützt.<br>Im Vergleich zu anderen
+       Gratislösungen, ist Gonimo die einzige die Wert auf Zuverlässigkeit legt.
+       Lösungen die dich bei einer gewissen Lautstärke anrufen sind als Babyfon
+       keine gute Wahl, weil:
           <ul>
             <li> Unzuverlässig: Handy läutet nicht, kann bedeuten:
                 <ul>
@@ -211,10 +218,10 @@ $faq = [
             <li> Ganz allgemein ist Gonimo auf die Benutzung als Babyfon optimiert, während Skype auf die Nutzung als Telefon optimiert ist, dies betrifft sowohl das Userinterface als auch z.b. Tonverarbeitung."
        ]
      , [ "Wie finanziert sich Gonimo?"
-       , "Damit das Projekt überhaupt gestartet und umgesetzt werden konnte, gab es eine Förderung durch NetIdee.at. Eine native (installierbare) App ist geplant, die gegen einen überschaubaren Betrag erhältlich sein wird. Sie wird Funktionen abdecken, die über einen Browser technisch nicht umsetzbar sind. Auch Spenden ist möglich und wäre eine große Hilfe. Damit kann die stetige Verbesserung und Weiterentwicklung gewährleistet und besser vorangetrieben werden."
+       , "Damit das Projekt überhaupt gestartet und umgesetzt werden konnte, gab es eine Förderung durch NetIdee.at. Eine native (installierbare) App ist ab sofort verfügbar, und kann gegen einen überschaubaren Betrag gekauft werden. Sie wird Funktionen abdecken, die über einen Browser technisch nicht umsetzbar sind. Auch Spenden ist möglich und wäre eine große Hilfe. Damit kann die stetige Verbesserung und Weiterentwicklung gewährleistet und besser vorangetrieben werden. Zukünftig werden wir wahrscheinlich auch weitere Clouddienste zur Verfügung stellen, wie z.b. ein Schlaftagebuch oder ähnliches."
        ]
      , [ "Kann ich das Projekt unterstützen?"
-       , "Ja! Du kannst das Gonimo-Projekt durch eine Spende über den Donate-Button oder durch den Erwerb der kostenpflichtigen App (In Entwicklung) und/oder durch deinen Like auf verschiedenen Social-Media-Plattformen unterstützen. Natürlich sind wir auch immer auf der Suche nach kreativen und motivierten Leuten, die das Projekt mit ihrem Ehrgeiz und ihrem Know-How tatkräftig unterstützen wollen."
+       , "Ja! Du kannst das Gonimo-Projekt durch eine Spende über den Donate-Button oder durch den Erwerb der kostenpflichtigen App und/oder durch deinen Like auf verschiedenen Social-Media-Plattformen unterstützen. Natürlich sind wir auch immer auf der Suche nach kreativen und motivierten Leuten, die das Projekt mit ihrem Ehrgeiz und ihrem Know-How tatkräftig unterstützen wollen."
        ]
      , [ "Wer sind meine Schöpfer?"
        , "Ein Team junger, motivierter Leute, deren Profile du <a class='link' href='/team.php' title='Gonimo Team'>hier</a> findest."
@@ -237,7 +244,7 @@ $faq = [
          , "Keine Netzwerkverbindung ist perfekt, weshalb es zu Ausfällen kommen kann! Unser eingebauter Alarm warnt dich jedoch bei Verbindungsproblemen. Weitere Features, die die Zuverlässigkeit weiter erhöhen, sind geplant!"
          ]
        , [ "Werden meine Daten gespeichert oder an Dritte weitergegeben?"
-         , "Es werden bei mir nur die Daten gespeichert, die notwendig sind, um die Funktion des Babyfons zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben! Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."
+         , "Es werden bei mir nur die Daten gespeichert, die notwendig sind, um die Funktion des Babyfons zu gewährleisten. Diese Daten werden strikt nicht an Dritte weitergegeben! Audio- und/oder Videodaten werden nicht gespeichert. Aufgrund der verschlüsselten Peer-to-Peer Verbindung kann darauf auch nicht zugegriffen werden."
          ]
        , [ "Kann ich auf meinem Handy oder Tablet auch noch andere Sachen machen, während das Babyfon läuft?"
          , "Wir empfehlen die App stehts im Vordergrund zu behalten. Auch ist das Abschalten von Sperrbildschirmen und Stromspareinstellungen die den Chromebrowser betreffen von Vorteil."
@@ -248,42 +255,39 @@ $faq = [
      ],
      [ "Technisch"
        , [ "Warum funktioniere ich auf dem iOS Chrome Browser nicht?"
-         , "Auf Apple iOS Geräten müssen alle Browser mit der Safari Engine arbeiten, diese unterstützt WebRTC (noch) nicht und somit muss ich noch warten bis ich auch auf einem iOS Gerät funktioniere.
+         , "Auf Apple iOS Geräten müssen alle Browser mit der Safari Engine arbeiten, diese unterstützt WebRTC (noch) nicht perfekt und somit muss ich noch warten bis ich auch auf einem iOS Gerät funktioniere.
             Halte dich <a class='link' href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>hier über Facebook</a> am laufenden!
 
-            <p>Wir gehen von einer Unterstützung von iOS Geräten noch 2017 aus!
+            <p>Wir gehen davon aus iOS Geräte in der ersten Hälfte 2018 über die Webversion unterstützen zu können!
             </p>"
          ]
        , [ "Wie hoch ist der mobile Datenverbrauch von mir?"
-         , "Befinden sich beide Geräte in einem WLAN Netzwerk, so wird gar kein mobiles Datenvolumen benötigt. Wenn ich nur mit Audio benutzt werde, ist die Übertragunsrate sehr gering. Bei gleichzeitigem Audio- und Videostreaming kann (je nach Qualität der Verbindung) wesentlich mehr Datenvolumen anfallen. Empfehlenswert ist, dies ein wenig im Auge zu behalten."
+         , "Befinden sich beide Geräte in einem WLAN Netzwerk, so wird gar kein mobiles Datenvolumen benötigt. Wenn ich nur mit Audio benutzt werde, ist die Übertragungsrate sehr gering. Bei gleichzeitigem Audio- und Videostreaming kann (je nach Qualität der Verbindung) wesentlich mehr Datenvolumen anfallen. Empfehlenswert ist, dies ein wenig im Auge zu behalten."
          ]
        , [ "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
          , "Wenn das Babyfon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
          ]
        , [ "Warum hoere ich mein Kind zeitverzoegert?"
-         , "Je nach Qualitaet deiner Netzwerkverbindung muessen Daten mehr oder weniger gepuffert werden, dies verursacht eine Netzwerkabhaengige Verzoegerung die bis zu einige Sekunden erreichen kann."
+         , "Je nach Qualitaet deiner Netzwerkverbindung muessen Daten mehr oder weniger gepuffert werden, dies verursacht eine Netzwerkabhängige Verzögerung die einige Sekunden erreichen kann."
          ]
-       , [ "Kann ich Gonimo auch auf Computer verwenden, wo ich nur Gast bin?"
+       , [ "Kann ich Gonimo auch auf Computern verwenden, auf denen ich nur Gast bin?"
          , "Ja, Gonimo funktioniert auch auf Chrome Portable. Diesen Chrome kannst du dir auf deinen USB Stick installieren und er funktioniert auf jedem Rechner wo du deinen USB anstecken kannst und somit auch Gonimo."
          ] 
-       , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo-Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
+       , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
          , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a class='link' href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a class='link' href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse, wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
          ]
      ],
      ["App im PlayStore"
-       , [ "Wieso wird es eine zusätzliche App geben?"
-         , "Die geplante kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind, weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann. Außerdem bevorzugen manche Nutzer ganz einfach installierte Applikationen."
+       , [ "Wieso gibt es eine zusätzliche App?"
+         , "Die kostenpflichtige App wird über die bereits voll ausgereizten Funktionen der Webapplikation hinaus zahlreiche Funktionen bieten, die nur über eine installierte App umsetzbar sind, weil ein Browser nicht alles auf einem Gerät steuern darf bzw. kann. Außerdem bevorzugen manche Nutzer ganz einfach installierte Applikationen."
          ]
-       , [ "Warum wird diese App etwas kosten?"
+       , [ "Warum kostet diese App etwas?"
          , "Gonimo ist ein vollwertiges Babyfon, welches wir jedem zur Verfügung stellen wollen. Über die App kann nicht nur jeder Benutzer Gonimo unterstützen, sondern man erhält auch Zugriff auf zusätzliche Funktionen."
-         ]
-       , [ "Wann wird es diese App geben?"
-         , "Sie ist leider noch in Entwicklung, jedoch sind wir bemüht, dass wir sie so bald wie uns möglich veröffentlichen! (Ja, auch wir brauchen ein Einkommen! ;-) )"
          ]
      ],
 	 ["Cookies",
 		["Was sind Cookies?",
-		"Cookies sind kleine Textdateien die in deinem Browser gespeichert werden. Cookies können Daten enthalten die Webseiten zum Betrieb brauchen oder Einstellungen die du gesetzt hast, zum Beispiel die angezeigte Sprache."]
+		"Cookies sind kleine Textdateien die in deinem Browser gespeichert werden. Cookies können Daten enthalten, die Webseiten zum Betrieb brauchen oder Einstellungen die du gesetzt hast, zum Beispiel die angezeigte Sprache."]
 		, ["Warum verwendet Gonimo Cookies?",
 		"Auf der Landingpage werden Cookies eingesetzt um uns Einblick zu geben
 		wie gut unsere Landingpage funktioniert. Wieviele User kommen, wie lange
@@ -297,7 +301,7 @@ $faq = [
 		, ["Kann ich Gonimo ohne Cookies verwenden?",
 		"Ja, du kannst Gonimo auch ohne Cookies verwenden. Die App selbst
 		benötigt allerdings local storage um zu funktionieren. Die Cookies auf
-		Gonimo.com kannst du blockieren, allerdings würden uns diese Daten
+		gonimo.com kannst du blockieren, allerdings würden uns diese Daten
 		helfen Gonimo weiter zu verbessern und deinen Bedürfnissen anzupassen."]
 	]
 ];
@@ -308,7 +312,7 @@ $i = [ "Impressum"
      , "Adresse:"
      , "Telefon:"
      , "Gonimo anrufen"
-     , "Mail an hello@Gonimo.com senden"
+     , "Mail an hello@gonimo.com senden"
      , "Für allgemeine Anfragen: "
      , "Bildernachweis"
      , "Webdesign"

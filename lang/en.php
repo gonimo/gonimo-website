@@ -259,7 +259,7 @@ $faq = [ [ "General"
            ]
          , [ "Is there a way to support you?"
            , "Sure! You can support the Gonimo project by donating via the
-              donate button, by purchasing the fee-based app (in development)
+              donate button, by purchasing the fee-based app
               and/or by liking us on various social media platforms. Of course, we
               are always on the look-out for creative and motivated people who
               would like to support the project with their ambition and their
@@ -292,7 +292,7 @@ $faq = [ [ "General"
          , [ "Will my data be saved or passed on to third parties?"
            , "I save only as much data as is necessary for my features to function.
               This data is not passed on to third parties under any circumstances and
-              Audio and/or video data is not saved. Due to the peer-to-peer
+              Audio and/or video data is not saved at all. Due to the peer-to-peer
               connection and encryption, not even we have access to your audio/video data."
          ]
        ]
@@ -304,7 +304,7 @@ $faq = [ [ "General"
              We'll keep you posted on the current state of affairs on
              <a class='link' href='https://www.facebook.com/mygonimo/?fref=ts' target='_blank'>Facebook</a>!
 
-             <p>We anticipate Apple iOS support in the course of 2017!
+             <p>We anticipate Apple iOS support in the web version in early 2018!
              </p>"
            ]
          , [ "How much mobile data does Gonimo need?"
@@ -329,22 +329,19 @@ $faq = [ [ "General"
            ]
        ]
        , [ "App in PlayStore"
-         , [ "Why is there going to be an additional fee-based app?"
-           , "The planned fee-based app will offer various features over and
+         , [ "Why is there an additional fee-based app?"
+           , "The fee-based app will offer various features over and
               above those offered in the web application. Those can only be
               implemented via an installed app, because browsers don't have
               permission to control everything on a device.
               <p>In addition some users might simply prefer an installed app over a Web application, also the installed app will be faster.
               </p>"
            ]
-         , [ "Why will there be a fee?"
+         , [ "Why is there be a fee?"
            , "Gonimo is a full-featured baby monitor, which we want to make
               available to everyone. By paying for the native app, you can support
-              Gonimo and will get additional features in return. Yeah, we need to
+              Gonimo and will get additional features (planned) in return. Yeah, we need to
               eat too ;-)"
-           ]
-         , [ "When will the native app be available?"
-           , "It is still in development, but we are working hard to make it available soon. (Yeah, we really need the money ;-) )"
            ]
          ],
 	["Cookies",
@@ -358,10 +355,10 @@ $faq = [ [ "General"
 		title='Piwik'>Piwik</a> instead. This way, we get vital information, that
 		we need for improving Gonimo and still protect your privacy."]
 		, ["I am on a diet, what can I do against Cookies?",
-		"In the settings of your browser you can delete Cookies from Gonimo.com or disallow websites to store cookies on your device."]
+		"In the settings of your browser you can delete Cookies from gonimo.com or disallow websites to store cookies on your device."]
 		, ["Can I use Gonimo without Cookies?",
 		"Yes, you can use Gonimo without cookies, but the app needs local
-		storage in order to function. The cookies on Gonimo.com can be blocked,
+		storage in order to function. The cookies on gonimo.com can be blocked,
 		but this does not really help you, because we already take your privacy
 		seriously, on the flip-side we loose viable data that could help us improving
 		Gonimo."]
