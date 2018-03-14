@@ -267,8 +267,8 @@ $faq = [
        , [ "Wie hoch ist die Strahlenbelastung während ich eingeschaltet bin?"
          , "Wenn das Babyfon einen Meter entfernt von deinem Kind liegt, ist die Belastung sehr viel kleiner (ca. hunderttausend mal) als für dich, wenn du mit deinem Handy am Ohr telefonierst. Gonimo verstärkt leise Signale! Du solltest also das Handy/Tablet den Laptop oder was auch immer du verwendest, ohne Probleme relativ weit entfernt von deinem Kind aufstellen können!"
          ]
-       , [ "Warum hoere ich mein Kind zeitverzoegert?"
-         , "Je nach Qualitaet deiner Netzwerkverbindung muessen Daten mehr oder weniger gepuffert werden, dies verursacht eine Netzwerkabhängige Verzögerung die einige Sekunden erreichen kann."
+       , [ "Warum höre ich mein Kind zeitverzögert?"
+         , "Je nach Qualität deiner Netzwerkverbindung müssen Daten mehr oder weniger gepuffert werden, dies verursacht eine Netzwerkabhängige Verzögerung die einige Sekunden erreichen kann."
          ]
        , [ "Kann ich Gonimo auch auf Computern verwenden, auf denen ich nur Gast bin?"
          , "Ja, Gonimo funktioniert auch auf Chrome Portable. Diesen Chrome kannst du dir auf deinen USB Stick installieren und er funktioniert auf jedem Rechner wo du deinen USB anstecken kannst und somit auch Gonimo."
