@@ -418,7 +418,7 @@ $apps = [
   </ul>
   <br/>
   <p>
-  Die native Android App wird es uns ermöglichen einige Features zu implementieren, die in der Webversion nicht umsetzbar sind. Was wir <em>nicht</em> machen, ist die Webversion künstlich schlechter zu machen um dich zum Kauf der "Pro-Version" zu bewegen. Wir werden nie Arbeit investieren um ein Produkt schlechter zu machen. Keine magischen Flags, die Funktionalität blockieren, die eigentlich eh da ist! Das ist der Gonimo Weg: Sei ehrlich. Tu was für die User das Beste ist.
+  Die native Android App wird es uns ermöglichen einige Features zu implementieren, die in der Webversion nicht umsetzbar sind. Was wir <em>nicht</em> machen, ist die Webversion künstlich zu verschlechtern, um dich zum Kauf einer "Pro-Version" zu bewegen. Wir werden nie Arbeit investieren um ein Produkt schlechter zu machen. Keine magischen Flags, die Funktionalität blockieren, die eigentlich eh da ist! Das ist der Gonimo Weg: Sei ehrlich. Tu was für die User das Beste ist.
   </p>
 </div>
 '
