@@ -416,6 +416,7 @@ $apps = [
     ,"<a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='app-store-badge' alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/></a>"
       , "Jetzt die Gonimo App gratis holen"
       , "Klick einfach auf den Button und gib den Code im google Play Store ein um die Gonimo App für Android gratis herunterzuladen!"
+      , "Code anzeigen"
 			]
       
 		,"ios" => ["iOS"
