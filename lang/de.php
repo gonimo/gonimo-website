@@ -414,8 +414,8 @@ $apps = [
       </ul>"
     ,"Die native Android App wird es uns ermöglichen einige Features zu implementieren, die in der Webversion nicht umsetzbar sind. Was wir <em>nicht</em> machen, ist die Webversion künstlich zu verschlechtern, um dich zum Kauf einer 'Pro-Version' zu bewegen. Wir werden nie Arbeit investieren um ein Produkt schlechter zu machen. Keine magischen Flags, die Funktionalität blockieren, die eigentlich eh da ist! Das ist der Gonimo Weg: Sei ehrlich. Tu was für die User das Beste ist."
     ,"<a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='app-store-badge' alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/></a>"
-      , "Jetzt die Gonimo App gratis holen"
-      , "Klick einfach auf den Button und gib den Code im google Play Store ein um die Gonimo App für Android gratis herunterzuladen!"
+      , "Jetzt die Gonimo App gratis holen!"
+      , "Klick einfach auf den Button und gib den Code auf Google Play ein um die Gonimo App für Android gratis herunterzuladen!"
 			]
       
 		,"ios" => ["iOS"
@@ -452,5 +452,5 @@ $fb = [ "Feedback"
 	, "Es ist ein Fehler aufgetreten. Bitte versuche es erneut!"
 	];
   
-$errors = ["promo" => ["empty" => "Sorry, es sind leider keine Codes mehr verfügbar"]]
+$errors = ["promo" => ["empty" => "Sorry, es sind leider keine Codes mehr verfügbar."]]
 ?>
