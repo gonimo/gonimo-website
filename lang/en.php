@@ -454,32 +454,26 @@ $apps = [
 			,["os" => "operating system", "mobile" => "mobile device", "browser" => "browser", "private" => "private mode", "resolution" => "resolution (aspect ratio)", "speaker" => "speakers", "mic" => "microphone", "cam" => "cam", "perm-mic" => "access to microphone", "perm-cam" => "access to cam", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
 			]
 		,"android" => ["Android"
-			,""
+			,"<i class='fa fa-android' title='Android' aria-hidden='true'></i>"
 			,"Now as native Android app!"
-			,'Soon with new extended features.
-<br/>
-<br/>
-<div class="app-description">
-  <ul>
-    <li>
+			,"Soon with new extended features."
+      ,"<ul>
+      <li>
       The app is fully compatible with the web version. So you can use your laptop
       with Chrome as parent station for example and your phone with the app
       running as baby station.
-    </li>
-    <li>
+      </li>
+      <li>
       The Android app is also open-source, like the web version, but sold for a
       little fee on Google Play. This means, by buying the app on Google Play you
       can now conveniently support the further development of Gonimo, making sure
       that your reliable and secure baby monitor will keep improving!
-    </li>
-  </ul>
-  <br/>
-  <p>
-  The native version will allow us to implement some functionality, not feasible in the web version. What we will <em>not</em> do, is artificially restrict the web version to make you buy the native version. We will not invest work to make a product worse for strategic reasons. No magic flags, that block functionality that is actually there. This is the Gonimo way: Stay honest. Do what is best for the user.
-  </p>
-</div>
-'
-            ,"<a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='app-store-badge' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>"
+      </li>
+      </ul>"
+      ,"The native version will allow us to implement some functionality, not feasible in the web version. What we will <em>not</em> do, is artificially restrict the web version to make you buy the native version. We will not invest work to make a product worse for strategic reasons. No magic flags, that block functionality that is actually there. This is the Gonimo way: Stay honest. Do what is best for the user."
+      ,"<a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='app-store-badge' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>"
+       , "Get gonimo on android now for free"
+      , "Click the button, enter the code in google play store and download gonimo for android free of charge."
 			]
 		,"ios" => ["iOS"
 			,"<i class='fa fa-apple' title='iOS' aria-hidden='true'></i>"
@@ -514,4 +508,7 @@ $fb = [ "Feedback"
 	, "Thank you for your help!"
 	, "Sorry, an error occured. Please try again!"
 	];
+
+$errors = ["promo" => ["empty" => "Sorry, there are no more codes available"]]
+
 ?>

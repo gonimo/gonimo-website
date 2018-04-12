@@ -396,34 +396,28 @@ $apps = [
 			,["os" => "Betriebssystem", "mobile" => "Mobilgerät", "browser" => "Browser", "private" => "Inkognito-Modus", "resolution" => "Auflösung (Format)", "speaker" => "Lautsprecher", "mic" => "Mikrofon", "cam" => "Kamera", "perm-mic" => "Zugriff auf Mikrofon", "perm-cam" => "Zugriff auf Kamera", "webrtc" => "WebRTC", "websocket" => "WebSocket"]
 			]
 		,"android" => ["Android"
-			,""
+			,"<i class='fa fa-android' title='Android' aria-hidden='true'></i>"
 			,"Jetzt auch nativ für Android!"
-			,'Zum installieren, zukünftig mit erweiterten Funktionen.
-<br/>
-<br/>
-<div class="app-description">
-  <ul>
-    <li>
+			,"Zum installieren, zukünftig mit erweiterten Funktionen."
+      ,"<ul><li>
       Die Android App ist voll kompatibel mit der Webversion. Du kannst also z.b.
       deinen Arbeitslaptop als Elternstation verwenden und dein Handy mit der
       Android App als Babystation.
-    </li>
-    <li>
+      </li>
+      <li>
       Die Android App ist wie die Webversion ein open-source Produkt, wird aber
       auf Google Play für einen kleinen Betrag verkauft. Das bedeutet, dass du die
       Weiterentwicklung von Gonimo jetzt bequem unterstützen kannst und damit
       sicherstellst, dass dein zuverlässiges und sicheres Babyfon weiter
       verbessert wird.
-    </li>
-  </ul>
-  <br/>
-  <p>
-  Die native Android App wird es uns ermöglichen einige Features zu implementieren, die in der Webversion nicht umsetzbar sind. Was wir <em>nicht</em> machen, ist die Webversion künstlich zu verschlechtern, um dich zum Kauf einer "Pro-Version" zu bewegen. Wir werden nie Arbeit investieren um ein Produkt schlechter zu machen. Keine magischen Flags, die Funktionalität blockieren, die eigentlich eh da ist! Das ist der Gonimo Weg: Sei ehrlich. Tu was für die User das Beste ist.
-  </p>
-</div>
-'
-            , "<a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='app-store-badge' alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/></a>"
+      </li>
+      </ul>"
+    ,"Die native Android App wird es uns ermöglichen einige Features zu implementieren, die in der Webversion nicht umsetzbar sind. Was wir <em>nicht</em> machen, ist die Webversion künstlich zu verschlechtern, um dich zum Kauf einer 'Pro-Version' zu bewegen. Wir werden nie Arbeit investieren um ein Produkt schlechter zu machen. Keine magischen Flags, die Funktionalität blockieren, die eigentlich eh da ist! Das ist der Gonimo Weg: Sei ehrlich. Tu was für die User das Beste ist."
+    ,"<a href='https://play.google.com/store/apps/details?id=com.gonimo.baby&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='app-store-badge' alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/></a>"
+      , "Jetzt die Gonimo App gratis holen"
+      , "Klick einfach auf den Button und gib den Code im google Play Store ein um die Gonimo App für Android gratis herunterzuladen!"
 			]
+      
 		,"ios" => ["iOS"
 			,"<i class='fa fa-apple' title='iOS' aria-hidden='true'></i>"
 			,"Bald auch für reiche Leute!"
@@ -457,4 +451,6 @@ $fb = [ "Feedback"
 	, "Vielen Dank für deine Unterstützung!"
 	, "Es ist ein Fehler aufgetreten. Bitte versuche es erneut!"
 	];
+  
+$errors = ["promo" => ["empty" => "Sorry, es sind leider keine Codes mehr verfügbar"]]
 ?>

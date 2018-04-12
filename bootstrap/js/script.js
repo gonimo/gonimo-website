@@ -39,6 +39,23 @@ $(document).ready(function(){
 	  var length = maxLength-length;
 	  $('#chars').text(length);
 	});
+  
+  //promo-code
+  $('#promo-button').click(function(event){
+    event.preventDefault();
+      $.ajax({
+       url:"/bootstrap/php/promo.php",
+       type:"POST",
+       data:{type: "generatecode"},
+       success:function(result)
+       {
+         $('#promo-code').toggleClass("visible");
+         $('#promo-button').toggleClass("visible");
+         $('#promo-code').text(result);
+       }
+      })
+    
+  });
 
 });
 

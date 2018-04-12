@@ -893,17 +893,58 @@ h3 {
 	color:red;
 	border:solid 1px red;
 }
-
 .app-store-badge {
     width: 230px;
 }
-
 .app-description {
     margin-top: 2em;
     text-align: left;
     max-width: 50em;
     margin-left: auto;
     margin-right: auto;
+}
+.app-description h4{
+  font-size:110%;
+  text-align:center;
+}
+.app-description h3{
+  text-align:center;
+}
+.promo{
+  margin-bottom: 2.5%;
+  background: white;
+  padding-bottom:1%;
+  margin: 0 -15px;
+}
+.promo-code .code{
+  padding:0 10%;
+  border-top:solid black rgb(230,202,212);
+  border-bottom:solid black rgb(230,202,212);
+  color:rgb(230,202,212);
+  font-size:130%;
+}
+.promo-code .code, .promo-button{
+  display:none;
+}
+.promo-code{
+  font-size:130%;
+  display:inline-block;
+}
+.promo-code .code.visible, .promo-button.visible{
+  display:inline-block;
+}
+.promo-button{
+  padding: 1%;
+  color: white;
+  transition: all 1s;
+  background: rgb(230,202,212);
+  border: 1px solid transparent;
+  font-size:130%;
+}
+.promo-button:hover{
+  color: rgb(230,202,212);
+  background: white;
+  border-color: rgb(230,202,212);
 }
 /* FEEDBACK */
 /*star-rating*/

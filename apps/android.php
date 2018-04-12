@@ -22,21 +22,27 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
     }
 }
 </script>
-<title><?php echo "gonimo-".$m[2]." ".$apps['browser'][0]; ?></title>
+<title><?php echo "gonimo-".$m[2]." ".$apps['android'][0]; ?></title>
 <div class="container s-apps lvl-0">
 	<div class="container-fluid s-apps lvl-1">
 	<div class="row">
 	<div class="col-xs-12">
 	<h1><?php echo $apps['android'][0]; ?></h1>
 	<h2><?php echo $apps['android'][1]; ?></h2>
-
+  <div class="app-link"><?php echo $apps['android'][6]; ?></div>
+  <div class="promo">    
+    <h3> <?php echo $apps['android'][7]; ?></h3>
+    <p> <?php echo $apps['android'][8]; ?></p>
+    <div class="promo-code"><span class="code" id="promo-code">xXxXxXxXxXxXxXxXxXxXxXx</span>
+    <button class="promo-button visible" id="promo-button"><i class='fa fa-refresh' title='Code' aria-hidden='true'></i> Code Generieren</button></div>
+  </div>
+  <h3><?php echo $apps['android'][2]; ?></h3>
+  <div class="app-description">
+  <h4> <?php echo $apps['android'][3]; ?></h4>
     <?php echo $apps['android'][4]; ?>
-
-	<h3><?php echo $apps['android'][2]; ?></h3>
-	<a>
-	<?php echo $apps['android'][3]; ?>
-	</a>
-	</div>
+    <?php echo $apps['android'][5]; ?>
+  </div>
+  </div>
 	</div>
 	</div>
 </div>
