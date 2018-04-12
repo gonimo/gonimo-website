@@ -34,7 +34,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
     <h3> <?php echo $apps['android'][7]; ?></h3>
     <p> <?php echo $apps['android'][8]; ?></p>
     <div class="promo-code"><span class="code" id="promo-code"></span>
-    <button class="promo-button visible" id="promo-button"><i class='fa fa-refresh' title='Code' aria-hidden='true'></i> <?php echo $apps['android'][8]; ?></button></div>
+    <button class="promo-button visible" id="promo-button"><i class='fa fa-refresh' title='Code' aria-hidden='true'></i> <?php echo $apps['android'][9]; ?></button></div>
   </div>
   <h3><?php echo $apps['android'][2]; ?></h3>
   <div class="app-description">
