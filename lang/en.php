@@ -16,13 +16,13 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you 
 	 , "back" => "Get back to Gonimo here"
 	 ];
 	
-$news = [ "head" => "Problems with Google Chrome 61 for Android"
-   , "icon" => "<i class='fa fa-exclamation-triangle' aria-hidden='true'></i>"
-	 , "body" => "Currently there exists a problem with the video stream display in Google Chrome 61 for Android. We informed Google about this problem and got the promise that it will be fixed in Chrome 62."
-	 , "link" => "https://blog.gonimo.com/article/2017/10/01/beware-chrome-61-for-android-regression/"
-	 , "link-title" => "More information on our blog"
+$news = [ "head" => "Problems with Google Chrome 66"
+        , "icon" => "<i class='fa fa-exclamation-triangle' aria-hidden='true'></i>"
+	    , "body" => "Chrome 66 unfortunately currently does not work as baby station streaming video. You won't be able to connect to the station. We are currently investigating the issue and hope to provide a solution soon!"
+        , "link" => "https://blog.gonimo.com/article/2018/04/24/babystation-video-not-working-on-chrome-66/"
+	    , "link-title" => "More information on our blog"
 	 ];
-	 	 
+
 $m = [ "HOME"
      , "ADVANTAGES"
      , "APPS"
