@@ -30,12 +30,13 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<h1><?php echo $apps['android'][0]; ?></h1>
 	<h2><?php echo $apps['android'][1]; ?></h2>
   <div class="app-link"><?php echo $apps['android'][6]; ?></div>
-  <div class="promo">    
+  <!--<div class="promo">    
     <h3> <?php echo $apps['android'][7]; ?></h3>
     <p> <?php echo $apps['android'][8]; ?></p>
     <div class="promo-code"><span class="code" id="promo-code"></span>
     <button class="promo-button visible" id="promo-button"><i class='fa fa-refresh' title='Code' aria-hidden='true'></i> <?php echo $apps['android'][9]; ?></button></div>
   </div>
+  -->
   <h3><?php echo $apps['android'][2]; ?></h3>
   <div class="app-description">
   <h4> <?php echo $apps['android'][3]; ?></h4>
