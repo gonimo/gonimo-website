@@ -57,6 +57,25 @@ h2{
 a.link{
 	text-decoration:underline;
 }
+
+.highlight {
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-name: highlight;
+}
+
+@keyframes highlight {
+ 	  0% {
+ 		    background: rgb(230,202,212);
+ 	  }
+    50% {
+        background: white;
+    }
+ 	  100% {
+ 		    background: rgb(230,202,212);
+ 	  }
+}
+
 /* FONT-SIZE CORRECTION */
 @media(max-width:768px){
 	h2{

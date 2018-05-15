@@ -9,7 +9,7 @@ $og = [ "og:site_name" => "Gonimo - the free baby-monitor"
 	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. Gonimo - Already in your pocket! ;)"
 	 ];
 
-$banner = "<div class='impact banner'>Now also on <a class='link' href='/apps/android.php'>Google Play</a>!</div>";
+$banner = "<div class='impact banner highlight'>Now also on <a class='link' href='https://play.google.com/store/apps/details?id=com.gonimo.baby'>Google Play</a>!</div>";
 
 $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you can not do that!<br>You should not even be here!<br>But if you leave now, I am not going to tell anyone.<br>Access to this resource is blocked."]
 	 , "404" => ["title" => "404 - Not Found", "description" => "There is nothing here!<br>Sadly you can not see anything here or we have not found what you are looking for.<br>The requested resource was not found"]
