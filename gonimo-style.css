@@ -868,6 +868,34 @@ h3 {
 	padding:1%;
 	text-align:center;
 }
+.s-apps img{
+  display:inline-block;
+}
+.ov-block{
+  overflow:hidden;
+  padding-bottom: 5%;
+  margin-left:-15px;
+  margin-right:-15px;
+}
+.ov-block:nth-of-type(even){
+  background-color:rgb(240,240,240);
+}
+.ov-btn{
+  border:none;
+  border-radius:0;
+  padding:10px;
+  margin:15px;
+}
+.ov-btn1{
+  background-color:rgb(230,202,212);
+  color:white;
+}
+.ov-block table {
+    border-collapse: collapse;
+}
+.ov-block table, .ov-block th, .ov-block td {
+    border: 1px solid black;
+}
 .panel.test{
 	background:lightgrey;
 	border:none;
