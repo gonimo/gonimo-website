@@ -344,11 +344,11 @@ $videosPath="/videos/";
 			</a>
 			<div class="col-xs-12 help partner lvl-4">
 			<h3><?php echo $i_p[0]; ?></h3>
-			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
+			<a href="https://www.netidee.at/" class="img-a" title="Netidee.at" target="_blank">
 			<img class="img-responsive" src="/img/partner/netidee.svg" alt="NETIDEE - Logo" title="NETIDEE - Logo"/><br>
 			</a>
-      <a href="https://www.bliems-familienhotel.at/" title="Bliems Familienhotels" target="_blank">
-			<img class="img-responsive" src="/img/partner/bliem.jpg" alt="Bliems Familienhotels" title="Bliems Familienhotels"/><br>
+      <a href="https://www.bliems-familienhotel.at/" class="img-a" title="Bliems Familienhotels" target="_blank">
+			<img class="img-responsive" src="/img/partner/bliem.jpg" alt="Bliems Familienhotels" title="Bliems Familienhotels" style="height:100px;"/><br>
 			</a>
 			</div>
 		</div>

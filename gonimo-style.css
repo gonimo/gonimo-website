@@ -1083,3 +1083,9 @@ input.range:focus::-webkit-slider-runnable-track{
 input.range:focus::-moz-range-track{
 	background:black;
 }
+
+a.img-a {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
