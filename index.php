@@ -347,6 +347,9 @@ $videosPath="/videos/";
 			<a href="https://www.netidee.at/" title="Netidee.at" target="_blank">
 			<img class="img-responsive" src="/img/partner/netidee.svg" alt="NETIDEE - Logo" title="NETIDEE - Logo"/><br>
 			</a>
+      <a href="https://www.bliems-familienhotel.at/" title="Bliems Familienhotels" target="_blank">
+			<img class="img-responsive" src="/img/partner/bliem.jpg" alt="Bliems Familienhotels" title="Bliems Familienhotels"/><br>
+			</a>
 			</div>
 		</div>
 	</div>
