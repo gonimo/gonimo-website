@@ -71,7 +71,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="<?php echo $m[2]; ?>"><?php echo $m[2]; ?> <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="/apps/overview.php"><?php echo $apps['overview'][0]." ".$apps['overview'][1]; ?></a></li>
+        <!--  <li><a href="/apps/overview.php"><?php echo $apps['overview'][0]." ".$apps['overview'][1]; ?></a></li> -->
           <li><a href="/apps/browser.php"><?php echo $apps['browser'][0]." ".$apps['browser'][1]; ?></a></li>
           <li><a href="/apps/android.php"><?php echo $apps['android'][0]." ".$apps['android'][1]; ?></a></li>
 <!--          <li><a href="/apps/ios.php"><?php echo $apps['ios'][0]." ".$apps['ios'][1]; ?></a></li> -->
