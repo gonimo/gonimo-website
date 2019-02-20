@@ -350,6 +350,9 @@ $videosPath="/videos/";
       <a href="https://www.bliems-familienhotel.at/" class="img-a" title="Bliems Familienhotels" target="_blank">
 			<img class="img-responsive" src="/img/partner/bliem.jpg" alt="Bliems Familienhotels" title="Bliems Familienhotels" style="height:100px;"/><br>
 			</a>
+      <a href="https://www.hotelalpenwelt.at/" class="img-a" title="Hotel Alpenwelt Flachau" target="_blank">
+			<img class="img-responsive" src="/img/partner/hotel-alpenwelt.jpg" alt="Hotel Alpenwelt Flachau" title="Hotel Alpenwelt Flachau" style="height:100px;"/><br>
+			</a>
 			</div>
 		</div>
 	</div>
