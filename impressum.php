@@ -13,7 +13,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<p>
 	<h4><?php echo $i[1]; ?></h4>
 	<br>
-    Gonimo Software - Verein zur Förderung quelloffener Softwareentwicklung<br>
+    Robert Klotzner<br>
 	<br>
 	<h4><?php echo $i[2]; ?></h4>
 	<span class="glyphicon glyphicon-home"></span><?php echo $i[3]; ?><br>
@@ -76,7 +76,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	</section>
 </div>
 </div>
-<?php 
+<?php
 include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 </body>

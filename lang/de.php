@@ -129,7 +129,7 @@ $i_h = [ "Wie kannst du uns helfen ?"
        , "Wir freuen uns über jedes Feedback welches uns bei der Verbesserung von Gonimo hilft!"
        ];
 
-$i_p = [ "Mit freundlicher Unterstützung durch:" ];
+$i_p = [ "Mit freundlicher Unterstützung durch/empfohlen von:" ];
 
 $t = [ "Team"
      , "unser aufgewecktes, frisch fröhliches Team"

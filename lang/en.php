@@ -127,7 +127,7 @@ $i_h = [ "How can you help us?"
        , "We are happy to receive any feedback that will help us improve Gonimo."
        ];
 
-$i_p = [ "With the friendly assistance of:"];
+$i_p = [ "With the friendly assistance of/recommended by:"];
 
 $t = [ "Team"
      , "our bright, cheerful team"
@@ -431,7 +431,7 @@ $k = [ "Thank you very much for your message. We will take care of it as soon as
 	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='Gonimo auf github'>Gonimo on github</a></li>"
 	 ];
 $apps = [
-    "overview" => ["Überblick"
+    "overview" => ["Overview"
     , "<i class='fa fa-cubes' title='Überblick' aria-hidden='true'></i>"
     , "Die verschiedenen Versionen von Gonimo im Überblick"
     , "Gonimo ist überall und jederzeit für dich da, egal auf welchem Gerät."
