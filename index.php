@@ -362,5 +362,20 @@ $videosPath="/videos/";
 <?php 
 include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
+<script>
+$(document).ready(function(){  
+  if (location.search == '?tutorial'){
+    $('#tutorial').collapse('toggle');
+    $('html, body').animate(
+    {
+      scrollTop: $('#tutorial').offset().top,
+    },
+    500,
+    'linear'
+  );
+  $('*[data-videoname="tutorial"]').get(0).play();
+  }
+});
+</script>
 </body>
 </html>
