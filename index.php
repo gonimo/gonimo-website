@@ -353,6 +353,12 @@ $videosPath="/videos/";
       <a href="https://www.hotelalpenwelt.at/" class="img-a" title="Hotel Alpenwelt Flachau" target="_blank">
 			<img class="img-responsive" src="/img/partner/hotel-alpenwelt.jpg" alt="Hotel Alpenwelt Flachau" title="Hotel Alpenwelt Flachau" style="height:100px;"/><br>
 			</a>
+      <a href="https://www.stegerhof.at/" class="img-a" title="Familienhotel Der Stegerhof" target="_blank">
+			<img class="img-responsive" src="/img/partner/stegerhof.jpg" alt="Familienhotel Der Stegerhof" title="Familienhotel Der Stegerhof" style="height:100px;"/><br>
+			</a>
+      <a href="https://www.hotel-grimming.com/" class="img-a" title="Hotel Grimming" target="_blank">
+			<img class="img-responsive" src="/img/partner/grimming.jpg" alt="Hotel Grimming" title="Hotel Grimming" style="height:100px;"/><br>
+			</a>
 			</div>
 		</div>
 	</div>
