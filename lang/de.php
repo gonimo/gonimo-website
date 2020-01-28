@@ -4,25 +4,25 @@ $header = ["description" => "Gonimo Good Night Monitor - das erste kostenlose, w
 	 , "lang" => "de"
 	 , "language" => "Deutsch"
 	 ];
-	 
+
 $banner = "<div class='impact banner highlight'>Jetzt auch auf <a class='link' href='https://play.google.com/store/apps/details?id=com.gonimo.baby'>Google Play</a> erhältlich!</div>";
-   
+
 $og = [ "og:site_name" => "Gonimo - das kostenlose Babyfon"
 	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyfon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
 	 ];
-	 
+
 $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Das darfst du leider nicht!<br>Du solltest gar nicht hier sein.<br>Aber wenn du gleich wieder gehst, verrate ich niemandem was.<br>Der Zugriff auf diese Ressource ist gesperrt."]
 	 , "404" => ["title" => "404 - Not Found", "description" => "Hier gibt es nichts!<br>Leider gibt es hier nichts zu sehen oder wir haben nicht gefunden was du suchst.<br>Die angeforderte Ressource wurde nicht gefunden."]
 	 , "back" => "Hier gehts zurück zu Gonimo"
 	 ];
-	 
+
 $news = [ "head" => "Probleme mit Google Chrome 66"
         , "icon" => "<i class='fa fa-exclamation-triangle' aria-hidden='true'></i>"
         , "body" => "Chrome 66 funktioniert derzeit leider nicht als Babystation, wenn Video aktiviert ist. Wir arbeiten an einer Lösung! Wir entschuldigen uns für die Unanehmlichkeiten!"
         , "link" => "https://blog.gonimo.com/article/2018/04/24/babystation-video-not-working-on-chrome-66/"
 	    , "link-title" => "Mehr Informationen in unserem Blog"
 	 ];
-	 
+
 $m = [ "HOME"
      , "VORTEILE"
      , "APPS"
@@ -34,7 +34,7 @@ $m = [ "HOME"
      , "PRESSE"
 	 , "Sprache wechseln"
      ];
-	 
+
 $c = [ "Durch die Nutzung von Gonimo akzeptierst du, dass Gonimo.com Cookies verwendet wo es nötig ist. Leider kannst du sie nicht essen! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='mehr über Cookies erfahren'>Erfahre hier mehr</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	 ];
 
@@ -54,7 +54,7 @@ $i_i = [ "Das kostenlose Babyfon für Smartphone, Tablet oder PC."
 	   , "Hilf mit Gonimo zu verbessern!"
 	   , "Jetzt Feedback geben"
        ];
-	   
+
 $i_v = [ "trailer_de"
         , "https://www.youtube-nocookie.com/embed/Chy0Sx5Rzx0?rel=0"
 		,"tutorial_de"
@@ -237,7 +237,7 @@ $faq = [
                </q>
            </p>"
          ]
-       , [ "Wer kann aller in meiner Familie sein?"
+       , [ "Wie wird geregelt wer einer Familie angehört?"
          , "Die Familie ist ein begrenzter Bereich, welcher von allen Geräten die in der Familie sind gesteuert werden. Jedes Gerät welches sich in der Familie befindet, kann Einladungen verschicken. Im Bereich der Eltern findest du eine Übersicht von allen Geräten. Dadurch wird dir ermöglicht, Gastgeräte oder Geräte die nicht mehr gebraucht werden wieder zu entfernen und du bewahrst stehts eine Übersicht welche Geräte derzeit in deiner Familie sind."
          ]
        , [ "Wie stabil ist die Verbindung zwischen den Geräten?"
@@ -251,7 +251,7 @@ $faq = [
          ]
        , [ "Wie kann ich selbst Gonimo noch sicherer machen?"
          , "Derzeit gibt es leider noch nicht die Möglichkeit Hintergrundmusik abzuspielen. Wenn du selbst eine ruhige Musik bei deinem Baby abspielst, kannst du mit dieser Musik die Verbindung von deinem Babyfon permanent testen. Ein unbemerkter Verbindungsabbruch ist somit ausgeschlossen und du kannst dich noch besser entspannen. Wir werden diese Funktion so bald wie uns möglich zur Verfügung stellen."
-         ]      
+         ]
      ],
      [ "Technisch"
        , [ "Warum funktioniere ich auf dem iOS Chrome Browser nicht?"
@@ -272,7 +272,7 @@ $faq = [
          ]
        , [ "Kann ich Gonimo auch auf Computern verwenden, auf denen ich nur Gast bin?"
          , "Ja, Gonimo funktioniert auch auf Chrome Portable. Diesen Chrome kannst du dir auf deinen USB Stick installieren und er funktioniert auf jedem Rechner wo du deinen USB anstecken kannst und somit auch Gonimo."
-         ] 
+         ]
        , [ "Wenn ich ein eigenes Projekt auf Basis des Gonimo Codes programmieren möchte, darf ich dann den Quellcode von Gonimo einfach kopieren und verwenden?"
          , "Das Gonimo-Projekt ist ein OpenSource Projekt und unterliegt den Richtlinien der <a class='link' href='https://de.wikipedia.org/wiki/GNU_Affero_General_Public_License' title='GNU LICENSE' target='_blank'>AGPL GNU Affero General Public License</a> und somit darf der  <a class='link' href='https://github.com/gonimo' title='Source Code' target='_blank'>Quellcode</a>  unter deren Richtlinien verwendet werden. Je nach Anwendung würden wir uns über eine Kooperation freuen, besteht kommerzielles Interesse, wären wir einer Partnerschaft wahrscheinlich nicht abgeneigt."
          ]
@@ -294,7 +294,7 @@ $faq = [
 		bleiben sie, kommen sie wieder? Das sind essentielle Informationen für
 		uns, die uns helfen Gonimo laufend zu verbessern. Wir stellen deine
 		Privatsphäre und Anonymität aber sicher, indem wir bewusst auf Google Analytics
-		verzichten und stattdessen auf die Open-Source Analyse Plattform <a class='link' 
+		verzichten und stattdessen auf die Open-Source Analyse Plattform <a class='link'
 		href='https://piwik.org/' title='Piwik'>Piwik</a> setzen."]
 		, ["Ich bin aber auf Diät, was kann ich gegen Cookies tun?",
 		"In den Einstellungen deines Browser kannst du die Cookies von Gonimo löschen und deaktivieren, dass Webseiten Cookies auf deinem Gerät speichern."]
@@ -371,7 +371,7 @@ $s = [ "Gonimo-Sicherheit"
 	 <li><a class='link' href='https://de.wikipedia.org/wiki/Open_Source' title='Open Source'>Open Source auf Wikipedia</a></li>
 	 <li><a class='link' href='https://github.com/gonimo/gonimo' title='Gonimo auf github'>Gonimo auf github</a></li>"
 	 ];
-	 
+
 $apps = [
     "overview" => ["Überblick"
     , "<i class='fa fa-cubes' title='Überblick' aria-hidden='true'></i>"
@@ -448,14 +448,14 @@ $apps = [
       , "Klick einfach auf den Button und gib den Code auf Google Play ein um die Gonimo App für Android gratis herunterzuladen!"
       , "Code anzeigen"
 			]
-      
+
 		,"ios" => ["iOS"
 			,"<i class='fa fa-apple' title='iOS' aria-hidden='true'></i>"
 			,"Bald auch für reiche Leute!"
 			,"Wer zuviel Geld hat..."
 			]
 	 ];
-	 
+
 $fb = [ "Feedback"
 	, "Um Gonimo laufend zu verbessern sind wir auf dein Feedback angewiesen. Vielen Dank für's Mitmachen!"
 	, "Gesamteindruck"
@@ -482,6 +482,6 @@ $fb = [ "Feedback"
 	, "Vielen Dank für deine Unterstützung!"
 	, "Es ist ein Fehler aufgetreten. Bitte versuche es erneut!"
 	];
-  
+
 $errors = ["promo" => ["empty" => "Sorry, es sind leider keine Codes mehr verfügbar."]]
 ?>
