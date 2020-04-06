@@ -2,7 +2,7 @@
 require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 $videosPath="/videos/";
 ?>
-<script type='application/ld+json'> 
+<script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Organization",
@@ -39,7 +39,6 @@ $videosPath="/videos/";
 <!--		<div class="col-md-6 sm-hidden impact lvl-2">
 			<img class="img img-responsive" src="/img/w-impact-lg.png" alt="Gonimo" title="Gonimo">
 		</div> -->
-    <?php echo $banner; ?>
 		<div class="col-xs-12 col-md-6 col-md-offset-6 impact lvl-2">
 			<h1>Gonimo</h1>
 			<h3>Good Night Monitor</h3>
@@ -63,7 +62,7 @@ $videosPath="/videos/";
 			<p>
 				<?php echo $i_i[7]; ?>
 			</p>
-			<ul class="impact-links">				
+			<ul class="impact-links">
 				<a href="#intro" title="<?php echo $i_i[8]; ?>"><li><?php echo $i_i[8]; ?></li></a>
 				<a href="#trailer" data-toggle="collapse" data-video="trailer" title="<?php echo $i_i[9]; ?>"><li><?php echo $i_i[9]; ?></li></a>
 				<a href="/faq.php" title="<?php echo $i_i[10]; ?>"><li><?php echo $i_i[10]; ?></li></a>
@@ -109,7 +108,7 @@ $videosPath="/videos/";
 			<img class="img-responsive" src="/img/ico/usp/gonimo-02.svg" alt="<?php echo $i_b[1]; ?>" title="<?php echo $i_b[1]; ?>"/>
 			<h3><?php echo $i_b[2]; ?></h3>
 			<p><?php echo $i_b[3]; ?></p>
-			</div>		
+			</div>
 			<div class="col-xs-6 col-md-4 benefits lvl-4">
 			<img class="img-responsive" src="/img/ico/usp/gonimo-03.svg" alt="<?php echo $i_b[4]; ?>" title="<?php echo $i_b[4]; ?>"/>
 			<h3><?php echo $i_b[5]; ?></h3>
@@ -365,11 +364,11 @@ $videosPath="/videos/";
 </div>
 </section>
 </div>
-<?php 
+<?php
 include $_SERVER["DOCUMENT_ROOT"].'/footer.php';
 ?>
 <script>
-$(document).ready(function(){  
+$(document).ready(function(){
   if (location.search == '?tutorial'){
     $('#tutorial').collapse('toggle');
     $('html, body').animate(

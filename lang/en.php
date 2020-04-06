@@ -4,7 +4,7 @@ $header = ["description" => "Gonimo Good Night Monitor - the first free, web-bas
 	 , "lang" => "en"
 	 , "language" => "english"
 	 ];
-	 
+
 $og = [ "og:site_name" => "Gonimo - the free baby-monitor"
 	 , "og:description" => "Do you know anyone in need for a baby monitor? New or soon to be parents? They already got one. Gonimo - Already in your pocket! ;)"
 	 ];
@@ -15,7 +15,7 @@ $error = [ "403" => ["title" => "403 - Forbidden", "description" => "Sorry, you 
 	 , "404" => ["title" => "404 - Not Found", "description" => "There is nothing here!<br>Sadly you can not see anything here or we have not found what you are looking for.<br>The requested resource was not found"]
 	 , "back" => "Get back to Gonimo here"
 	 ];
-	
+
 $news = [ "head" => "Problems with Google Chrome 66"
         , "icon" => "<i class='fa fa-exclamation-triangle' aria-hidden='true'></i>"
 	    , "body" => "Chrome 66 unfortunately currently does not work as baby station streaming video. You won't be able to connect to the station. We are currently investigating the issue and hope to provide a solution soon!"
@@ -34,7 +34,7 @@ $m = [ "HOME"
      , "PRESS"
 	 , "Change language"
      ];
-	 
+
 $c = [ "By using Gonimo you accept that Gonimo.com stores cookies where it is needed. Sadly you can not eat them! <br> <a class='cookie-info' href='/faq.php?t=Cookies' title='Learn more about cookies'>learn more here</a> <a class='cookie-btn' id='cookie-btn' role='button'>OK</a>"
 	];
 
@@ -44,7 +44,7 @@ $i_i = [ "The free baby monitor for smartphone, tablet or PC."
        , "ALPHA-VERSION 0.9"
        , "Gonimo the baby monitor - How does it work?"
        , "Gonimo is a baby monitor which requires nothing but a web browser. <br> Currently Chrome works best, but we work on supporting Firefox, Microsoft Edge, Opera and Safari as well! <br> Get started by clicking 'Start baby monitor', without any downloads or an installation process."
-         , "<li>Free web app</li> <li>Available on every device</li> <li>Without installation</li><li>Stable, simple and <a class='link' href='/security.php' title='security'>secure</a></li><li>Right here in your browser <span class='browser-icons'><i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i></span></li> <li><a href='/apps/android.php' title='App'>App for <i class='fa fa-android' title='android' aria-hidden='true'></i></a></li>"
+         , "<li>Free web app</li> <li>Available on every device</li> <li>Without installation</li><li>Stable, simple and <a class='link' href='/security.php' title='security'>secure</a></li><li>Right here in your browser <span class='browser-icons'><i class='fa fa-chrome' title='chrome' aria-hidden='true'></i>&nbsp;<i class='fa fa-firefox' title='firefox' aria-hidden='true'></i></span></li>"
 	   , "Find more information here"
 	   , "Tutorial"
 	   , "Trailer"
@@ -223,7 +223,7 @@ $faq = [ [ "General"
            , "No! Gonimo is an open source project and free to use. It is
               very important to my creators to make my features available to
               as many people as possible, easy and free. You can find more
-              information on what exactly open source means <a class='link' 
+              information on what exactly open source means <a class='link'
               href='https://de.wikipedia.org/wiki/Open_Source' title='Wikipedia:
               Open Source' target='_blank'>here</a>."
            ]
@@ -513,7 +513,7 @@ $apps = [
 			,"Wif you've got too much money..."
 			]
 	 ];
-	 
+
 $fb = [ "Feedback"
 	, "To further improve Gonimo we need your help. Thank you for participating!"
 	, "Overall Experience"

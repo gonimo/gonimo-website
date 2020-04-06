@@ -7,13 +7,13 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
 	<div class="row">
 	<div class="col-xs-12">
 	<h1><?php echo $apps['overview'][0]; ?></h1>
-  
+
   <h3><?php echo $apps['overview'][2]; ?></h3>
   <img class="img-responsive" src="/img/overview.png">
   <br>
   <br>
   <div class="row">
-  
+
     <div class="ov-block">
       <div class="ov-text col-xs-12 col-md-8">
         <h2 class="ov-title"> <?php echo $apps['overview'][3]; ?></h2>
@@ -23,7 +23,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
         <img class="img-responsive ov-img" src="/img/logo-footer.svg">
       </div>
     </div>
-      
+
     <div class="ov-block">
       <div class="ov-text col-xs-12 col-md-8 col-md-push-4">
         <h2 class="ov-title"> <?php echo $apps['overview'][5]; ?></h2>
@@ -36,20 +36,18 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
         <img class="img-responsive ov-img" src="/img/logo-footer.svg">
       </div>
     </div>
-      
+
      <div class="ov-block">
       <div class="ov-text col-xs-12 col-md-8">
         <h2 class="ov-title"> <?php echo $apps['overview'][10]; ?></h2>
         <h3 class="ov-title"> <?php echo $apps['overview'][11]; ?></h3>
         <p class="ov-description"><?php echo $apps['overview'][12]; ?></p>
-        <a class="btn btn-default ov-btn ov-btn1" href="https://play.google.com/store/apps/details?id=com.gonimo.baby" role="button" title="<?php echo $apps['overview'][13]; ?>" ><?php echo $apps['overview'][13]; ?></a>
-        <a class="btn btn-default ov-btn ov-btn2" href="/apps/android.php" role="button" title="<?php echo $apps['overview'][14]; ?>" ><?php echo $apps['overview'][14]; ?></a>
       </div>
       <div class="ov-image col-xs-12 col-md-4">
         <img class="img-responsive ov-img" src="/img/logo-footer.svg">
       </div>
     </div>
-      
+
      <div class="ov-block">
       <div class="ov-text col-xs-12 col-md-8 col-md-push-4">
         <h2 class="ov-title"> <?php echo $apps['overview'][15]; ?></h2>
@@ -61,7 +59,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
         <img class="img-responsive ov-img" src="/img/logo-footer.svg">
       </div>
     </div>
-      
+
      <div class="ov-block">
       <div class="ov-text col-xs-12 col-md-8">
         <h2 class="ov-title"> <?php echo $apps['overview'][19]; ?></h2>
@@ -107,15 +105,15 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/header.php';
               <td><i class='fa fa-times' aria-hidden='true'></i></td>
               <td><i class='fa fa-times' aria-hidden='true'></i></td>
             </tr>
-            
+
           </tbody>
         </table>
       </div>
 
     </div>
-      
- 
-    
+
+
+
   </div>
   </div>
 	</div>
