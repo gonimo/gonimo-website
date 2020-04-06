@@ -1,5 +1,5 @@
 <!doctype html>
-<?php 
+<?php
 require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 ?>
 <html>
@@ -9,7 +9,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="application-name" content="Gonimo">
 	<meta name="author" content="Gonimo/ninjagulbi">
-	<?php 
+	<?php
 	foreach ($header as $name => $content){
 		echo "<meta name='".$name."' content='".$content."'>";
 	};
@@ -28,18 +28,18 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://gonimo.com/" />
 	<meta property="og:image" content="https://gonimo.com/img/impact-lg.jpg" />
-		<?php 
+		<?php
 	foreach ($og as $name => $content){
 		echo "<meta property='".$name."' content='".$content."'>";
 	};
 	?>
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/bootstrap/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/gonimo-style.css" rel="stylesheet"> 
+    <link href="/gonimo-style.css" rel="stylesheet">
 	<script src="/bootstrap/jquery.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/bootstrap/js/script.js"></script>
-    <?php 
+    <?php
 	if ((date('n') >= 11 or date('n') < 3) and $_SERVER['SERVER_NAME'] != "gonimo.local"){
 		echo "<script src='/bootstrap/js/snowstorm-min.js'></script>";
 	};
@@ -73,7 +73,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
         <ul class="dropdown-menu">
         <!--  <li><a href="/apps/overview.php"><?php echo $apps['overview'][0]." ".$apps['overview'][1]; ?></a></li> -->
           <li><a href="/apps/browser.php"><?php echo $apps['browser'][0]." ".$apps['browser'][1]; ?></a></li>
-          <li><a href="/apps/android.php"><?php echo $apps['android'][0]." ".$apps['android'][1]; ?></a></li>
+<!--          <li><a href="/apps/android.php"><?php echo $apps['android'][0]." ".$apps['android'][1]; ?></a></li> -->
 <!--          <li><a href="/apps/ios.php"><?php echo $apps['ios'][0]." ".$apps['ios'][1]; ?></a></li> -->
         </ul>
       </li>
@@ -91,7 +91,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/lang/locals.php';
 			<a href="?lang=en"><li><img class="lang" src="/lang/en.svg" alt="English" title="English"> English</li></a>
 			</ul>
 		</div>
-    </div>	
+    </div>
 	</div>
 </nav>
 <?php
