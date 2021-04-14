@@ -5,7 +5,7 @@ $header = ["description" => "Gonimo Good Night Monitor - das erste kostenlose, w
 	 , "language" => "Deutsch"
 	 ];
 
-$banner = "<div class='impact banner highlight'>Jetzt auch auf <a class='link' href='https://play.google.com/store/apps/details?id=com.gonimo.baby'>Google Play</a> erhältlich!</div>";
+$banner = "<div class='impact banner highlight'>Gonimo verabschiedet <a class='link' href='https://github.com/gonimo/gonimo/wiki/End-of-Life'>sich</a>!</div>";
 
 $og = [ "og:site_name" => "Gonimo - das kostenlose Babyfon"
 	 , "og:description" => "Kennst du in deinem Verwandten- oder Bekanntenkreis gerade werdende, oder frisch gebackene Eltern? Benötigen sie ein Babyfon? Dann teile mit ihnen diese Seite und sag‘ ihnen: „Ihr habt bereits eines! Already in your pocket!“ ;)"
